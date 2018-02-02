@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/j0" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@f/qCz" android:background="@i$e/qyQ" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/d_6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3101">
+            <ImageView android:id="@f/qCE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:src="@i$e/qzj" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="14sp" android:textColor="@color/bp" android:id="@id/a9h" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="this is location" android:singleLine="true" android:layout_toLeftOf="@f/qzF" android:layout_toRightOf="@f/qCE" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@f/qzF" android:layout_width="UNKNOWN_DATA_0x701" android:layout_height="UNKNOWN_DATA_0xd01" android:layout_marginLeft="12dp" android:src="@i$e/qzG" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

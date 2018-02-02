@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0157"
+    <LinearLayout android:id="@id/kn" android:baselineAligned="false" style="@style/lz">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ko" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:layout_marginRight="@dimen/ik" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/apr" android:layout_width="UNKNOWN_DATA_0x1" android:maxWidth="140dp" android:layout_weight="1.0" style="@style/k4" />
+                <TextView android:id="@h/cRs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{2017/03/09}" style="@style/k2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/bbv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cxH" android:layout_width="match_parent" android:singleLine="true" style="@m/eYP" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

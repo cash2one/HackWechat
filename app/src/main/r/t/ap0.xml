@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/sw" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:layout_marginRight="10dp" android:layout_marginBottom="2dp" android:elevation="2dp">
+    <ImageView android:id="@a$b/tPc" android:layout_width="UNKNOWN_DATA_0xa301" android:layout_height="UNKNOWN_DATA_0x12201" android:scaleType="centerCrop" />
+</LinearLayout>

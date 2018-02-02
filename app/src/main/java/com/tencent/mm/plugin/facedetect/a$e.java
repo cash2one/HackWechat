@@ -1,0 +1,47 @@
+package com.tencent.mm.plugin.facedetect;
+
+public final class a$e {
+    public static final int bPi = 2131757437;
+    public static final int cAg = 2131756780;
+    public static final int cCl = 2131757469;
+    public static final int cId = 2131757438;
+    public static final int cSe = 2131757446;
+    public static final int csK = 2131757454;
+    public static final int cwn = 2131759192;
+    public static final int mcR = 2131760765;
+    public static final int mcS = 2131757456;
+    public static final int mcT = 2131757467;
+    public static final int mcU = 2131757427;
+    public static final int mcV = 2131757451;
+    public static final int mcW = 2131757458;
+    public static final int mcX = 2131757452;
+    public static final int mcY = 2131757455;
+    public static final int mcZ = 2131757453;
+    public static final int mdA = 2131757447;
+    public static final int mda = 2131757432;
+    public static final int mdb = 2131757435;
+    public static final int mdc = 2131757436;
+    public static final int mdd = 2131757430;
+    public static final int mde = 2131757429;
+    public static final int mdf = 2131757461;
+    public static final int mdg = 2131757462;
+    public static final int mdh = 2131757464;
+    public static final int mdi = 2131757463;
+    public static final int mdj = 2131757466;
+    public static final int mdk = 2131757465;
+    public static final int mdl = 2131757459;
+    public static final int mdm = 2131757460;
+    public static final int mdn = 2131757457;
+    public static final int mdo = 2131757433;
+    public static final int mdp = 2131757476;
+    public static final int mdq = 2131757468;
+    public static final int mdr = 2131757449;
+    public static final int mds = 2131760766;
+    public static final int mdt = 2131760767;
+    public static final int mdu = 2131757431;
+    public static final int mdv = 2131757450;
+    public static final int mdw = 2131757443;
+    public static final int mdx = 2131757428;
+    public static final int mdy = 2131757448;
+    public static final int mdz = 2131757445;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" form:orientation="vertical" form:id="@q$g/iuk" form:background="#f0eff4" form:layout_width="match_parent" form:layout_height="match_parent">
+    <RelativeLayout form:layout_width="match_parent" form:layout_height="match_parent">
+        <TextView form:textSize="@dimen/i0" form:id="@q$g/iuh" form:layout_width="match_parent" form:layout_height="wrap_content" form:layout_marginLeft="@dimen/h5" form:layout_marginTop="@dimen/hl" form:layout_marginRight="@dimen/h5" />
+        <TextView form:textSize="@dimen/iv" form:textStyle="bold" form:id="@q$g/iul" form:layout_width="wrap_content" form:layout_height="wrap_content" form:layout_marginLeft="@dimen/h5" form:layout_marginTop="@dimen/hl" form:layout_marginRight="@dimen/h5" form:layout_below="@q$g/iuh" />
+        <TextView form:textSize="@dimen/iv" form:textColor="@color/jp" form:id="@q$g/ium" form:layout_width="wrap_content" form:layout_height="wrap_content" form:layout_marginLeft="@dimen/h5" form:layout_marginTop="@dimen/hl" form:layout_marginRight="@dimen/h5" form:text="@string/h0" form:layout_toRightOf="@q$g/iul" form:layout_below="@q$g/iuh" />
+        <com.tencent.mm.ui.base.MMFormVerifyCodeInputView form:id="@q$g/iui" form:focusableInTouchMode="false" form:layout_marginLeft="@dimen/h5" form:layout_marginTop="@dimen/hl" form:layout_marginRight="@dimen/h5" form:layout_below="@q$g/iul" form:form_layout="@layout/a49" form:form_title="@string/h3" form:form_hint="@string/h1" form:form_btn_title="@string/gx" style="@style/k_" />
+        <Button form:id="@q$g/itW" form:layout_marginLeft="@dimen/h5" form:layout_marginTop="@dimen/h5" form:layout_marginRight="@dimen/h5" form:layout_marginBottom="@dimen/h5" form:text="@string/gw" form:layout_below="@q$g/iui" style="@style/m4" />
+        <com.tencent.mm.plugin.appbrand.widget.input.AppBrandNumberKeyboardView form:id="@q$g/iuj" form:visibility="visible" form:layout_width="match_parent" form:layout_height="wrap_content" form:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

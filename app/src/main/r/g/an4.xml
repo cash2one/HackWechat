@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dvm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h8" android:layout_marginTop="@dimen/iq" android:layout_marginRight="@dimen/h8" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dvn" android:background="@drawable/aqj" android:layout_width="UNKNOWN_DATA_0x3301" android:layout_height="UNKNOWN_DATA_0x3801" />
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uez" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="20dp" android:text="@string/dzi" />
+            <Button android:textSize="@dimen/dd" android:textColor="#02bb00" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/di7" android:paddingLeft="@f/bvM" android:paddingRight="@f/bvM" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b0133" android:layout_marginTop="@dimen/h8" android:text="@a$i/uTd" style="@style/nl" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/i0" android:textColor="#586187" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uwL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@a$i/uTe" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

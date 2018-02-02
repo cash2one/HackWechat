@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@h/bYz" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" style="@style/l5" />
+    <LinearLayout android:id="@id/d21" style="@style/jo">
+        <RelativeLayout android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:layout_marginTop="@dimen/hl" android:layout_marginRight="@dimen/iu">
+            <ImageView android:id="@h/bLD" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@g/bzZ" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@raw/app_avatar_shadow" android:layout_alignLeft="@id/j3" android:layout_alignTop="@id/j3" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_weight="1.0"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/d22" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:ellipsize="end" android:id="@h/cAm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gggg" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/d24" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@h/bNN" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0145" android:layout_height="UNKNOWN_DATA_0x7f0b0145" android:src="@k/dwi" />
+                    <ImageView android:id="@h/cUy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/biz_verify_icon" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@h/cZR" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@h/cpS" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:maxLines="2" />
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/d29" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:layout_alignParentBottom="true">
+                <ImageView android:id="@h/coK" android:background="@color/qm" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1201" android:layout_height="UNKNOWN_DATA_0x1201" android:layout_marginRight="3dp" android:src="@k/dvg" />
+                <TextView android:textSize="13dp" android:textColor="#bbbbbb" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/ciT" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@m/eYP" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

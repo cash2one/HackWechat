@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/c5p" android:background="0x0" style="@style/o_">
+    <com.tencent.mm.ui.conversation.ConversationWithAppBrandListView android:id="@h/cuL" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="0px" android:layout_alignParentTop="true" android:overScrollMode="always" />
+    <TextView android:id="@h/ceg" android:background="@color/s2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@l/eus" android:singleLine="false" style="@style/jw" />
+</RelativeLayout>

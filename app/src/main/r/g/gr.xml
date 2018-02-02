@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@e/brI" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:id="@id/um" android:background="#eeeeee" android:paddingLeft="@dimen/h5" android:paddingTop="@dimen/h8" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/hl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bNU" android:background="@drawable/dr" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6e01">
+        <ImageView android:id="@id/a6r" android:layout_width="UNKNOWN_DATA_0x3801" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_marginRight="@dimen/h5" android:src="@g/bDT" android:scaleType="fitCenter" android:minWidth="56dp" android:minHeight="56dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hl" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/ga" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@f/buu" android:textColor="@color/bp" android:ellipsize="end" android:id="@h/cPA" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bt" android:singleLine="true" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@e/bsF" android:ellipsize="end" android:id="@h/bLA" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bt" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bRX" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iu" android:src="@g/bAl" android:layout_centerVertical="true" />
+    </LinearLayout>
+</LinearLayout>

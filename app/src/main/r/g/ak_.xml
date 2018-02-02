@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/o_">
+    <TextView AutoSwitchLayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" AutoSwitchLayout:id="@h/cUz" AutoSwitchLayout:layout_marginTop="26dp" style="@style/l3" />
+    <TextView AutoSwitchLayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" AutoSwitchLayout:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" AutoSwitchLayout:id="@h/cdk" AutoSwitchLayout:layout_width="wrap_content" AutoSwitchLayout:layout_marginTop="10dp" AutoSwitchLayout:text="xxx@gmail.com" style="@style/l3" />
+    <com.tencent.mm.ui.base.MMAutoSwitchEditTextView AutoSwitchLayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" AutoSwitchLayout:orientation="horizontal" AutoSwitchLayout:id="@h/bLz" AutoSwitchLayout:paddingLeft="20dp" AutoSwitchLayout:paddingRight="20dp" AutoSwitchLayout:layout_width="match_parent" AutoSwitchLayout:layout_height="wrap_content" AutoSwitchLayout:layout_marginTop="14dp" AutoSwitchLayout:edit_text_count="3" AutoSwitchLayout:max_input_count="4" AutoSwitchLayout:edit_text_digits="0123456789" />
+    <RelativeLayout AutoSwitchLayout:layout_width="match_parent" AutoSwitchLayout:layout_height="wrap_content" AutoSwitchLayout:layout_marginLeft="10dp" AutoSwitchLayout:layout_marginTop="5dp" AutoSwitchLayout:layout_marginRight="10dp">
+        <Button AutoSwitchLayout:textSize="13dp" AutoSwitchLayout:id="@h/cBH" AutoSwitchLayout:paddingLeft="10dp" AutoSwitchLayout:text="@string/cg3" AutoSwitchLayout:layout_alignParentLeft="true" style="@style/iw" />
+        <Button AutoSwitchLayout:textSize="13dp" AutoSwitchLayout:id="@h/cFs" AutoSwitchLayout:paddingRight="10dp" AutoSwitchLayout:text="@string/cg6" AutoSwitchLayout:layout_alignParentRight="true" style="@style/iw" />
+    </RelativeLayout>
+</LinearLayout>

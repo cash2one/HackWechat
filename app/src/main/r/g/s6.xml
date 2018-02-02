@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" flowlayout:orientation="vertical" flowlayout:background="@color/gp" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent">
+    <com.tencent.mm.ui.base.MMTagPanelScrollView flowlayout:background="@drawable/ahl" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:fadeScrollbars="false">
+        <com.tencent.mm.plugin.favorite.ui.base.FavTagPanel flowlayout:id="@h/chj" flowlayout:paddingLeft="@f/bva" flowlayout:paddingTop="@dimen/iu" flowlayout:paddingRight="@f/bva" flowlayout:paddingBottom="@dimen/iu" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:horizontalSpacing="@dimen/iu" flowlayout:verticalSpacing="@dimen/iu" />
+    </com.tencent.mm.ui.base.MMTagPanelScrollView>
+    <TextView flowlayout:textSize="@dimen/gu" flowlayout:textColor="@color/nd" flowlayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:id="@h/cvu" flowlayout:padding="@dimen/bt" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" />
+    <ListView flowlayout:id="@h/cQe" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" style="@style/l4" />
+    <ListView flowlayout:id="@h/cKb" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" style="@style/l4" />
+</LinearLayout>

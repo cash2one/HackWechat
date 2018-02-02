@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/i0" android:textColor="#999999" android:id="@a$f/uqX" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:layout_marginBottom="4dp" />
+    <View android:background="#d4d4d4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" />
+    <com.tencent.mm.plugin.product.ui.MaxGridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uqW" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:horizontalSpacing="16dp" android:verticalSpacing="12dp" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x3" />
+</LinearLayout>

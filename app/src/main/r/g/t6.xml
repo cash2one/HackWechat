@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/g1" android:paddingLeft="@f/bur" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0143" style="@style/kd">
+    <ImageView android:id="@h/cry" android:padding="@dimen/ix" android:layout_width="UNKNOWN_DATA_0x7f0b0062" android:layout_height="UNKNOWN_DATA_0x7f0b0062" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@h/crs" android:paddingLeft="@dimen/hl" android:paddingRight="@dimen/hl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@h/crL" android:layout_toRightOf="@h/cry" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/h1" android:id="@id/awy" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/k4" />
+        <TextView android:id="@h/crN" android:paddingRight="@dimen/hz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/awy" android:layout_alignParentLeft="true" style="@m/eYP" />
+        <TextView android:id="@h/crR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@h/crN" android:layout_below="@id/awy" style="@m/eYP" />
+    </RelativeLayout>
+    <FrameLayout android:id="@h/crL" android:layout_width="UNKNOWN_DATA_0x7f0b0143" android:layout_height="UNKNOWN_DATA_0x7f0b0143" android:layout_alignParentRight="true">
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="#18000000" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x2001" />
+        <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/crK" android:focusable="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0084" android:layout_height="UNKNOWN_DATA_0x7f0b0084" style="@style/jm" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">హోమ్‌కు నావిగేట్ చేయండి</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">పైకి నావిగేట్ చేయండి</string>
+    <string name="abc_action_menu_overflow_description">మరిన్ని ఎంపికలు</string>
+    <string name="e">పూర్తయింది</string>
+    <string name="f">అన్నీ చూడండి</string>
+    <string name="g">అనువర్తనాన్ని ఎంచుకోండి</string>
+    <string name="h">ఆఫ్ చేయి</string>
+    <string name="i">ఆన్ చేయి</string>
+    <string name="j">శోధించు...</string>
+    <string name="k">ప్రశ్నను క్లియర్ చేయి</string>
+    <string name="l">ప్రశ్న శోధించండి</string>
+    <string name="m">శోధించు</string>
+    <string name="n">ప్రశ్నని సమర్పించు</string>
+    <string name="o">వాయిస్ శోధన</string>
+    <string name="p">వీరితో భాగస్వామ్యం చేయి</string>
+    <string name="q">కుదించండి</string>
+    <string name="r">999+</string>
+    <string name="s">%sతో భాగస్వామ్యం చేయి</string>
+</resources>

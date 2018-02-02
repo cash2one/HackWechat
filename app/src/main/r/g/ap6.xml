@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/t7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="14sp" android:textColor="#454545" android:id="@h/cZy" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebr" />
+    <ImageView android:background="#26000000" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+    <TextView android:textSize="14sp" android:textColor="#454545" android:id="@h/cZv" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebp" />
+    <ImageView android:background="#26000000" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+    <TextView android:textSize="14sp" android:textColor="#454545" android:id="@h/cZx" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebq" />
+    <ImageView android:background="#26000000" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+    <TextView android:textSize="14sp" android:textColor="#454545" android:id="@h/cZE" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebv" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@h/chF" android:background="@color/qm" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/it" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="0dp" />
+    <TextView android:textSize="16dp" android:textColor="#aaaaaa" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/chB" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/it" android:text="@string/b4s" />
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/ch3" android:background="@color/a4" android:padding="@dimen/iu" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/chC" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/i0" android:textColor="@e/bul" android:id="@h/chE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/ehh" />
+            <ImageView android:background="0x0" android:paddingTop="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:src="@drawable/r7" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/iv" android:textColor="@e/bul" android:id="@h/cLi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.tencent.mm.pluginsdk.ui.tools.FileSelectorFolderView android:id="@h/chD" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/it" />
+</FrameLayout>

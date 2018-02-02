@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Boshiga o‘tish</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Yuqoriga o‘tish</string>
+    <string name="abc_action_menu_overflow_description">Qo‘shimcha sozlamalar</string>
+    <string name="e">Tayyor</string>
+    <string name="f">Barchasini ko‘rish</string>
+    <string name="g">Dastur tanlang</string>
+    <string name="h">O‘CHIQ</string>
+    <string name="i">YONIQ</string>
+    <string name="j">Qidirish…</string>
+    <string name="k">So‘rovni tozalash</string>
+    <string name="l">So‘rovni izlash</string>
+    <string name="m">Qidirish</string>
+    <string name="n">So‘rov yaratish</string>
+    <string name="o">Ovozli qidiruv</string>
+    <string name="p">Bo‘lishish:</string>
+    <string name="q">Yig‘ish</string>
+    <string name="r">999+</string>
+</resources>

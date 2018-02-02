@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@f/qCK" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/dbx" android:layout_width="UNKNOWN_DATA_0x5201" android:layout_height="wrap_content"
+        <LinearLayout android:paddingLeft="5dp" android:layout_width="UNKNOWN_DATA_0x5201" android:layout_height="UNKNOWN_DATA_0x2401">
+            <com.tencent.mm.plugin.sns.ui.SnsUnScaleTextView android:textSize="30dp" android:textStyle="bold" android:textColor="@color/bp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@f/qEp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20" android:singleLine="true" />
+            <com.tencent.mm.plugin.sns.ui.SnsUnScaleTextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@f/qEM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/iy" android:textColor="@a$c/uaJ" android:id="@f/daa" android:paddingLeft="5dp" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="wrap_content" android:text="" android:maxLines="2" />
+    </LinearLayout>
+</LinearLayout>

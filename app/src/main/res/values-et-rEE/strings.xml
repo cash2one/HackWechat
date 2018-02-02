@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Navigeerimine avaekraanile</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Navigeerimine üles</string>
+    <string name="abc_action_menu_overflow_description">Rohkem valikuid</string>
+    <string name="e">Valmis</string>
+    <string name="f">Kuva kõik</string>
+    <string name="g">Valige rakendus</string>
+    <string name="h">VÄLJAS</string>
+    <string name="i">SEES</string>
+    <string name="j">Otsige …</string>
+    <string name="k">Päringu tühistamine</string>
+    <string name="l">Otsingupäring</string>
+    <string name="m">Otsing</string>
+    <string name="n">Päringu esitamine</string>
+    <string name="o">Häälotsing</string>
+    <string name="p">Jagamine:</string>
+    <string name="q">Ahendamine</string>
+    <string name="r">999+</string>
+    <string name="s">Jagamine kasutajaga %s</string>
+</resources>

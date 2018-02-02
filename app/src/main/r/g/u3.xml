@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@e/bug" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cts" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/x2" />
+    </FrameLayout>
+    <TextView android:textSize="14sp" android:textColor="@color/ly" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ceu" android:paddingTop="115dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bbj" />
+    <RelativeLayout android:id="@h/cPS" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="115dp">
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x4e01" android:layout_height="UNKNOWN_DATA_0x3801" android:src="@raw/search_webview_history_icon" />
+            <TextView android:textSize="20sp" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="@l/ekn" />
+            <TextView android:textSize="14sp" android:textColor="@color/ly" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ba9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/bbf" android:layout_centerInParent="true" />
+        </LinearLayout>
+        <Button android:textSize="16sp" android:id="@h/cPQ" android:paddingLeft="74dp" android:paddingRight="74dp" android:layout_marginRight="@f/bvx" android:layout_marginBottom="90dp" android:text="@string/bbl" android:layout_alignParentBottom="true" android:layout_centerInParent="true" style="@style/nn" />
+        <LinearLayout android:orientation="horizontal" android:id="@h/cPT" android:background="#373b3e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_alignParentBottom="true">
+            <TextView android:textSize="14sp" android:textColor="@color/s2" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cPU" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="@l/ekS" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/j3" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="14sp" android:textColor="@color/ly" android:id="@id/bab" android:paddingLeft="18dp" android:paddingTop="16dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bbk" />
+        <android.support.v7.widget.RecyclerView android:id="@id/i7" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

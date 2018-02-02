@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.widget.MMSwitchBtn xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gp" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0170" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hq" android:minHeight="@a$c/zyU" />

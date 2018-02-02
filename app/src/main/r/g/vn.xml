@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.game.ui.GameInfoViewForeign android:id="@h/ckM" android:background="@drawable/i4" android:paddingTop="@dimen/bt" android:paddingBottom="@f/bur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/bes" android:layout_width="UNKNOWN_DATA_0x2201" android:layout_height="UNKNOWN_DATA_0x2401" android:layout_marginRight="@dimen/bt">
+            <ImageView android:id="@id/bet" android:layout_width="UNKNOWN_DATA_0x1c01" android:layout_height="UNKNOWN_DATA_0x1c01" android:src="@drawable/a0j" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cmU" android:background="@drawable/rb" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/beu" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1c01" android:text="@string/bet" android:layout_toRightOf="@id/bes" android:layout_alignBottom="@id/bes" android:layout_toEndOf="@id/bes" />
+    </com.tencent.mm.plugin.game.ui.GameInfoViewForeign>
+</LinearLayout>

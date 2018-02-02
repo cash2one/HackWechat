@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" style="@style/o_"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" style="@style/jg">
+        <com.tencent.mm.plugin.exdevice.ui.ExdeviceConnectedRouterStateView android:id="@h/ceY" style="@style/gc" />
+        <TextView android:id="@h/ceX" style="@style/gb" />
+        <TextView android:id="@h/ceZ" style="@style/gd" />
+    </LinearLayout>
+</LinearLayout>

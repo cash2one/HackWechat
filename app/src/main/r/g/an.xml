@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/j0" android:paddingLeft="@dimen/c2" android:paddingRight="@f/bun" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/kd"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bJs" android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b008a">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@h/bJt" android:layout_width="UNKNOWN_DATA_0x7f0b0088" android:layout_height="UNKNOWN_DATA_0x7f0b0088" android:layout_marginRight="@dimen/bt">
+            <ImageView android:id="@id/j3" android:layout_width="UNKNOWN_DATA_0x7f0b0087" android:layout_height="UNKNOWN_DATA_0x7f0b0087" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+            <TextView android:id="@h/cRX" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/sv" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bJu" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/k4" />
+    </LinearLayout>
+</LinearLayout>

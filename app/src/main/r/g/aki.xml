@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.mmsight.segment.RecyclerThumbSeekBar android:id="@a$d/oEV" android:background="@color/qm" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b033b" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginTop="25dp">
+        <Button android:textSize="@dimen/by" android:textColor="@color/sf" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cm0" android:background="0x106000d" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/kt" />
+        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/by" android:textColor="@color/ry" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cm1" android:background="0x106000d" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mf" />
+    </LinearLayout>
+</LinearLayout>

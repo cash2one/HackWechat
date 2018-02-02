@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@id/mo" android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14dp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@q$g/iuG" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@q$g/iuC" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="wrap_content">
+            <ImageView android:id="@q$g/iuD" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x601" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@q$g/iuE" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x601" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@q$g/iuF" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x601" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

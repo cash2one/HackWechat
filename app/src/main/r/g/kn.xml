@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/a" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="200dp">
+    <include android:id="@a$f/uiV" layout="@layout/l1" />
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/bp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uhZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <TextView android:textSize="27dp" android:textColor="@color/bp" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$f/uhY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="¥" android:includeFontPadding="false" />
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="36dp" android:textColor="@color/bp" android:id="@a$f/uib" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/ly" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="40dp" android:text="" />
+</LinearLayout>

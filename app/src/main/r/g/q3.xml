@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/j0" android:background="@drawable/g1" android:padding="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@h/caL" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0162" android:layout_height="UNKNOWN_DATA_0x7f0b0162" android:layout_marginRight="@dimen/iu" android:src="@drawable/bf" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@h/coK" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:src="@g/bBZ" android:layout_toRightOf="@h/caL" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cyA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_toRightOf="@h/coK" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

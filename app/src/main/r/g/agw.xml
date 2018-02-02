@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@f/qFL" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@f/qFh" android:background="@g/bGS" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/vf">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cBv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@raw/tipsbar_icon_warning" />
+            <TextView android:textColor="@color/j1" android:ellipsize="end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@f/qDa" android:paddingLeft="@dimen/hd" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@j/qLR" android:layout_weight="1.0" />
+            <TextView android:id="@f/qFi" android:layout_marginTop="@dimen/iu" android:layout_marginRight="@dimen/hz" android:layout_marginBottom="@dimen/iu" android:text="@string/dbk" style="@style/mb" />
+        </LinearLayout>
+        <ListView android:id="@f/qAF" android:background="0x0" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" android:listSelector="@drawable/ks" android:cacheColorHint="#00000000" android:divider="0x0" android:layout_weight="1.0" />
+        <com.tencent.mm.plugin.sns.ui.SnsCommentFooter android:id="@f/qBF" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

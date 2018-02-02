@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/d3u" android:padding="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@h/cLz" android:password="true" android:maxLength="16" style="@style/l2" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/mx" android:background="@drawable/ax" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601">
+        <TextView android:textSize="@dimen/by" android:textColor="@color/bp" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/i4" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="20dp">
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@q$g/ivY" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.tencent.mm.plugin.appbrand.widget.AppBrandNearbyShowcaseView android:id="@q$g/ivV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.7dp" android:layout_marginRight="5.7dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/iv" android:textColor="#ff8a00" android:ellipsize="end" android:id="@q$g/ivZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@q$g/ivV" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <com.tencent.mm.ui.widget.ThreeDotsLoadingView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@q$g/ivW" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@q$g/ivX" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@raw/app_brand_nearby_refresh" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

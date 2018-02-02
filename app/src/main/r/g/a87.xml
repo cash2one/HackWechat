@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:id="@h/czZ" android:background="@drawable/m6" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x3101" android:layout_height="UNKNOWN_DATA_0x3101" android:contentDescription="@l/esX" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cAb" android:background="@drawable/ms" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3101" android:layout_height="UNKNOWN_DATA_0x3101">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:background="@drawable/mv" android:paddingLeft="20dp" android:paddingTop="16dp" android:paddingRight="20dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_alignParentTop="true"
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bvb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <com.tencent.mm.plugin.ipcall.ui.IPCallRoundUrlHeadImage android:id="@h/cCf" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="16dp" android:textColor="#000000" android:id="@h/cCi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/bve" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@id/bvb" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bvf" android:background="#b2b2b2" android:layout_width="UNKNOWN_DATA_0x7f0b009f" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginRight="16dp" />
+            <Button android:enabled="false" android:textColor="@drawable/j8" android:id="@h/cCb" android:background="@drawable/j7" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="58dp" android:minHeight="29dp" android:text="@l/erL" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bvh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_toLeftOf="@id/bve" android:layout_below="@id/bvb" android:layout_alignLeft="@id/bvb">
+            <TextView android:textSize="38dp" android:textColor="#000000" android:id="@h/cCj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="12dp" android:textColor="#b2b2b2" android:id="@h/cCd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" />
+            <TextView android:textSize="12dp" android:textColor="#b2b2b2" android:id="@h/cCc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

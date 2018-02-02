@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.wallet_core.ui.CustomerScrollView xmlns:android="http://schemas.android.com/apk/res-auto" form:layout_width="match_parent" form:layout_height="match_parent" form:fillViewport="true">
+    <LinearLayout form:orientation="vertical" form:background="@color/ls" form:paddingLeft="@dimen/h5" form:paddingRight="@dimen/h5" form:layout_width="match_parent" form:layout_height="wrap_content">
+        <com.tencent.mm.plugin.wallet_payu.create.ui.WalletPayUOpenIntroView form:id="@a$f/ulg" form:layout_width="wrap_content" form:layout_height="wrap_content" />
+        <com.tencent.mm.ui.base.MMFormMobileInputView form:orientation="horizontal" form:id="@a$f/uwA" form:layout_width="match_parent" form:layout_height="UNKNOWN_DATA_0x7f0b0163" form:layout_marginTop="@dimen/h8" />
+        <Button form:id="@id/aqs" form:layout_width="match_parent" form:layout_height="wrap_content" form:layout_marginTop="@dimen/h5" form:text="@string/e3w" style="@style/n9" />
+        <TextView form:textColor="@color/j1" form:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@a$f/uwz" form:layout_width="match_parent" form:layout_height="wrap_content" form:layout_marginTop="@dimen/h5" form:text="@a$i/uVj" />
+        <TextView form:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" form:id="@a$f/uwB" form:layout_height="match_parent" form:layout_marginBottom="@dimen/iu" style="@style/ty" />
+    </LinearLayout>
+</com.tencent.mm.wallet_core.ui.CustomerScrollView>

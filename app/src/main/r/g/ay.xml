@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/gs" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0092"
+    <LinearLayout android:orientation="horizontal" android:id="@q$g/itu" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@q$g/itv" android:background="0x0" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/en" />
+    </LinearLayout>
+    <RelativeLayout android:id="@q$g/itw" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_weight="1.0">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/jt" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/br" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@q$g/itx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/gu" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@q$g/ity" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <ProgressBar android:id="@q$g/itt" android:padding="3dp" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_alignRight="@id/jt" android:layout_centerInParent="true" style="@style/x2" />
+    </RelativeLayout>
+    <ImageButton android:id="@q$g/its" android:background="@drawable/a9" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@q$g/ito" android:background="@q$f/ita" android:clickable="true" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b01d1" android:layout_marginRight="9dp">
+        <com.tencent.mm.plugin.appbrand.widget.actionbar.AppBrandOptionButton android:id="@q$g/itr" android:background="@drawable/an" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@q$g/itp" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x7f0b01ee" android:layout_height="UNKNOWN_DATA_0x7f0b01d0" android:src="@q$d/isx" />
+        <com.tencent.mm.plugin.appbrand.widget.actionbar.AppBrandCapsuleHomeButton android:id="@q$g/itq" android:background="@drawable/ao" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

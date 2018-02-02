@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/a5">
+    <ImageView android:id="@h/cid" style="@style/lu" />
+    <ImageView android:id="@h/second" style="@style/lu" />
+    <ImageView android:id="@h/cQN" style="@style/lu" />
+    <ImageView android:id="@h/cje" style="@style/lu" />
+</LinearLayout>

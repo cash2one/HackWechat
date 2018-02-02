@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.game.widget.GameFeedSocialInfoView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@h/cnl" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@h/bLM" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@e/bsq" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" android:layout_marginRight="@f/bvj" />
+        <com.tencent.mm.plugin.game.widget.GameSmallAvatarList android:orientation="horizontal" android:id="@h/bLN" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@f/bvj" />
+        <TextView android:textSize="@f/bvk" android:textColor="@e/bsz" android:id="@h/bLI" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/a9h" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@e/bsq" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" android:layout_marginRight="@f/bvj" />
+        <TextView android:textSize="@f/bvk" android:textColor="@e/bsz" android:id="@h/caR" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.tencent.mm.plugin.game.widget.GameFeedSocialInfoView>

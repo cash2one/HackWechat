@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@e/lnM" android:background="@color/s2" android:paddingTop="@dimen/hl" android:paddingBottom="@dimen/hl" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <include style="@style/g2" layout="@layout/ac5" />
+    <include style="@style/g2" layout="@layout/ac5" />
+    <include style="@style/g2" layout="@layout/ac5" />
+    <include style="@style/g2" layout="@layout/ac5" />
+    <include style="@style/g2" layout="@layout/ac5" />
+</LinearLayout>

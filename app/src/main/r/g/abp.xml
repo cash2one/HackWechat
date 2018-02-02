@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <EditText android:textColor="@color/m1" android:textColorHint="@e/bsN" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/au8" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@dimen/h5" android:maxHeight="140dp" android:minLines="1" style="@style/la" />
+    <TextView android:textColor="@color/m1" android:id="@g/gWp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/iu" android:layout_marginRight="@dimen/h5" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/ctR" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/iu" android:layout_marginRight="@dimen/h5">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x1601" android:layout_height="UNKNOWN_DATA_0x1601" android:src="@g/bDr" />
+        <TextView android:textSize="@dimen/by" android:textColor="@color/m1" android:id="@h/cud" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

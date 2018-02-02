@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceTitleCategory android1:title="@l/dJx" android1:key="backup_select_ext_time_title" />
+    <CheckPreference android1:title="@l/dJw" android1:key="backup_select_ext_time" />
+    <Preference android1:title="@string/uc" android1:key="backup_select_begin_time" android1:layout="@layout/a4i" />
+    <Preference android1:title="@string/ub" android1:key="backup_select_end_time" android1:layout="@layout/a4i" />
+    <PreferenceSmallCategory />
+    <PreferenceTitleCategory android1:title="@l/dJv" android1:key="backup_select_ext_content_title" />
+    <CheckPreference android1:title="@l/dJt" android1:key="backup_select_ext_content" />
+</PreferenceScreen>

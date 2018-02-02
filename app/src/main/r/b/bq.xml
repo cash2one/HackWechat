@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android1:title="@a$i/uKe" android1:key="open_sns_pay_pref" android1:layout="@layout/a4f" />
+</PreferenceScreen>

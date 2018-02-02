@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@h/cQC" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="27dp" android:id="@h/ckp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ScrollView android:id="@h/ckn" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="27dp" android:textColor="#000000" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cko" android:paddingLeft="20dp" android:paddingTop="16dp" android:paddingRight="20dp" android:paddingBottom="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="440dp" android:lineSpacingExtra="3dp" />
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_alignParentTop="true">
+        <View android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xf01" />
+        <View android:background="@drawable/yx" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1901" />
+    </LinearLayout>
+</RelativeLayout>

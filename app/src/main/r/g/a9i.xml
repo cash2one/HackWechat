@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/g1" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0143" android:minHeight="@f/bvI">
+    <LinearLayout android:orientation="horizontal" android:id="@h/cIf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cRW" android:padding="3dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:src="@raw/radio_on" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@h/cpQ" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@h/cIf" android:layout_centerVertical="true">
+        <TextView android:textColor="@color/m1" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/exh" style="@style/k4" />
+        <TextView android:textColor="@color/j1" android:id="@id/zf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="hehe" style="@m/eYP" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@h/cfK" android:paddingLeft="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@h/cIf" android:layout_centerVertical="true"
+        &gt;>
+        <TextView android:textColor="@color/m1" android:id="@h/cRS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/exh" style="@style/k4" />
+    </LinearLayout>
+</RelativeLayout>

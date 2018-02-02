@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/or">
+    <ImageView style="@style/os" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ab7" />
+        //暂时注掉
+        <include layout="@layout/abc" />
+        <TextView android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cew" android:text="@string/b3c" android:drawableLeft="@k/dxq" android:drawablePadding="20dp" style="@style/oz" />
+        <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" style="@style/ov" />
+    </LinearLayout>
+</LinearLayout>

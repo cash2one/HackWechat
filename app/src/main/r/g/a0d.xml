@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:orientation="horizontal" wallet:paddingTop="10dp" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+    <LinearLayout wallet:gravity="top|bottom|center_vertical|fill_vertical|center|fill" wallet:orientation="horizontal" wallet:id="@id/j3" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:weightSum="1.0">
+        <ImageView wallet:id="@a$f/udZ" wallet:layout_width="UNKNOWN_DATA_0x7f0b0178" wallet:layout_height="UNKNOWN_DATA_0x7f0b0178" wallet:scaleType="fitXY" />
+        <LinearLayout wallet:gravity="top|bottom|center_vertical|fill_vertical|center|fill" wallet:orientation="horizontal" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginLeft="10dp" wallet:layout_weight="1.0">
+            <TextView wallet:textSize="@dimen/jx" wallet:textColor="@a$c/ubh" wallet:ellipsize="end" wallet:id="@a$f/uek" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:singleLine="true" wallet:maxLength="15" />
+            <TextView wallet:textSize="@dimen/jf" wallet:textColor="@a$c/uaC" wallet:id="@a$f/urL" wallet:visibility="gone" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:text="@a$i/uHe" />
+        </LinearLayout>
+        <LinearLayout wallet:gravity="top|bottom|center_vertical|fill_vertical|center|fill" wallet:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="horizontal" wallet:layout_width="wrap_content" wallet:layout_height="match_parent">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/ulz" wallet:background="0x0" wallet:paddingLeft="0dp" wallet:paddingRight="0dp" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:minWidth="70dp" wallet:minHeight="0dp" wallet:hint="@string/bqb" wallet:layoutRes="@layout/a0_" wallet:contentHint="@string/bqb" wallet:contentGravity="15" style="@style/ts" />
+            <TextView wallet:textSize="@dimen/jx" wallet:textColor="#353535" wallet:id="@a$f/ulA" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:text="@string/bqa" />
+        </LinearLayout>
+    </LinearLayout>
+    <View wallet:id="@id/bwf" wallet:background="@drawable/jb" wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x100" wallet:layout_marginTop="10dp" wallet:layout_below="@id/j3" />
+</RelativeLayout>

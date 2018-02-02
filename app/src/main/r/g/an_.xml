@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/atq" android:background="@e/bsZ" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:id="@a$f/uzA" android:background="@e/bsZ" android:padding="@dimen/h5" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@f/buL" android:textColor="#228b22" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uzz" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@a$i/uTD" android:drawableLeft="@drawable/ali" android:drawablePadding="5dp" />
+        </LinearLayout>
+        <com.tencent.mm.ui.base.MaxListView android:id="@a$f/uzf" android:background="@e/bsZ" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#d4d4d4" android:dividerHeight="1px" />
+        <TextView android:textColor="@color/jp" android:id="@a$f/uzs" android:paddingTop="@dimen/iu" android:visibility="gone" android:layout_height="wrap_content" android:layout_margin="0dp" style="@style/ty" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/gu" android:textColor="@e/btp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h5" android:text="@string/ebc" android:drawableLeft="@drawable/apy" android:drawablePadding="@dimen/iu" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

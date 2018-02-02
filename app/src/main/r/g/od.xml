@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/awb" android:background="@color/s2" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@h/caY" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/oe" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz">
+        <TextView android:textSize="@dimen/br" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cba" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/k4" />
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:textColor="#6c6c6c" android:id="@h/caW" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" android:lineSpacingMultiplier="1.1" />
+    <View android:id="@h/caV" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" />
+    <include android:id="@h/caU" layout="@layout/oc" />
+    <include android:id="@id/awg" layout="@layout/of" />
+    <TextView android:id="@h/cbj" android:background="@color/oe" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/hc" android:paddingRight="@dimen/hz" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ate" style="@style/le" />
+</LinearLayout>

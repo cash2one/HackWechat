@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ListView android:id="@id/iq" android:focusable="true" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/tr" android:transcriptMode="disabled" android:cacheColorHint="#ffffff" android:divider="0x0" android:dividerHeight="0px" android:layout_weight="1.0" style="@style/o_" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.tencent.mm.ui.applet.StrokeScrollBar android:id="@h/bJn" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="match_parent" android:layout_marginBottom="0dp" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

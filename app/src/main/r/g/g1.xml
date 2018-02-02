@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bQT" android:background="@drawable/do" android:paddingLeft="@dimen/n_" android:paddingRight="12.7dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b020b" android:layout_marginBottom="@dimen/i1">
+        <ImageView android:id="@h/bQW" android:layout_width="UNKNOWN_DATA_0x1601" android:layout_height="UNKNOWN_DATA_0x8266621" android:src="@drawable/acx" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingRight="4dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1.0"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="16dp" android:textColor="@e/brJ" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bQV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <TextView android:textSize="@dimen/j0" android:textColor="#6a6a6a" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bQU" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bQP" android:paddingLeft="6.67dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@h/bQQ" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0b013a" android:layout_height="UNKNOWN_DATA_0x7f0b013a" android:src="@g/bDT" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@h/bQR" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0b013a" android:layout_height="UNKNOWN_DATA_0x7f0b013a" android:layout_marginLeft="18dp" android:src="@g/bDT" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@h/bQS" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0b013a" android:layout_height="UNKNOWN_DATA_0x7f0b013a" android:layout_marginLeft="38dp" android:src="@g/bDT" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@h/bRO" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:src="@f/gVe" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

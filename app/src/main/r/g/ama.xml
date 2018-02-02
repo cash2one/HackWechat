@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="vertical" android:background="@color/ls" android:paddingLeft="@dimen/c2" android:paddingRight="@dimen/c2" android:paddingBottom="34dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uhv" android:paddingBottom="@dimen/h8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@f/bvM" android:src="@a$e/udR" />
+            <TextView android:textSize="@dimen/by" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uhy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27dp" android:text="@a$i/uUa" style="@style/mf" />
+            <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="@dimen/c2" android:layout_marginRight="@dimen/c2" />
+            <TextView android:textSize="@dimen/gu" android:id="@id/dt0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8" android:text="@string/e1l" style="@style/mf" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x301" android:layout_height="UNKNOWN_DATA_0x301" android:layout_margin="@i$d/qyI" android:src="@drawable/e5" />
+                <TextView android:textSize="@dimen/gu" android:textColor="#999999" android:id="@id/dt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:text="@string/e1j" style="@style/mf" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bt">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x301" android:layout_height="UNKNOWN_DATA_0x301" android:layout_margin="@i$d/qyI" android:src="@drawable/e5" />
+                <TextView android:textSize="@dimen/gu" android:textColor="#999999" android:id="@id/dt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:text="@string/e1k" style="@style/mf" />
+            </LinearLayout>
+            <Button android:id="@a$f/ulc" android:layout_marginTop="@f/bvM" android:text="@string/e1f" style="@style/m4" />
+            <Button android:textColor="@e/brz" android:id="@a$f/ujh" android:background="@g/bAe" android:layout_marginTop="@f/bvM" android:text="@string/e1b" style="@style/m4" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/j0" android:id="@a$f/ulf" android:background="#ededed" android:paddingLeft="@dimen/c2" android:paddingRight="@dimen/c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:layout_marginBottom="@dimen/iu" android:text="@string/e1g" style="@style/mf" />
+        <LinearLayout android:orientation="vertical" android:id="@a$f/ule" android:background="@color/ls" android:paddingLeft="@dimen/c2" android:paddingRight="@dimen/c2" android:layout_width="match_parent" android:layout_height="wrap_content" /> />
+</ScrollView>

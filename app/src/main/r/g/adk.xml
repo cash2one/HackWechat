@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_"
+    <LinearLayout style="@style/jg"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@g/bBA" />
+            <TextView android:textSize="@dimen/h_" android:textColor="@color/bp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/eeb" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:id="@h/cLc" android:layout_marginTop="50dp" android:text="@l/epz" style="@style/m4" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@h/cLc">
+                <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cKT" android:layout_width="UNKNOWN_DATA_0x6401" android:text="@l/epA" style="@style/m_" />
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/cKQ" android:paddingTop="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cuo" style="@style/wx" />
+                    <TextView android:id="@h/cKP" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wx" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

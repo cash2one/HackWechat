@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" form:scrollbars="UNKNOWN_DATA_0x0" form:fillViewport="true" style="@style/o_">
+    <FrameLayout form:orientation="vertical" form:layout_width="match_parent" form:layout_height="wrap_content">
+        <LinearLayout form:orientation="vertical" form:id="@h/cHZ" form:layout_width="match_parent" form:layout_height="match_parent" style="@style/o_">
+            <com.tencent.mm.plugin.emoji.ui.v2.EmojiStoreV2RewardBannerView form:id="@h/bML" form:background="@g/bBW" form:layout_width="match_parent" form:layout_height="wrap_content" form:scaleType="fitXY" />
+            <TextView form:textSize="@dimen/gu" form:textColor="#6c6c6c" form:id="@h/cHV" form:paddingLeft="@dimen/hc" form:paddingTop="@dimen/h5" form:paddingRight="@dimen/hc" form:paddingBottom="@dimen/h5" form:layout_width="match_parent" form:layout_height="wrap_content" form:text="@string/asj" />
+            <com.tencent.mm.plugin.emoji.ui.GridInScrollView form:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:id="0x102000a" form:background="@color/qm" form:focusable="true" form:scrollbars="UNKNOWN_DATA_0x0" form:layout_width="wrap_content" form:layout_height="wrap_content" form:layout_marginLeft="@dimen/hc" form:layout_marginRight="@dimen/hc" form:listSelector="0x106000d" form:cacheColorHint="#00000000" form:horizontalSpacing="@dimen/hl" form:verticalSpacing="@dimen/h5" form:numColumns="UNKNOWN_DATA_0x3" form:divider="0x0" form:dividerHeight="0dp" />
+            <LinearLayout form:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:orientation="vertical" form:layout_width="match_parent" form:layout_height="match_parent">
+                <TextView form:textColor="@e/bsd" form:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@h/cHX" form:layout_width="wrap_content" form:layout_height="wrap_content" form:layout_marginBottom="@dimen/hz" form:text="@string/asq" style="@style/mf" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout form:id="@h/cIa" form:visibility="gone" style="@style/o_">
+            <com.tencent.mm.ui.base.MMFormInputView form:id="@h/cIb" form:layout_width="match_parent" form:layout_height="wrap_content" form:layout_marginLeft="@f/buM" form:layout_marginTop="@dimen/h8" form:layout_marginRight="@f/buM" form:layout_marginBottom="@dimen/hz" form:form_layout="@layout/or" form:form_title="@string/ass" form:form_hint="@string/asr" style="@style/l2" />
+            <Button form:id="@h/cIc" form:layout_width="match_parent" form:layout_height="wrap_content" form:layout_marginLeft="@f/buM" form:layout_marginTop="@dimen/hz" form:layout_marginRight="@f/buM" form:layout_marginBottom="@dimen/hz" form:text="@string/ast" style="@style/m7" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

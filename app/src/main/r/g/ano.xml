@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <LinearLayout wallet:orientation="vertical" wallet:paddingTop="0dp" wallet:layout_width="match_parent" wallet:layout_height="match_parent" wallet:layout_alignParentTop="true" style="@style/t2">
+        <TextView wallet:textColor="@e/bsF" wallet:id="@a$f/ula" wallet:layout_marginBottom="@f/bur" wallet:text="@string/e4f" style="@style/te" />
+        <LinearLayout style="@style/tt">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/urM" wallet:clickable="false" wallet:titleText="@string/e4i" wallet:contentHint="@string/e4j" wallet:contentTextColor="@color/j1" wallet:contentFocusable="false" style="@style/om" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/uhu" wallet:minHeight="45dp" wallet:titleText="@string/e4d" wallet:contentHint="@string/e4h" style="@style/tl" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/utG" wallet:titleText="@string/dtz" wallet:contentHint="@string/dty" style="@style/ft" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/utF" wallet:titleText="@string/dtx" wallet:contentHint="@string/dtw" style="@style/ft" />
+        </LinearLayout>
+        <Button wallet:id="@id/ak_" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_marginTop="16dp" wallet:text="@l/dFQ" style="@style/tq" />
+        <LinearLayout wallet:orientation="horizontal" wallet:layout_marginTop="8dp" wallet:layout_marginBottom="38dp" style="@style/l0">
+            <CheckBox wallet:textSize="@dimen/gu" wallet:textColor="@color/bp" wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/uex" wallet:clickable="true" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginLeft="@dimen/jb" wallet:checked="true" wallet:minHeight="22dp" wallet:text="@a$i/uQH" style="@style/me" />
+            <TextView wallet:textSize="@dimen/gu" wallet:textColor="@a$c/ubw" wallet:ellipsize="marquee" wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/uew" wallet:paddingRight="0dp" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginLeft="0dp" wallet:text="@string/duc" wallet:singleLine="true" />
+        </LinearLayout>
+        <TextView wallet:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" wallet:id="@a$f/uzT" wallet:paddingTop="5dp" wallet:layout_height="match_parent" wallet:layout_margin="0dp" style="@style/ty" />
+    </LinearLayout>
+    <include wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_alignParentBottom="true" layout="@layout/aj_" />
+</RelativeLayout>

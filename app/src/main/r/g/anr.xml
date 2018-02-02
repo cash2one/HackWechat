@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.wallet_core.ui.MMScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/atq" app:background="@color/r_" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:paddingTop="0dp" style="@style/t2">
+        <TextView app:autoLink="phone|all" app:id="@a$f/uAd" app:text="@a$i/uWg" style="@style/te" />
+        <LinearLayout style="@style/tt">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView app:id="@a$f/ufh" app:titleText="@string/e5l" app:contentHint="@string/e5l" style="@style/p1" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView app:id="@a$f/ujb" app:visibility="gone" app:titleText="@string/dss" app:contentHint="@string/dsn" style="@style/tc" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView app:id="@a$f/uja" app:visibility="gone" app:titleText="@string/dsl" app:contentHint="@string/dsk" style="@style/tb" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView app:id="@a$f/urD" app:visibility="gone" app:titleText="@string/e5o" app:contentHint="@a$i/uQu" style="@style/tr" />
+        </LinearLayout>
+        <Button app:id="@id/ak_" app:layout_marginTop="15dp" app:text="@l/dFQ" style="@style/tq" />
+    </LinearLayout>
+</com.tencent.mm.wallet_core.ui.MMScrollView>

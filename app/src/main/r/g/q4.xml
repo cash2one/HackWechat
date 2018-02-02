@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@id/ur" android:background="@color/fo" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="1px" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.widget.MMLoadScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/b6l" android:background="@color/gd" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/h6">
+        <include layout="@layout/rj" />
+        <include layout="@layout/favorite_tag_entrence" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cgQ" android:paddingTop="@dimen/h5" android:paddingBottom="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/ri" />
+    </LinearLayout>
+</com.tencent.mm.ui.widget.MMLoadScrollView>

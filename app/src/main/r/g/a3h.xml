@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/coo" android:background="@color/a4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0092"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/cSj" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@f/bur">
+        <ImageView android:id="@id/c9t" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/a7" android:contentDescription="@string/en" />
+        <ImageView android:id="@id/hb" android:background="@e/brh" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x7f0b009e" android:layout_height="UNKNOWN_DATA_0x7f0b0128" />
+        <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@k/duU" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/by" android:textColor="@color/s2" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cvZ" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@l/ctO" android:singleLine="true" />
+    <View android:id="@id/c9v" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <ImageButton android:id="@h/cSs" android:background="@drawable/a9" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x7f0b0092" android:layout_height="UNKNOWN_DATA_0x7f0b0092" android:src="@raw/actionbar_search_icon2" />
+    <ImageButton android:id="@h/cSk" android:background="@drawable/a9" android:focusable="true" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0092" android:layout_height="UNKNOWN_DATA_0x7f0b0092" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cSl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/hc" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="send" style="@style/m6" />
+    </LinearLayout>
+</LinearLayout>

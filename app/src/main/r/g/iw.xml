@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@h/bVf" style="@m/eYK" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ad8" android:background="@g/bBm" android:paddingLeft="@dimen/h5" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/hz" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:layout_marginBottom="@dimen/h5" android:layout_weight="1.0"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20dp" android:id="@h/bVk" android:paddingBottom="2dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_weight="1.0" style="@style/ff" />
+            <ImageView android:id="@h/bUB" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@k/dAp" />
+        </LinearLayout>
+        <TextView android:textStyle="bold" android:ellipsize="end" android:id="@h/bVh" android:singleLine="true" style="@style/fo" />
+        <TextView android:textColor="@a$c/uaJ" android:ellipsize="end" android:id="@h/bTH" android:maxLines="2" style="@style/fo" />
+    </LinearLayout>
+</LinearLayout>

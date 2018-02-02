@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView style="@style/lx">
+        <LinearLayout style="@style/jg"
+            <LinearLayout android:orientation="vertical" android:id="@id/d4a" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:paddingBottom="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ko" android:layout_width="UNKNOWN_DATA_0x7f0b0061" android:layout_height="UNKNOWN_DATA_0x7f0b0061" />
+                    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/apr" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/ko" />
+                    <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cuh" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_toRightOf="@id/ko" android:layout_below="@id/apr" />
+                </RelativeLayout>
+                <View style="@style/mc" />
+                <EditText android:textColor="@color/m1" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cHv" android:layout_marginTop="@dimen/iu" android:minHeight="@dimen/h0" style="@style/l2" />
+                <View style="@style/mc" />
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cxc" android:text="@l/evA" android:height="70dp" style="@style/l3" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

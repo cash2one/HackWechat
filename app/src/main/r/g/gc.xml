@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@h/bRu" android:background="@g/bAC" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0219" android:minHeight="177.7dp">
+        <ImageView android:id="@h/bRr" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        <ImageView android:id="@h/bRt" android:background="@drawable/du" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cZG" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hc" android:layout_marginTop="17dp" android:layout_marginRight="@dimen/hl" android:layout_alignParentTop="true"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/dv" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="UNKNOWN_DATA_0x2a01">
+                <ImageView android:id="@h/bKB" android:layout_width="UNKNOWN_DATA_0x7f0b021a" android:layout_height="UNKNOWN_DATA_0x7f0b021a" android:src="@g/bDT" android:scaleType="fitXY" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hd" android:singleLine="true" />
+                <TextView android:textSize="@dimen/iy" android:textColor="@color/s2" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bSm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hd" android:layout_marginTop="@dimen/hd" android:singleLine="true" />
+            </LinearLayout>
+            <ImageView android:id="@h/bQc" android:background="@g/bAC" android:padding="@dimen/ix" android:layout_width="UNKNOWN_DATA_0x1b01" android:layout_height="UNKNOWN_DATA_0x1b01" android:layout_margin="10dp" android:src="@drawable/aci" android:scaleType="fitXY" />
+        </LinearLayout>
+        <View android:id="@h/bQb" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bQd" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/np" android:layout_alignBottom="@h/cZG">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bWC" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hd" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:id="@h/cvK" android:background="@drawable/ajr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6b01" android:scaleType="fitXY" android:layout_alignBottom="@h/cZG" />
+        <ImageView android:id="@h/cvL" android:background="@drawable/ajs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6501" android:scaleType="fitXY" android:layout_alignBottom="@h/cZG" />
+    </RelativeLayout>
+</LinearLayout>

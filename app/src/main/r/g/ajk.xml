@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/ael" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <FrameLayout android:id="@h/cVE" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@h/cUE" android:background="#33000000" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@h/cfH" android:background="0x0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:src="@drawable/a7" />
+        <TextView android:textSize="17dp" android:textColor="@color/s2" android:ellipsize="end" android:id="@h/ckq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="15dp" android:maxLines="1" android:layout_toRightOf="@h/cfH" android:layout_alignParentTop="true" />
+        <ImageView android:id="@h/cNM" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginTop="12dp" android:layout_marginRight="20dp" android:src="@raw/fts_video_list_share" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cUF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@h/bZn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@g/bCv" />
+            <ImageView android:id="@h/bZo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@g/bCw" />
+            <TextView android:textSize="15dp" android:textColor="@color/s2" android:id="@h/cHD" android:paddingTop="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egf" />
+            <TextView android:textSize="15dp" android:textColor="@color/s2" android:id="@h/cVv" android:paddingTop="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{video_size}" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/ckm" android:paddingTop="11dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_toRightOf="@h/cUF" android:layout_alignTop="@h/cUF">
+            <ImageView android:id="@h/cCH" android:layout_width="UNKNOWN_DATA_0x2601" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@raw/fts_video_list_next_btn" />
+            <TextView android:textSize="14dp" android:textColor="#ffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cCI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@l/eCv" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cVy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_centerInParent="true"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cUZ" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="15dp" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRP" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13dp" />
+                <Button android:textSize="15dp" android:textColor="@color/s2" android:id="@h/cRO" android:background="@drawable/i0" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x2201" android:text="@l/eST" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cVc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/x3" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/oe" android:background="@drawable/i3" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x8201" android:layout_height="UNKNOWN_DATA_0x8201" android:layout_centerInParent="true">
+        <ImageView android:id="@id/of" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginTop="21dp" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:id="@id/og" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@l/ekU" />
+        <com.tencent.mm.plugin.webview.fts.ui.FtsWebDotPercentIndicator android:id="@id/oh" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cEc" android:background="@drawable/i3" android:paddingLeft="@dimen/iu" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/iu" android:paddingBottom="@dimen/hz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@h/cCM" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@h/cCK" android:background="#10eeeeee" style="@style/st" />
+        <ImageView android:id="@h/cCL" android:background="#eee" style="@style/st" />
+    </FrameLayout>
+</RelativeLayout>

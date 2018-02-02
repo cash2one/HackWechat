@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="4dp" android:paddingTop="16dp" android:paddingRight="2dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0"
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@h/bVP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="CLIENT ENABLE" style="@style/me" />
+            <CheckBox android:id="@h/bVJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:checked="true" android:text="DEBUG LOG" style="@style/me" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@h/bVH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="DAY SWITCH" style="@style/me" />
+            <TextView android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="cinterval" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cHR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="ENABLE TIME LIMIT" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BEGIN" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bMM" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="END" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cey" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_weight="1.0" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="BOOT" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZy" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqN" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="ENCODE_VIDEO" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZL" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cra" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cRe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="ENTER_CHATTING" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZB" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqQ" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQU" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="QUIT_CHATTING" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZF" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqU" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVU" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="SEND_PIC_MSG" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZI" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqX" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cRb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="SEND_MSG" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZH" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqW" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cRa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="RECEIVE_MSG" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZG" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqV" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+            <CheckBox android:id="@h/bVX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="UPDATE_CHATROOM" style="@style/me" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="count" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cTQ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="2" android:maxLength="3" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIQ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZK" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqZ" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cRd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="DB" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="qdelay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="qaction" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="btimeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="wdelay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="waction" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqO" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="DECODE_PIC" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZA" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqP" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="GIF_INIT" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZC" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqR" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="GIF_DROP_FRAME" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bII" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZD" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqS" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="SNS_SCROLL" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZJ" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqY" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cRc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVQ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="MEDIA_GALLERY_SCROLL" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZE" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqT" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+        <CheckBox android:id="@h/bVF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="ALBUM_SCROLL" style="@style/me" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="timeout" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cRt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delay" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cau" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="3" android:maxLength="5" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="action" />
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="4" android:maxLength="7" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU" />
+            <Spinner android:entries="@array/c" android:id="@h/bZx" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IO" />
+            <Spinner android:entries="@array/m" android:id="@h/cqM" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:id="@h/cQQ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BIND THR" style="@style/me" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ກັບໄປໜ້າຫຼັກ</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">ຂຶ້ນເທິງ</string>
+    <string name="abc_action_menu_overflow_description">ໂຕເລືອກອື່ນ</string>
+    <string name="e">ແລ້ວໆ</string>
+    <string name="f">ເບິ່ງທັງຫມົດ</string>
+    <string name="g">ເລືອກແອັບຯ</string>
+    <string name="h">ປິດ</string>
+    <string name="i">ເປີດ</string>
+    <string name="j">ຊອກຫາ</string>
+    <string name="k">ລຶບຂໍ້ຄວາມຊອກຫາ</string>
+    <string name="l">ຊອກຫາ</string>
+    <string name="m">ຊອກຫາ</string>
+    <string name="n">ສົ່ງການຊອກຫາ</string>
+    <string name="o">ຊອກຫາດ້ວຍສຽງ</string>
+    <string name="p">ແບ່ງປັນກັບ</string>
+    <string name="q">ຫຍໍ້</string>
+    <string name="r">999+</string>
+    <string name="s">ແບ່ງ​ປັນ​ກັບ​ %s</string>
+</resources>

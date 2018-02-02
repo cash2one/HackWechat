@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#191919" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.ui.gridviewheaders.GridHeadersGridView android:scrollbarStyle="outsideOverlay" android:id="@h/bWb" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="60dp" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:stretchMode="columnWidth" android:columnWidth="100dp" android:numColumns="auto_fit" android:animateLayoutChanges="true" />
+    <RelativeLayout android:background="@color/a4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/gu" android:id="@id/ai6" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="12dp" android:minWidth="60dp" android:text="@l/caK" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/m7" />
+        <CheckBox android:id="@h/bKd" android:background="@drawable/kv" android:layout_width="UNKNOWN_DATA_0x7f0b0084" android:layout_height="UNKNOWN_DATA_0x7f0b0084" android:layout_marginLeft="12dp" android:layout_centerVertical="true" />
+        <com.tencent.mm.ui.widget.MMAutoAdjustTextView android:textColor="#aaaaaa" android:id="@h/bKc" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/e7" android:maxLines="1" android:layout_toRightOf="@h/bKd" android:layout_centerVertical="true" />
+        <com.tencent.mm.ui.widget.MMAutoAdjustTextView android:textColor="#aaaaaa" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caN" android:layout_width="UNKNOWN_DATA_0x9b01" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@h/bKc" android:layout_centerVertical="true" />
+        <View android:id="@h/bKe" android:layout_width="UNKNOWN_DATA_0x4801" android:layout_height="match_parent" />
+    </RelativeLayout>
+</RelativeLayout>

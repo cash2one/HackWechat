@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/a9d" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0">
+    <ImageView android:id="@id/a9e" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40dp" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <TextView android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:singleLine="true" style="@style/jx" />
+    </LinearLayout>
+    <TextView android:textSize="12dp" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@g/gWy" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6sp" />
+    <RelativeLayout android:id="@g/gWh" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x2b01" android:layout_height="UNKNOWN_DATA_0x2b01">
+        <ImageView android:id="@g/gVC" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <TextView android:id="@id/a9l" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/sv" />
+    </RelativeLayout>
+    <TextView android:textSize="10dp" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/a9f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nj" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Перейти на головний</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Перейти вгору</string>
+    <string name="abc_action_menu_overflow_description">Інші опції</string>
+    <string name="e">Готово</string>
+    <string name="f">Переглянути всі</string>
+    <string name="g">Вибрати програму</string>
+    <string name="h">ВИМК.</string>
+    <string name="i">УВІМК.</string>
+    <string name="j">Пошук…</string>
+    <string name="k">Очистити запит</string>
+    <string name="l">Пошуковий запит</string>
+    <string name="m">Пошук</string>
+    <string name="n">Надіслати запит</string>
+    <string name="o">Голосовий пошук</string>
+    <string name="p">Надіслати через</string>
+    <string name="q">Згорнути</string>
+    <string name="r">999+</string>
+    <string name="s">Надіслати через %s</string>
+</resources>

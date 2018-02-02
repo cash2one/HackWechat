@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/ls" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" style="@style/l6">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/h1" android:textColor="@d/gUv" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cMh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/j8" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cMi" android:background="@drawable/a7w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iz" android:maxLines="1" android:layout_toRightOf="@h/cMh" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/iy" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cMg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <Button android:id="@h/cMf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/l4" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/mb" />
+</RelativeLayout>

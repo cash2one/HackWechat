@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@h/cGj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:layout_marginBottom="@dimen/h5">
+    <TextView android:padding="@dimen/iu" android:text="@string/cex" style="@style/jh" />
+</LinearLayout>

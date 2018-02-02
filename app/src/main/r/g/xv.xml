@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@h/cmu" style="@style/in">
+        <ImageView android:id="@h/cmx" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:layout_marginRight="@f/bvO" android:layout_alignParentLeft="true" />
+        <TextView android:id="@h/cms" android:layout_marginLeft="5dp" android:minHeight="24dp" android:layout_alignTop="@h/cmx" android:layout_alignParentRight="true" style="@m/eYP" />
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cmy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="24dp" android:layout_toLeftOf="@h/cms" android:layout_toRightOf="@h/cmx" android:layout_alignTop="@h/cmx" style="@style/k4" />
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cmv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:minHeight="24dp" android:singleLine="true" android:layout_toRightOf="@h/cmx" android:layout_alignLeft="@h/cmy" android:layout_alignBottom="@h/cmx" style="@m/eYP" />
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cmz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="3dp" android:maxLines="2" android:singleLine="false" android:layout_below="@h/cmx" android:layout_alignParentLeft="true" style="@m/eYP" />
+    </RelativeLayout>
+</FrameLayout>

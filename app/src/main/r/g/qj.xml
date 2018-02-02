@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@h/ceW" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@e/brW" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cLE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:src="@drawable/a_w" android:contentDescription="@l/ecH" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/axi" />
+    </LinearLayout>
+    <LinearLayout android:background="0x0" style="@style/o_">
+        <com.tencent.mm.ui.base.MMPullDownView android:id="@h/cEi" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ListView android:id="@h/cft" android:background="0x0" android:scrollbars="UNKNOWN_DATA_0x0" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="@drawable/gs" android:dividerHeight="0dp" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollHeader="0x0" android:overScrollFooter="0x106000d" />
+        </com.tencent.mm.ui.base.MMPullDownView>
+        <RelativeLayout android:id="@h/cAF" android:padding="@dimen/iu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/by" android:textColor="#737373" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="@string/axh" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.tencent.mm.plugin.exdevice.ui.ExdeviceRankChampionInfoView android:id="@h/bSz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

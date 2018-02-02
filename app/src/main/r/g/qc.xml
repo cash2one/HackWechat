@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/iu" android:paddingRight="@dimen/hz" android:paddingBottom="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@h/bLD" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/z_" android:contentDescription="@string/lj" />
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cSg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@l/ecG" android:singleLine="true" android:shadowColor="#99000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="10.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,131 @@
+package com.tencent.mm.boot.svg.a.a;
+
+import android.graphics.Canvas;
+import android.graphics.Matrix;
+import android.graphics.Paint;
+import android.graphics.Paint.Cap;
+import android.graphics.Paint.Join;
+import android.graphics.Paint.Style;
+import android.graphics.Path;
+import android.os.Looper;
+import com.tencent.mm.svg.c;
+import com.tencent.smtt.sdk.WebView;
+
+public final class ake extends c {
+    private final int height = 42;
+    private final int width = 42;
+
+    protected final int b(int i, Object... objArr) {
+        switch (i) {
+            case 0:
+                return 42;
+            case 1:
+                return 42;
+            case 2:
+                Canvas canvas = (Canvas) objArr[0];
+                Looper looper = (Looper) objArr[1];
+                Matrix f = c.f(looper);
+                float[] e = c.e(looper);
+                Paint i2 = c.i(looper);
+                i2.setFlags(385);
+                i2.setStyle(Style.FILL);
+                Paint i3 = c.i(looper);
+                i3.setFlags(385);
+                i3.setStyle(Style.STROKE);
+                i2.setColor(WebView.NIGHT_MODE_COLOR);
+                i3.setStrokeWidth(1.0f);
+                i3.setStrokeCap(Cap.BUTT);
+                i3.setStrokeJoin(Join.MITER);
+                i3.setStrokeMiter(4.0f);
+                i3.setPathEffect(null);
+                Paint a = c.a(i3, looper);
+                a.setStrokeWidth(1.0f);
+                canvas.save();
+                e = c.a(e, 1.0f, 0.0f, 4.307692f, 0.0f, 1.0f, 2.076923f);
+                f.reset();
+                f.setValues(e);
+                canvas.concat(f);
+                canvas.save();
+                Paint a2 = c.a(a, looper);
+                a2.setColor(-4210753);
+                a2.setStrokeWidth(2.3f);
+                Path j = c.j(looper);
+                j.moveTo(0.0f, 1.6488063f);
+                j.cubicTo(0.0f, 0.7381957f, 0.7381957f, 0.0f, 1.6488063f, 0.0f);
+                j.lineTo(30.658888f, 0.0f);
+                j.cubicTo(31.569498f, 0.0f, 32.307693f, 0.7381957f, 32.307693f, 1.6488063f);
+                j.lineTo(32.307693f, 36.351192f);
+                j.cubicTo(32.307693f, 37.261803f, 31.569498f, 38.0f, 30.658888f, 38.0f);
+                j.lineTo(1.6488063f, 38.0f);
+                j.cubicTo(0.7381957f, 38.0f, 0.0f, 37.261803f, 0.0f, 36.351192f);
+                j.lineTo(0.0f, 1.6488063f);
+                j.close();
+                canvas.drawPath(j, a2);
+                canvas.restore();
+                canvas.save();
+                Paint a3 = c.a(i2, looper);
+                i3 = c.a(a, looper);
+                a3.setColor(-4737097);
+                i3.setColor(-4737097);
+                i3.setStrokeWidth(0.6f);
+                Path j2 = c.j(looper);
+                j2.moveTo(4.0384617f, 14.942307f);
+                j2.lineTo(21.0f, 14.942307f);
+                j2.lineTo(21.0f, 16.602564f);
+                j2.lineTo(4.0384617f, 16.602564f);
+                j2.lineTo(4.0384617f, 14.942307f);
+                j2.close();
+                canvas.drawPath(j2, a3);
+                canvas.drawPath(j2, i3);
+                canvas.restore();
+                canvas.save();
+                a3 = c.a(i2, looper);
+                i3 = c.a(a, looper);
+                a3.setColor(-4737097);
+                i3.setColor(-4737097);
+                i3.setStrokeWidth(0.6f);
+                j2 = c.j(looper);
+                j2.moveTo(4.0384617f, 19.923077f);
+                j2.lineTo(12.923077f, 19.923077f);
+                j2.lineTo(12.923077f, 21.583332f);
+                j2.lineTo(4.0384617f, 21.583332f);
+                j2.lineTo(4.0384617f, 19.923077f);
+                j2.close();
+                canvas.drawPath(j2, a3);
+                canvas.drawPath(j2, i3);
+                canvas.restore();
+                canvas.save();
+                a3 = c.a(i2, looper);
+                i3 = c.a(a, looper);
+                a3.setColor(-4737097);
+                i3.setColor(-4737097);
+                i3.setStrokeWidth(0.6f);
+                j2 = c.j(looper);
+                j2.moveTo(4.0384617f, 24.903847f);
+                j2.lineTo(14.538462f, 24.903847f);
+                j2.lineTo(14.538462f, 26.564102f);
+                j2.lineTo(4.0384617f, 26.564102f);
+                j2.lineTo(4.0384617f, 24.903847f);
+                j2.close();
+                canvas.drawPath(j2, a3);
+                canvas.drawPath(j2, i3);
+                canvas.restore();
+                canvas.save();
+                a2 = c.a(i2, looper);
+                a2.setColor(-4737097);
+                j = c.j(looper);
+                j.moveTo(6.3695426f, 6.0f);
+                j.cubicTo(7.6569633f, 6.0f, 8.7006235f, 7.072651f, 8.7006235f, 8.395833f);
+                j.cubicTo(8.7006235f, 9.719015f, 7.6569633f, 10.791666f, 6.3695426f, 10.791666f);
+                j.cubicTo(5.082122f, 10.791666f, 4.0384617f, 9.719015f, 4.0384617f, 8.395833f);
+                j.cubicTo(4.0384617f, 7.072651f, 5.082122f, 6.0f, 6.3695426f, 6.0f);
+                j.close();
+                canvas.drawPath(j, a2);
+                canvas.restore();
+                canvas.restore();
+                c.h(looper);
+                break;
+        }
+        return 0;
+    }
+}

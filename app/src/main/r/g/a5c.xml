@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@id/ga" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b00ce" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/jx" />
+    <TextView android:id="@h/cHA" android:visibility="gone" android:drawableLeft="@k/dxm" android:drawablePadding="@dimen/ix" android:layout_toRightOf="@id/ga" style="@style/k0" />
+    <TextView android:textColor="@color/jp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/label" android:visibility="gone" android:layout_marginTop="@dimen/iu" android:layout_toRightOf="@id/ga" android:layout_below="@h/cHA" style="@style/k0" />
+</RelativeLayout>

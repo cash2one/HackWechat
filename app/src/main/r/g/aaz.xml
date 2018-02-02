@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/no" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="47dp">
+    <ImageView android:id="@a$f/uxk" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="#eeeeee" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingTop="11dp" android:paddingBottom="11dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:ellipsize="end" android:id="@a$f/uqc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@e/bsF" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uqb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxWidth="200dp" android:text="" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/cul" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="#eeeeee" />
+</LinearLayout>

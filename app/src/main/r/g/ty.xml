@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/iu">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hp" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/iu">
+        <ImageView android:id="@h/bIa" android:background="0x0" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/a7" android:contentDescription="@string/en" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bIc" android:background="@e/brh" android:layout_width="UNKNOWN_DATA_0x7f0b009e" android:layout_height="UNKNOWN_DATA_0x7f0b0128" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/hp" android:layout_centerVertical="true">
+        <com.tencent.mm.ui.fts.widget.FTSEditTextView android:id="@id/b_q" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="1024dp" />
+    </LinearLayout>
+</RelativeLayout>

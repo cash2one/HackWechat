@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="10.0" style="@style/t2"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="6.0"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/wallet_wxcredit_open_card" />
+            <TextView android:textSize="@dimen/by" android:textStyle="bold" android:textColor="@e/bsP" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:text="@string/e9c" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="47dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/wallet_wxcredit_open_shoppingbag" />
+            <TextView android:textSize="@dimen/by" android:textStyle="bold" android:textColor="@e/bsP" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:text="@string/e9m" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="47dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/wallet_wxcredit_open_free" />
+            <TextView android:textSize="@dimen/by" android:textStyle="bold" android:textColor="@e/bsP" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:text="@string/e9d" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="4.0"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_marginTop="30dp" style="@style/l0">
+            <CheckBox android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uex" android:paddingLeft="24dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:minHeight="22dp" android:text="@a$i/uQH" style="@style/me" />
+            <Button android:textSize="@dimen/i0" android:textColor="@a$c/ubw" android:ellipsize="marquee" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ccx" android:paddingTop="5dp" android:paddingRight="0dp" android:paddingBottom="5dp" android:layout_marginLeft="0dp" android:minHeight="30dp" android:text="@string/duc" android:singleLine="true" style="@style/tk" />
+        </LinearLayout>
+        <Button android:id="@id/ak_" android:layout_width="match_parent" android:layout_marginTop="16dp" android:text="@string/e9n" style="@style/m4" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@e/brR" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+            <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0b007a" android:layout_weight="1.0" />
+            <com.tencent.mm.ui.widget.MMTextView android:id="@h/cMp" android:background="@g/bBt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="215dp" android:minHeight="@dimen/ci" android:text="@string/cb6" style="@style/fm" />
+            <ImageView android:id="@h/bTw" android:layout_marginRight="@dimen/iu" style="@style/fb" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+            <ImageView android:layout_marginLeft="@dimen/iu" android:src="@drawable/icon" style="@style/f9" />
+            <com.tencent.mm.ui.widget.MMTextView android:id="@h/cMn" android:background="@g/bAR" android:maxWidth="@f/bwU" android:minHeight="@dimen/ci" android:text="@string/cwk" style="@style/fm" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+            <ImageView android:layout_marginLeft="@dimen/iu" android:src="@drawable/icon" style="@style/f9" />
+            <com.tencent.mm.ui.widget.MMTextView android:id="@h/cMo" android:background="@g/bAR" android:maxWidth="@f/bwU" android:minHeight="@dimen/ci" android:text="@string/cwi" style="@style/fm" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.mm.plugin.setting.ui.widget.FontSelectorView android:id="@h/ciW" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_alignParentBottom="true" />
+</RelativeLayout>

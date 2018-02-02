@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/o_"
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/ah4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@dimen/h5">
+        <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/m1" android:textColorHint="@e/bsN" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/j3" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" style="@style/js" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ap8" android:padding="@dimen/iz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@f/bvx">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/qw" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cVO" android:padding="@dimen/iz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d88" />
+    </LinearLayout>
+</LinearLayout>

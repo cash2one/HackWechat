@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/b1z" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h8">
+        <ImageView android:id="@h/cWD" android:background="@g/bHj" android:layout_width="UNKNOWN_DATA_0x7f0b0238" android:layout_height="UNKNOWN_DATA_0x7f0b0238" android:layout_marginTop="@f/bvx" />
+        <TextView android:textSize="24dp" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cWE" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="@l/eTV" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/ir" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cWG" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="@l/eTU" />
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/b22" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="80dp">
+            <Button android:textSize="@dimen/by" android:id="@id/b23" android:padding="@dimen/bt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5" android:text="@string/dlp" style="@style/m4" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

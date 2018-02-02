@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@h/cCh" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="0x106000d" />
+    <TextView android:textSize="@dimen/by" android:textColor="@color/t2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cAv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="@string/bob" android:layout_centerVertical="true" />
+</RelativeLayout>

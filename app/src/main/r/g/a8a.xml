@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/chg" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@id/chh" layout="@layout/al0" />
+    <ImageView android:id="@id/chi" android:background="@g/bHj" android:layout_width="UNKNOWN_DATA_0x7f0b0238" android:layout_height="UNKNOWN_DATA_0x7f0b0238" android:layout_marginTop="@f/bvx" android:layout_below="@id/chh" android:layout_centerHorizontal="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@f/bvx" android:layout_below="@id/chi" android:layout_centerHorizontal="true">
+        <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cAB" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" />
+        <TextView android:textSize="@dimen/by" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cAA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@l/eTF" />
+    </LinearLayout>
+    <TextView android:textSize="@f/buu" android:textColor="@color/cd" android:id="@h/cAC" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80dp" android:text="@string/on" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

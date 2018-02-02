@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <LinearLayout wallet:orientation="vertical" wallet:paddingTop="0dp" wallet:layout_width="match_parent" wallet:layout_height="match_parent" wallet:layout_alignParentTop="true" style="@style/t2">
+        <TextView wallet:id="@a$f/ula" wallet:text="@string/dxd" style="@style/te" />
+        <LinearLayout style="@style/tt">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/urM" wallet:visibility="gone" wallet:clickable="false" wallet:titleText="@string/dxa" wallet:contentTextColor="@color/j1" wallet:contentEnabled="false" wallet:contentFocusable="false" wallet:contentClickable="false" style="@style/tu" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/uhu" wallet:minHeight="45dp" wallet:titleText="@string/dxc" wallet:contentHint="@a$i/uSi" style="@style/t0" />
+        </LinearLayout>
+        <Button wallet:id="@id/ak_" wallet:layout_width="match_parent" wallet:layout_marginTop="16dp" wallet:text="@l/dFQ" style="@style/tq" />
+        <TextView wallet:textSize="@dimen/gu" wallet:textColor="@a$c/ubA" wallet:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/uyp" wallet:paddingBottom="@dimen/iu" wallet:visibility="gone" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginTop="@dimen/h5" wallet:text="@string/du1" style="@style/t8" />
+        <TextView wallet:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" wallet:id="@a$f/uAh" wallet:layout_height="match_parent" style="@style/ty" />
+    </LinearLayout>
+    <include wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_alignParentBottom="true" layout="@layout/aj_" />
+</RelativeLayout>

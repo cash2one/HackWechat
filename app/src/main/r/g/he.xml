@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@h/bYz" android:paddingLeft="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A" style="@style/l5" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/kd"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bYA" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b008a">
+            <com.tencent.mm.ui.base.MaskLayout android:id="@h/bYx" android:layout_width="UNKNOWN_DATA_0x7f0b0088" android:layout_height="UNKNOWN_DATA_0x7f0b0088">
+                <ImageView android:id="@id/j3" android:layout_width="UNKNOWN_DATA_0x7f0b0087" android:layout_height="UNKNOWN_DATA_0x7f0b0087" android:src="@raw/default_avatar" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </com.tencent.mm.ui.base.MaskLayout>
+            <com.tencent.mm.ui.tools.MMTruncTextView android:id="@h/bYB" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bt" android:text="{nick}" android:singleLine="true" android:layout_weight="1.0" style="@style/k4" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:background="#efeef2" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:fillViewport="true">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+        <LinearLayout app:orientation="horizontal" app:id="@h/cZe" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="16dp" app:textColor="@color/cd" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cZg" app:background="@drawable/qw" app:padding="16dp" app:text="@string/eak" style="@style/m2" />
+        </LinearLayout>
+        <ImageView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cPp" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+        <TextView app:textSize="@dimen/i0" app:textColor="@d/gUv" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cPo" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="19dp" app:text="@string/eas" />
+        <TextView app:textSize="@dimen/gu" app:textColor="@color/j1" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cEe" app:paddingTop="6dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/eaq" />
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:paddingLeft="16dp" app:paddingRight="16dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="54dp"
+            <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@h/bWi" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="60dp">
+                <ImageButton app:id="@h/cYU" app:background="0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@g/bHR" />
+                <TextView app:textSize="10sp" app:textColor="@color/j1" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/e1h" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="8dp" app:maxWidth="80dp" app:minWidth="48dp" app:text="@string/ead" />
+            </LinearLayout>
+            <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@h/cuf" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="60dp">
+                <FrameLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <ImageButton app:id="@h/cYX" app:background="0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@g/bHS" />
+                    <com.tencent.mm.ui.widget.MMProgressWheel app:id="@h/cYZ" app:visibility="invisible" app:layout_width="UNKNOWN_DATA_0x3601" app:layout_height="UNKNOWN_DATA_0x3601" app:matProg_progressIndeterminate="true" app:matProg_barColor="@color/cd" app:matProg_fillRadius="true" app:matProg_barWidth="1dp" />
+                </FrameLayout>
+                <TextView app:textSize="10sp" app:textColor="@color/j1" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cYY" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="8dp" app:minWidth="48dp" app:text="@l/cYX" />
+            </LinearLayout>
+            <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <ImageButton app:id="@h/cYV" app:background="0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/aqw" />
+                <TextView app:textSize="10sp" app:textColor="@color/j1" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="8dp" app:minWidth="48dp" app:text="@string/eag" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginBottom="24dp">
+            <Button app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cZf" app:padding="4dp" app:layout_marginBottom="16dp" app:text="@string/ear" app:singleLine="true" app:layout_alignParentBottom="true" style="@style/nm" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

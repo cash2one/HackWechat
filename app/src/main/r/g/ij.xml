@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/fc">
+    <include layout="@layout/i1" />
+    <LinearLayout android:orientation="vertical" android:id="@h/bTs" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@h/bVk" android:visibility="gone" style="@style/fg" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ad8" android:background="@g/bAg" android:paddingLeft="@f/bwI" android:paddingTop="0dp" android:paddingRight="@dimen/hl" android:paddingBottom="0dp" android:layout_width="UNKNOWN_DATA_0x7f0b022c" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@f/bur" android:paddingBottom="@f/bur" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@h/bKV" android:layout_width="UNKNOWN_DATA_0x2201" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="@dimen/iz" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hd">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <com.tencent.mm.ui.widget.MMTextView android:textSize="@f/buy" android:textColor="@color/s2" android:ellipsize="end" android:id="@h/bKX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iz" android:singleLine="true" />
+                        <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/j0" android:textColor="@color/s2" android:ellipsize="end" android:id="@h/bKU" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ix" android:singleLine="true" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="20dp">
+                <TextView android:textSize="@dimen/j8" android:textColor="@color/cy" android:id="@h/bKY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

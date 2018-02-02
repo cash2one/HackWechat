@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@g/gWl" style="@style/q0">
+    <TextView android:id="@g/gWo" style="@style/pz" />
+    <TextView android:id="@g/gWm" style="@style/px" />
+</LinearLayout>

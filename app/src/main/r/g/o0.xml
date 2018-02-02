@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/avb" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <include layout="@layout/o1" />
+    <include android:id="@h/cvX" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/kd" layout="@layout/o2" />
+    <include android:id="@h/cvY" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/kd" layout="@layout/o2" />
+    <include layout="@layout/o1" />
+</LinearLayout>

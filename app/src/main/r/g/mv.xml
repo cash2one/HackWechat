@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <View app:id="@id/arv" app:layout_width="match_parent" app:layout_height="match_parent" app:soundEffectsEnabled="false" />
+    <FrameLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@a$e/bk" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_behavior="@string/eeo" style="?attr/gs" />
+</android.support.design.widget.CoordinatorLayout>

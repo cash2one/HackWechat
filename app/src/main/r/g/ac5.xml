@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/d05" android:src="@drawable/za" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/p6" />
+    <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@e/lnQ" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bf" android:layout_alignLeft="@id/d05" android:layout_alignTop="@id/d05" />
+    <ImageView android:id="@e/lnR" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_alignRight="@id/d05" android:layout_alignBottom="@id/d05" />
+    <ImageView android:id="@id/ahr" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1a01" android:layout_height="UNKNOWN_DATA_0x1a01" android:layout_marginTop="2dp" android:src="@drawable/a6i" android:layout_alignRight="@id/d05" android:layout_alignBottom="@id/d05" />
+    <TextView android:id="@e/lnS" android:visibility="gone" android:text="name" android:layout_below="@id/d05" android:layout_centerHorizontal="true" style="@style/p7" />
+    <TextView android:id="@id/d09" android:paddingTop="@dimen/bt" android:visibility="gone" android:layout_below="@id/d05" android:layout_centerHorizontal="true" style="@style/p7" />
+</RelativeLayout>

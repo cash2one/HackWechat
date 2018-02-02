@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/bbj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <TextView android:textColor="#b1b1b1" android:id="@id/kq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title_tv}" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/kq" android:layout_centerHorizontal="true">
+            <ImageView android:id="@h/bKk" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" />
+            <ImageView android:id="@h/bKl" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" />
+            <ImageView android:id="@h/bKm" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" />
+            <ImageView android:id="@h/bKn" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" />
+            <ImageView android:id="@h/cxq" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1a01" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:src="@raw/fts_wxapp_more" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

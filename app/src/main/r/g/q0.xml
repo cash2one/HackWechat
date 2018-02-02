@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/s2" android:padding="@dimen/iu" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@h/ceU" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:src="@drawable/z_" android:layout_centerVertical="true" />
+    <com.tencent.mm.ui.base.NoMeasuredTextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cfG" android:layout_width="UNKNOWN_DATA_0xb401" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_toRightOf="@h/ceU" android:layout_centerVertical="true" style="@style/l0" />
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:id="@h/cfy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/l0" />
+</RelativeLayout>

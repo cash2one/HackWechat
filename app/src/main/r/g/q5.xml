@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/azr" android:background="@color/fp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b00a1">
+    <View android:id="@h/cfi" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@h/cfj" android:layout_marginLeft="@dimen/e4" style="@style/gf" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_marginRight="@dimen/e2" style="@style/go"
+            <RelativeLayout android:paddingLeft="@dimen/e4" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3701" android:layout_toLeftOf="@id/azu" android:layout_centerVertical="true">
+                <View android:id="@id/azv" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_alignParentBottom="true" />
+                <TextView android:id="@h/cfk" android:layout_toLeftOf="@h/ceR" android:layout_alignLeft="@id/azv" android:layout_centerInParent="true" style="@style/gp" />
+                <TextView android:id="@h/ceR" android:text="" android:layout_above="@id/azv" android:layout_alignRight="@id/azv" style="@style/gt" />
+            </RelativeLayout>
+            <ImageView android:id="@id/azu" android:layout_marginLeft="5dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/gg" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@h/cfh" android:background="@color/fq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_alignParentBottom="true" />
+</RelativeLayout>

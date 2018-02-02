@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" custom:id="@id/i3" custom:background="@color/qm" custom:layout_width="match_parent" custom:layout_height="wrap_content">
+    <FrameLayout custom:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" custom:id="@f/qBZ" custom:layout_width="match_parent" custom:layout_height="UNKNOWN_DATA_0x3201">
+        <Button custom:textSize="18sp" custom:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" custom:id="@id/age" custom:layout_width="match_parent" custom:layout_height="match_parent" custom:text="download" style="@style/wg" />
+        <com.tencent.mm.plugin.sns.ui.widget.SnsTextProgressBar custom:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" custom:id="@f/qBY" custom:visibility="gone" custom:layout_width="match_parent" custom:layout_height="match_parent" custom:max="100" custom:progress="50" custom:textSize="18dp" style="@style/wh" />
+    </FrameLayout>
+</RelativeLayout>

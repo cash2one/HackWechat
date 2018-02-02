@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/a4v" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/a4w" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="@dimen/by" android:textColor="#ccf2f2f2" android:id="@id/a4x" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@id/a4y" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b030a" android:layout_height="UNKNOWN_DATA_0x7f0b030a" android:layout_centerInParent="true" />
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/a50" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/x3" />
+    <TextView android:textColor="@color/nd" android:id="@id/a51" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ali" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.tencent.mm.pluginsdk.ui.tools.VideoPlayerSeekBar android:id="@id/alj" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:onClick="onClick" />
+    </LinearLayout>
+</RelativeLayout>

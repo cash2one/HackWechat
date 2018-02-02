@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b0140" android:minHeight="@f/bvG">
+    <ImageView android:id="@id/hb" android:background="@e/brh" android:layout_width="UNKNOWN_DATA_0x7f0b009e" android:layout_height="UNKNOWN_DATA_0x7f0b0128" />
+    <TextView android:textColor="@color/sf" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hc" android:background="@drawable/a9" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b0140" android:text="send" />
+    <TextView android:id="@id/hd" android:visibility="gone" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="send" style="@style/m6" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@g/gVi" android:background="@drawable/a9" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="56dp" />
+        <ImageView android:id="@id/hf" android:visibility="gone" android:layout_marginTop="7dp" android:layout_marginRight="6dp" android:layout_alignTop="@g/gVi" android:layout_alignRight="@g/gVi" style="@style/sv" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/bp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/az" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.ui.base.MultiTouchImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ay" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include layout="@layout/rh" />
+    </RelativeLayout>
+    <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/qk" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0x9601" />
+    <ProgressBar android:id="@h/ccV" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="50dp" android:layout_marginRight="20dp" style="?unknown_attr_ref: 1010078" />
+    <TextView android:textSize="@dimen/by" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ccW" android:background="@color/bp" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

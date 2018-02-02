@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingTop="20dp" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.scanner.ui.StrokedImageView android:id="@h/cnU" android:background="@drawable/mw" android:layout_width="UNKNOWN_DATA_0x5701" android:layout_height="UNKNOWN_DATA_0x5701" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/j0" android:textColor="#aaaaaa" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cnT" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="UNKNOWN_DATA_0x5401" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:lines="2" android:singleLine="false" />
+</LinearLayout>

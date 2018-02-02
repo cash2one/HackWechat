@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@h/bUl" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:orientation="vertical" android:id="@id/abv" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0233">
+        <ImageView android:id="@id/o_" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@h/bZt" android:background="#33000000" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@h/cUW" android:layout_width="UNKNOWN_DATA_0x2601" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginRight="@dimen/h5" android:src="@k/dxE" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@h/cUW" android:layout_alignTop="@h/cUW" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/h1" android:textColor="@color/s2" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:maxLines="2" />
+            <TextView android:textSize="@dimen/j0" android:textColor="@color/s2" android:id="@h/cRs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hd" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:orientation="vertical" android:id="@h/cDo" android:background="@g/bBq" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0233" />
+</RelativeLayout>

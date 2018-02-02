@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/kd"
+    <LinearLayout android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b008a">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cnY" android:layout_width="UNKNOWN_DATA_0x7f0b0087" android:layout_height="UNKNOWN_DATA_0x7f0b0087" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/coa" android:paddingLeft="@dimen/iu" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="180dp" android:singleLine="true" style="@style/k4" />
+        <TextView android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cnZ" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/k2" />
+        <CheckBox android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/sf" android:background="@a$d/qfl" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0084" android:layout_height="UNKNOWN_DATA_0x7f0b0084" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/h8" />
+    </LinearLayout>
+</LinearLayout>

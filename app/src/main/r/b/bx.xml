@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:title="" android:key="wallet_transfer_title_tips" />
+    <Preference android:title="@a$i/uRp" android:key="wallet_transfer_realtime" android:widgetLayout="@layout/a64" android:layout="@layout/a4f" />
+    <Preference android:title="@a$i/uRo" android:key="wallet_transfer_2h" android:widgetLayout="@layout/a64" android:layout="@layout/a4f" />
+    <Preference android:title="@a$i/uRn" android:key="wallet_transfer_24h" android:widgetLayout="@layout/a64" android:layout="@layout/a4f" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x0" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/in" android:layout_centerVertical="true" style="@style/k9" />
+    <EditText android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/io" android:paddingRight="32dp" android:layout_height="match_parent" android:singleLine="false" android:layout_toRightOf="@id/in" style="@style/k8" />
+    <ImageView android:id="@id/ip" android:background="0x0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/payinfoicon" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

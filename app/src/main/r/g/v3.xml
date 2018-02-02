@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.game.ui.GameBestSellingItemView android:orientation="vertical" android:paddingLeft="@f/bvg" android:paddingRight="@f/bvg" android:paddingBottom="@f/bvg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.plugin.game.widget.AutoResizeTextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cmX" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="wrap_content" android:layout_marginRight="@f/bvj" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@h/cml" android:layout_width="UNKNOWN_DATA_0x7f0b00f8" android:layout_height="UNKNOWN_DATA_0x7f0b00f8" android:layout_marginRight="@dimen/g9" android:src="@g/bCC" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_toEndOf="@h/cmX" />
+            <com.tencent.mm.plugin.game.ui.GameDownloadView android:id="@h/ckI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@f/bvj" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="@dimen/fm" android:textColor="@color/hq" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cmV" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1901" android:singleLine="true" android:layout_toLeftOf="@h/ckI" android:layout_toRightOf="@h/cml" android:layout_alignTop="@h/cml" />
+            <com.tencent.mm.plugin.game.widget.GameTagListView android:orientation="horizontal" android:id="@h/cQd" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_toLeftOf="@h/ckI" android:layout_toRightOf="@h/cml" android:layout_alignBottom="@h/cml" />
+        </RelativeLayout>
+        <ViewStub android:id="@h/cOU" android:layout="@layout/xy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="93dp" android:layout_marginTop="@f/bvj" />
+    </com.tencent.mm.plugin.game.ui.GameBestSellingItemView>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.favorite.ui.base.FavVoiceBaseView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cWx" android:background="@drawable/ahl" android:paddingRight="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageButton android:id="@h/cWy" android:background="@raw/detail_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/iu" android:src="@k/dBy" />
+    <View android:background="#b6b6b6" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+    <TextView android:textColor="#868686" android:id="@h/cWz" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{length}" />
+    <LinearLayout android:id="@h/cWB" android:background="@drawable/ap3" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="0dp" android:id="@h/cWA" android:background="@drawable/ap2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="0" />
+    </LinearLayout>
+</com.tencent.mm.plugin.favorite.ui.base.FavVoiceBaseView>

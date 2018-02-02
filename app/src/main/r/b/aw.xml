@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory />
+    <CheckBoxPreference android1:title="@string/cn_" android1:key="room_msg_show_username" android1:layout="@layout/a4f" />
+    <com.tencent.mm.pluginsdk.ui.preference.SignaturePreference android1:title="@l/eFL" android1:key="room_name" android1:layout="@layout/a4f" />
+    <PreferenceCategory />
+    <CheckBoxPreference android1:title="@string/cn8" android1:key="room_msg_notify" android1:layout="@layout/a4f" />
+    <CheckBoxPreference android1:title="@string/cnd" android1:key="room_show_msg_count" android1:widgetLayout="@layout/a4n" android1:layout="@layout/a4f" />
+    <PreferenceCategory />
+    <Preference android1:title="@string/co6" android1:key="room_set_chatting_background" android1:layout="@layout/a4f" />
+    <PreferenceCategory />
+    <Preference android1:title="@l/eEW" android1:key="room_clear_chatting_history" android1:layout="@layout/a4f" />
+</PreferenceScreen>

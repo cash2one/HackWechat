@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@id/fr" android:background="@color/oe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xe01" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/kn" android:layout_marginLeft="@f/buV" android:layout_below="@id/fr" android:layout_alignParentBottom="true" style="@style/gy">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bLF" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginRight="@dimen/ik" />
+        <TextView android:textSize="@dimen/by" android:textColor="@d/gUv" android:ellipsize="middle" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/col" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{header}" android:singleLine="true" />
+        <TextView android:textSize="@dimen/by" android:textColor="@d/gUv" android:ellipsize="middle" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bag" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=">" android:singleLine="true" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bLG" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginRight="@dimen/ik" />
+        <TextView android:textSize="@dimen/by" android:textColor="@d/gUv" android:ellipsize="middle" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/com" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{header}" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

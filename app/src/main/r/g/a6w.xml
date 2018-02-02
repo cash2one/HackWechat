@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/kd"
+    <LinearLayout android:paddingLeft="@dimen/bt" android:paddingRight="@dimen/bt" style="@style/l6"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@h/cwD" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/jx" />
+        </LinearLayout>
+        <FrameLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cwv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="75dp" android:minHeight="30dp">
+            <TextView android:textSize="14dp" android:textColor="@color/jn" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cwG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60dp" android:minHeight="30dp" android:text="@l/ekh" />
+            <ProgressBar android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cwF" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

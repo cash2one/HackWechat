@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/s2" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/atw" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@a$f/ujR" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x4301" android:layout_marginTop="45dp" android:src="@drawable/ah1" android:scaleType="centerCrop" />
+                <TextView android:textSize="17dp" android:textColor="#ff202020" android:id="@a$f/ujW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="" />
+                <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginTop="30dp" />
+                <TextView android:textSize="14dp" android:textColor="@color/ly" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/ujV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:text="" />
+                <LinearLayout android:orientation="vertical" android:id="@a$f/ujU" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" />
+                <Button android:id="@a$f/ujS" android:layout_marginTop="40dp" android:text="@string/apx" style="@style/m_" />
+            </LinearLayout>
+            <TextView android:textSize="13dp" android:textColor="#ff576b95" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$f/ujQ" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="18dp" android:text="" android:layout_below="@id/atw" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <View android:id="@a$f/ujT" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</ScrollView>

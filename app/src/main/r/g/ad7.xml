@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbars="UNKNOWN_DATA_0x0" style="@style/o_">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/jg">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/d2i" android:text="@string/cpy" style="@style/l3" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cwK" android:layout_marginTop="5dp" style="@style/l3" />
+        <EditText android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ws" android:layout_width="UNKNOWN_DATA_0xb401" android:layout_marginTop="5dp" android:hint="@l/eGR" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|number|numberSigned|numberDecimal|numberPassword|phone" style="@style/l2" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cHK" android:layout_marginTop="10dp" android:text="@string/cpv" style="@style/l3" />
+        <Button android:id="@h/cHJ" android:visibility="gone" android:layout_marginTop="15dp" android:text="@string/cpv" style="@style/m4" />
+        <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bWj" android:text="@l/eGU" style="@style/iw" />
+    </LinearLayout>
+</ScrollView>

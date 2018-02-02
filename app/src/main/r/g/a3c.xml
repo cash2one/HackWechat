@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/g1" android:paddingLeft="@dimen/ik" android:paddingTop="@dimen/c2" android:paddingRight="@dimen/ik" android:paddingBottom="@dimen/c2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ko" android:layout_width="UNKNOWN_DATA_0x7f0b0088" android:layout_height="UNKNOWN_DATA_0x7f0b0088" android:layout_marginTop="@dimen/iz" android:layout_marginRight="@dimen/ik" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/ue" android:textColor="@color/n_" android:id="@id/apr" android:layout_width="UNKNOWN_DATA_0x1" android:maxWidth="140dp" android:layout_weight="1.0" style="@style/k4" />
+            <TextView android:textSize="@dimen/ue" android:textColor="@color/n_" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cTR" android:paddingRight="4dp" android:minWidth="65dp" style="@style/k2" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ud" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cxH" android:paddingRight="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:singleLine="false" android:lineSpacingExtra="2dp" style="@m/eYP" />
+    </LinearLayout>
+</LinearLayout>

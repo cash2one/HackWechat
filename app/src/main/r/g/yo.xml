@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/bpr" android:background="@drawable/j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginBottom="@dimen/hz" android:layout_alignParentBottom="true" android:onClick="onClick">
+    <View android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bpu" android:background="@raw/gallery_booter_at_pos_image_grid_icon" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x7f0b02af" />
+</FrameLayout>

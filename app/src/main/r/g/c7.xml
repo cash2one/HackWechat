@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@drawable/a98" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="UNKNOWN_DATA_0x9601" app:minWidth="150dp" app:minHeight="150dp">
+    <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="30dp" app:src="@raw/app_brand_wifi_icon" />
+    <TextView app:textSize="17dp" app:textColor="@color/s2" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="7dp" app:text="@string/km" />
+    <ProgressBar app:id="@id/ot" app:layout_width="UNKNOWN_DATA_0x2401" app:layout_height="UNKNOWN_DATA_0x801" app:layout_marginTop="20dp" app:max="100" app:progress="0" style="@style/d5" />
+</LinearLayout>

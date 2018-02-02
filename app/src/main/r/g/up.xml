@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:id="@h/layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/bbp" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="19dp" android:layout_weight="1.0" android:layout_marginEnd="19dp">
+            <LinearLayout android:orientation="horizontal" android:id="@id/bbq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/gu" android:textColor="#2f2f2f" android:ellipsize="end" android:id="@h/cQG" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="8.5dp" android:text="{textview_1}" android:maxLines="1" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bbr" android:layout_width="UNKNOWN_DATA_0x2c00021" android:layout_height="UNKNOWN_DATA_0xb01" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/bbs" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="19dp" android:layout_weight="1.0" android:layout_marginStart="19dp">
+            <LinearLayout android:orientation="horizontal" android:id="@id/bbt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/gu" android:textColor="#2f2f2f" android:ellipsize="end" android:id="@h/cQH" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="8.5dp" android:text="{textview_2}" android:maxLines="1" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bbu" android:layout_width="UNKNOWN_DATA_0x2c00021" android:layout_height="UNKNOWN_DATA_0xb01" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

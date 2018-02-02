@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Движи се кон дома</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Движи се нагоре</string>
+    <string name="abc_action_menu_overflow_description">Повеќе опции</string>
+    <string name="e">Готово</string>
+    <string name="f">Види ги сите</string>
+    <string name="g">Избери апликација</string>
+    <string name="h">ИСКЛУЧЕНО</string>
+    <string name="i">ВКЛУЧЕНО</string>
+    <string name="j">Пребарување…</string>
+    <string name="k">Исчисти барање</string>
+    <string name="l">Пребарај барање</string>
+    <string name="m">Пребарај</string>
+    <string name="n">Поднеси барање</string>
+    <string name="o">Гласовно пребарување</string>
+    <string name="p">Сподели со</string>
+    <string name="q">Собери</string>
+    <string name="r">999+</string>
+</resources>

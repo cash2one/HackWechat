@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/kk" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@a$f/uoS" android:background="@drawable/k4" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x19801" android:layout_centerInParent="true">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x19801" android:src="@drawable/aj3" />
+        <ImageView android:id="@a$f/uoy" android:paddingLeft="16dp" android:paddingTop="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ajb" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uoF" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@d/ucj" android:layout_marginBottom="@d/uch" android:src="@drawable/aj_" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@a$f/uow" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30dp">
+                <ImageView android:id="@a$f/uov" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aj2" android:scaleType="fitXY" />
+                、
+                <TextView android:textSize="@dimen/j0" android:textColor="#efa785" android:id="@a$f/uox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bt6" android:includeFontPadding="false" />
+            </LinearLayout>
+            <RelativeLayout android:id="@a$f/uoB" android:background="@drawable/aj4" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="UNKNOWN_DATA_0xac01" android:layout_marginTop="40dp" android:layout_marginBottom="16dp">
+                <ImageView android:id="@a$f/uoA" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="@drawable/aj5" android:scaleType="fitXY" android:layout_centerInParent="true" />
+                <ImageView android:id="@a$f/uoz" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginRight="25dp" android:layout_marginBottom="10dp" android:src="@drawable/k5" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/sx" android:textColor="@color/ki" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uoE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" android:layout_marginBottom="@d/ucf" android:maxLines="2" android:includeFontPadding="false" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyAutoScrollView android:id="@a$f/uou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@d/ucb" />
+                <TextView android:textSize="@dimen/sa" android:textColor="@color/ki" android:id="@a$f/umE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@a$i/umD" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@a$f/uoC" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@d/ucd">
+                <ImageView android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0xc01" android:src="@drawable/aj9" />
+                <TextView android:textSize="@dimen/j0" android:textColor="#efa785" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/bv3" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textSize="@dimen/i0" android:textColor="@color/kh" android:id="@a$f/uoD" android:background="@drawable/k1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:text="@string/bvm" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

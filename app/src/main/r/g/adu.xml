@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@a$e/qfo" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x501" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/cdp" android:background="@drawable/g3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:minHeight="@dimen/it" android:layout_below="@a$e/qfo">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0b0087" android:layout_height="UNKNOWN_DATA_0x7f0b0087" android:layout_marginRight="8dp" android:src="@raw/mm_select_create_chatroom" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cu0" android:singleLine="true" style="@style/k4" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/j0" android:textColor="#555555" android:id="@id/ql" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{desc}" android:singleLine="true" style="@m/eYP" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

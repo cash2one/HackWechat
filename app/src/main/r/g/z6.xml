@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView style="@style/lx">
+        <RelativeLayout android:id="@id/b3e" style="@style/jg">
+            <ImageView android:id="@h/cpX" android:layout_width="UNKNOWN_DATA_0x7f0b0061" android:layout_height="UNKNOWN_DATA_0x7f0b0061" android:layout_marginRight="@dimen/h5" android:src="@drawable/z_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@l/bLI" />
+            <TextView android:id="@h/cqb" android:layout_toRightOf="@h/cpX" style="@style/jx" />
+            <TextView android:id="@h/cqd" android:layout_toRightOf="@h/cpX" android:layout_below="@h/cqb" style="@style/jz" />
+            <TextView android:textSize="@dimen/i0" android:textColor="#707070" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cqc" android:background="@drawable/a1o" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:layout_below="@h/cpX" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="27dp" android:minHeight="@f/bvG" android:layout_below="@h/cqc">
+                <Button android:id="@h/cqa" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/bk3" android:layout_weight="1.0" style="@style/m4" />
+                <View android:id="@id/br_" android:layout_width="UNKNOWN_DATA_0x7f0b0164" android:layout_height="match_parent" />
+                <Button android:id="@h/cqe" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/bk6" android:layout_weight="1.0" style="@style/m_" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

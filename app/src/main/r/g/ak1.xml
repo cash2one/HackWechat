@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXc" android:background="@a$c/uaK" android:paddingLeft="@dimen/hc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/l5" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/crs" android:background="@g/bDH" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@e/gUM">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@h/bXd" android:layout_width="UNKNOWN_DATA_0x7f0b015d" android:layout_height="UNKNOWN_DATA_0x7f0b015d">
+            <ImageView android:id="@id/j3" android:layout_width="UNKNOWN_DATA_0x7f0b015c" android:layout_height="UNKNOWN_DATA_0x7f0b015c" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <TextView android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bYl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:text="{nick}" android:maxLines="1" android:layout_weight="1.0" style="@style/k4" />
+        <ImageView android:id="@h/bYs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bt" android:src="@k/dxQ" />
+        <ImageView android:id="@h/bYt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@k/dxR" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bVZ" android:paddingLeft="@dimen/hd" android:paddingRight="@dimen/hc" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <CheckBox android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gp" android:background="@a$d/qfl" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0084" android:layout_height="UNKNOWN_DATA_0x7f0b0084" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="@dimen/h5" android:layout_width="UNKNOWN_DATA_0xff01" android:layout_height="wrap_content" android:minHeight="255dp">
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/a_f" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="UNKNOWN_DATA_0x7601">
+        <TextView android:textSize="@dimen/iy" android:textColor="@color/bp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/dto" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/bp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="61dp" android:text="@string/dts" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="@string/dtr" />
+</LinearLayout>

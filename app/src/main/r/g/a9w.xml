@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+    <android.support.v4.view.ViewPager android:id="@a$f/upT" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x12c01" android:layout_centerVertical="true" />
+</RelativeLayout>

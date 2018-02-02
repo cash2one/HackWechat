@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" style="@style/o_"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" style="@style/jg">
+        <com.tencent.mm.plugin.freewifi.ui.FreeWifiStateView android:id="@h/cjj" style="@style/hu" />
+        <TextView android:id="@h/cjk" style="@style/hv" />
+        <TextView android:id="@h/cjl" style="@style/hw" />
+        <Button android:id="@h/cFr" android:visibility="gone" android:text="@l/ejY" style="@style/hp" />
+    </LinearLayout>
+    <Button android:id="@h/coz" android:text="@string/b_h" style="@style/hy" />
+</LinearLayout>

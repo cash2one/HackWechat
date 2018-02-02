@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@f/buM" android:paddingRight="@f/buM" android:paddingBottom="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:id="@h/bXM" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@h/bYc" android:layout_marginTop="@dimen/iu" android:text="@string/alf" style="@style/m4" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@h/bYc">
+            <Button android:id="@h/bYd" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:focusable="true" android:clickable="true" android:text="@string/aib" android:layout_weight="1.0" style="@style/m_" />
+            <View android:id="@h/bYf" android:layout_width="UNKNOWN_DATA_0x7f0b0164" android:layout_height="wrap_content" />
+            <Button android:id="@h/bYe" android:focusable="true" android:clickable="true" android:text="@l/dUR" android:layout_weight="1.0" style="@style/m_" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@h/bXS" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@h/bXT" android:text="@string/ajs" android:layout_weight="1.0" style="@style/m4" />
+        <Button android:id="@h/bXR" android:layout_marginTop="@dimen/iu" android:text="@l/dUR" android:layout_weight="1.0" style="@style/m_" />
+    </LinearLayout>
+    <Button android:id="@h/bXr" android:visibility="gone" android:layout_marginTop="@dimen/iu" android:text="@l/dKO" style="@style/m7" />
+    <Button android:id="@h/bXm" android:text="@string/afg" style="@style/m4" />
+    <Button android:id="@h/bXU" android:text="@l/dWn" style="@style/m4" />
+    <Button android:id="@h/bYg" android:layout_marginTop="@dimen/h5" android:text="@string/ma" style="@style/m_" />
+    <Button android:id="@h/bXp" android:visibility="gone" android:layout_marginTop="@dimen/iu" android:text="@l/dUR" style="@style/m_" />
+    <Button android:id="@h/bXI" android:visibility="gone" android:layout_marginTop="@dimen/h5" android:text="@string/ai_" style="@style/m_" />
+    <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXJ" android:paddingTop="@dimen/h5" android:layout_width="match_parent" android:text="@string/aie" android:singleLine="false" style="@style/jz" />
+</LinearLayout>

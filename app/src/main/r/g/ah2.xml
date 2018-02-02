@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:padding="0dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="0dp" style="@style/lm">
+    <LinearLayout android:orientation="vertical" android:id="@f/qCd" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ListView android:id="0x102000a" android:layout_height="UNKNOWN_DATA_0x19001" style="@style/l4" />
+        <TextView android:textColor="@e/bsF" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@f/qEu" android:paddingLeft="@f/bvP" android:text="@string/d_4" style="@style/m1" />
+        <com.tencent.mm.plugin.sns.ui.SnsEditText android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@f/qEv" android:background="@color/s2" android:padding="@dimen/h5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9601" android:maxLines="4" android:minLines="4" android:singleLine="false" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:textCursorDrawable="@drawable/c4" style="@style/js" />
+    </LinearLayout>
+</ScrollView>

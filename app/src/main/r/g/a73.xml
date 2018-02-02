@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView style="@style/lx">
+        <LinearLayout style="@style/jg">
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:visibility="gone" android:layout_marginTop="5dp" android:text="@l/eGS" style="@style/jh" />
+            <EditText android:id="@h/cwY" android:hint="@string/cpt" style="@style/l2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Nenda mwanzo</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Nenda juu</string>
+    <string name="abc_action_menu_overflow_description">Chaguo zaidi</string>
+    <string name="e">Nimemaliza</string>
+    <string name="f">Angalia zote</string>
+    <string name="g">Chagua programu</string>
+    <string name="h">IMEZIMWA</string>
+    <string name="i">IMEWASHWA</string>
+    <string name="j">Tafuta…</string>
+    <string name="k">Futa hoja</string>
+    <string name="l">Hoja ya utafutaji</string>
+    <string name="m">Tafuta</string>
+    <string name="n">Wasilisha hoja</string>
+    <string name="o">Tafuta kwa kutamka</string>
+    <string name="p">Shiriki na:</string>
+    <string name="q">Kunja</string>
+    <string name="r">999+</string>
+    <string name="s">Shiriki na %s</string>
+</resources>

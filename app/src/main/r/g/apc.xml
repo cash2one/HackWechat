@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#f0eff4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/bt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz" style="@style/kd"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/it">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" android:text="@string/edi" android:layout_weight="1.0" />
+                <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@b/kgU" android:layout_width="UNKNOWN_DATA_0x7f0b0170" android:layout_height="UNKNOWN_DATA_0x7f0b016d" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/edk" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/m1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="24dp" android:layout_marginRight="@dimen/c2" android:layout_marginBottom="24dp" android:text="@string/edj" android:lineSpacingExtra="@dimen/iu" android:textIsSelectable="true" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@b/kgH" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/c2" android:layout_marginBottom="10dp" android:text="@b$e/khl" android:lineSpacingExtra="@dimen/iu" android:textIsSelectable="true" />
+        <View android:background="@drawable/bc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginTop="20dp" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="@dimen/hz" android:layout_marginRight="@dimen/c2">
+            <Button android:id="@b/kgY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edn" style="@style/m8" />
+            <Button android:id="@b/khc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:text="@b$e/kho" style="@style/ma" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

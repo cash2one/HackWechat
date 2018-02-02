@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@e/brI" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:paddingTop="15dp" android:paddingBottom="22dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bRV" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/dq" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cKo" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="wrap_content" android:maxWidth="70dp" android:singleLine="true" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/dp" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cKl" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bRW" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/hl" android:layout_marginRight="@dimen/h5">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/dq" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cKp" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="wrap_content" android:maxWidth="70dp" android:singleLine="true" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/dp" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cKm" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

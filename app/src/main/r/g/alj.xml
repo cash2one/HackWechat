@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+        <com.tenpay.android.wechat.TenpaySecureEditText android:id="@a$f/uyz" android:layout_height="match_parent" style="@style/t6" />
+    </LinearLayout>
+</merge>

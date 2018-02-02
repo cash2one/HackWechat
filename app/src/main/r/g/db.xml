@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@h/bLX" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" style="@style/l4" />
+    <LinearLayout android:orientation="vertical" android:id="@h/bLZ" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <ProgressBar android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bMc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="50dp" style="@style/wu" />
+        <TextView android:textColor="#aaaaaa" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bLY" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@l/dHu" />
+    </LinearLayout>
+    <View android:background="#dfdfdf" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <RelativeLayout android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView android:textSize="@dimen/gu" android:textColor="#aaaaaa" android:id="@h/bMg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <CheckBox android:id="@h/bMd" android:background="@a$d/qfl" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0084" android:layout_height="UNKNOWN_DATA_0x7f0b0084" android:layout_marginLeft="12dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="#aaaaaa" android:id="@h/bMf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/uo" android:layout_toRightOf="@h/bMd" android:layout_centerVertical="true" />
+        <View android:id="@h/bMe" android:layout_width="UNKNOWN_DATA_0x4801" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@h/bMb" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView android:textSize="@dimen/gu" android:textColor="@e/brv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/qw" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/gu" android:textColor="#aaaaaa" android:id="@h/bMa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

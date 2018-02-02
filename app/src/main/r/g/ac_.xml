@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" flowlayout:background="@color/oe" style="@style/o_">
+    <ScrollView flowlayout:scrollbars="UNKNOWN_DATA_0x0" style="@style/lx">
+        <LinearLayout flowlayout:orientation="vertical" flowlayout:paddingTop="0dp" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" flowlayout:layout_weight="1.0"
+            <LinearLayout flowlayout:orientation="vertical" flowlayout:background="@color/ls" flowlayout:paddingLeft="@f/bur" flowlayout:paddingRight="@f/bur" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content">
+                <TextView flowlayout:paddingLeft="0dp" flowlayout:paddingTop="@dimen/hl" flowlayout:paddingRight="0dp" flowlayout:paddingBottom="@dimen/hz" flowlayout:text="@string/cw6" style="@style/l3" />
+                <com.tencent.mm.ui.base.MMClearEditText flowlayout:textColorHint="@e/btb" flowlayout:id="@h/cIG" flowlayout:layout_marginBottom="@dimen/iu" flowlayout:minHeight="@f/bvA" flowlayout:maxLines="2" flowlayout:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" style="@style/l2">
+                    <requestFocus />
+                </com.tencent.mm.ui.base.MMClearEditText>
+            </LinearLayout>
+            <LinearLayout flowlayout:orientation="vertical" flowlayout:background="@color/ls" flowlayout:paddingLeft="@f/bur" flowlayout:paddingRight="@f/bur" flowlayout:focusable="true" flowlayout:focusableInTouchMode="true" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:layout_marginTop="@f/bur">
+                <TextView flowlayout:paddingLeft="0dp" flowlayout:paddingTop="@dimen/hl" flowlayout:paddingRight="0dp" flowlayout:paddingBottom="@dimen/hz" flowlayout:text="@string/cw5" style="@style/l3" />
+                <com.tencent.mm.ui.base.MMClearEditText flowlayout:textColorHint="@e/btb" flowlayout:id="@h/cIJ" flowlayout:layout_marginBottom="@dimen/iu" flowlayout:minHeight="@f/bvA" flowlayout:maxLines="2" flowlayout:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" style="@style/l2" />
+            </LinearLayout>
+            <LinearLayout flowlayout:orientation="vertical" flowlayout:id="@h/cwW" flowlayout:background="@color/ls" flowlayout:paddingLeft="@f/bur" flowlayout:paddingRight="@f/bur" flowlayout:paddingBottom="@dimen/hz" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content">
+                <TextView flowlayout:textSize="@dimen/gu" flowlayout:textColor="@color/m1" flowlayout:gravity="top|bottom|center_vertical|fill_vertical|center|fill" flowlayout:id="@h/cwX" flowlayout:layout_width="wrap_content" flowlayout:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout flowlayout:orientation="vertical" flowlayout:background="@color/ls" flowlayout:paddingLeft="@f/bur" flowlayout:paddingRight="@f/bur" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:layout_marginTop="@f/bur">
+                <TextView flowlayout:paddingLeft="0dp" flowlayout:paddingTop="@dimen/hl" flowlayout:paddingRight="0dp" flowlayout:paddingBottom="@dimen/hz" flowlayout:text="@string/c18" style="@style/l3" />
+                <FrameLayout flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:layout_marginBottom="@dimen/iu">
+                    <TextView flowlayout:textColorHint="@e/btb" flowlayout:id="@h/cwS" flowlayout:minHeight="@f/bvA" flowlayout:hint="@l/evu" style="@style/l2" />
+                    <com.tencent.mm.ui.base.MMTagPanel flowlayout:textColor="@color/m1" flowlayout:id="@h/bYi" flowlayout:background="@drawable/g1" flowlayout:paddingLeft="@dimen/hd" flowlayout:paddingTop="@dimen/iu" flowlayout:paddingBottom="@dimen/iu" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:minHeight="@dimen/h0" flowlayout:horizontalSpacing="@f/bur" flowlayout:verticalSpacing="@f/bur" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout flowlayout:orientation="vertical" flowlayout:background="@color/ls" flowlayout:paddingLeft="@f/bur" flowlayout:paddingRight="@f/bur" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:layout_marginTop="@f/bur">
+                <TextView flowlayout:textColor="@color/j1" flowlayout:paddingBottom="@dimen/iu" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:layout_marginTop="@dimen/iu" flowlayout:text="@j/qLN" />
+                <LinearLayout flowlayout:gravity="top|bottom|center_vertical|fill_vertical|center|fill" flowlayout:orientation="horizontal" flowlayout:id="@h/cAE" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:baselineAligned="false" flowlayout:minHeight="@dimen/it">
+                    <TextView flowlayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:layout_width="UNKNOWN_DATA_0x1" flowlayout:layout_height="wrap_content" flowlayout:minHeight="@dimen/it" flowlayout:text="@string/dbc" flowlayout:maxLines="2" flowlayout:singleLine="false" flowlayout:layout_weight="1.0" style="@style/jx" />
+                    <include flowlayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:id="@id/gp" layout="@layout/a4n" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

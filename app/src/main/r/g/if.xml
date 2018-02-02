@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@h/cSz" android:background="@g/bBm" android:paddingLeft="@dimen/h5" android:paddingTop="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:id="@h/cok" android:background="@drawable/v6" android:paddingBottom="@dimen/hz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+        <include layout="@layout/i1" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVk" android:paddingLeft="@dimen/iu" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cxt" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ix" android:minHeight="50dp">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_item_dyeing_template_more_icon" android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@id/ga" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="@dimen/iz" android:text="@string/eeb" android:maxLines="2" />
+            <TextView android:textSize="12dp" android:textColor="#b2b2b2" android:id="@id/acz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="11dp" android:text="@string/eeb" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cxu" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ix" android:minHeight="50dp">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_item_dyeing_template_more_icon" android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@h/cce" android:paddingBottom="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@h/cLC" android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginBottom="@dimen/h5" />
+    <TextView android:textSize="14dp" android:textColor="@color/jp" android:id="@h/cbk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h5" android:text="@string/a__" />
+</LinearLayout>

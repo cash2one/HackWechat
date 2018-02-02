@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/i3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/k6" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_marginTop="45dp" android:src="@raw/login_app_default_avatar" />
+        <TextView android:textSize="20dp" android:textColor="@color/b6" android:id="@id/k7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="8dp" android:layout_marginRight="@dimen/iu" android:maxLines="2" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:layout_marginRight="35dp">
+            <ImageView android:background="@color/b3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginTop="30dp" />
+            <TextView android:textSize="16dp" android:textColor="@color/bp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:text="@string/csc" />
+            <com.tencent.mm.ui.base.MaxListView android:id="@id/k9" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" />
+        </LinearLayout>
+        <Button android:id="@h/cuj" android:layout_marginLeft="@f/buM" android:layout_marginTop="30dp" android:layout_marginRight="@f/buM" android:layout_marginBottom="30dp" android:text="@string/csa" style="@style/m4" />
+    </LinearLayout>
+</ScrollView>

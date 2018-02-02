@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+        <TextView android:id="@a$f/urB" style="@style/nw" />
+        <TextView android:id="@a$f/uqv" style="@style/nu" />
+        <EditText android:id="@a$f/upQ" style="@style/ns" />
+        <com.tencent.mm.pluginsdk.ui.wallet.WalletIconImageView android:id="@a$f/upZ" android:src="@a$e/udC" style="@style/nt" />
+    </LinearLayout>
+</merge>

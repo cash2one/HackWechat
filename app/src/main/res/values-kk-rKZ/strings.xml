@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Негізгі бетте қозғалу</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Жоғары қозғалу</string>
+    <string name="abc_action_menu_overflow_description">Басқа опциялар</string>
+    <string name="e">Дайын</string>
+    <string name="f">Барлығын көру</string>
+    <string name="g">Қолданбаны таңдау</string>
+    <string name="h">ӨШІРУЛІ</string>
+    <string name="i">ҚОСУЛЫ</string>
+    <string name="j">Іздеу…</string>
+    <string name="k">Сұрақты жою</string>
+    <string name="l">Сұрақты іздеу</string>
+    <string name="m">Іздеу</string>
+    <string name="n">Сұрақты жіберу</string>
+    <string name="o">Дауыс арқылы іздеу</string>
+    <string name="p">Бөлісу</string>
+    <string name="q">Тасалау</string>
+    <string name="r">999+</string>
+    <string name="s">%s бөлісу</string>
+</resources>

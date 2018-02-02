@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/i3" android:background="@drawable/a7p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/mx" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:background="#ff282b2d" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="-90dp">
+            <com.tencent.mm.ui.base.MMPullDownView android:id="@f/qFn" android:background="@drawable/a7p" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ListView android:id="@f/qFg" android:background="@color/oz" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/ks" android:cacheColorHint="#00000000" android:divider="0x0" />
+            </com.tencent.mm.ui.base.MMPullDownView>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

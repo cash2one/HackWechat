@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/gd" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@id/ge" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/gf" android:paddingLeft="?attr/c0" android:paddingTop="@r$dimen/abc_dialog_padding_top_material" android:paddingRight="?attr/c0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="0x1020006" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:src="0x0" android:scaleType="fitCenter" style="@r$style/RtlOverlay_Widget_AppCompat_DialogTitle_Icon" />
+            <android.support.v7.widget.DialogTitle android:ellipsize="end" android:id="@id/gg" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" style="?unknown_attr_ref: 101005b" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/gh" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_weight="1.0">
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/gi" android:background="?attr/d7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <android.support.v4.widget.NestedScrollView android:id="@id/gj" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="0x102000b" android:paddingLeft="?attr/c0" android:paddingTop="@r$dimen/abc_dialog_padding_top_material" android:paddingRight="?attr/c0" android:layout_width="match_parent" android:layout_height="wrap_content" style="@r$style/TextAppearance_AppCompat_Subhead" />
+                <View android:id="@id/gk" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0b01ac" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/gl" android:background="?attr/d7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/gm" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_weight="1.0"
+        <FrameLayout android:id="@id/gn" android:layout_width="match_parent" android:layout_height="wrap_content" /> />
+    <include layout="@r$layout/abc_alert_dialog_button_bar_material" />
+</LinearLayout>

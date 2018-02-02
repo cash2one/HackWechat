@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/gs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@g/gVg" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/hx" android:background="@drawable/a9" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@f/bur">
+        <ImageView android:id="@id/hy" android:background="0x0" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/a7" android:contentDescription="@string/en" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hb" android:background="@e/brh" android:layout_width="UNKNOWN_DATA_0x7f0b009e" android:layout_height="UNKNOWN_DATA_0x7f0b0128" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020014" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/j_" />
+        <TextView android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020015" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/j9" />
+    </LinearLayout>
+</LinearLayout>

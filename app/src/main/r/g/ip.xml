@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/f7">
+    <include android:id="@id/ab1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/i1" />
+    <TextView android:id="@h/bVk" android:visibility="gone" android:layout_toRightOf="@id/ab1" style="@style/fg" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/ab1" android:layout_below="@h/bVk">
+        <com.tencent.mm.ui.widget.MMNeatTextView android:id="@h/bTH" android:background="@g/bAR" android:minHeight="@dimen/ci" style="@style/fm" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@h/bTl" android:background="@drawable/b_" android:padding="@dimen/bt" android:text="{source}" style="@style/f8" />
+            <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+            <TextView android:id="@h/bSZ" android:background="@drawable/b_" android:layout_marginRight="50dp" android:text="@string/a91" style="@style/f8" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/qm" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="onClickNoCheck">
+    <LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="UNKNOWN_DATA_0xd901" android:layout_height="UNKNOWN_DATA_0xdc01">
+            <ImageView android:id="@h/bLQ" android:background="@drawable/aqr" android:layout_width="UNKNOWN_DATA_0x7f0b0063" android:layout_height="UNKNOWN_DATA_0x7f0b0063" android:layout_marginTop="64dp" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@h/bLR" android:background="@drawable/aqr" android:layout_width="UNKNOWN_DATA_0x7f0b0063" android:layout_height="UNKNOWN_DATA_0x7f0b0063" android:layout_marginTop="64dp" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@h/bLS" android:background="@drawable/aqr" android:layout_width="UNKNOWN_DATA_0x7f0b0063" android:layout_height="UNKNOWN_DATA_0x7f0b0063" android:layout_marginTop="64dp" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/ko" android:layout_width="UNKNOWN_DATA_0x7f0b0063" android:layout_height="UNKNOWN_DATA_0x7f0b0063" android:layout_marginTop="64dp" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/i0" android:textColor="#4a4a4a" android:id="@id/apr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="{nickname}" android:layout_below="@id/ko" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/i0" android:textColor="#afafaf" android:id="@id/ql" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/e_7" android:layout_below="@id/apr" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <View android:background="#e0e0e0" android:layout_width="UNKNOWN_DATA_0xd901" android:layout_height="UNKNOWN_DATA_0x100" />
+        <ImageButton android:id="@id/e0f" android:background="@drawable/sp" android:layout_width="UNKNOWN_DATA_0xd901" android:layout_height="UNKNOWN_DATA_0x2c01" android:src="@drawable/aqq" android:onClick="onClickCheck" />
+    </LinearLayout>
+</RelativeLayout>

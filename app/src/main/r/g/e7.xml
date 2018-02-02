@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" style="@style/lx">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" style="@style/jg"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@h/bNr" android:layout_width="UNKNOWN_DATA_0x6001" android:layout_height="UNKNOWN_DATA_0x6001" android:layout_marginBottom="10dp" android:src="@g/bzq" />
+            </LinearLayout>
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bNw" android:text="@string/y8" style="@style/l3" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="5dp" android:paddingRight="5dp" style="@style/jg"
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@h/bZd" android:background="@drawable/l1" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3201">
+                    <TextView android:textSize="15dp" android:textColor="@color/bp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/vj" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="wrap_content" android:text="@l/dXH" android:singleLine="true" />
+                    <TextView android:textSize="8dp" android:textColor="@color/bp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bZf" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="wrap_content" android:text="@l/dXI" android:singleLine="true" />
+                </LinearLayout>
+                <EditText android:id="@h/bNs" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="10dp" android:hint="@string/zb" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|number|numberSigned|numberDecimal|numberPassword|phone" style="@style/l2" />
+            </LinearLayout>
+            <Button android:textSize="20dp" android:id="@h/bNe" android:text="@string/xd" style="@style/m4" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/bNv" android:layout_marginLeft="6dp" android:layout_marginTop="12dp" style="@style/l0">
+                <CheckBox android:textSize="13dp" android:textColor="@color/bp" android:id="@h/bNn" android:paddingLeft="25dp" android:checked="false" android:text="@string/y1" style="@style/ej" />
+                <CheckBox android:textSize="13dp" android:textColor="@color/bp" android:id="@h/bNo" android:paddingLeft="25dp" android:layout_marginTop="10dp" android:checked="false" android:text="@string/ajc" style="@style/ej" />
+            </LinearLayout>
+            <TextView android:textSize="12dp" android:id="@h/bNf" android:background="@drawable/aly" android:padding="6dp" android:layout_marginTop="16dp" android:text="@l/dKI" style="@style/jh" />
+            <Button android:id="@h/bNC" android:visibility="gone" android:text="@l/dLI" style="@style/m_" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@h/bNt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/y0" style="@style/iw" />
+    </LinearLayout>
+</LinearLayout>

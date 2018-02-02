@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/gu" android:top="239dp" android:bottom="0dp" />
+    <item android:drawable="@drawable/gx" android:top="0dp" android:bottom="16dp" />
+    <item android:drawable="@drawable/gu" android:top="239dp" android:bottom="0dp" />
+    <item android:drawable="@drawable/gx" android:top="0dp" android:bottom="16dp" />
+</layer-list>

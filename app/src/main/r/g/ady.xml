@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@id/cdp" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:minHeight="@dimen/it"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/kq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/k4" />
+        </LinearLayout>
+        <CheckBox android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/sf" android:background="@a$d/qfl" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="UNKNOWN_DATA_0xd01" android:layout_height="UNKNOWN_DATA_0x901" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/h8" />
+    </LinearLayout>
+</RelativeLayout>

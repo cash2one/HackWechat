@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.base.sortview.CatalogView android:id="@id/um" android:background="@a$c/uaF" android:paddingLeft="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/l5" />
+    <LinearLayout android:orientation="vertical" android:id="@h/bYL" android:background="@f/gUX" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$f/ugK" android:background="@color/qm" android:layout_width="UNKNOWN_DATA_0x1a01" android:layout_height="UNKNOWN_DATA_0x1a01" android:scaleType="fitCenter" />
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$f/ugL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@f/bur" android:text="" android:maxLines="2" />
+        </LinearLayout>
+        <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    </LinearLayout>
+</LinearLayout>

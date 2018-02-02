@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/bpv" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@h/ccv" android:background="@drawable/kq" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginRight="2dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@e/brX" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@id/fr" android:background="@color/ln" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@h/bLH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/fs" android:background="@e/brX" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/qm" android:dividerHeight="0px" android:layout_below="@id/fr" />
+    <com.tencent.mm.pluginsdk.ui.MultiSelectContactView android:id="@a$e/qfn" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/fr" />
+    <ImageView android:id="@a$e/qfu" android:background="@drawable/aeu" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@a$e/qfn" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fy" android:background="@e/brX" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@a$e/qfn">
+        <TextView android:textColor="@color/s2" android:id="@id/fz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/bx0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/ly" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cKL" android:background="#f2ebebeb" android:padding="@dimen/hz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawableRight="@f/gUW" android:drawablePadding="@dimen/hz" android:layout_below="@a$e/qfn" />
+</RelativeLayout>

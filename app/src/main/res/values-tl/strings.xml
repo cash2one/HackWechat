@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Mag-navigate patungo sa home</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Mag-navigate pataas</string>
+    <string name="abc_action_menu_overflow_description">Higit pang mga opsyon</string>
+    <string name="e">Tapos na</string>
+    <string name="f">Tingnan lahat</string>
+    <string name="g">Pumili ng isang app</string>
+    <string name="h">I-OFF</string>
+    <string name="i">I-ON</string>
+    <string name="j">Maghanap…</string>
+    <string name="k">I-clear ang query</string>
+    <string name="l">Query sa paghahanap</string>
+    <string name="m">Maghanap</string>
+    <string name="n">Isumite ang query</string>
+    <string name="o">Paghahanap gamit ang boses</string>
+    <string name="p">Ibahagi sa/kay</string>
+    <string name="q">I-collapse</string>
+    <string name="r">999+</string>
+    <string name="s">Ibahagi sa/kay %s</string>
+</resources>

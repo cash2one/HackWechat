@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="@f/gUX" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@a$f/usd" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4c01" style="@style/o4">
+            <TextView android:textSize="@dimen/i0" android:textColor="@a$c/ube" android:id="@a$f/ush" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/bxh" android:layout_weight="1.0" />
+            <CheckedTextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/usf" android:background="@drawable/kk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24dp" />
+            <CheckedTextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/usc" android:background="@drawable/kj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

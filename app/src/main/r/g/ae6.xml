@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" style="@style/o_">
+    <EditText android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/j3" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8201" android:hint="@string/ces" android:singleLine="false" style="@style/js" />
+    <TextView android:id="@h/caM" android:layout_marginTop="20dp" android:text="@l/eKj" style="@style/m7" />
+</LinearLayout>

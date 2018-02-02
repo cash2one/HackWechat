@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@h/cvm" style="@style/x1" />
+    <LinearLayout android:orientation="vertical" android:id="@h/cvd" android:background="@g/bBm" android:paddingLeft="@f/bur" android:paddingTop="@dimen/iu" android:paddingRight="@f/bur" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:layout_marginBottom="@dimen/iu">
+        <TextView android:id="@h/cve" style="@style/wz" />
+        <TextView android:id="@h/cvg" android:layout_marginTop="@dimen/bt" android:layout_marginBottom="@dimen/iu" style="@style/wz" />
+        <View style="@style/x0" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@f/bur" android:layout_marginBottom="@f/bur">
+            <TextView android:id="@h/cvf" style="@style/fq" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@h/cvl" android:background="@g/bBt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/ci" android:drawableRight="@k/dxK" />
+                <com.tencent.mm.ui.base.AnimImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cvk" android:paddingRight="17dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/ci" />
+            </FrameLayout>
+        </LinearLayout>
+        <View style="@style/x0" />
+        <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cvc" style="@style/wy" />
+    </LinearLayout>
+</LinearLayout>

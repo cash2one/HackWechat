@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.applet.SecurityImage xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout style="@style/jg"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:padding="5dp" style="@style/l0">
+            <FrameLayout android:background="#000000" android:padding="1px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="40dp">
+                <ImageView android:id="@g/gVo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150dp" android:maxHeight="80dp" android:minWidth="130dp" android:minHeight="53dp" />
+                <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@g/gWe" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+            </FrameLayout>
+            <View style="@style/mc" />
+            <Button android:id="@g/gVm" android:minHeight="40dp" android:text="@string/qf" android:singleLine="true" style="@style/iw" />
+        </LinearLayout>
+        <View style="@style/mc" />
+        <EditText android:textColor="@color/m1" android:id="@g/gVn" android:hint="@string/qg" style="@style/l2" />
+    </LinearLayout>
+</com.tencent.mm.ui.applet.SecurityImage>

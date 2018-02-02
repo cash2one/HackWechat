@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ගෙදරට සංචාලනය කරන්න</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">ඉහලට සංචාලනය කරන්න</string>
+    <string name="abc_action_menu_overflow_description">තවත් විකල්ප</string>
+    <string name="e">අවසාන වූ</string>
+    <string name="f">සියල්ල බලන්න</string>
+    <string name="g">යෙදුමක් තෝරන්න</string>
+    <string name="h">ක්‍රියාවිරහිතයි</string>
+    <string name="i">ක්‍රියාත්මකයි</string>
+    <string name="j">සොයන්න...</string>
+    <string name="k">විමසුම හිස් කරන්න</string>
+    <string name="l">සෙවුම් විමසුම</string>
+    <string name="m">සෙවීම</string>
+    <string name="n">විමසුම යොමු කරන්න</string>
+    <string name="o">හඬ සෙවීම</string>
+    <string name="p">සමඟ බෙදාගන්න</string>
+    <string name="q">හකුළන්න</string>
+    <string name="r">999+</string>
+    <string name="s">%s සමඟ බෙදාගන්න</string>
+</resources>

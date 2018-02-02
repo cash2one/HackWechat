@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" mall:background="@color/ls" mall:layout_width="match_parent" mall:layout_height="wrap_content">
+    <LinearLayout mall:paddingLeft="@dimen/h5" mall:paddingRight="@dimen/h5" mall:paddingBottom="5dp" style="@style/o_">
+        <FrameLayout mall:id="@a$f/urr" mall:visibility="gone" mall:layout_width="match_parent" mall:layout_height="UNKNOWN_DATA_0x3401">
+            <ImageView mall:id="@a$f/urt" mall:layout_width="match_parent" mall:layout_height="UNKNOWN_DATA_0x3401" mall:scaleType="fitXY" />
+            <ImageView mall:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" mall:id="@a$f/urs" mall:layout_width="wrap_content" mall:layout_height="wrap_content" mall:layout_marginRight="@dimen/h5" mall:src="@drawable/a6e" />
+        </FrameLayout>
+        <com.tencent.mm.plugin.recharge.ui.MallEditText mall:id="@a$f/uqd" mall:background="@drawable/gm" mall:layout_width="match_parent" mall:layout_height="UNKNOWN_DATA_0x2d01" mall:layout_marginTop="15dp" mall:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" mall:mallHint="@string/byv" mall:mallEditType="1" />
+        <TextView mall:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" mall:id="@a$f/uqx" mall:layout_marginLeft="8dp" mall:layout_marginTop="15dp" mall:layout_marginBottom="8dp" style="@m/eYP" />
+        <LinearLayout mall:orientation="horizontal" mall:id="@a$f/uqa" mall:background="@drawable/l8" mall:layout_width="match_parent" mall:layout_height="UNKNOWN_DATA_0x3201">
+            <TextView mall:textSize="@dimen/i0" mall:textColor="@color/bp" mall:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" mall:id="@a$f/uqC" mall:layout_width="wrap_content" mall:layout_height="wrap_content" mall:layout_marginLeft="8dp" mall:layout_marginRight="@dimen/bt" mall:minWidth="80dp" mall:editable="false" mall:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" />
+            <TextView mall:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" mall:id="@a$f/urw" mall:paddingRight="@dimen/h5" mall:layout_width="UNKNOWN_DATA_0x1" mall:layout_height="match_parent" mall:layout_marginRight="6dp" mall:layout_weight="1.0" style="@m/eYP" />
+        </LinearLayout>
+        <TextView mall:textColor="@color/nd" mall:id="@a$f/uru" mall:background="0x0" mall:layout_width="match_parent" mall:layout_height="wrap_content" mall:layout_marginLeft="8dp" mall:layout_marginBottom="8dp" style="@style/oo" />
+        <Button mall:id="@id/ak_" mall:layout_width="match_parent" mall:layout_marginLeft="0dp" mall:layout_marginRight="0dp" mall:text="@string/byn" style="@style/m4" />
+        <LinearLayout mall:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" mall:orientation="horizontal" mall:layout_width="match_parent" mall:layout_height="wrap_content">
+            <TextView mall:textColor="@color/jp" mall:id="@a$f/urv" mall:paddingTop="30dp" mall:layout_width="wrap_content" mall:text="@string/byx" style="@style/mf" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

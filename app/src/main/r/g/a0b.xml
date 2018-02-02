@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:orientation="vertical" android:id="@a$f/ueD" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="UNKNOWN_DATA_0x0" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@d/ubN" android:layout_marginRight="@d/ubN" android:overScrollMode="never" />
+    <RelativeLayout android:id="@a$f/uwF" android:background="#f7f7fa" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3601" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/jh" android:textColor="@color/s" android:id="@a$f/uhM" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq7" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/jh" android:textColor="@color/bp" android:id="@a$f/ueE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@a$i/uJt" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14dp" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uey" android:background="#e64340" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="" android:layout_alignParentTop="true" />
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/aj_" />
+</RelativeLayout>

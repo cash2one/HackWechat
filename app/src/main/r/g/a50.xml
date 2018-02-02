@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/a9d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001"
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x7f0b0061" android:layout_height="UNKNOWN_DATA_0x7f0b0061" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cph" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@raw/default_avatar" />
+        <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cAu" android:background="@drawable/oi" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@l/dEF" />
+        <View android:id="@h/cuX" android:background="@drawable/oh" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/cwf" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true">
+        <TextView android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/jx" />
+    </LinearLayout>
+</RelativeLayout>

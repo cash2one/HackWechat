@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/bzh" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@a$f/ugS" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:minHeight="200dp" />
+    <ImageView android:id="@a$f/ugV" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="20dp" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16dp" android:textColor="@a$c/uaP" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uhp" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:includeFontPadding="false" />
+    <TextView android:textSize="14dp" android:textColor="@a$c/uaQ" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uhr" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:includeFontPadding="false" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@a$f/ugU" android:paddingLeft="@dimen/sg" android:paddingRight="@dimen/sg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp">
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="60dp" android:textColor="@a$c/uaV" android:id="@a$f/ugT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="60dp" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@a$c/uaV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:text="@a$i/umD" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@a$f/uhc" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@a$f/uhd" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0125" android:layout_height="UNKNOWN_DATA_0x7f0b0125" android:layout_marginRight="@dimen/ix" android:src="@drawable/ahk" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@a$c/uaV" android:id="@a$f/uho" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@a$f/uhk" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+            <RelativeLayout android:id="@a$f/uhh" android:visibility="gone" style="@style/j0">
+                <LinearLayout android:id="@a$f/uhe" style="@style/iz" />
+                <View android:id="@a$f/ugZ" android:visibility="gone" style="@style/j1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@a$f/uhi" android:visibility="gone" style="@style/j0">
+                <LinearLayout android:id="@a$f/uhf" style="@style/iz" />
+                <View android:id="@a$f/uha" android:visibility="gone" style="@style/j1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@a$f/uhj" android:visibility="gone" style="@style/j0">
+                <LinearLayout android:id="@a$f/uhg" style="@style/iz" />
+            </RelativeLayout> /> />
+    <TextView android:textSize="@dimen/j0" android:textColor="@a$c/uaQ" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/ugY" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="34dp" android:layout_marginBottom="6dp" android:singleLine="true" android:includeFontPadding="false" />
+</LinearLayout>

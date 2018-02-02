@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@h/bTJ" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@h/cWc" android:layout="@layout/i8" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@h/cWe" android:layout="@layout/ib" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@h/cWb" android:layout="@layout/i_" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@h/cWf" android:layout="@layout/ic" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@h/cWa" android:layout="@layout/i9" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@h/cWd" android:layout="@layout/ia" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h5">
+        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <TextView android:id="@h/bSZ" android:background="@drawable/b_" android:layout_marginRight="@dimen/bt" android:text="@string/a91" style="@style/f8" />
+    </LinearLayout>
+</LinearLayout>

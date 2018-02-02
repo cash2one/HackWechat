@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/djn" android:background="@drawable/tr" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cNN" android:background="@drawable/jo" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4901" android:layout_height="UNKNOWN_DATA_0x4901" android:scaleType="fitXY" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/dhe" />
+</RelativeLayout>

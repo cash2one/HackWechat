@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/ls" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout style="@style/o_"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5">
+            <ImageView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b0127" android:layout_marginTop="@dimen/gy" android:src="@drawable/a_t" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="@dimen/h5" android:layout_marginRight="@dimen/h5">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@h/bMy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v3" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="@string/ur" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="@string/us" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="@string/ut" />
+        </LinearLayout>
+        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</ScrollView>

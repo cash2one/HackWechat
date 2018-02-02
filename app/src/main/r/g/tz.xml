@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@h/bXf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@h/cog" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6a01"
+            <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:minHeight="0dp" style="@style/lz">
+                <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/bl" />
+                <View android:background="#ccc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@h/bXg" android:layout_height="wrap_content" style="@style/lz">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bXe" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:layout_marginRight="@dimen/ik" />
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0"
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@h/bYu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/k4" />
+                    </LinearLayout>
+                    <TextView android:id="@h/bXj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="{desc}" android:singleLine="true" style="@m/eYP" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@h/cAt" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6a01">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@h/bXk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/eya" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <View android:id="@h/cvS" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xe01" />
+    <LinearLayout android:id="@h/cJz" android:layout_height="UNKNOWN_DATA_0x4401" style="@style/gz">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:layout_marginRight="@dimen/ik" android:src="@raw/addfriend_icon_search" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@dimen/ix" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@h/cKd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/k4" />
+            <TextView android:id="@h/cJA" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginRight="20dp" android:text="@string/bb8" android:maxLines="2" android:singleLine="false" style="@m/eYP" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

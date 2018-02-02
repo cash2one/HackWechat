@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView style="@style/lx">
+        <LinearLayout style="@style/jg">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXH" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/c1e" />
+            <TextView android:textColor="@color/m1" android:id="@h/bXP" android:background="@drawable/g1" android:paddingBottom="@dimen/ix" android:layout_marginTop="@dimen/hz" style="@style/l2" />
+            <LinearLayout android:orientation="vertical" android:id="@h/bYo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/c1a" />
+                <TextView android:textColor="@color/m1" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bXN" android:background="@drawable/g1" android:paddingBottom="@dimen/ix" android:layout_width="match_parent" android:layout_marginTop="@dimen/hz" android:singleLine="false" style="@style/js" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@h/bYp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/c1c" />
+                <ImageView android:id="@h/cHB" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" android:layout_marginTop="@dimen/hz" android:scaleType="centerCrop" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

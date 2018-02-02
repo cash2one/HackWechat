@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.widget.FoursquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@a$f/uwl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@h/cvF" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cVe" android:background="@drawable/agv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/cml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@raw/video_icon_sub" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/s4" android:id="@h/cVf" android:paddingTop="1dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="--:--" android:maxLines="1" android:layout_toRightOf="@id/cml" android:layout_alignBaseline="@id/cml" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@h/cnD" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/agu" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@h/cdh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginBottom="5dp" android:src="@raw/photo_edit_mark_sub" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/add" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@f/bvc" android:layout_marginBottom="@f/bvc" android:src="@raw/error_image_sub" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@h/cvA" android:background="@e/bsQ" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@h/cvC" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@g/divider" android:scaleType="center" />
+</com.tencent.mm.ui.widget.FoursquareRelativeLayout>

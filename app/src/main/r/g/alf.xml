@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <RelativeLayout android:background="@a$c/ubt" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/vh" android:textColor="@color/s4" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uxv" android:background="@drawable/r5" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0336" android:maxLines="2" />
+        <LinearLayout android:orientation="vertical" android:background="@a$c/ubt" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@a$f/uxv" android:layout_alignWithParentIfMissing="true" style="@style/t2">
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dpa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:src="@raw/wallet_balance_manager_logo" />
+            <TextView android:textSize="@f/buL" android:textColor="@color/bp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/i2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:text="@string/dqk" />
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="40dp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uxH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" style="@style/td" />
+            <Button android:id="@id/ak_" android:layout_width="match_parent" android:layout_marginTop="30dp" android:text="@a$i/uPn" style="@style/tq" />
+            <Button android:textColor="@e/brz" android:id="@a$f/uxw" android:background="@g/bAc" android:visibility="gone" android:layout_width="match_parent" android:layout_marginTop="@dimen/c8" android:text="@string/dqg" style="@style/tq" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@a$f/ulP" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5">
+                <ImageView android:id="@a$f/ulO" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x7f0b0125" android:layout_height="UNKNOWN_DATA_0x7f0b0125" android:layout_marginRight="@dimen/ix" android:src="@raw/balance_manager_lct_link_icon" />
+                <TextView android:textSize="@dimen/gu" android:textColor="@color/rc" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$f/ulQ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <ImageView android:id="@a$f/umr" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x901" android:layout_height="UNKNOWN_DATA_0x901" android:layout_marginLeft="7dp" android:src="@f/gVe" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginBottom="@dimen/iu" android:layout_weight="1.0">
+                <TextView android:textColor="@color/jp" android:id="@a$f/uxx" android:paddingTop="5dp" android:visibility="gone" android:layout_height="wrap_content" android:layout_margin="0dp" android:text="@string/dqi" style="@style/ty" />
+                <TextView android:id="@a$f/uAh" android:paddingTop="3dp" android:layout_height="wrap_content" android:layout_margin="0dp" style="@style/ty" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

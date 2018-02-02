@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/g1" android:paddingLeft="@dimen/h5" android:paddingTop="@dimen/hl" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/hl" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@f/qBq" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:layout_width="UNKNOWN_DATA_0x7f0b0162" android:layout_height="UNKNOWN_DATA_0x7f0b0142" android:src="@i/qJc" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/qp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b0142" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:text="@j/qMO" android:layout_toRightOf="@f/qBq" />
+    <com.tencent.mm.plugin.sns.ui.PreviewContactView android:id="@f/qBp" android:layout_width="UNKNOWN_DATA_0xb401" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iu" android:minHeight="@dimen/hx" android:layout_alignParentRight="true" />
+</RelativeLayout>

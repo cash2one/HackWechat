@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" flowlayout:orientation="vertical" style="@style/o_">
+    <RelativeLayout flowlayout:layout_width="match_parent" flowlayout:layout_height="UNKNOWN_DATA_0x1" flowlayout:layout_weight="1.0">
+        <View flowlayout:id="@id/fr" flowlayout:layout_width="match_parent" flowlayout:layout_height="UNKNOWN_DATA_0x7f0b0144" />
+        <ListView flowlayout:id="@id/fs" flowlayout:background="@color/ls" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" flowlayout:layout_below="@id/fr" style="@style/l4" />
+        <LinearLayout flowlayout:gravity="top|bottom|center_vertical|fill_vertical|center|fill" flowlayout:orientation="horizontal" flowlayout:id="@id/c9k" flowlayout:background="#f3ffffff" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:layout_below="@id/fr">
+            <com.tencent.mm.pluginsdk.ui.MultiSelectContactView flowlayout:id="@a$e/qfn" flowlayout:paddingLeft="@dimen/iu" flowlayout:paddingRight="@dimen/iu" flowlayout:visibility="gone" flowlayout:layout_width="UNKNOWN_DATA_0x1" flowlayout:layout_height="wrap_content" flowlayout:layout_weight="1.0" />
+            <Button flowlayout:id="@h/cKB" flowlayout:layout_marginRight="@dimen/iu" flowlayout:text="@l/euM" style="@style/mb" />
+        </LinearLayout>
+        <ImageView flowlayout:id="@a$e/qfu" flowlayout:background="@drawable/aeu" flowlayout:visibility="invisible" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:layout_below="@id/c9k" />
+        <com.tencent.mm.ui.base.AlphabetScrollBar flowlayout:id="@a$e/qfs" flowlayout:visibility="gone" flowlayout:layout_width="UNKNOWN_DATA_0x7f0b005f" flowlayout:layout_height="match_parent" flowlayout:layout_below="@id/c9k" flowlayout:layout_alignParentRight="true" />
+        <com.tencent.mm.ui.contact.LabelContainerView flowlayout:orientation="vertical" flowlayout:id="@id/fw" flowlayout:background="#f7ffffff" flowlayout:paddingLeft="@dimen/hz" flowlayout:paddingTop="@dimen/bt" flowlayout:paddingRight="@dimen/hz" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" flowlayout:layout_below="@id/c9k">
+            <LinearLayout flowlayout:orientation="vertical" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content">
+                <include layout="@layout/adc" />
+                <com.tencent.mm.ui.base.MMTagPanel flowlayout:id="@id/fx" flowlayout:paddingTop="@dimen/iu" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:horizontalSpacing="@dimen/iu" flowlayout:verticalSpacing="@dimen/bt" />
+            </LinearLayout>
+        </com.tencent.mm.ui.contact.LabelContainerView>
+        <LinearLayout flowlayout:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:id="@id/fy" flowlayout:background="#f7ffffff" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" flowlayout:layout_below="@id/c9k">
+            <TextView flowlayout:id="@id/fz" flowlayout:layout_width="wrap_content" flowlayout:layout_height="wrap_content" flowlayout:layout_marginTop="20dp" flowlayout:text="@string/bx0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/i3" android:background="#66181818" android:paddingRight="14dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2a01">
+        <ImageView android:id="@id/oi" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="19dp" android:src="@q$i/iyi" android:layout_centerVertical="true" />
+        <TextView android:textSize="@q$e/isR" android:textColor="@color/s2" android:id="@q$g/ivS" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:text="@string/kk" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_weight="1.0">
+            <TextView android:textSize="@q$e/isR" android:textColor="@color/s2" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+            <FrameLayout android:id="@id/ol" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+                <ImageView android:id="@id/om" android:background="#9c9a99" style="@style/d7" />
+                <ImageView android:id="@id/on" android:background="#cdcdcc" style="@style/d7" />
+                <ImageView android:id="@id/oo" android:background="@color/s2" style="@style/d7" />
+                <ImageView android:id="@id/op" android:paddingLeft="@f/bur" android:paddingTop="@f/bur" android:paddingRight="@f/bur" android:paddingBottom="@f/bur" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:src="@raw/media_player_control_btn" />
+            </FrameLayout>
+            <TextView android:textSize="@q$e/isR" android:textColor="@color/s2" android:id="@id/oq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        </LinearLayout>
+        <ImageView android:id="@q$g/ivI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:src="@q$i/iya" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/os" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="14dp" android:src="@q$i/iyh" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+    </LinearLayout>
+</LinearLayout>

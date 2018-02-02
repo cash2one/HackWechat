@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3601" android:layout_marginLeft="50dp" android:layout_marginTop="20dp" android:layout_marginRight="50dp">
+        <View android:background="#dfdfdf" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/fts_hot_article" />
+            <TextView android:textSize="@dimen/iy" android:id="@h/coH" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/d_w" />
+        </LinearLayout>
+        <View android:background="#dfdfdf" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    </LinearLayout>
+</LinearLayout>

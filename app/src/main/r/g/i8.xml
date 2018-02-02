@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/cSz" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp"
+    <RelativeLayout android:id="@h/bZp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0233">
+        <ImageView android:id="@id/o_" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@h/bZv" android:background="@g/bzv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/h1" android:textColor="@color/s2" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cSt" android:background="@g/bzw" android:paddingLeft="@dimen/h5" android:paddingTop="@dimen/h5" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/hl" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/eeb" android:maxLines="3" android:layout_alignParentBottom="true" android:lineSpacingExtra="@dimen/iz" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@h/bOQ" android:background="@g/bBi" android:paddingLeft="@dimen/h5" android:paddingTop="@dimen/h5" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@h/bZp">
+        <TextView android:textSize="@dimen/h1" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/ga" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/eeb" android:maxLines="4" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@h/ccd" android:paddingTop="@dimen/bt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/eeb" android:maxLines="15" />
+    </LinearLayout>
+    <ImageView android:orientation="vertical" android:id="@h/cDo" android:background="@g/bBq" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@f/bwQ" android:layout_alignTop="@h/bZp" android:layout_alignBottom="@h/bOQ" />
+</RelativeLayout>

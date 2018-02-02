@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.base.MMGridPaperGridView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ca1" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:listSelector="@drawable/gn" android:cacheColorHint="#00000000" android:horizontalSpacing="2dp" android:verticalSpacing="2dp" android:layout_weight="1.0" />

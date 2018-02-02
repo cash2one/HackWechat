@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bJz" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <Button android:id="@h/bIY" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

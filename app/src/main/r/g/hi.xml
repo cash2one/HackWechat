@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ListView android:id="@h/cvM" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" style="@style/l4" />
+</RelativeLayout>

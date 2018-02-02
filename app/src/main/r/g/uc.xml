@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:id="@id/kn" style="@style/gw">
+        <com.tencent.mm.ui.MMImageView android:id="@id/ko" android:layout_width="UNKNOWN_DATA_0x7f0b00bc" android:layout_height="UNKNOWN_DATA_0x7f0b00bb" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:layout_marginBottom="15dp" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="54dp">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:ellipsize="end" android:id="@id/kq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="{title}" />
+                <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@a$b/moy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="{abstract}" android:layout_below="@id/kq" />
+            </RelativeLayout>
+            <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/baw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="{status}" android:singleLine="true" style="@m/eYP" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

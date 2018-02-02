@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#33000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@h/cfH" android:background="0x0" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7" />
+    <ImageView android:id="@id/oi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@g/bCv" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/i3" android:paddingLeft="7dp" android:paddingRight="7dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_alignParentBottom="true">
+        <ImageView android:id="@h/cWi" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="match_parent" android:src="@g/bCu" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@f/bxr" android:textColor="@color/s2" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_toRightOf="@h/cWi" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cCJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@f/bxr" android:textColor="@color/s2" android:id="@id/oq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+            <ImageView android:id="@id/os" android:padding="@f/bur" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@g/bCt" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/ol" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@h/cCJ" android:layout_toRightOf="@id/ok" android:layout_centerVertical="true">
+            <ImageView android:id="@id/om" android:background="#9c9a99" style="@style/im" />
+            <ImageView android:id="@id/on" android:background="#cdcdcc" style="@style/im" />
+            <ImageView android:id="@id/oo" android:background="@color/s2" style="@style/im" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/bc8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/ok" android:layout_centerVertical="true">
+            <ImageView android:id="@id/op" android:paddingLeft="@f/bur" android:paddingTop="@f/bur" android:paddingRight="@f/bur" android:paddingBottom="@f/bur" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/media_player_control_btn" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

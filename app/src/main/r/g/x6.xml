@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@h/cmK" android:background="@color/s2" android:paddingLeft="@f/bxz" android:paddingRight="@f/bxz" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <ScrollView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cmJ" android:paddingTop="@f/bxz" android:paddingBottom="@f/bxz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+    <ScrollView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cmL" android:paddingTop="@f/bxz" android:paddingBottom="@f/bxz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView> />

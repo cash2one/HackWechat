@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">मुख्‍यपृष्‍ठ नेव्‍हिगेट करा</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">वर नेव्‍हिगेट करा</string>
+    <string name="abc_action_menu_overflow_description">अधिक पर्याय</string>
+    <string name="e">पूर्ण झाले</string>
+    <string name="f">सर्व पहा</string>
+    <string name="g">एक अ‍ॅप निवडा</string>
+    <string name="h">बंद</string>
+    <string name="i">चालू</string>
+    <string name="j">शोधा…</string>
+    <string name="k">क्‍वेरी स्‍पष्‍ट करा</string>
+    <string name="l">शोध क्वेरी</string>
+    <string name="m">शोध</string>
+    <string name="n">क्वेरी सबमिट करा</string>
+    <string name="o">व्हॉइस शोध</string>
+    <string name="p">यांच्यासह सामायिक करा</string>
+    <string name="q">संक्षिप्त करा</string>
+    <string name="r">999+</string>
+    <string name="s">%s सह सामायिक करा</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="@dimen/h5" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/alz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/hn"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/c_f" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:id="@g/gVN" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@e/gUM">
+                    <ImageView android:id="@id/cca" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" />
+                    <TextView android:textSize="@dimen/by" android:textColor="@color/ry" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@g/gVM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e82" />
+                </LinearLayout>
+                <ImageView android:background="@a$c/uaG" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009e" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" />
+            </LinearLayout>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/bhs" android:padding="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@h/cwa" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@g/bEC" />
+                    <TextView android:textSize="@dimen/gu" android:textColor="@color/m1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cwh" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dwa" />
+                </LinearLayout>
+            </ScrollView>
+            <FrameLayout android:id="@g/gVK" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:background="@color/ot" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009f" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@g/gVI" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@g/gVJ" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/i0" android:textColor="@color/ry" android:id="@id/all" android:background="@drawable/ak" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0b0140" android:text="@l/eTP" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

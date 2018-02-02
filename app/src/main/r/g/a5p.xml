@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/a9d" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/a9e" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x7f0b0142" android:layout_height="UNKNOWN_DATA_0x7f0b0142" android:layout_marginRight="@dimen/hz" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iu" android:singleLine="true" style="@style/jx" />
+            <TextView android:id="@id/a9f" android:background="0x0" android:visibility="gone" android:text="@string/nj" style="@style/su" />
+            <ImageView android:id="@g/gWw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@f/gVe" />
+        </LinearLayout>
+        <RelativeLayout android:id="@g/gWh" android:background="0x0" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b015c">
+            <TextView android:textStyle="UNKNOWN_DATA_0x0" android:ellipsize="end" android:id="@g/gWx" android:paddingLeft="@dimen/hd" android:paddingRight="@dimen/hd" android:visibility="visible" android:layout_height="wrap_content" android:maxWidth="200dp" android:text="" android:singleLine="true" android:layout_centerVertical="true" style="@style/su" />
+        </RelativeLayout>
+        <TextView android:id="0x1020010" android:paddingTop="@dimen/iu" android:paddingRight="@dimen/iu" android:paddingBottom="@dimen/iu" android:singleLine="true" style="@style/k0" />
+    </LinearLayout>
+</LinearLayout>

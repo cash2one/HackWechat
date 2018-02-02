@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@a$e/zzp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <NumberPicker android:id="@a$e/month" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1dp" android:layout_marginEnd="1dp" />
+        <NumberPicker android:id="@a$e/kCC" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1dp" android:layout_marginEnd="1dp" />
+        <NumberPicker android:id="@a$e/year" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1dp" android:layout_marginEnd="1dp" />
+    </LinearLayout>
+    <CalendarView android:id="@a$e/zzh" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xf501" android:layout_height="UNKNOWN_DATA_0x11801" android:layout_marginLeft="44dp" android:layout_weight="1.0" android:layout_marginStart="44dp" />
+</LinearLayout>

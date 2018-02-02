@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:title="@string/ayt" android:key="face_debug_switch" />
+    <PreferenceCategory />
+    <PreferenceCategory />
+    <PreferenceCategory />
+    <PreferenceCategory />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:title="@string/ayp" android:key="face_debug_save_pic_switch" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:title="@string/ayq" android:key="face_debug_save_final_switch" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:title="@string/ayr" android:key="face_debug_save_lipreading_switch" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:title="@string/ays" android:key="face_debug_save_voice_switch" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:title="@string/ayn" android:key="face_debug_force_upload_video" />
+    <Preference android:title="@string/ayl" android:key="face_debug_check_resource" android:layout="@layout/a4f" />
+    <Preference android:title="@string/aym" android:key="face_debug_clear_resource" android:layout="@layout/a4f" />
+    <PreferenceCategory />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@e/brI" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:orientation="horizontal" android:id="@h/cqu" android:background="#f5f5f5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_alignParentBottom="true">
+        <View android:id="@id/a6e" android:background="#bcbcbc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+        <TextView android:textSize="16dp" android:textColor="#aaaaaa" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/a6f" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:text="@string/a4v" android:layout_below="@id/a6e" />
+        <TextView android:textSize="16dp" android:textColor="#576b95" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cqL" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:text="@l/dOt" android:layout_toRightOf="@id/a6f" android:layout_below="@id/a6e" />
+        <TextView android:textSize="13dp" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cqG" android:background="@drawable/cw" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="12dp" android:text="@string/a51" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@h/bYR" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/dm" android:id="@h/cAr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/dOX" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:id="@h/bRf" android:background="#eeeeee" android:visibility="visible" android:layout_height="match_parent" android:transcriptMode="disabled" android:layout_above="@h/cqu" style="@style/er" />
+</RelativeLayout>

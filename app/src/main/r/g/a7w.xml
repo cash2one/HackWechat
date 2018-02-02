@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@g/bGT" android:paddingLeft="10dp" style="@style/l6">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cg4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6dp" android:src="@drawable/a3j" />
+        <TextView android:textColor="@color/s2" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cze" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:shadowColor="@color/bp" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" android:drawablePadding="3dp" style="@style/jx" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cIf" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textColor="@color/s2" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/czd" android:maxWidth="100dp" style="@style/jz" />
+    </LinearLayout>
+</RelativeLayout>

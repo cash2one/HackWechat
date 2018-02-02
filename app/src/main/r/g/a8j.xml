@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@h/cAG" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6b" style="@style/xl" />
+    <TextView android:id="@h/cBc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6t" style="@style/xl" />
+    <TextView android:id="@h/cAZ" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6p" style="@style/xl" />
+    <TextView android:id="@h/cAY" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6q" style="@style/xl" />
+    <TextView android:id="@h/cAN" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6d" style="@style/xl" />
+    <TextView android:id="@h/cAM" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6c" style="@style/xl" />
+    <TextView android:id="@h/cAU" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6l" style="@style/xl" />
+    <TextView android:id="@h/cAO" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6e" style="@style/xl" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" style="@style/o_">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/t2">
+        <TextView android:text="@string/du7" style="@style/te" />
+        <CheckedTextView android:textAppearance="@style/lo" android:textColor="0x106000c" android:ellipsize="marquee" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$f/uhJ" android:background="@drawable/g1" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkMark="@drawable/o3" android:maxHeight="48dp" android:minHeight="48dp" android:text="@a$i/uRr" />
+        <CheckedTextView android:textAppearance="@style/lo" android:textColor="0x106000c" android:ellipsize="marquee" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$f/uhK" android:background="@drawable/g1" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkMark="@drawable/o3" android:maxHeight="48dp" android:minHeight="48dp" android:text="@a$i/uRc" />
+        <TextView android:text="@string/du5" style="@style/te" />
+        <com.tencent.mm.ui.base.MaxListView android:id="@a$f/uwv" android:background="0x0" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x106000d" android:divider="#00000000" android:dividerHeight="0dp" android:choiceMode="singleChoice" />
+        <TextView android:layout_marginTop="5dp" android:text="@string/du6" style="@style/te" />
+    </LinearLayout>
+</ScrollView>

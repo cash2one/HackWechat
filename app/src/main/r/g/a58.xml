@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:orientation="horizontal" android:background="@drawable/a3o" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/cao" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7801" />
+        </HorizontalScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@h/cID" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7801" /> />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020010" android:layout_width="match_parent" android:layout_weight="1.0" style="@style/jz" />
+        <View android:background="#808080" android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_margin="5dp" />
+        <TextView android:text="@string/d0v" style="@style/jz" />
+        <View android:background="#00ff00" android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_margin="5dp" />
+        <TextView android:text="@string/d0u" style="@style/jz" />
+    </LinearLayout>
+</LinearLayout>

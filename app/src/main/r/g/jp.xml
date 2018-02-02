@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/fc">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVd" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVb" android:src="@g/bGv" style="@style/fk" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@h/bVk" android:visibility="gone" style="@style/fg" />
+        <FrameLayout android:id="@id/ad8" android:layout_width="UNKNOWN_DATA_0x7f0b0239" android:layout_height="UNKNOWN_DATA_0x7f0b0238">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/adx" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3601">
+                    <LinearLayout android:orientation="vertical" android:id="@h/bUz" android:paddingLeft="@dimen/hl" android:paddingTop="@dimen/hl" android:paddingRight="@dimen/hl" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:ellipsize="end" android:id="@h/bUA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ol" android:text="abcdefg" android:maxLines="1" />
+                        <TextView android:textSize="@dimen/j0" android:textColor="@color/j1" android:ellipsize="end" android:id="@h/bUy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ol" android:text="abcdefg" android:maxLines="1" />
+                    </LinearLayout>
+                    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bUw" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+                </FrameLayout>
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/dw" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" />
+                <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@h/bUx" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bTL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gu" android:src="@drawable/ak8" android:scaleType="fitCenter" />
+                    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/af7" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+                </FrameLayout>
+            </LinearLayout>
+            <ImageView android:id="@h/bTK" android:background="@drawable/eg" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <include style="@style/fa" layout="@layout/i3" />
+</LinearLayout>

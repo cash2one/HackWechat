@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.ui.base.MMTextureView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cDq" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@h/cIR" android:background="@color/qm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:id="@h/cIV" android:background="#99000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cIW" android:visibility="gone" android:text="@l/eHS" style="@style/pe" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cIU" android:background="@g/bEV" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.tencent.mm.plugin.scanner.ui.ScannerFlashSwitcher android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cJe" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <com.tencent.mm.plugin.scanner.ui.SelectScanModePanel android:id="@h/cIY" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@h/cIS" android:background="@color/o0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/d0z" android:layout_marginLeft="6dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp" android:text="@string/ccx" android:textScaleX="1.0" style="@style/m6" />
+            <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0" />
+            <ImageView android:id="@id/d10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginRight="6dp" android:layout_marginBottom="6dp" android:src="@drawable/a1p" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

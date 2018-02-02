@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/bw6" android:key="mail_receiver_info_name" android:layout="@layout/a4f" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/bw5" android:key="mail_receiver_info_addr" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/c_n" android:key="mail_compose_btn" android:layout="@layout/z4" />
+</PreferenceScreen>

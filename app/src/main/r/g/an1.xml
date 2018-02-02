@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@a$c/ubD" android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/si" android:visibility="visible" android:persistentDrawingCache="animation|scrolling|all" android:alwaysDrawnWithCache="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/sh" android:paddingLeft="@dimen/wa" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x1701" android:layout_height="UNKNOWN_DATA_0x1701" android:src="@raw/offline_pay_icon" android:scaleType="centerInside" />
+            <TextView android:textSize="16dp" android:textColor="@a$c/ubD" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:text="@string/c98" android:lines="1" android:layout_weight="1.0" />
+            <RelativeLayout android:id="@a$f/uzd" android:background="@drawable/sj" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x301" android:layout_height="UNKNOWN_DATA_0x9a66621" android:layout_marginLeft="27dp" android:src="@raw/offline_dots_icon" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@string/c96" />
+            </RelativeLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@a$f/uAb" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uyg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/e8t" android:includeFontPadding="false" />
+                <ImageView android:id="@a$f/uyf" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5d01" android:layout_marginTop="0dp" android:scaleType="fitXY" android:contentDescription="@string/e84" />
+                <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uAa" android:layout_width="UNKNOWN_DATA_0x8a01" android:layout_height="UNKNOWN_DATA_0x8a01" android:layout_marginTop="4dp" android:scaleType="fitXY" android:contentDescription="@string/e8r" />
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@a$f/uAl" android:background="@drawable/sd" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp">
+                    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginBottom="15dp" />
+                    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@a$f/uAk" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginRight="7dp" android:src="@raw/bankcard_tips_icon" />
+                        <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@a$f/uAn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@a$i/uXv" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@a$f/uAm" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="27dp" android:text="@string/e85" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.tencent.mm.plugin.offline.ui.OfflineAlertView android:id="@a$f/urX" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.99" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@a$f/uzb" android:background="@drawable/sg" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/wa" android:paddingRight="@dimen/wa" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701">
+            <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0xc266621" android:layout_height="UNKNOWN_DATA_0xc266621" android:src="@k/dzx" android:scaleType="centerInside" />
+            <TextView android:textSize="16dp" android:textColor="@color/s2" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:text="@a$i/uMa" />
+            <ImageView android:id="@a$f/ukh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:src="@raw/recv_or_pay_new_icon" />
+            <TextView android:textSize="15dp" android:textColor="@color/s2" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/ukj" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" android:alpha="0.7" />
+            <ImageView android:id="@a$f/uki" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x701" android:layout_height="UNKNOWN_DATA_0x701" android:layout_marginLeft="6dp" android:src="@raw/offline_reddot_icon" />
+        </LinearLayout>
+        <View android:background="#26ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@a$f/uze" android:background="@drawable/sf" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/wa" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701">
+            <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0xc266621" android:layout_height="UNKNOWN_DATA_0xc266621" android:src="@raw/offline_qr_reward_icon" android:scaleType="centerInside" />
+            <TextView android:textSize="16dp" android:textColor="@color/s2" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:text="@a$i/uMC" />
+            <ImageView android:id="@a$f/utJ" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:src="@raw/recv_or_pay_new_icon" />
+        </LinearLayout>
+        <View android:background="#26ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@a$f/uyZ" android:background="@drawable/sf" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/wa" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701">
+            <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0xc266621" android:layout_height="UNKNOWN_DATA_0xc266621" android:src="@raw/offline_entrance_activity" android:scaleType="centerInside" />
+            <TextView android:textSize="16dp" android:textColor="@color/s2" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:text="@a$i/uJG" />
+            <ImageView android:id="@a$f/ueb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:src="@raw/recv_or_pay_new_icon" />
+        </LinearLayout>
+        <View android:background="#26ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@a$f/uzc" android:background="@drawable/sf" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/wa" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701">
+            <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0xc266621" android:layout_height="UNKNOWN_DATA_0xc266621" android:src="@raw/offline_entrance_f2f_lucky" android:scaleType="centerInside" />
+            <TextView android:textSize="16dp" android:textColor="@color/s2" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:text="@a$i/uKc" />
+            <ImageView android:id="@a$f/uke" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:src="@raw/recv_or_pay_new_icon" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@a$f/uza" android:background="@drawable/se" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="#26ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/wa" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701">
+            <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0xc266621" android:layout_height="UNKNOWN_DATA_0xc266621" android:src="@raw/bank_remit_transfer" android:scaleType="centerInside" />
+            <TextView android:textSize="16dp" android:textColor="@color/s2" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:text="@a$i/uHZ" />
+            <ImageView android:id="@a$f/ufb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:src="@raw/recv_or_pay_new_icon" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" custom:orientation="vertical" custom:id="@h/cXo" custom:background="0x0" custom:layout_width="match_parent" custom:layout_height="match_parent">
+    <com.tencent.mm.plugin.voip.video.OpenGlView custom:id="@h/cXp" custom:visibility="gone" custom:layout_width="match_parent" custom:layout_height="match_parent" custom:layout_alignParentLeft="true" custom:layout_alignParentTop="true" />
+    <LinearLayout custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:orientation="horizontal" custom:id="@h/cQv" custom:visibility="visible" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginLeft="16dp" custom:layout_marginTop="30dp">
+        <ImageView custom:id="@h/cXr" custom:visibility="visible" custom:layout_width="UNKNOWN_DATA_0x5001" custom:layout_height="UNKNOWN_DATA_0x5001" />
+        <LinearLayout custom:orientation="vertical" custom:visibility="visible" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginLeft="12dp">
+            <TextView custom:textSize="30dp" custom:textColor="@color/s2" custom:ellipsize="end" custom:id="@h/cXx" custom:visibility="visible" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:singleLine="true" />
+            <LinearLayout custom:orientation="horizontal" custom:id="@id/dmp" custom:visibility="visible" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginTop="8dp">
+                <TextView custom:textSize="14dp" custom:textColor="@color/s2" custom:id="@h/cXv" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:text="@l/eUC" />
+                <TextView custom:textSize="14dp" custom:textColor="@color/s2" custom:id="@h/cXw" custom:layout_width="wrap_content" custom:layout_height="wrap_content" />
+            </LinearLayout>
+            <RelativeLayout custom:orientation="vertical" custom:id="@id/dms" custom:background="0x0" custom:layout_width="match_parent" custom:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout custom:id="@h/cIi" custom:layout_width="match_parent" custom:layout_height="match_parent">
+        <ImageButton custom:id="@h/cXt" custom:background="@drawable/s0" custom:layout_width="UNKNOWN_DATA_0x7f0b0352" custom:layout_height="UNKNOWN_DATA_0x7f0b0351" custom:layout_marginBottom="50dp" custom:layout_alignParentBottom="true" custom:layout_centerHorizontal="true" />
+        <com.tencent.mm.plugin.voip.ui.VoipBigIconButton custom:id="@h/cXs" custom:visibility="gone" custom:layout_width="UNKNOWN_DATA_0x9401" custom:layout_height="wrap_content" custom:layout_marginBottom="20dp" custom:layout_alignParentRight="true" custom:layout_alignParentBottom="true" custom:iconBackground="@drawable/ry" custom:iconBackgroundPressed="@drawable/rz" custom:iconRes="@drawable/ap6" custom:iconResPressed="@drawable/ap7" custom:iconTip="@string/dm7" />
+        <TextView custom:textSize="16dp" custom:textColor="@color/s2" custom:ellipsize="middle" custom:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@h/cRs" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginBottom="20dp" custom:singleLine="true" custom:layout_above="@h/cXt" />
+        <TextView custom:textSize="12dp" custom:textColor="@color/s2" custom:ellipsize="middle" custom:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@h/cXq" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginBottom="20dp" custom:text="@string/dmv" custom:singleLine="true" custom:layout_alignParentBottom="true" />
+        <TextView custom:textSize="12dp" custom:textColor="@color/s2" custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@h/cXu" custom:background="@g/bHH" custom:paddingLeft="10dp" custom:paddingRight="10dp" custom:visibility="gone" custom:layout_width="wrap_content" custom:layout_height="UNKNOWN_DATA_0x1e01" custom:layout_marginBottom="213dp" custom:layout_alignParentBottom="true" custom:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

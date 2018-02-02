@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/o_"
+    <LinearLayout android:orientation="vertical" android:background="@color/i5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ListView android:id="@h/cwA" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="0px" android:layout_weight="1.0" />
+            <TextView android:id="@h/cem" android:background="@color/s2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/jw" />
+            <TextView android:id="@h/ceh" android:paddingTop="40dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="49dp" style="@style/jw" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cwB" android:background="@g/bDH" android:visibility="gone" style="@style/l6">
+            <TextView android:id="@h/cwC" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="3dp" android:text="@string/c0k" android:singleLine="false" android:layout_weight="1.0" style="@style/jx" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

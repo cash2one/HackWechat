@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/nu" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout style="@style/pl">
+        <ImageView android:id="@h/coK" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:src="@raw/read_more_btn_icon" android:contentDescription="@l/dGj" />
+        <TextView android:textColor="#7a93af" android:id="@h/cRZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="{tip}" style="@style/k4" />
+    </LinearLayout>
+</LinearLayout>

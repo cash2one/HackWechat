@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:orientation="vertical" wallet:layout_width="match_parent" wallet:layout_height="match_parent" style="@style/t2">
+    <TextView wallet:textSize="@dimen/gu" wallet:textColor="@color/j1" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_marginLeft="@dimen/hc" wallet:layout_marginRight="@dimen/hc" wallet:layout_marginBottom="@f/bur" wallet:text="@string/e7a" />
+    <ListView wallet:id="@a$f/uwx" wallet:background="@color/s2" wallet:paddingLeft="@dimen/hc" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:divider="@color/ot" wallet:dividerHeight="@d/ubI" style="@style/l4" />
+</LinearLayout>

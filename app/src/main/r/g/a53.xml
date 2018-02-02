@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/j0" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd">
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020016" android:layout_width="UNKNOWN_DATA_0x7f0b00ce" android:layout_height="UNKNOWN_DATA_0x1" android:singleLine="true" android:layout_weight="1.0" style="@style/jx" />
+        <ImageView android:id="@g/gVB" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@g/gWq" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/a9e" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginTop="1dp" android:layout_marginRight="@dimen/ix" android:scaleType="centerCrop" />
+            <TextView android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020010" android:layout_width="match_parent" android:singleLine="false" style="@style/k0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

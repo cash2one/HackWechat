@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/awg" style="@style/o_"
+    <LinearLayout android:orientation="vertical" android:id="@h/cbb" android:background="@color/oe" android:paddingTop="@dimen/hc" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cbf" android:background="@color/oe" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0163" style="@style/o_">
+            <TextView android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cbg" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@l/eaG" android:layout_weight="1.0" style="@style/le" />
+        </LinearLayout>
+        <com.tencent.mm.plugin.emoji.ui.v2.PreViewListGridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cbd" android:background="@color/ls" android:paddingBottom="@dimen/hz" android:focusable="true" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/tr" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="0dp" android:choiceMode="none" />
+        <LinearLayout android:background="@color/ls" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@h/cbc" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cbe" android:background="@drawable/emoji_store_v2_single_bar" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0163" style="@style/o_">
+            <TextView android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cbh" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@l/eaF" android:layout_weight="1.0" style="@style/le" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

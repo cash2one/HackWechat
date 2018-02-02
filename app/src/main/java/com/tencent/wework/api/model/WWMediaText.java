@@ -1,0 +1,23 @@
+package com.tencent.wework.api.model;
+
+import android.os.Bundle;
+
+public class WWMediaText extends WWMediaMessage$WWMediaObject {
+    public String text;
+
+    public WWMediaText(String str) {
+        this.text = str;
+    }
+
+    public final boolean checkArgs() {
+        if (super.checkArgs() && this.text != null && this.text.length() != 0 && this.text.length() <= 10240) {
+            return true;
+        }
+        return false;
+    }
+
+    public final void toBundle(Bundle bundle) {
+        bundle.putString("_wwtextobject_text", this.text);
+        super.toBundle(bundle);
+    }
+}

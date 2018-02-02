@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:background="@color/r_" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <ScrollView wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_alignParentTop="true">
+        <LinearLayout wallet:paddingLeft="0dp" wallet:paddingTop="0dp" wallet:paddingRight="0dp" style="@style/t2">
+            <TextView wallet:id="@a$f/uyU" wallet:text="@string/e17" style="@style/te" />
+            <com.tencent.mm.ui.base.MaxListView wallet:id="@a$f/uww" wallet:background="0x0" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:listSelector="0x106000d" wallet:divider="#00000000" wallet:dividerHeight="0.5dp" />
+            <LinearLayout wallet:orientation="vertical" wallet:id="@a$f/ukJ" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_marginTop="20dp"
+                <LinearLayout style="@style/tt">
+                    <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/urM" wallet:visibility="visible" wallet:clickable="false" wallet:titleText="@string/dub" wallet:contentHint="@a$i/uQE" wallet:contentTextColor="@color/j1" wallet:contentEnabled="false" wallet:contentFocusable="false" wallet:contentClickable="false" style="@style/tu" />
+                    <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/uhs" wallet:titleText="@string/e14" wallet:contentHint="@string/e13" style="@style/t0" />
+                </LinearLayout>
+            </LinearLayout>
+            <ViewStub wallet:id="@a$f/ukK" wallet:layout="@layout/ame" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" />
+            <ViewStub wallet:id="@a$f/ukL" wallet:layout="@layout/amf" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" />
+            <Button wallet:id="@id/ak_" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_marginTop="20dp" wallet:layout_marginBottom="20dp" wallet:text="@l/dFQ" style="@style/tq" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView wallet:textSize="@dimen/gu" wallet:textColor="#1766be" wallet:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/urI" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_marginBottom="@dimen/h5" wallet:text="@string/e_1" wallet:layout_alignParentBottom="true" />
+    <include wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_alignParentBottom="true" layout="@layout/aj_" />
+</RelativeLayout>

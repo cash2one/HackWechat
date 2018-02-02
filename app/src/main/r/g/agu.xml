@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/pn" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent"
+                <LinearLayout android:orientation="vertical" android:background="@drawable/z7" android:layout_width="UNKNOWN_DATA_0x11301" android:layout_height="UNKNOWN_DATA_0x14001" android:layout_marginTop="23dp">
+                    <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@f/qBL" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" android:layout_marginTop="8dp" android:listSelector="@drawable/ajv" android:horizontalSpacing="4dp" android:verticalSpacing="1dp" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x4" />
+                    <TextView android:textSize="12dp" android:textColor="@color/po" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="50dp" android:text="@string/d9b" android:singleLine="false" android:shadowColor="@color/s2" android:shadowDx="2.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x12701" android:layout_height="UNKNOWN_DATA_0x14001" android:layout_marginTop="15dp">
+                    <ImageButton android:id="@id/dag" android:background="@drawable/cu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

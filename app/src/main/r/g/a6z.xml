@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/o_">
+    <ScrollView form:id="@h/cJf" form:scrollbars="UNKNOWN_DATA_0x0" style="@style/lx">
+        <LinearLayout form:orientation="vertical" form:paddingLeft="@dimen/h5" form:paddingTop="@dimen/h5" form:paddingRight="@dimen/h5" form:paddingBottom="@dimen/h5" form:fadingEdge="UNKNOWN_DATA_0x0" form:layout_width="match_parent" form:layout_height="wrap_content">
+            <TextView form:textSize="@dimen/i0" form:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@h/bNB" style="@style/l3" />
+            <TextView form:textSize="@dimen/h_" form:textStyle="bold" form:textColor="@color/m1" form:ellipsize="end" form:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@h/bNy" form:layout_width="wrap_content" form:layout_height="wrap_content" form:layout_marginTop="@dimen/hz" form:maxLines="2" />
+            <LinearLayout form:orientation="vertical" form:layout_width="match_parent" form:layout_height="wrap_content" form:layout_marginTop="@dimen/hz">
+                <com.tencent.mm.ui.base.MMFormInputView form:id="@id/ws" form:layout_height="wrap_content" form:minHeight="58dp" form:form_layout="@layout/a45" form:form_title="@string/pg" form:form_hint="@l/dLe" style="@style/k_" />
+                <TextView form:textSize="@dimen/gu" form:textColor="@color/so" form:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@h/cwR" form:visibility="gone" form:layout_width="wrap_content" form:layout_marginTop="@dimen/h5" form:text="@l/evt" style="@style/l3" />
+                <TextView form:textColor="#ff666666" form:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@h/cwQ" form:visibility="gone" form:layout_width="wrap_content" form:layout_marginTop="@dimen/iu" form:text="@l/evt" style="@style/l3" />
+                <Button form:id="@id/ak_" form:layout_marginTop="@f/bvx" form:text="@l/dFQ" style="@style/m4" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

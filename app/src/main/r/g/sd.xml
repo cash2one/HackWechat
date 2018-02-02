@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <ListView android:id="@h/chw" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/ajv" android:scrollingCache="false" android:divider="@e/bsl" android:dividerHeight="@dimen/el" />
+        <ViewStub android:id="@h/cev" android:layout="@layout/p5" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ViewStub android:id="@h/cek" android:layout="@layout/p6" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <include layout="@layout/rk" />
+</LinearLayout>

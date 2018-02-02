@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@a$a/rSH" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:text="result" style="@style/mf" />
+    <Button android:id="@a$a/rSQ" android:text="@string/efu" style="@style/kz" />
+    <Button android:id="@a$a/rSL" android:text="@string/efp" style="@style/kz" />
+    <Button android:id="@a$a/rSP" android:text="@string/eft" style="@style/kz" />
+    <Button android:id="@a$a/rSN" android:text="@string/efr" style="@style/kz" />
+    <Button android:id="@a$a/rSK" android:text="@string/efo" style="@style/kz" />
+    <Button android:id="@a$a/rSO" android:text="@string/efs" style="@style/kz" />
+    <Button android:id="@a$a/rSM" android:text="@string/efq" style="@style/kz" />
+    <Button android:id="@a$a/rSJ" android:text="@string/efn" style="@style/kz" />
+    <Button android:id="@a$a/rSI" android:text="@string/efm" style="@style/kz" />
+</LinearLayout>

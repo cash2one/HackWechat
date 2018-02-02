@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.AccountInfoPreference android1:title="@l/eMj" android1:key="more_tab_setting_personal_info" android1:layout="@i/dou" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android1:title="@string/d0_" android1:icon="@raw/more_my_bank_card" android1:key="settings_mm_wallet" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android1:title="@string/d08" android1:icon="@k/dzb" android1:key="settings_mm_favorite" />
+    <NormalIconPreference android1:title="@string/d0o" android1:icon="@raw/more_my_album" android1:key="settings_my_album" />
+    <NormalIconPreference android1:title="@l/eLK" android1:icon="@raw/more_my_card" android1:key="settings_mm_cardpackage" />
+    <NormalIconPreference android1:title="@string/cyq" android1:icon="@raw/find_more_emji" android1:key="settings_emoji_store" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android1:title="@l/eNt" android1:icon="@raw/more_setting" android1:key="more_setting" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android1:title="@string/dhn" android1:icon="@raw/more_ui_show" android1:key="more_uishow" />
+    <PreferenceCategory />
+    --&gt;
+</PreferenceScreen>

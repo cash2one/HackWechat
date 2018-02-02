@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@h/bYM" android:background="@e/brl" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+    <TextView android:textSize="15dp" android:textColor="@color/ai" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cJR" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@f/bvG" />
+    <android.support.v7.widget.RecyclerView android:id="@h/coE" android:background="@e/brl" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/se" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bJU" android:background="@color/ir" android:paddingLeft="@dimen/iu" android:paddingTop="@dimen/iz" android:paddingRight="@dimen/iu" android:paddingBottom="@dimen/iz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@h/cxj" android:background="#cc000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0163" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@h/cSL" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0b0163" android:src="@drawable/me" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@h/cgh" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0b0163" android:src="@drawable/mb" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/ai6" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0b0163" android:src="@drawable/mc" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@h/cIE" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0b0163" android:src="@drawable/md" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

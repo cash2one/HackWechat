@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/f9" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009f" />
+    <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bSE" android:background="0x0" android:paddingTop="1dp" android:paddingBottom="1dp" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@f/buJ" android:layout_marginRight="@f/buJ" android:cacheColorHint="#00000000" android:numColumns="UNKNOWN_DATA_0x4" android:divider="0x0" android:dividerHeight="0px" />
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/f9" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009f" />
+</LinearLayout>

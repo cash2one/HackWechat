@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android1:persistent="true" android1:summary="@string/cxl" android1:title="@l/eKR" android1:key="settings_active_silence_time" />
+    <CheckBoxPreference android1:persistent="true" android1:summary="@string/cxl" android1:title="@string/cxk" android1:key="settings_active_time_full" />
+    <Preference android1:title="@string/cxh" android1:key="settings_active_begin_time" android1:layout="@layout/a4f" />
+    <Preference android1:title="@string/cxi" android1:key="settings_active_end_time" android1:layout="@layout/a4f" />
+</PreferenceScreen>

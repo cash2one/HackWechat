@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/j3" android:background="@color/ow" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@f/qCH" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" />
+    <LinearLayout android:orientation="horizontal" android:id="@f/qCK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <TextView android:textSize="20dp" android:textColor="@color/oy" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@f/qFz" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4901" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:text="Landscape" android:shadowColor="#000000" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.5" />
+        <TextView android:textSize="16dp" android:textColor="@color/oy" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@f/qFA" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:text="Landscape" android:shadowColor="#000000" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.5" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp">
+            <ImageView android:id="@f/qCs" android:layout_width="UNKNOWN_DATA_0x9201" android:layout_height="UNKNOWN_DATA_0x9201" android:scaleType="fitXY" />
+            <ImageView android:id="@f/qCt" android:layout_width="UNKNOWN_DATA_0x9201" android:layout_height="UNKNOWN_DATA_0x9201" android:layout_marginLeft="5dp" android:scaleType="fitXY" />
+            <ImageView android:id="@f/qCu" android:layout_width="UNKNOWN_DATA_0x9201" android:layout_height="UNKNOWN_DATA_0x9201" android:layout_marginLeft="5dp" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

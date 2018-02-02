@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" style="@style/jg">
+        <ImageView android:src="@drawable/a0a" style="@style/i3" />
+        <TextView android:text="即将连接Wi-Fi" style="@style/i5" />
+        <TextView android:id="@h/cjC" android:text="本Wi-Fi由星巴克提供" style="@style/i4" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="0dp">
+        <Button android:textSize="14dp" android:textColor="#02ba00" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cjD" android:background="@drawable/hs" android:layout_width="UNKNOWN_DATA_0x8801" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginBottom="60dp" android:minHeight="@f/bvG" android:text="确认" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/l0">
+            <TextView android:text="@string/ba1" style="@style/ih" />
+            <Button android:id="@h/cjE" android:layout_height="UNKNOWN_DATA_0x1401" android:text="@string/ba4" style="@style/ig" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_marginTop="0dp" style="@style/l0">
+        <TextView android:textSize="10dp" android:text="@string/ba3" style="@style/ih" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="28dp" /> />

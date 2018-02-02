@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bp" style="@style/o_">
+    <com.tencent.mm.ui.base.MMGallery android:id="@h/cku" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="0dp" android:unselectedAlpha="1.2" />
+    <com.tencent.mm.ui.tools.MMGestureGallery android:id="@id/a3p" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="0dp" android:unselectedAlpha="1.2" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:orientation="vertical" wallet:background="@color/s2" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <ScrollView wallet:scrollbars="UNKNOWN_DATA_0x0" wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x1" wallet:fillViewport="true" wallet:layout_weight="1.0" wallet:overScrollMode="never">
+        <LinearLayout wallet:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="vertical" wallet:paddingLeft="60dp" wallet:paddingRight="60dp" wallet:focusable="true" wallet:focusableInTouchMode="true" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+            <TextView wallet:textSize="20dp" wallet:textColor="@color/m1" wallet:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/uAK" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginTop="85dp" wallet:text="" />
+            <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView wallet:id="@a$f/uAJ" wallet:focusable="true" wallet:focusableInTouchMode="true" wallet:layout_height="wrap_content" wallet:layout_marginTop="90dp" wallet:format="8" wallet:EditTextBg="@drawable/aex" wallet:PwdEncryptType="3" style="@style/na" />
+        </LinearLayout>
+    </ScrollView>
+    <include wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_alignParentBottom="true" layout="@layout/aj_" />
+</LinearLayout>

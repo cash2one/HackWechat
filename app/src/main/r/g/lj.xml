@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/bXi" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/i0" android:textColor="@e/bsF" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXh" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3801" />
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" flowlayout:orientation="vertical" flowlayout:id="@f/qEC" flowlayout:background="@color/oe" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent">
+    <com.tencent.mm.ui.base.AnimatedExpandableListView flowlayout:id="@f/qEB" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" flowlayout:listSelector="@color/qm" flowlayout:cacheColorHint="@color/qm" flowlayout:groupIndicator="0x0" flowlayout:divider="0x0" />
+</LinearLayout>

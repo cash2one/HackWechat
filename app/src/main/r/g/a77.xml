@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@a$e/zzm" android:background="@a$d/zzd" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@a$c/zyY"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@q$e/isW" android:textColor="@color/m1" android:id="@id/awy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@q$e/isV" />
+            <TextView android:textSize="@dimen/ms" android:textColor="@a$b/zyM" android:id="@id/cdk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@q$e/isV" android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <CheckBox android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$e/zzl" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="@q$e/isV" style="@style/jm" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hb" android:layout_marginLeft="@q$e/isV" style="@style/g8" />
+</LinearLayout>

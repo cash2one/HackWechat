@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/hg">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/en" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/h9"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@h/cgJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ei">
+                    <ImageView android:id="@h/cgI" style="@style/h8" />
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cgO" android:visibility="gone" android:src="@drawable/zy" android:contentDescription="@l/dDN" style="@style/he" />
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cgN" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aa6" android:contentDescription="@l/dDN" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@h/chp" android:text="{title}" style="@style/hc" />
+                    <TextView android:id="@h/cgv" android:layout_marginTop="3dp" android:text="{desc}" style="@style/hd" />
+                    <TextView android:id="@h/chq" android:layout_marginTop="3dp" android:text="{title}" style="@style/hc" />
+                    <TextView android:id="@h/cgw" android:layout_marginTop="3dp" android:text="{desc}" style="@style/hd" />
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/rt" />
+            <include layout="@layout/rs" />
+        </LinearLayout>
+        <include layout="@layout/rr" />
+    </LinearLayout>
+</FrameLayout>

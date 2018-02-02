@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@h/bMF" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="18dp" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bMI" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginRight="8dp" />
+        <ImageView android:id="@h/bMG" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginTop="2dp" android:src="@drawable/o5" android:contentDescription="@string/cqi" />
+    </LinearLayout>
+    <com.tencent.mm.plugin.scanner.ui.HighlightRectSideView android:id="@h/bMH" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="@dimen/gu" android:textColor="#a5a5a5" android:id="@id/d0q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/cqm" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/h5" android:paddingRight="@dimen/hz" android:paddingBottom="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@id/am4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h5">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXn" android:layout_width="UNKNOWN_DATA_0x7f0b0061" android:layout_height="UNKNOWN_DATA_0x7f0b0061" android:src="@g/bzZ" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <View android:id="@h/bXo" android:background="@drawable/c5" android:layout_width="UNKNOWN_DATA_0x7f0b0061" android:layout_height="UNKNOWN_DATA_0x7f0b0061" android:layout_centerInParent="true" android:contentDescription="@l/bLI" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/am4" android:layout_alignTop="@id/am4" android:layout_alignBottom="@id/am4"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/by" android:textColor="@color/m1" android:ellipsize="end" android:id="@h/bXK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nick_name}" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@h/bYb" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{user_name}" />
+    </LinearLayout>
+    <ImageView android:id="@h/bNQ" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/star_mark" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

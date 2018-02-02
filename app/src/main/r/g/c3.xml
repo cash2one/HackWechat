@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/o1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/g_" android:layout_width="UNKNOWN_DATA_0x1c01" android:layout_height="UNKNOWN_DATA_0x1c01" android:scaleType="fitCenter" />
+        <TextView android:textSize="12sp" android:id="@id/cl" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:id="@q$g/ivi" android:layout_marginLeft="-10dp" android:layout_alignTop="@id/o1" android:layout_toEndOf="@id/o1" style="@style/su" />
+    <ImageView android:id="@q$g/iwr" android:layout_marginLeft="-3dp" android:layout_marginTop="1dp" android:layout_alignTop="@id/o1" android:layout_toEndOf="@id/o1" style="@style/sv" />
+    <View android:id="@id/o4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" android:layout_alignParentBottom="true" android:layout_alignStart="@id/o1" android:layout_alignEnd="@id/o1" />
+</RelativeLayout>

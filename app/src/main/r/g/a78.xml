@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/i0" android:textColor="@color/cz" android:id="@id/aji" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cu" android:minHeight="48dp" android:text="@a$i/uIc" android:layout_alignParentLeft="true" />
+        <Button android:textSize="@dimen/i0" android:textColor="@color/ie" android:id="@id/aqp" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cu" android:minHeight="48dp" android:text="@string/a25" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" style="@style/g8" />
+    <LinearLayout android:orientation="vertical" android:id="@a$e/zzj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/m1" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$e/zzk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@q$e/isV" android:minHeight="@a$c/zyY" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hb" style="@style/g8" />
+    </LinearLayout>
+    <ListView android:id="@a$e/zzn" android:background="@color/qm" android:layout_height="wrap_content" style="@style/l4" />
+</LinearLayout>

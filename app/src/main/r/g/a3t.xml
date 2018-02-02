@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/i3" android:background="@a$d/zzd" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@a$c/zyY">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/g_" android:layout_width="UNKNOWN_DATA_0x7f0b01f4" android:layout_height="UNKNOWN_DATA_0x7f0b01f4" android:layout_marginLeft="@q$e/isV" android:scaleType="fitCenter" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@q$e/isW" android:textColor="@color/m1" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@q$e/isV" />
+            <TextView android:textSize="@dimen/ms" android:textColor="@a$b/zyM" android:id="@id/a9h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@q$e/isV" android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="0dp" android:id="@id/gr" android:background="@drawable/o3" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@q$e/isV" android:button="0x0" android:text="" android:drawablePadding="0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hb" android:layout_marginLeft="@q$e/isV" style="@style/g8" />
+</LinearLayout>

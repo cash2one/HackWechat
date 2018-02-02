@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2c01">
+        <TextView android:textSize="@dimen/i0" android:textColor="#808080" android:id="@id/aji" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/i0" android:textColor="#45c01a" android:id="@a$f/uiY" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="#d9d9d9" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:text="" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <com.tencent.mm.plugin.collect.ui.CollectRadioBtnView android:id="@id/ajk" android:focusable="true" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.tencent.mm.plugin.collect.ui.CollectRadioBtnView android:id="@id/ajl" android:focusable="true" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.tencent.mm.plugin.collect.ui.CollectRadioBtnView android:id="@id/ajm" android:focusable="true" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:text="" />
+    <com.tencent.mm.ui.widget.MMSpinnerDatePicker android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/ujc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6901" android:layout_marginTop="10dp" android:layout_marginBottom="20dp" android:calendarViewShown="false" android:datePickerMode="spinner" />
+</LinearLayout>

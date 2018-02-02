@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Przejdź do strony głównej</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Przejdź wyżej</string>
+    <string name="abc_action_menu_overflow_description">Więcej opcji</string>
+    <string name="e">Gotowe</string>
+    <string name="f">Zobacz wszystkie</string>
+    <string name="g">Wybierz aplikację</string>
+    <string name="h">WYŁ.</string>
+    <string name="i">WŁ.</string>
+    <string name="j">Szukaj…</string>
+    <string name="k">Wyczyść zapytanie</string>
+    <string name="l">Wyszukiwane hasło</string>
+    <string name="m">Szukaj</string>
+    <string name="n">Wyślij zapytanie</string>
+    <string name="o">Wyszukiwanie głosowe</string>
+    <string name="p">Udostępnij dla</string>
+    <string name="q">Zwiń</string>
+    <string name="r">999+</string>
+    <string name="s">Udostępnij dla %s</string>
+    <string name="e0">sound/after_upload_voice.mp3</string>
+    <string name="a8l">https://weixin.qq.com/cgi-bin/readtemplate?lang=%s&amp;t=weixin_howToAdjustGroupNum&amp;pf=android</string>
+    <string name="a8m">https://weixin.qq.com/cgi-bin/readtemplate?lang=%s&amp;t=weixin_groupOwnerResponsibility</string>
+    <string name="aqp">https://weixin.qq.com/cgi-bin/readtemplate?t=emotion/wap/complain/msg_tmpl&amp;lang=</string>
+    <string name="ard">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_emoji_agreement&amp;lang=</string>
+    <string name="b_d">file:///android_asset/doc/default/wx_wifi_faq.html</string>
+    <string name="b_x">file:///android_asset/doc/default/wx_wifi_service_terms_chs.html</string>
+    <string name="baf">https://search.weixin.qq.com/cgi-bin/h5/emoticon/tousu.html?lang=</string>
+    <string name="bs5">https://support.weixin.qq.com/getpassword?lang=</string>
+    <string name="bs6">https://support.weixin.qq.com/security/readtemplate?t=page/login_optimized__w_index&amp;lang=</string>
+    <string name="bt4">sound/cashrecivedrevised.mp3</string>
+    <string name="c05">file:///android_asset/doc/default/mig_wifi_service_terms_chs.html</string>
+    <string name="c4y">file:///android_asset/doc/en/network_warning.htm</string>
+    <string name="c8v">file:///android_asset/doc/default/oauth_network_error.html</string>
+    <string name="c_k">sound/play_completed.mp3</string>
+    <string name="ccm">sound/qrcode_completed.mp3</string>
+    <string name="d6d">sound/shake_match.mp3</string>
+    <string name="d6l">sound/shake_nomatch.mp3</string>
+    <string name="d76">sound/shake_sound_male.mp3</string>
+    <string name="dfw">sound/talkroom_begin.mp3</string>
+    <string name="dfz">sound/talkroom_othersbegin.mp3</string>
+    <string name="dg0">sound/talkroom_press.mp3</string>
+    <string name="dg2">sound/talkroom_sasasa.mp3</string>
+    <string name="dg3">sound/talkroom_up.mp3</string>
+    <string name="dgp">sound/time_limit.mp3</string>
+    <string name="dix">http://weixin.qq.com/agreement?lang=en</string>
+    <string name="diy">https://account.qq.com/cgi-bin/en/index</string>
+    <string name="diz">https://weixin.qq.com/cgi-bin/readtemplate?lang=en_US&amp;check=false&amp;t=weixin_agreement&amp;s=terms</string>
+    <string name="dj0">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_small_pay</string>
+    <string name="dj1">https://action.weixin.qq.com/payact/readtemplate?t=mobile/shuaka/help_tmpl</string>
+    <string name="dj2">https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/payment_security__intro_new_editon</string>
+    <string name="dpg">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_bank&amp;lang=%s&amp;banktype=%s</string>
+    <string name="dph">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_pay&amp;lang=%s</string>
+    <string name="dpi">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_bank_wxcredit&amp;lang=%s&amp;banktype=%s</string>
+    <string name="dpj">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_person_pay&amp;lang=%s&amp;banktype=%s</string>
+    <string name="dpk">https://weixin.qq.com/cgi-bin/readtemplate?&amp;lang=en&amp;check=false&amp;t=weixin_agreement&amp;s=pay#point</string>
+    <string name="dw3">https://kf.qq.com/touch/sappfaq/1603017bqMvA1603013eamiI.html</string>
+    <string name="eb4">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf338&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="eb5">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf348&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="eb6">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf136&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="eb7">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf350&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="ebb">https://weixin110.qq.com/?lang=</string>
+</resources>

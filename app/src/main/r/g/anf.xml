@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" style="@style/lm">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/a0w" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="23dp" android:text="" />
+            <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="26dp" android:textColor="@color/m1" android:id="@a$f/uku" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:text="" />
+                <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="43dp" android:textColor="@color/m1" android:id="@a$f/fpO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@a$f/uku" />
+            </RelativeLayout>
+            <View android:background="@a$c/uaK" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009f" android:layout_marginLeft="@dimen/w9" android:layout_marginTop="43dp" android:layout_marginRight="@dimen/w9" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@a$f/ujd" android:paddingLeft="@dimen/w9" android:paddingTop="16dp" android:paddingRight="@dimen/w9" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/it" android:layout_weight="1.0" style="@style/kd"
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/i0" android:ellipsize="end" android:id="@a$f/ujf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1" android:maxEms="20" android:singleLine="false" style="@style/jx" />
+                    <TextView android:textSize="13dp" android:textColor="@color/ly" android:ellipsize="end" android:id="@a$f/uje" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="" android:maxLines="1" android:maxEms="20" android:singleLine="false" />
+                </LinearLayout>
+                <com.tencent.mm.ui.widget.MMSwitchBtn android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gp" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0170" android:layout_height="match_parent" android:layout_marginRight="@dimen/hq" />
+            </LinearLayout>
+            <View android:background="@a$c/uaK" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009f" android:layout_marginLeft="@dimen/w9" android:layout_marginRight="@dimen/w9" />
+        </LinearLayout>
+        <com.tencent.mm.ui.ListViewInScrollView android:id="0x102000a" android:background="@color/s2" android:paddingTop="4dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/h5" android:layout_below="@id/a0w" android:overScrollMode="never" style="@style/l4" />
+        <LinearLayout android:orientation="horizontal" android:id="@a$f/usV" android:background="@color/s2" android:paddingLeft="@dimen/w9" android:paddingTop="@dimen/h5" android:paddingRight="@dimen/w9" android:paddingBottom="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="0x102000a">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e2v" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h8">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/jp" android:ellipsize="end" android:id="@a$f/ujg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1" />
+                <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@a$f/ueW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hd" android:text="" android:maxLines="2" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/dxh" android:paddingBottom="@dimen/c2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c2" android:layout_below="@a$f/usV">
+            <Button android:id="@id/ak_" android:layout_width="match_parent" android:layout_marginTop="29dp" style="@style/tq" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@a$f/ufN" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/jb" android:layout_marginTop="@dimen/hl" android:layout_marginRight="@dimen/jb" android:text="" android:layout_below="@id/ak_" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/jp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ca4" android:paddingBottom="@dimen/h5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_below="@id/dxh" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

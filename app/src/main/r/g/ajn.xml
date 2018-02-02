@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@e/bso" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@h/cVa" android:background="0x0" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" />
+    <LinearLayout android:orientation="horizontal" android:id="@h/cSm" android:clickable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b029b" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/c22" android:background="0x0" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x7f0b029b" android:src="@drawable/a7" android:contentDescription="@string/en" />
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cSo" android:background="#99e1e1e1" android:layout_width="UNKNOWN_DATA_0x200" android:layout_height="UNKNOWN_DATA_0x1601" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/kq" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_marginLeft="14dp" android:text="@string/efg" android:layout_alignParentLeft="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@h/ckr" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

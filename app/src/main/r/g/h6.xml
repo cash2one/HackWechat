@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@h/cZG" layout="@layout/h_" />
+    <View android:id="@h/bPN" android:background="@drawable/g5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="@dimen/c2" android:layout_marginRight="@dimen/c2" android:layout_marginBottom="0dp" android:layout_alignBottom="@h/cZG" android:layerType="software" />
+</RelativeLayout>

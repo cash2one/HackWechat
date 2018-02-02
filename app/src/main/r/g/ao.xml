@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.NoDrawingCacheLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@h/bYz" android:paddingLeft="@dimen/c2" android:paddingRight="@f/bun" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/l5" />
+    <LinearLayout android:orientation="horizontal" android:background="@f/gUX" android:paddingLeft="@dimen/c2" android:paddingRight="@f/bun" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@h/bYD" android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b008a">
+            <TextView android:id="@h/bYE" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="signature" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/g3" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/a2" android:id="@h/bYw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" android:text="@string/c_" android:layout_toLeftOf="@h/bYE" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <com.tencent.mm.ui.AddressView android:id="@h/cyz" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@h/bYw" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.tencent.mm.ui.NoDrawingCacheLinearLayout>

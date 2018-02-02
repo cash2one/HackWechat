@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/fc">
+    <include android:id="@id/ab1" android:layout_alignParentLeft="true" layout="@layout/i1" style="@style/f_" />
+    <TextView android:id="@h/bVk" android:visibility="gone" android:layout_toRightOf="@id/ab1" android:layout_alignTop="@id/ab1" style="@style/fg" />
+    <TextView android:id="@h/bVp" android:visibility="gone" android:layout_toRightOf="@id/ab1" android:layout_below="@h/bVk" android:layout_alignLeft="@h/bVk" style="@style/fe" />
+    <com.tencent.mm.ui.base.AnimImageView android:orientation="horizontal" android:id="@h/bVq" android:background="@g/bAR" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="wrap_content" android:minHeight="@dimen/ci" android:layout_toRightOf="@id/ab1" android:layout_below="@h/bVp" android:layout_alignLeft="@h/bVk" />
+    <FrameLayout android:id="@id/aff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ab1" android:layout_below="@h/bVq" android:layout_alignLeft="@h/bVk"
+        <FrameLayout android:id="@h/bVs" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@h/bVr" android:background="@g/bAR" android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="@dimen/ci" android:drawableLeft="@k/dxq" />
+            <com.tencent.mm.ui.base.AnimImageView android:id="@h/bVo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="@dimen/ci" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.tencent.mm.ui.chatting.DoubleClickRelativeLayout android:orientation="vertical" android:id="@h/bVv" android:background="@drawable/f8" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="@dimen/hd" android:minHeight="@dimen/ci" android:layout_toRightOf="@id/ab1" android:layout_below="@id/aff" android:layout_alignLeft="@h/bVk">
+        <ProgressBar android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bVx" android:padding="@dimen/hl" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/xu" />
+        <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@h/bVw" android:paddingLeft="@dimen/hl" android:paddingTop="8dp" android:paddingRight="@dimen/hl" android:paddingBottom="4dp" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:lineSpacingExtra="2dp" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/bVu" android:paddingBottom="8dp" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@h/bVw" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/afn" android:paddingLeft="@dimen/hl" android:paddingRight="@dimen/hd" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rp" />
+            <TextView android:textSize="11dp" android:textColor="@e/bta" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlv" android:includeFontPadding="false" />
+        </LinearLayout>
+    </com.tencent.mm.ui.chatting.DoubleClickRelativeLayout>
+    <TextView android:id="@h/bTH" android:layout_toRightOf="@id/aff" android:layout_alignTop="@id/aff" style="@style/fq" />
+    <ImageView android:id="@h/bVb" android:background="0x0" android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0xa01" android:src="@f/gVe" android:layout_toRightOf="@h/bTH" android:layout_alignTop="@h/bTH" android:layout_alignBottom="@h/bTH" />
+    <TextView android:id="@h/bSZ" android:background="@drawable/b_" android:visibility="gone" android:layout_marginRight="5dp" android:text="@string/a91" android:layout_below="@id/aff" android:layout_alignRight="@id/aff" style="@style/f8" />
+</RelativeLayout>

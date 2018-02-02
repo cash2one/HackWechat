@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/iu" android:insetRight="@dimen/iu">
+    <shape>
+        <solid android:color="@a$c/uaK" />
+    </shape>
+</inset>

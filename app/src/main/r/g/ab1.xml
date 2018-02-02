@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <RelativeLayout android:orientation="vertical" android:id="@a$f/uuW" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/ry" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uuV" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@a$i/uVO" android:layout_centerVertical="true" />
+            <View android:id="@a$f/uuX" android:background="@color/s0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@a$f/uva" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/i0" android:textColor="@a$c/ubH" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uuZ" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@a$i/uVP" android:layout_centerVertical="true" />
+            <View android:id="@a$f/uvb" android:background="@color/s0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/ot" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009e" />
+    <RelativeLayout android:id="@a$f/uvk" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x19001">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:id="@a$f/uuU" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e4o" android:layout_centerInParent="true" />
+        <com.tencent.mm.ui.ListViewInScrollView android:id="@a$f/uuY" android:background="0x0" android:focusable="true" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/qc" android:transcriptMode="disabled" android:cacheColorHint="0x106000d" android:divider="@color/ot" android:dividerHeight="@d/ubI" android:headerDividersEnabled="true" style="@style/o_" />
+        <com.tencent.mm.ui.ListViewInScrollView android:id="@a$f/uvc" android:background="0x0" android:focusable="true" android:visibility="gone" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/qc" android:transcriptMode="disabled" android:cacheColorHint="0x106000d" android:divider="@color/ot" android:dividerHeight="@d/ubI" android:headerDividersEnabled="true" style="@style/o_" />
+    </RelativeLayout>
+</LinearLayout>

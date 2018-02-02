@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/dz0" android:background="@color/s2" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16dp" android:textColor="@color/cd" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uAe" android:background="@drawable/qw" android:padding="16dp" android:focusable="true" android:clickable="true" android:text="@string/en" style="@style/m2" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8" android:layout_marginBottom="@dimen/h8">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:src="@drawable/aqn" android:layout_alignParentLeft="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="90dp" android:layout_marginTop="30dp" android:layout_marginRight="30dp">
+            <TextView android:textSize="20dp" android:textColor="@color/bp" android:id="@id/bhv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e66" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@id/a9h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz" android:text="@string/e64" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/so" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/ujz" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c2" android:text="@string/e5z" android:drawableRight="@i$e/qzG" android:drawablePadding="@dimen/hd" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/bcp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cxL" android:layout_width="UNKNOWN_DATA_0x17701" android:layout_height="UNKNOWN_DATA_0x6801" android:scaleType="fitXY" />
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@f/bvg" android:layout_marginRight="140dp">
+        <TextView android:textSize="@dimen/gr" android:textStyle="bold" android:textColor="@color/hq" android:id="@h/cxK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/gr" android:textStyle="bold" android:textColor="@color/hq" android:ellipsize="end" android:id="@h/cxM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g9" android:singleLine="true" android:layout_toRightOf="@h/cxK" />
+        <com.tencent.mm.plugin.game.widget.EllipsizingTextView android:textSize="@dimen/gr" android:textColor="@e/bsy" android:id="@h/cxJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g9" android:layout_below="@h/cxK" />
+    </RelativeLayout>
+</FrameLayout>

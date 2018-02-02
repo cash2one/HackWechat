@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/f7"
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@h/cub" app:background="@g/bBt" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content">
+        <com.tencent.mm.ui.widget.MMTextView app:id="@h/ctZ" app:layout_marginLeft="5dp" app:maxWidth="180dp" app:minHeight="@dimen/ci" style="@style/fm" />
+        <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/ad5" app:layout_width="UNKNOWN_DATA_0x1901" app:layout_height="UNKNOWN_DATA_0x1901" app:layout_marginLeft="5dp" app:src="@raw/location_share_icon" />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:id="@h/bTs" app:layout_width="wrap_content" app:layout_height="wrap_content"
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1e01" app:layout_height="match_parent" app:layout_marginBottom="@dimen/hz">
+            <ImageView app:id="@h/bTm" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="5dp" app:layout_marginRight="1dp" app:src="@drawable/p4" />
+            <ImageView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bVd" app:paddingRight="@dimen/iu" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="match_parent" app:src="@raw/chatting_status_tick" />
+            <ImageView app:id="@h/bVb" app:layout_centerVertical="true" style="@style/fk" />
+            <ProgressBar app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cTZ" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/xu" />
+        </LinearLayout>
+        <LinearLayout app:orientation="horizontal" app:id="@h/bKD" app:layout_width="wrap_content" app:layout_height="wrap_content"
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageView app:id="@h/bVe" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/hl" app:src="@drawable/n4" />
+                <ImageView app:id="@h/bTM" app:background="@g/bGv" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/hl" />
+            </LinearLayout>
+            <FrameLayout app:id="@id/ad8" app:layout_width="UNKNOWN_DATA_0x7f0b023c" app:layout_height="wrap_content">
+                <LinearLayout app:orientation="vertical" app:background="@drawable/fj" app:layout_width="match_parent" app:layout_height="wrap_content"
+                    <LinearLayout app:orientation="vertical" app:id="@h/bSS" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/fp"
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:paddingLeft="@dimen/hl" app:paddingRight="@dimen/hl" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/hl" app:layout_marginRight="5dp">
+                            <ImageView app:id="@h/bSW" app:layout_width="UNKNOWN_DATA_0x1401" app:layout_height="UNKNOWN_DATA_0x1401" app:layout_marginRight="5dp" app:scaleType="centerCrop" />
+                            <com.tencent.mm.ui.widget.MMTextView app:textSize="12dp" app:textColor="@color/ly" app:id="@h/bSY" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <com.tencent.mm.ui.widget.MMTextView app:textSize="@dimen/i0" app:textColor="@color/bp" app:ellipsize="end" app:id="@h/bSV" app:paddingLeft="@dimen/hl" app:paddingRight="@dimen/hl" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/iu" app:layout_marginRight="5dp" app:maxLines="2" />
+                        <com.tencent.mm.ui.widget.MMTextView app:textSize="@dimen/j0" app:textColor="@color/ly" app:ellipsize="end" app:id="@h/bSU" app:paddingLeft="@dimen/hl" app:paddingTop="@dimen/hl" app:paddingRight="@dimen/hl" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginRight="5dp" app:maxLines="2" />
+                        <FrameLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bZw" app:paddingLeft="0dp" app:paddingRight="0dp" app:layout_width="UNKNOWN_DATA_0x7f0b0236" app:layout_height="UNKNOWN_DATA_0x7f0b0235" app:layout_marginLeft="10dp" app:layout_marginTop="10dp" app:layout_marginRight="15dp" app:scaleType="centerCrop">
+                            <com.tencent.mm.ui.widget.ThreeDotsLoadingView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/mu" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="0dp" />
+                            <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/ael" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@raw/app_brand_share_page_cover_default" app:scaleType="centerInside" />
+                        </FrameLayout>
+                        <LinearLayout app:orientation="vertical" app:id="@id/adf" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1401" app:layout_marginLeft="0dp" app:layout_marginTop="@dimen/hz" app:layout_marginRight="5dp">
+                            <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="@color/dw" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x200" />
+                            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:background="@drawable/f2" app:paddingLeft="@dimen/hl" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1401">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0xa01" app:layout_height="UNKNOWN_DATA_0xa01" app:layout_marginRight="3dp" app:src="@raw/app_brand_we_app_logo_share" app:scaleType="centerCrop" />
+                                <com.tencent.mm.ui.widget.MMTextView app:textSize="10dp" app:id="@h/bSX" app:paddingRight="@dimen/hl" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="0dp" app:layout_marginTop="0dp" app:text="@string/ft" style="@style/f8" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView app:id="@h/bTK" app:background="@drawable/eg" app:layout_width="match_parent" app:layout_height="match_parent" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/i3" />
+</LinearLayout>

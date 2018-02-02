@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <FrameLayout android:id="@h/cFz" android:paddingTop="8dp" android:minHeight="120dp" style="@style/oj">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cFA" android:background="@drawable/nj" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7001" android:scaleType="fitXY" />
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cFB" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="#a0000000" android:padding="5dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4001" android:singleLine="true">
+            <ImageView android:id="@h/cFD" android:padding="2dp" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3601" android:layout_height="UNKNOWN_DATA_0x3601" />
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cFE" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/i0" android:textStyle="bold" android:textColor="@color/s2" android:id="@h/cFG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="14dp" android:textColor="@color/s2" android:id="@h/cFF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/jz" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

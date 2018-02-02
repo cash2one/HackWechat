@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/rh" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/by" android:textColor="@color/bp" android:id="@id/dm4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="160dp" android:text="@string/dl_" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@f/buu" android:textColor="@color/cd" android:id="@h/cHb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80dp" android:text="@string/on" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

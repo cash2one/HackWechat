@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/bQj" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6f01">
+    <LinearLayout android:orientation="vertical" android:id="@h/bSp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@h/bQY" android:layout_width="UNKNOWN_DATA_0x7f0b0212" android:layout_height="UNKNOWN_DATA_0x7f0b0212" android:layout_marginLeft="@dimen/hl" android:src="@g/bDT" android:scaleType="fitCenter" />
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/bt" android:layout_weight="1.0"
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ix">
+                    <TextView android:textSize="@dimen/iy" android:textColor="@e/brJ" android:ellipsize="end" android:id="@h/bPP" android:singleLine="true" style="@style/eo" />
+                    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bRq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:src="@drawable/acw" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ix">
+                    <TextView android:textSize="@f/buL" android:textColor="@e/brJ" android:ellipsize="end" android:id="@h/bRx" android:singleLine="true" style="@style/eo" />
+                    <TextView android:textSize="@dimen/iy" android:textColor="@e/bsF" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bQk" android:visibility="gone" android:layout_marginLeft="@dimen/bt" android:singleLine="true" style="@style/eo" />
+                    <TextView android:textSize="@dimen/j8" android:textColor="@e/bsF" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bSc" android:background="#eaeaea" android:paddingLeft="@dimen/hl" android:paddingTop="@dimen/ix" android:paddingRight="@dimen/hl" android:paddingBottom="@dimen/ix" android:visibility="gone" android:layout_marginLeft="@dimen/bt" android:singleLine="true" style="@style/eo" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/iy" android:textColor="@e/bsF" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/zf" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="70dp" android:layout_marginTop="@dimen/hd" android:layout_marginRight="@dimen/bt" android:singleLine="true" style="@style/ep" />
+    </LinearLayout>
+    <TextView android:textSize="@f/buL" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bRy" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/h5" android:maxLines="2" android:layout_centerInParent="true" style="@style/eo" />
+    <ImageView android:id="@id/zh" android:background="@drawable/tr" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6f01" />
+    <View android:background="@drawable/g5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" android:layout_alignParentBottom="true" android:layerType="software" />
+</RelativeLayout>

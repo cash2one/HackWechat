@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" style="@style/o_">
+        <ImageView android:id="@h/bMi" android:layout_width="UNKNOWN_DATA_0xa001" android:layout_height="UNKNOWN_DATA_0xa001" android:layout_marginTop="32dp" android:src="@k/dvP" android:scaleType="centerInside" />
+        <TextView android:textSize="18dp" android:textColor="@color/bp" android:id="@id/sg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginTop="32dp" android:layout_marginRight="25dp" android:text="@string/ug" />
+        <TextView android:textSize="14dp" android:textColor="@color/m1" android:id="@h/bMo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:text="@l/dJP" />
+        <Button android:id="@h/bMk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@f/buM" android:layout_marginTop="32dp" android:layout_marginRight="@f/buM" android:text="@l/dJN" style="@style/m4" />
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14dp" android:textColor="@color/bi" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bMj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75dp" android:layout_marginBottom="32dp" android:text="@string/uu" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

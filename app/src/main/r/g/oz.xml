@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/hz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@h/cdo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jh" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cdz" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/hd" android:paddingBottom="@dimen/hz" android:layout_width="UNKNOWN_DATA_0x6001" android:layout_height="UNKNOWN_DATA_0x6001" android:src="@drawable/icon" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@dimen/hd" android:paddingRight="@dimen/hz" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/br" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cdZ" android:paddingBottom="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{小崽子ss剧场}" style="@style/k4" />
+            <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ceb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{小崽子ss剧场}" style="@m/eYP" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/hz" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001">
+            <Button android:id="@h/bBO" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:maxWidth="100dp" android:text="@l/eas" style="@style/m6" />
+            <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cdv" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" style="@style/ju" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

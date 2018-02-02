@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@color/s2" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/rj" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:src="@raw/login_auth_state_default_select" />
+    <TextView android:textSize="15sp" android:textColor="@color/b2" android:id="@id/rk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hl" android:layout_centerVertical="true" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/fc">
+    <include layout="@layout/i1" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@h/bVk" android:visibility="gone" style="@style/fg" />
+        <RelativeLayout android:orientation="horizontal" android:id="@h/bTE" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.mm.pluginsdk.ui.emoji.RTChattingEmojiViewFrom android:id="@h/bTI" android:layout_marginLeft="@dimen/pw" android:layout_marginRight="@dimen/pw" style="@style/g_" />
+            <ProgressBar android:id="@h/bTQ" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b030a" android:layout_height="UNKNOWN_DATA_0x7f0b030a" android:indeterminateDrawable="@drawable/n9" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/j8" android:textColor="@color/s2" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bUZ" android:background="@drawable/emoji_app_msg_mask" android:padding="@dimen/ix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="@color/ef" android:layout_alignLeft="@h/bTI" android:layout_alignRight="@h/bTI" android:layout_alignBottom="@h/bTI" />
+            <ImageView android:id="@h/bVc" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x7f0b030a" android:layout_height="UNKNOWN_DATA_0x7f0b030a" android:src="@g/bBP" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

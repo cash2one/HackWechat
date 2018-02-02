@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" flowlayout:orientation="vertical" flowlayout:paddingLeft="@dimen/hz" flowlayout:paddingRight="@dimen/hz" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" style="@style/o_">
+    <com.tencent.mm.ui.base.MMTagPanelScrollView flowlayout:id="@h/csr" flowlayout:background="@drawable/v7" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:fadeScrollbars="true">
+        <com.tencent.mm.plugin.label.ui.widget.MMLabelPanel flowlayout:id="@h/csq" flowlayout:paddingTop="@dimen/iu" flowlayout:paddingBottom="@dimen/iu" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:horizontalSpacing="@dimen/iu" flowlayout:verticalSpacing="@dimen/bt" />
+    </com.tencent.mm.ui.base.MMTagPanelScrollView>
+    <TextView flowlayout:textSize="@dimen/gu" flowlayout:textColor="@color/nd" flowlayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:id="@h/cst" flowlayout:padding="@dimen/bt" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:text="@l/esC" />
+    <ScrollView flowlayout:id="@h/csu" flowlayout:scrollbars="UNKNOWN_DATA_0x0" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content">
+        <LinearLayout flowlayout:orientation="vertical" flowlayout:id="@h/csp" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content"
+            <LinearLayout flowlayout:orientation="vertical" flowlayout:id="@id/aor" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content">
+                <include flowlayout:id="@h/cso" layout="@layout/lu" />
+                <com.tencent.mm.plugin.label.ui.widget.MMLabelPanel flowlayout:id="@h/csn" flowlayout:paddingTop="@dimen/iu" flowlayout:paddingBottom="@dimen/iu" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:horizontalSpacing="@dimen/iu" flowlayout:verticalSpacing="@dimen/bt" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ListView flowlayout:id="@h/css" flowlayout:background="@color/s2" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" style="@style/l4" />
+</LinearLayout>

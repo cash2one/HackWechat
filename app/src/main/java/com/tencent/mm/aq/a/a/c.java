@@ -1,0 +1,88 @@
+package com.tencent.mm.aq.a.a;
+
+import android.graphics.drawable.Drawable;
+import com.tencent.mm.aq.a.c.b;
+import com.tencent.mm.modelsfs.SFSContext;
+import com.tencent.mm.sdk.platformtools.af;
+
+public final class c {
+    public final float alpha;
+    public final int density;
+    public final String fqR;
+    public final String fvC;
+    public final boolean hDA;
+    public final boolean hDB;
+    public final String hDC;
+    public final String hDD;
+    public final String hDE;
+    public final int hDF;
+    public final int hDG;
+    public final int hDH;
+    public final boolean hDI;
+    public final boolean hDJ;
+    public final boolean hDK;
+    public final int hDL;
+    public final boolean hDM;
+    public final boolean hDN;
+    public final boolean hDO;
+    public final int hDP;
+    public final Drawable hDQ;
+    private final int hDR;
+    private final Drawable hDS;
+    public final int hDT;
+    public final Drawable hDU;
+    public final String hDV;
+    public final SFSContext hDW;
+    public final boolean hDX;
+    public final boolean hDY;
+    public final float hDZ;
+    public final b hDq;
+    public final boolean hDy;
+    public final boolean hDz;
+    public final boolean hEa;
+    public final boolean hEb;
+    public final boolean hEc;
+    public final Object[] hEd;
+    public final af handler;
+
+    private c(a aVar) {
+        this.hDy = aVar.hDy;
+        this.hDA = aVar.hDA;
+        this.hDz = aVar.hDz;
+        this.hDB = aVar.hDB;
+        this.hDC = aVar.hDC;
+        this.hDD = aVar.hDD;
+        this.hDE = aVar.hDE;
+        this.hDF = aVar.hDF;
+        this.hDG = aVar.hDG;
+        this.hDH = aVar.hDH;
+        this.hDI = aVar.hDI;
+        this.fqR = aVar.fqR;
+        this.density = aVar.density;
+        this.alpha = aVar.alpha;
+        this.hDJ = aVar.hDJ;
+        this.hDK = aVar.hDK;
+        this.hDL = aVar.hDL;
+        this.fvC = aVar.fvC;
+        this.hDM = aVar.hDM;
+        this.hDN = aVar.hDN;
+        this.hDO = aVar.hDO;
+        this.hDP = aVar.hDP;
+        this.hDQ = aVar.hDQ;
+        this.hDR = aVar.hDR;
+        this.hDS = aVar.hDS;
+        this.hDT = aVar.hDT;
+        this.hDU = aVar.hDU;
+        this.hDX = aVar.hDX;
+        this.hDY = aVar.hDY;
+        this.hDZ = aVar.hDZ;
+        this.hEa = aVar.hEa;
+        this.hEb = aVar.hEb;
+        this.hEc = aVar.hEc;
+        this.hDW = aVar.hDW;
+        this.handler = aVar.handler;
+        this.hEd = aVar.hEd;
+        this.hDq = aVar.hDq;
+        this.hDV = aVar.hDV;
+    }
+}

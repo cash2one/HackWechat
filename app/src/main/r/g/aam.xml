@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:background="@g/bBk" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/dz" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="@f/buM" android:layout_marginRight="@f/buM" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@f/buM" android:layout_marginRight="@f/buM">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:id="@id/ga" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/eeb" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/o9" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="@dimen/hz">
+            <ImageView android:id="@id/o_" android:background="@e/bsZ" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:scaleType="centerCrop" />
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ctB" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/xu" />
+            <View android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/ctr" android:background="@k/dzc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ImageView android:id="@h/cUx" android:paddingRight="@dimen/bt" android:paddingBottom="@dimen/bt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@g/bFd" android:layout_alignRight="@id/o_" android:layout_alignBottom="@id/o_" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

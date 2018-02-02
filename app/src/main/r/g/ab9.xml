@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/or">
+    <ImageView style="@style/os" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ab7" />
+        <TextView android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cTO" android:background="@drawable/hb" android:padding="@dimen/hz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h5" android:text="@l/egn" android:drawablePadding="@dimen/iu" />
+        <LinearLayout android:orientation="horizontal" android:id="@h/cGV" android:background="@drawable/hb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ep" android:minHeight="@dimen/eo" style="@style/hh">
+            <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.mm.ui.MMImageView android:id="@id/g_" android:src="@e/brW" android:contentDescription="@l/dDN" style="@style/hi" />
+                <ImageView android:id="@h/coP" android:visibility="gone" android:src="@drawable/a6g" android:contentDescription="@l/dDN" style="@style/hi" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/i0" android:id="@id/ga" android:layout_marginLeft="10dp" style="@style/hf" />
+                <TextView android:textSize="@dimen/j0" android:textColor="@color/na" android:id="@id/a9h" android:layout_marginLeft="10dp" android:maxLines="4" android:singleLine="false" style="@style/hf" />
+                <TextView android:textSize="@dimen/j0" android:id="@h/cOY" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" style="@style/h_" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" style="@style/ov" />
+    </LinearLayout>
+</LinearLayout>

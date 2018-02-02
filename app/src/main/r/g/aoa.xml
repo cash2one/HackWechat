@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/ls" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/t2">
+        <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/e9u" style="@style/td" />
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/it">
+            <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingRight="5dp" app:focusable="false" app:layout_width="wrap_content" app:layout_height="match_parent" app:minWidth="80dp" app:text="@a$i/uYh" app:singleLine="true" style="@style/td" />
+            <TextView app:textColor="#999999" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@a$f/uAz" app:background="@drawable/a1" app:layout_height="match_parent" style="@style/tp" />
+        </LinearLayout>
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="wrap_content" app:minHeight="@dimen/it" app:text="@a$i/uYd" style="@style/td" />
+            <EditText app:id="@a$f/uAp" style="@style/tp" />
+            <TextView app:id="@a$f/uAt" app:background="@drawable/a1" app:visibility="gone" style="@style/tp" />
+        </LinearLayout>
+        <TextView app:textColor="#999999" app:id="@a$f/uAA" app:background="@drawable/g1" app:paddingLeft="4dp" app:layout_marginLeft="80dp" style="@style/tp" />
+        <EditText app:id="@a$f/uAq" app:layout_marginLeft="80dp" style="@style/tp" />
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/h5" app:minHeight="@dimen/it">
+            <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingRight="5dp" app:focusable="false" app:layout_width="wrap_content" app:layout_height="match_parent" app:minWidth="80dp" app:text="@a$i/uYh" app:singleLine="true" style="@style/td" />
+            <TextView app:textColor="#999999" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@a$f/uAB" app:background="@drawable/a1" app:layout_height="match_parent" style="@style/tp" />
+        </LinearLayout>
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="wrap_content" app:minHeight="@dimen/it" app:text="@a$i/uYd" style="@style/td" />
+            <EditText app:id="@a$f/uAr" style="@style/tp" />
+            <TextView app:id="@a$f/uAu" app:background="@drawable/a1" app:visibility="gone" style="@style/tp" />
+        </LinearLayout>
+        <TextView app:textColor="#999999" app:id="@a$f/uAC" app:background="@drawable/g1" app:paddingLeft="4dp" app:layout_marginLeft="80dp" style="@style/tp" />
+        <EditText app:id="@a$f/uAs" app:layout_marginLeft="80dp" style="@style/tp" />
+        <Button app:id="@id/ak_" app:layout_width="match_parent" app:layout_marginTop="16dp" app:text="@l/dFQ" style="@style/m4" />
+    </LinearLayout>
+</ScrollView>

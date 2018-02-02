@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#fff1a555" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:paddingLeft="33dp" android:paddingRight="33dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="20dp">
+            <com.tencent.mm.plugin.welab.ui.widget.WelabRoundCornerImageView android:id="@a$b/tOZ" android:background="@a$a/tOY" android:layout_width="UNKNOWN_DATA_0x3a01" android:layout_height="UNKNOWN_DATA_0x3a01" android:layout_marginTop="5dp" android:layout_marginRight="14dp" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/j3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@a$b/tOZ" android:layout_alignParentTop="true">
+                <TextView android:textSize="24sp" android:textColor="#ffffff" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:singleLine="true" />
+                <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/abc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="5dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/s2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="28dp" android:layout_marginRight="28dp" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:id="@a$b/tPk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="28dp" android:layout_marginTop="10dp" android:layout_marginRight="28dp" android:text="@string/d51" android:singleLine="true" />
+        <LinearLayout android:orientation="vertical" android:id="@a$b/tPh" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$b/tPd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" />
+            <LinearLayout android:orientation="vertical" android:id="@a$b/tPa" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="28dp" android:layout_marginRight="28dp">
+                <View android:background="@color/s2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3101">
+                    <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/gp" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0170" android:layout_height="wrap_content" android:minHeight="@a$c/zyU" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    <TextView android:textSize="13sp" android:textColor="@color/s2" android:id="@a$b/tPl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_toLeftOf="@id/gp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:background="@color/s2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            </LinearLayout>
+            <Button android:textSize="16sp" android:textColor="#ffef8c0e" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/b6k" android:background="@drawable/sx" android:paddingLeft="38dp" android:paddingRight="38dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1f01" android:text="@string/ebk" />
+            <TextView android:textSize="13sp" android:textColor="#b2ffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$b/tPb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="28dp" android:text="@string/d4y" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

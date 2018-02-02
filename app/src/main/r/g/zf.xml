@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/bJq" android:background="@color/q5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@h/bJd" />
+    <ListView android:id="@h/bJd" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/l4" />
+    <FrameLayout android:id="@h/bJp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="30dp" android:layout_marginTop="148dp" android:layout_marginRight="30dp">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="UNKNOWN_DATA_0xd601" android:layout_height="wrap_content" android:src="@raw/ipcall_welcome" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+            <TextView android:textSize="14dp" android:textColor="#b2b2b2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/blr" android:singleLine="false" android:lineSpacingExtra="7dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageButton android:id="@id/brp" android:background="0x0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ar" android:layout_marginBottom="@dimen/aq" android:src="@drawable/ae" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

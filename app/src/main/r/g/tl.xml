@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingBottom="0dp" android:layout_marginBottom="0dp" style="@style/jg">
+        <ImageView android:id="@h/cjh" android:background="@drawable/ht" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginTop="60dp" android:src="@g/bCj" style="@style/hz" />
+        <TextView android:textSize="22sp" android:ellipsize="end" android:id="@h/cjT" android:layout_marginTop="20dp" android:text="@l/ekc" android:singleLine="true" style="@style/il" />
+        <TextView android:id="@h/cjG" android:layout_marginTop="10dp" android:text="@l/ekc" style="@style/i7" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_marginTop="60dp" style="@style/l0">
+            <TextView android:id="@h/cjo" android:visibility="invisible" android:text="@l/ejA" style="@style/ht" />
+            <TextView android:id="@h/cjm" android:visibility="invisible" android:text="@string/b9y" style="@style/ht" />
+            <TextView android:autoLink="web|email|phone|all" android:id="@h/cjn" android:visibility="invisible" android:layout_marginLeft="8dp" android:text="@string/b_v" style="@style/ig" />
+        </LinearLayout>
+        <Button android:textSize="15sp" android:id="@h/bWZ" android:layout_width="UNKNOWN_DATA_0xdc01" android:layout_marginTop="20dp" android:minHeight="34dp" android:text="@l/dUp" style="@style/ik" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_marginTop="20dp" style="@style/l0">
+            <TextView android:text="@string/ba1" style="@style/ih" />
+            <Button android:id="@h/cUm" android:layout_height="UNKNOWN_DATA_0x1401" android:text="@string/ba4" style="@style/ig" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cUl" android:visibility="gone" android:layout_marginTop="2dp" style="@style/l0">
+            <TextView android:textSize="10dp" android:text="@string/ba3" style="@style/ih" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_marginBottom="15dp" style="@style/l0">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x7201" android:layout_height="UNKNOWN_DATA_0x1201" android:src="@drawable/a0_" />
+    </LinearLayout>
+</LinearLayout>

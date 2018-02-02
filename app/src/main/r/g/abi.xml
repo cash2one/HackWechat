@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView style="@style/lx">
+        <LinearLayout style="@style/jg">
+            <TextView android:text="@string/cgt" android:layout_weight="1.0" style="@style/l3" />
+            <EditText android:id="@h/cHo" android:hint="@string/cgm" style="@style/l1" />
+            <View style="@style/mc" />
+            <EditText android:id="@h/cHn" android:hint="@string/cgn" style="@style/l1" />
+            <View style="@style/mc" />
+            <TextView android:text="@string/cgo" android:layout_weight="1.0" style="@style/l3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

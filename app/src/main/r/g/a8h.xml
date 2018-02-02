@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@h/cBY" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:layout_alignLeft="@h/cdi" android:layout_alignRight="@h/cdi" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@h/cdi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@h/cBY" android:layout_centerHorizontal="true">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cdg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            <ImageView android:id="@h/cpr" android:background="@color/is" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+        <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cUG" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/a4v" android:background="#f6f6f6" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+                <ImageView android:id="@h/cVe" android:background="@color/is" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </FrameLayout>
+            <ImageView android:id="@id/hu" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@id/a4y" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b030a" android:layout_height="UNKNOWN_DATA_0x7f0b030a" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@h/cAK" android:background="@g/bHW" android:paddingLeft="12dp" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+            <ImageView android:id="@h/cAJ" android:layout_width="UNKNOWN_DATA_0x2d01" android:layout_height="UNKNOWN_DATA_0x2d01" android:scaleType="centerCrop" />
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp">
+                <TextView android:textSize="16sp" android:textColor="#353535" android:ellipsize="end" android:id="@h/cAL" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test" android:singleLine="true" />
+                <TextView android:textSize="12sp" android:textColor="#888888" android:ellipsize="end" android:id="@h/cAI" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@h/cBd" android:background="@drawable/td" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01"
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cBf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cBg" android:background="@drawable/a3z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+                <TextView android:textSize="16sp" android:textColor="#353535" android:ellipsize="end" android:id="@h/cBh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="@l/eha" android:singleLine="true" />
+                <TextView android:textSize="16sp" android:textColor="#353535" android:ellipsize="end" android:id="@h/cBi" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="00:00" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cBe" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.plugin.wenote.ui.nativenote.voiceview.NoteEditorVoiceBaseView android:textSize="16sp" android:textColor="#000000" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cAP" android:background="@g/bHW" android:paddingLeft="24dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="00:00" android:drawableLeft="@k/dxq" android:drawablePadding="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/cBb" android:background="0x0" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1501">
+            <View android:id="@h/cBa" android:background="#20000000" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x400" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@h/cAH" android:background="0x0" android:paddingTop="56dp" android:paddingBottom="30dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@id/cik" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" />
+            <TextView android:textSize="14sp" android:textColor="#888888" android:id="@id/cil" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/c6s" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cAW" android:background="0x0" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@h/cAV" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_width="UNKNOWN_DATA_0x2d01" android:layout_height="UNKNOWN_DATA_0x2d01" android:src="@raw/note_alarm" android:scaleType="centerInside" />
+            <TextView android:textSize="12sp" android:textColor="@color/gq" android:ellipsize="end" android:id="@h/cAX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="2017年6月1日 08:20" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@h/cBU" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignLeft="@h/cdi" android:layout_alignTop="@h/cdi" android:layout_alignRight="@h/cdi" android:layout_alignBottom="@h/cdi" />
+    <LinearLayout android:orientation="horizontal" android:id="@h/cBW" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:layout_below="@h/cdi" android:layout_alignLeft="@h/cdi" android:layout_alignRight="@h/cdi" />
+    <LinearLayout android:id="@h/bPc" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@h/cdi" android:layout_alignTop="@h/cdi" android:layout_alignBottom="@h/cdi">
+        <com.tencent.mm.plugin.wenote.model.nativenote.manager.WXRTEditText android:textSize="48sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bPb" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:minWidth="20dp" android:maxLines="1" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious|flagNoEnterAction" android:textCursorDrawable="@drawable/m9" />
+    </LinearLayout>
+    <LinearLayout android:id="@h/bPa" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@h/cdi" android:layout_alignTop="@h/cdi" android:layout_alignBottom="@h/cdi">
+        <com.tencent.mm.plugin.wenote.model.nativenote.manager.WXRTEditText android:textSize="48sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bOZ" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:minWidth="20dp" android:maxLines="1" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious|flagNoEnterAction" android:textCursorDrawable="@drawable/m9" />
+    </LinearLayout>
+</RelativeLayout>

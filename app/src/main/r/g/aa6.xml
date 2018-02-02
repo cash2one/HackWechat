@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content">
+    <View android:id="@a$c/pvY" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0xf01" />
+    <RelativeLayout android:id="@a$c/pvw" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x4b01" android:layout_below="@a$c/pvY" android:layout_centerHorizontal="true">
+        <com.tencent.mm.plugin.radar.ui.RadarStateView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$c/pvG" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x1d01" android:layout_marginBottom="3dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@a$c/pvM" android:background="@a$b/pvt" android:padding="2dp" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x4401" android:layout_centerInParent="true" />
+        <ImageView android:id="@a$c/pvN" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@a$b/pvt" android:scaleType="fitXY" android:layout_centerInParent="true" android:alpha="1.0" />
+        <com.tencent.mm.plugin.radar.ui.RadarStateChooseView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$c/pvF" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginBottom="4dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14sp" android:textColor="#d1d1d1" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$c/pvO" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="wrap_content" android:minHeight="40dp" android:lines="2" android:layout_below="@a$c/pvw" android:layout_centerHorizontal="true" />
+    <View android:id="@a$c/pvu" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0xf01" android:layout_below="@a$c/pvO" />
+</RelativeLayout>

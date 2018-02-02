@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/bZR" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+    <com.tencent.mm.ui.tools.CropImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caa" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:scaleType="matrix" />
+    <View android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/aq6" android:layout_width="UNKNOWN_DATA_0x13801" android:layout_height="UNKNOWN_DATA_0x13801" />
+    <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/aq7" android:background="@drawable/a2f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" />
+    <LinearLayout android:orientation="vertical" android:id="@h/bZZ" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@h/bZO" android:paddingLeft="8dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@h/cab" style="@style/p_" />
+            <View android:layout_width="UNKNOWN_DATA_0x801" style="@style/mc" />
+            <Button android:id="@h/cad" style="@style/wf" />
+            <Button android:id="@h/cac" style="@style/we" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/bZU" android:background="@drawable/alu" android:padding="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bZV" android:minWidth="@dimen/hw" android:text="@string/ams" style="@style/m6" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.mm.ui.tools.FilterImageView android:id="@h/bZQ" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

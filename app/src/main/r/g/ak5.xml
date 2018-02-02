@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.sight.decode.ui.SightPlayImageView android:id="@id/qk" android:layout_width="UNKNOWN_DATA_0x3e01" android:layout_height="UNKNOWN_DATA_0x3e01" android:scaleType="centerCrop" />
+    </RelativeLayout>
+</LinearLayout>

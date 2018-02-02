@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cat" android:layout_marginLeft="6dp" android:layout_marginTop="10dp" android:layout_marginRight="2dp" android:layout_marginBottom="10dp" android:minWidth="60dp" android:text="@l/eGL" style="@style/m9" />

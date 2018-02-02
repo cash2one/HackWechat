@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/h5" android:paddingTop="@f/bvx" android:paddingRight="@dimen/h5" style="@style/o_">
+    <FrameLayout android:id="@h/cHg" android:background="@a$e/ucD" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.base.MMAutoCompleteTextView android:id="@h/cHf" android:background="0x0" android:paddingLeft="85dp" android:hint="@string/cft" android:dropDownSelector="#00000000" android:popupBackground="0x0" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone|time" style="@style/l2" />
+        <TextView android:textSize="16dp" android:textColor="@color/bp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/ajv" android:paddingLeft="@dimen/hz" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@l/eCY" android:singleLine="false" style="@style/l2" />
+    </FrameLayout>
+    <FrameLayout android:background="@a$e/ucD" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8">
+        <com.tencent.mm.ui.base.MMClearEditText android:id="@h/cHl" android:background="0x0" android:paddingLeft="85dp" android:hint="@string/cg5" style="@style/l1" />
+        <TextView android:textSize="16dp" android:textColor="@color/bp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/ajv" android:paddingLeft="10dp" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/cg4" android:singleLine="false" android:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" style="@style/l2" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_marginTop="@dimen/h8" style="@style/l0">
+        <CheckBox android:textSize="13dp" android:textColor="@color/bp" android:id="@h/bJD" android:paddingLeft="25dp" android:checked="true" android:text="@string/bqt" style="@style/p3" />
+        <Button android:textSize="13dp" android:id="@id/ccx" android:paddingLeft="5dp" android:paddingRight="0dp" android:paddingBottom="5dp" android:text="@l/esM" style="@style/p4" />
+    </LinearLayout>
+</LinearLayout>

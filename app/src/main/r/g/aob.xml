@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:background="@color/r_" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <LinearLayout wallet:orientation="vertical" wallet:paddingTop="0dp" wallet:layout_width="match_parent" wallet:layout_height="match_parent" wallet:layout_alignParentTop="true" style="@style/t2">
+        <TextView wallet:id="@a$f/ula" wallet:text="@string/duk" style="@style/te" />
+        <LinearLayout style="@style/tt">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/urM" wallet:titleText="@string/dub" wallet:contentHint="@a$i/uQE" style="@style/tu" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/ukS" wallet:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" wallet:titleText="@string/dt9" wallet:contentHint="@string/dt6" style="@style/tl" />
+        </LinearLayout>
+        <Button wallet:id="@id/ak_" wallet:layout_width="match_parent" wallet:layout_marginTop="16dp" wallet:text="@l/dFQ" style="@style/tq" />
+    </LinearLayout>
+    <include wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_alignParentBottom="true" layout="@layout/aj_" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@h/cak" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@h/cuR" android:background="@f/gUX" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/v6" android:padding="@dimen/g6" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.tencent.mm.plugin.game.widget.AutoResizeTextView android:textSize="28dp" android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cmX" android:paddingRight="2dp" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1c01" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cml" android:layout_width="UNKNOWN_DATA_0x7f0b00f8" android:layout_height="UNKNOWN_DATA_0x7f0b00f8" android:src="@g/bCC" android:scaleType="fitXY" />
+                    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1.0"
+                        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp">
+                            <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:ellipsize="end" android:id="@h/cmV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                            <TextView android:textSize="@dimen/j0" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/czX" android:background="@drawable/m5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" />
+                        </LinearLayout>
+                        <TextView android:textSize="@dimen/gu" android:textColor="@e/bsF" android:ellipsize="end" android:id="@h/cmp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:textSize="@dimen/gu" android:textColor="@e/bsF" android:ellipsize="end" android:id="@h/ckT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                    <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bij" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/clX" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@l/emt" style="@style/ip" />
+                        <com.tencent.mm.plugin.game.widget.TextProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/clZ" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="50" style="@style/io" />
+                    </FrameLayout>
+                </LinearLayout>
+                <com.tencent.mm.plugin.game.ui.GameListSocialView android:orientation="vertical" android:id="@h/cnk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hl" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

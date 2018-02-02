@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingRight="20dp" style="@style/f7">
+    <include android:id="@id/ab1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/f_" layout="@layout/i1" />
+    <TextView android:id="@h/bVk" android:visibility="gone" android:layout_toRightOf="@id/ab1" style="@style/fg" />
+    <FrameLayout android:id="@id/ad8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_toRightOf="@id/ab1" android:layout_below="@h/bVk">
+        <ImageView android:id="@h/bTo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="240dp" />
+        <ImageView android:id="@h/bTK" android:background="@drawable/e8" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_toRightOf="@id/ab1" android:layout_below="@id/ad8"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:ellipsize="end" android:id="@h/bTl" android:background="@drawable/b_" android:padding="@dimen/bt" android:layout_marginLeft="0dp" android:text="{source}" android:singleLine="true" style="@style/f8" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/aeg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@h/bSZ" android:background="@drawable/b_" android:visibility="gone" android:text="@string/a91" android:singleLine="true" style="@style/f8" />
+                <ImageView android:id="@h/bTg" android:background="@drawable/nw" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

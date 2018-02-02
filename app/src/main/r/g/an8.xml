@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/s2" app:paddingLeft="@dimen/h5" app:paddingRight="@dimen/h5" app:layout_width="match_parent" app:layout_height="match_parent"
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/a7e" app:padding="14dp" app:visibility="gone" app:persistentDrawingCache="animation|scrolling|all" app:alwaysDrawnWithCache="true" app:layout_width="wrap_content" app:layout_height="wrap_content">
+        <RelativeLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0xfa01" app:layout_height="UNKNOWN_DATA_0xfa01">
+            <ImageView app:id="@id/a7f" app:layout_width="UNKNOWN_DATA_0xfa01" app:layout_height="UNKNOWN_DATA_0xfa01" app:scaleType="fitCenter" app:layout_centerInParent="true" app:contentDescription="@string/e8r" />
+            <ImageView app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@raw/wallet_offline_icon" app:scaleType="fitCenter" app:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@id/a7i" app:paddingLeft="@dimen/h5" app:paddingRight="@dimen/h5" app:visibility="visible" app:persistentDrawingCache="animation|scrolling|all" app:alwaysDrawnWithCache="true" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="53dp" app:layout_marginTop="53dp" app:layout_marginRight="53dp" app:layout_marginBottom="53dp">
+        <com.tencent.mm.ui.base.MMVerticalTextView app:id="@id/a7k" app:tag="1" app:focusable="true" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="match_parent" app:layout_marginRight="@dimen/hd" app:text="" app:textColor="@color/bp" app:textSize="@dimen/by" app:direction="UNKNOWN_DATA_0x0" />
+        <ImageView app:id="@id/a7l" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="fitXY" app:contentDescription="@string/e84" />
+    </LinearLayout>
+</LinearLayout>

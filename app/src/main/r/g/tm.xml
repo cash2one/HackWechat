@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" style="@style/o_"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" style="@style/jg">
+        <ImageView android:src="@g/bCp" style="@style/hu" />
+        <TextView android:id="@h/cjt" android:text="@l/ekc" style="@style/hv" />
+        <TextView android:id="@h/cjy" android:text="@string/b_l" style="@style/hw" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_marginTop="@dimen/h5" style="@style/l0">
+            <CheckBox android:id="@h/bJF" android:text="@string/b9t" style="@style/hr" />
+            <Button android:id="@h/cUd" android:text="@string/ba2" style="@style/ii" />
+        </LinearLayout>
+        <Button android:id="@h/bYT" android:text="@l/ejR" style="@style/ij" />
+    </LinearLayout>
+    <Button android:id="@h/coz" android:text="@string/b_h" style="@style/hy" />
+</LinearLayout>

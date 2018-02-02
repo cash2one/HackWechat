@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" style="@style/jg">
+        <ImageView android:id="@h/cjx" android:src="@drawable/a03" style="@style/hz" />
+        <TextView android:id="@id/b9r" android:text="@string/b_s" style="@style/i0" />
+        <TextView android:id="@id/b9s" android:text="@string/b_t" style="@style/i1" />
+        <TextView android:id="@id/b9t" android:text="@string/b_u" style="@style/i2" />
+    </LinearLayout>
+</LinearLayout>

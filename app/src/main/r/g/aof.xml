@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/t2">
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:src="@raw/wallet_wxcredit_success" />
+    <TextView android:textSize="@dimen/by" android:textColor="@color/j1" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="@string/e9e" />
+    <TextView android:textSize="56dp" android:textColor="@color/bp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uAo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" />
+    <Button android:id="@id/ak_" android:layout_width="match_parent" android:layout_marginTop="16dp" android:text="@string/e9g" style="@style/m4" />
+</LinearLayout>

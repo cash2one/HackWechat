@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.base.sortview.CatalogView android:id="@id/um" android:paddingLeft="@dimen/hz" android:paddingRight="@f/bun" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/l5" />
+    <FrameLayout android:id="@h/bYL" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/kd">
+        <LinearLayout android:orientation="horizontal" android:id="@h/cLl" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/hl" android:paddingBottom="@dimen/hl" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@h/bKq" android:layout_width="UNKNOWN_DATA_0x7f0b0087" android:layout_height="UNKNOWN_DATA_0x7f0b0087" android:layout_marginLeft="@dimen/hq" />
+                </FrameLayout>
+                <TextView android:textSize="@dimen/i0" android:textColor="@e/bth" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bOW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@f/bur" android:text="@string/eeb" android:maxLines="2" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/czY" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@raw/app_new" />
+    </FrameLayout>
+</LinearLayout>

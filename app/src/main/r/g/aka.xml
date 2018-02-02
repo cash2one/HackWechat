@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/bp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@h/ccu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ProgressBar android:id="@h/cUO" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="50dp" android:layout_marginRight="20dp" style="?unknown_attr_ref: 1010078" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/coV" android:background="@color/bp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:id="@h/cUP" android:background="@color/bp" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginRight="50dp" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:id="@h/cUQ" android:background="@color/bp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:id="@h/cUN" android:background="@color/bp" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

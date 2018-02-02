@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@color/k5" android:paddingLeft="@dimen/sg" android:paddingTop="@dimen/hl" android:paddingRight="@dimen/sg" android:paddingBottom="@dimen/hl" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iz" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:ellipsize="end" android:id="@a$f/uoo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@a$f/uom" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@a$e/ucY" android:layout_toRightOf="@a$f/uoo" android:layout_alignBottom="@a$f/uoo" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/uaT" android:ellipsize="end" android:id="@a$f/uop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@a$f/uoo" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uok" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

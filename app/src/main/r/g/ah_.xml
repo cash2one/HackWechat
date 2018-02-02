@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@f/bvM" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/kd">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/dd2" android:background="@drawable/g1" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@f/bvI">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:id="@f/qEH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bt" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/p1" android:ellipsize="end" android:id="@f/qEG" android:paddingRight="60dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@f/qEH" android:layout_alignParentLeft="true" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/p6" android:id="@f/qEF" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dah" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@i$c/qyB" android:ellipsize="end" android:id="@f/qEE" android:paddingRight="60dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:singleLine="true" android:layout_below="@f/qEF" />
+        </RelativeLayout>
+        <ImageView android:id="@f/qED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h5" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:contentDescription="0x0" />
+    </RelativeLayout>
+</LinearLayout>

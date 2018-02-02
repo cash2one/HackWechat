@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x0" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/h5" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@id/ad8" android:background="@drawable/ey" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/iu" android:paddingBottom="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="81dp">
+        <ImageView android:id="@h/csS" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:src="@drawable/z_" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/afx" android:layout_width="UNKNOWN_DATA_0x1201" android:layout_height="UNKNOWN_DATA_0x1201" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@f/bur" android:src="@raw/chatting_item_harddevice_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.mm.ui.base.NoMeasuredTextView android:textSize="@dimen/i0" android:ellipsize="end" android:id="@h/cRT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:singleLine="true" android:layout_toLeftOf="@id/afx" android:layout_toRightOf="@h/csS" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

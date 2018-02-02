@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:orientation="vertical" wallet:background="@drawable/tr" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <ScrollView wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x1" wallet:layout_weight="1.0">
+        <LinearLayout wallet:orientation="vertical" wallet:background="@drawable/aql" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+            <include wallet:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" layout="@layout/a90" />
+            <LinearLayout wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="horizontal" wallet:id="@g/gVJ" wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+                <Button wallet:textSize="@dimen/i0" wallet:textColor="@color/ry" wallet:id="@id/alk" wallet:background="@drawable/ak" wallet:visibility="visible" wallet:layout_width="UNKNOWN_DATA_0x1" wallet:layout_height="UNKNOWN_DATA_0x7f0b0140" wallet:text="@string/kt" wallet:layout_weight="1.0" />
+                <ImageView wallet:id="@id/am5" wallet:background="@color/lb" wallet:layout_width="UNKNOWN_DATA_0x7f0b009e" wallet:layout_height="match_parent" />
+                <Button wallet:textSize="@dimen/i0" wallet:textColor="@color/ry" wallet:id="@id/all" wallet:background="@drawable/ak" wallet:visibility="visible" wallet:layout_width="UNKNOWN_DATA_0x1" wallet:layout_height="UNKNOWN_DATA_0x7f0b0140" wallet:text="@string/e47" wallet:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include wallet:visibility="visible" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" layout="@layout/aj_" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.wallet_core.ui.CustomerScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:background="@color/oe" android:paddingTop="@dimen/h8" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:id="@a$f/ujv" android:background="@color/ls" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+            <TextView android:textSize="@dimen/i0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@a$i/uzJ" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/gu" android:id="@a$f/ujw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" />
+        </LinearLayout>
+        <LinearLayout android:id="@a$f/ujj" android:background="@color/ls" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+            <TextView android:textSize="@dimen/i0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@a$i/uTx" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/gu" android:id="@a$f/ujk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" />
+        </LinearLayout>
+        <LinearLayout android:id="@a$f/ujm" android:background="@color/ls" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+            <TextView android:textSize="@dimen/i0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/dzy" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/gu" android:id="@a$f/ujn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" />
+        </LinearLayout>
+        <LinearLayout android:id="@a$f/ujp" android:background="@color/ls" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+            <TextView android:textSize="@dimen/i0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@a$i/uLo" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/gu" android:id="@a$f/ujq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" />
+        </LinearLayout>
+        <LinearLayout android:id="@a$f/ujr" android:background="@color/ls" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+            <TextView android:textSize="@dimen/i0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@a$i/uTJ" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/gu" android:id="@a$f/ujs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" />
+        </LinearLayout>
+        <LinearLayout android:id="@a$f/ujx" android:background="@color/ls" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+            <TextView android:textSize="@dimen/i0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/e3i" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/gu" android:id="@a$f/ujy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" />
+        </LinearLayout>
+        <LinearLayout android:id="@a$f/ujt" android:background="@color/ls" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x7f0b0163">
+            <TextView android:textSize="@dimen/i0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/dzv" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/gu" android:id="@a$f/uju" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" />
+        </LinearLayout>
+    </LinearLayout>
+</com.tencent.mm.wallet_core.ui.CustomerScrollView>

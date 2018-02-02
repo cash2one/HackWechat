@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <com.tencent.mm.ui.widget.MMWebView android:id="@h/cnC" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@l/enn" />
+</FrameLayout>

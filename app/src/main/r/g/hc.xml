@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@a$f/uwM" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+    <com.tenpay.android.wechat.MyKeyboardWindow android:id="@a$f/uwN" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@a$f/itm" android:background="@q$f/itn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_above="@a$f/uwN">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@q$f/itm" android:layout_centerInParent="true" android:contentDescription="@string/cbm" />
+    </RelativeLayout>
+</RelativeLayout>

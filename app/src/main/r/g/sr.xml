@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/kc">
+    <ImageView android:id="@h/cjU" android:padding="3dp" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0"
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@h/cwD" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/jx" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12dp" android:textColor="#ff818181" android:id="@h/cwE" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b64" style="@style/jx" />
+            <TextView android:textSize="12dp" android:textColor="#ff586b95" android:id="@h/cwH" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b6b" style="@style/jx" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <Button android:id="@h/cwx" android:layout_width="UNKNOWN_DATA_0x4601" android:text="@l/ekf" style="@style/mb" />
+        <Button android:id="@h/cwz" android:layout_width="UNKNOWN_DATA_0x4601" android:text="@l/ekh" style="@style/mb" />
+        <TextView android:id="@h/cww" android:background="@g/bGm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25dp" />
+    </LinearLayout>
+</LinearLayout>

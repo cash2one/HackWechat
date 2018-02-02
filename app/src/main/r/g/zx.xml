@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="20dp" android:paddingTop="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.ipcall.ui.IPCallCounponCardLayout android:background="@drawable/ip" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/brt" android:paddingLeft="@dimen/h" android:paddingTop="@dimen/h" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <ImageView android:layout_width="UNKNOWN_DATA_0xf01" android:layout_height="UNKNOWN_DATA_0xf01" android:src="@raw/ipcall_giftcard_call_icon" />
+            <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/bor" />
+            <TextView android:textSize="14dp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/boq" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@h/cas" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginTop="@dimen/h" android:layout_marginRight="@dimen/h" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <com.tencent.mm.plugin.ipcall.ui.IPCallRoundUrlHeadImage android:id="@h/coq" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginTop="@dimen/h" android:layout_marginRight="@dimen/h" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <LinearLayout android:background="#4cffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="40dp" android:layout_marginTop="@dimen/g" android:layout_marginRight="20dp" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/brv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h" android:layout_marginBottom="@dimen/h" android:layout_alignParentBottom="true">
+            <TextView android:textSize="10dp" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:text="@string/bp5" android:layout_centerVertical="true" android:alpha="0.5" />
+            <ImageView android:layout_width="UNKNOWN_DATA_0x501" android:layout_height="UNKNOWN_DATA_0xc01" android:layout_marginLeft="30dp" android:src="@drawable/p1" android:layout_alignTop="@id/b2a" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="40dp" android:textStyle="UNKNOWN_DATA_0x0" android:textColor="#ffffff" android:id="@h/bZi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="10dp" android:textColor="#ffffff" android:id="@h/cam" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="32dp" android:textColor="#ffffff" android:id="@h/cfI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+        <ImageView android:background="@raw/ipcall_giftcard_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </com.tencent.mm.plugin.ipcall.ui.IPCallCounponCardLayout>
+</LinearLayout>

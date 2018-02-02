@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4001">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cyk" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x7f0b0305" android:layout_height="UNKNOWN_DATA_0x7f0b0304" />
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="14dp" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/ci" android:ellipsize="end" android:id="@h/cyq" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" />
+        <TextView android:textAppearance="@style/ch" android:ellipsize="end" android:id="@h/cym" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:paddingLeft="@f/buM" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@h/cyp" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" />
+        <ImageView android:id="@h/cyo" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@f/buM" android:scaleType="center" />
+        <ImageView android:id="@h/cyn" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@f/buM" android:scaleType="center" />
+        <ImageView android:id="@h/cyl" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@f/buM" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

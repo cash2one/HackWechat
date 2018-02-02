@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.scanner.ui.SelectScanModeGrid xmlns:android="http://schemas.android.com/apk/res/android" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:listSelector="@drawable/ajv" android:cacheColorHint="#00000000" android:numColumns="auto_fit" android:layout_weight="1.0" />

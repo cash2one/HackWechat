@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:focusable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <View app:id="@id/b0f" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" />
+    <View app:id="@id/b0g" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_marginTop="43dp" />
+    <RelativeLayout app:id="@id/b0h" app:background="@color/fp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_below="@id/b0g">
+        <com.tencent.mm.plugin.sport.ui.SportChartView app:id="@h/cfv" app:background="@drawable/gt" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xd201" app:layout_marginLeft="@dimen/iu" app:layout_marginTop="60.5dp" app:layout_marginRight="@dimen/iu" />
+        <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1e01" app:layout_below="@h/cfv" />
+        <com.tencent.mm.ui.widget.MMSwitchBtn app:id="@h/cfx" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f0b0170" app:layout_height="UNKNOWN_DATA_0x7f0b016d" app:layout_marginLeft="16dp" app:layout_marginTop="68.5dp" app:on_color="#089f71" app:off_color="#089f71" app:slide_color="#76fef3" app:on_text="月" app:off_text="周" />
+    </RelativeLayout>
+    <ImageView app:id="@id/b0k" app:layout_width="UNKNOWN_DATA_0x7f0b00af" app:layout_height="UNKNOWN_DATA_0x7f0b00af" app:src="@drawable/gr" app:layout_below="@id/b0f" app:layout_centerHorizontal="true" />
+    <ImageView app:id="@h/cff" app:layout_width="UNKNOWN_DATA_0x7f0b00b1" app:layout_height="UNKNOWN_DATA_0x7f0b00b1" app:src="@drawable/z_" app:layout_alignBottom="@id/b0k" app:layout_centerHorizontal="true" />
+    <TextView app:textSize="@dimen/i0" app:textColor="@color/bp" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/b0m" app:visibility="gone" app:layout_marginTop="@dimen/iu" app:layout_below="@h/cff" app:layout_alignLeft="@id/b0h" app:layout_alignRight="@id/b0h" style="@style/l0" />
+</RelativeLayout>

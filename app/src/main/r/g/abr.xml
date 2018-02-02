@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/nf" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ny" android:paddingLeft="15dp" android:paddingTop="20dp" android:paddingRight="15dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/b0r" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/za" />
+            <TextView android:textSize="16dp" android:id="@h/cAl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="nickname" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="16dp" android:id="@h/cRJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12:00" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="17dp" android:textColor="@color/bp" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:text="title" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

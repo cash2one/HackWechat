@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/o_">
+    <com.tencent.mm.ui.base.MMPullDownView flowlayout:orientation="vertical" flowlayout:id="@h/ctp" flowlayout:scrollbars="UNKNOWN_DATA_0x0" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent">
+        <com.tencent.mm.plugin.emoji.ui.v2.PreViewListGridView flowlayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:id="@id/axo" flowlayout:background="@color/qm" flowlayout:focusable="true" flowlayout:scrollbars="UNKNOWN_DATA_0x0" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent" flowlayout:listSelector="@drawable/tr" flowlayout:transcriptMode="disabled" flowlayout:cacheColorHint="#00000000" flowlayout:divider="0x0" flowlayout:dividerHeight="0dp" flowlayout:choiceMode="none" />
+    </com.tencent.mm.ui.base.MMPullDownView>
+    <com.tencent.mm.ui.contact.LabelContainerView flowlayout:orientation="vertical" flowlayout:id="@id/fw" flowlayout:background="#f7ffffff" flowlayout:paddingLeft="@dimen/hz" flowlayout:paddingTop="@dimen/bt" flowlayout:paddingRight="@dimen/hz" flowlayout:visibility="gone" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent">
+        <LinearLayout flowlayout:orientation="vertical" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content">
+            <include layout="@layout/adc" />
+            <com.tencent.mm.ui.base.MMTagPanel flowlayout:id="@id/fx" flowlayout:paddingTop="@dimen/iu" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:horizontalSpacing="@dimen/iu" flowlayout:verticalSpacing="@dimen/bt" />
+        </LinearLayout>
+    </com.tencent.mm.ui.contact.LabelContainerView>
+</FrameLayout>

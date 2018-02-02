@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/j0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hl" android:layout_marginRight="@dimen/hl" android:layout_centerInParent="true">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.tools.PressImageView android:id="@h/coK" android:background="@color/s2" android:layout_width="UNKNOWN_DATA_0x7f0b013f" android:layout_height="UNKNOWN_DATA_0x7f0b013f" android:src="@g/bDU" />
+            <com.tencent.mm.ui.chatting.SendDataToDeviceProgressBar android:id="@h/cLq" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0b013f" android:layout_height="UNKNOWN_DATA_0x7f0b013f" />
+            <ImageView android:id="@id/z0" android:layout_width="UNKNOWN_DATA_0x7f0b013f" android:layout_height="UNKNOWN_DATA_0x7f0b013f" android:src="@raw/send_data_round_rect_shadow" android:layout_centerVertical="true" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/bd" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cyA" android:layout_width="UNKNOWN_DATA_0x7f0b013f" android:layout_height="wrap_content" android:layout_marginTop="@dimen/um" android:maxLines="2" android:singleLine="false" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/bd" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cLr" android:layout_width="UNKNOWN_DATA_0x7f0b013f" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

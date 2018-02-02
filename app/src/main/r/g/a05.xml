@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/h8" android:paddingRight="@dimen/h8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.ipcall.ui.IPCallShareGridView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/crn" android:background="0x0" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@drawable/g3" android:horizontalSpacing="@dimen/h8" android:verticalSpacing="@dimen/h5" android:numColumns="UNKNOWN_DATA_0x3" />
+</RelativeLayout>

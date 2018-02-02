@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/o_">
+    <TextView wallet:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/ula" wallet:layout_marginLeft="@dimen/h5" wallet:layout_marginTop="@dimen/h8" wallet:layout_marginRight="@dimen/h5" wallet:layout_marginBottom="@dimen/h5" wallet:text="@a$i/uQW" style="@style/tn" />
+    <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView wallet:id="@a$f/ukY" wallet:format="1" style="@style/ng" />
+    <include layout="@layout/hc" />
+</LinearLayout>

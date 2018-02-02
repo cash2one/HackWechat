@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <TextView android:id="@id/ga" android:layout_width="UNKNOWN_DATA_0x7f0b00ce" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:text="@l/dWy" android:singleLine="false" style="@style/jx" />
+    <ImageView android:id="@h/cps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:src="@raw/profile_social_mobile" android:contentDescription="0x0" />
+    <ImageView android:id="@h/cpw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:src="@raw/profile_social_qq" android:contentDescription="0x0" />
+    <ImageView android:id="@h/cpo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:src="@raw/profile_social_linkedin" android:contentDescription="0x0" />
+    <ImageView android:id="@h/coX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:src="@raw/profile_social_facebook" android:contentDescription="0x0" />
+    <ImageView android:id="@h/cpg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:src="@raw/profile_social_google_contacts" android:contentDescription="0x0" />
+    <ImageView android:id="@h/cpB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" android:src="@raw/profile_social_weishop" android:contentDescription="0x0" />
+</LinearLayout>

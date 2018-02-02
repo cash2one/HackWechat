@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.wxcredit.ui.WalletWXCreditDetailHeaderPreference android1:title="@a$i/uYh" android1:key="wallet_wxcredit_header" android1:layout="@a$g/uGe" />
+    <Preference android1:title="@a$i/uXX" android1:key="wallet_wxcredit_total_amount" android1:layout="@layout/a4f" />
+    <PreferenceTitleCategory android1:title=" " />
+    <Preference android1:title="@string/e96" android1:key="wallet_wxcredit_change_amount" android1:layout="@layout/a4f" />
+    <PreferenceTitleCategory android1:title="@string/e9a" />
+    <Preference android1:title="@string/e8z" android1:key="wallet_wxcredit_bill" android1:layout="@layout/a4f" />
+    <Preference android1:title="@string/e9w" android1:key="wallet_wxcredit_repayment" android1:layout="@layout/a4f" />
+    <Preference android1:title="@a$i/uYj" android1:key="wallet_wxcredit_repayment_tips" android1:layout="@layout/a5u" />
+    <PreferenceTitleCategory android1:title="@string/e8y" />
+    <Preference android1:title="@string/e93" android1:key="wallet_wxcredit_card_info" android1:layout="@layout/a4f" />
+    <Preference android1:title="@string/e9y" android1:key="wallet_wxcredit_right" android1:layout="@layout/a4f" />
+    <PreferenceTitleCategory android1:title=" " />
+    <Preference android1:title="@string/e90" android1:key="wallet_wxcredit_bank_name" android1:layout="@layout/a4f" />
+    <com.tencent.mm.plugin.wxcredit.ui.WalletWXCreditDetailFooterPreference android1:title="@a$i/uYj" android1:key="wallet_wxcredit_footer" android1:layout="@a$g/uGd" />
+</PreferenceScreen>

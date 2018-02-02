@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_below="@h/bVf" style="@style/fc">
+    <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bVk" android:visibility="gone" style="@style/fg" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVb" style="@style/fk" />
+            <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cTZ" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVd" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+            <com.tencent.mm.ui.widget.MMTextView android:id="@h/bTH" android:background="@g/bBt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@f/bwU" android:minHeight="@dimen/ci" style="@style/fm" />
+        </LinearLayout>
+        <com.tencent.mm.ui.chatting.ChattingTranslateView android:id="@h/bVi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bt" />
+    </LinearLayout>
+    <include layout="@layout/i3" />
+</LinearLayout>

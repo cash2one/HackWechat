@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@h/bYA" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b008a">
+        <TextView android:id="@h/bYB" android:paddingLeft="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/dDb" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/k4" />
+    </RelativeLayout>
+    <ImageView android:id="@id/amz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@a$e/udh" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ProgressBar android:id="@h/cJT" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/xu" />
+</RelativeLayout>

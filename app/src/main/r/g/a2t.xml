@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+    <TextView android:textSize="@dimen/vh" android:textColor="@color/s4" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/ufy" android:background="@drawable/r5" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0336" android:maxLines="2" android:layout_alignParentTop="true" />
+    <com.tencent.mm.ui.base.MMLoadMoreListView android:id="@a$f/uqt" android:background="@color/ls" android:focusable="true" android:transcriptMode="disabled" android:layout_below="@a$f/ufy" style="@style/l4" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@a$f/ujY" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="100dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/mall_order_nomessage_icon" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/kv" android:id="@h/ces" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/e0x" />
+    </LinearLayout>
+</RelativeLayout>

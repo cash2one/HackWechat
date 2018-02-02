@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/tc"
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/g1" android:paddingLeft="@dimen/td" android:paddingRight="@dimen/td" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0131">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/kq" android:paddingRight="5dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="80dp" android:singleLine="true" style="@style/nx" />
+        <TextView android:textSize="14dp" android:textColor="#999999" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uwG" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:minHeight="@dimen/tc" android:layout_weight="1.0" />
+        <ImageView android:id="@a$f/ukU" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:src="@a$e/udh" android:scaleType="center" />
+    </LinearLayout>
+    <com.tencent.mm.plugin.product.ui.HtmlTextView android:id="@a$f/ujo" android:visibility="gone" android:scrollbars="UNKNOWN_DATA_0x0" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

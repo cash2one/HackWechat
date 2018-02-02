@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@h/csT" android:padding="2dp" android:layout_width="UNKNOWN_DATA_0x1601" android:layout_height="UNKNOWN_DATA_0x1601" android:scaleType="centerInside" />
+    <com.tencent.mm.plugin.game.widget.AutoResizeTextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/csU" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:singleLine="true" />
+</LinearLayout>

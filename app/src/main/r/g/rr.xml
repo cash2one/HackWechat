@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <CheckBox android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cgo" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0084" android:layout_height="UNKNOWN_DATA_0x7f0b0084" android:layout_marginLeft="@dimen/bt" />
+</merge>

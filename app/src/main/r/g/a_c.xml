@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/c2" android:paddingRight="@dimen/c2" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/it" style="@style/kd"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/j3" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:minHeight="@dimen/it" android:layout_weight="1.0"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/j0" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd">
+                <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXt" android:layout_width="UNKNOWN_DATA_0x7f0b00ce" android:layout_height="UNKNOWN_DATA_0x1" android:text="@string/agc" android:singleLine="true" android:layout_weight="1.0" style="@style/jx" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@g/gWq" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bXs" android:maxLines="2" android:singleLine="false" style="@style/k0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

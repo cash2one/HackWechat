@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:configChanges="keyboardHidden|orientation" android:background="0x0" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:windowSoftInputMode="stateHidden|stateAlwaysHidden">
+    <TextView android:textColor="#4d000000" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/in" android:singleLine="false" style="@style/k9" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/io" android:paddingRight="32dp" android:layout_height="match_parent" android:singleLine="false" android:layout_toRightOf="@id/in" style="@style/k8" />
+    <ImageView android:id="@id/ip" android:background="0x0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/payinfoicon" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

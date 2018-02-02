@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/s2" android:padding="12dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6e01">
+            <ImageView android:id="@a$f/uqL" android:layout_width="UNKNOWN_DATA_0x5601" android:layout_height="UNKNOWN_DATA_0x5601" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textColor="#999999" android:id="@a$f/uqP" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:maxLines="2" android:layout_toRightOf="@a$f/uqL" android:layout_alignParentTop="true" android:lineSpacingExtra="0dp" style="@style/nx" />
+            <TextView android:textSize="28dp" android:id="@a$f/uqN" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="2dp" android:layout_toRightOf="@a$f/uqL" android:layout_alignParentBottom="true" style="@style/nx" />
+        </RelativeLayout>
+        <View android:background="#d4d4d4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" />
+        <com.tencent.mm.ui.base.MaxListView android:id="@a$f/uqS" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5" android:listSelector="0x106000d" android:divider="#00000000" android:dividerHeight="0dp" android:choiceMode="singleChoice" />
+        <TextView android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5" android:text="@string/by0" style="@style/o7" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5">
+            <com.tencent.mm.plugin.product.ui.MallProductSelectAmountView android:id="@a$f/uws" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/nd" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uqK" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/h5" android:text="@a$i/uLy" style="@style/nx" />
+        </LinearLayout>
+        <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uqM" android:layout_marginLeft="@dimen/h5" android:layout_marginTop="42dp" android:layout_marginRight="@dimen/h5" android:layout_marginBottom="@dimen/h5" android:text="@string/by2" style="@style/m4" />
+    </LinearLayout>
+</ScrollView>

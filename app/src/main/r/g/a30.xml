@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@a$f/ulq" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b02b5" />
+    <LinearLayout android:orientation="vertical" android:background="@f/gUX" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/v6" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x394ccc21" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5">
+            <ImageView android:id="@a$f/ulo" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@raw/mall_order_trade_empty_icon" />
+            <RelativeLayout android:id="@a$f/ulm" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_marginLeft="10dp" android:layout_weight="0.5">
+                <TextView android:textSize="@dimen/iy" android:textColor="@a$c/ube" android:ellipsize="end" android:id="@a$f/uln" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_alignParentTop="true" />
+                <TextView android:textSize="@dimen/j0" android:textColor="@a$c/ubd" android:ellipsize="end" android:id="@a$f/ulk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:maxLines="1" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x3701" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_marginLeft="5dp" android:layout_weight="0.5">
+                <TextView android:textSize="@dimen/iy" android:textColor="@a$c/ubd" android:id="@a$f/ulp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                <TextView android:textSize="@dimen/iy" android:textColor="@a$c/ubd" android:ellipsize="end" android:id="@a$f/ull" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:maxLines="2" android:layout_below="@a$f/ulp" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

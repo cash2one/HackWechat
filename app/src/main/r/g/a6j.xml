@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/i3" android:background="@drawable/qc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0163"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/ho">
+        <ImageView android:id="@id/g_" android:layout_width="UNKNOWN_DATA_0x7f0b013a" android:layout_height="UNKNOWN_DATA_0x7f0b013a" android:layout_marginRight="@dimen/hz" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@h/cAc" android:visibility="gone" android:layout_marginLeft="@dimen/iu" style="@style/oa" />
+        <ImageView android:id="@h/czm" android:visibility="gone" android:layout_marginLeft="@dimen/iu" style="@style/sv" />
+        <TextView android:id="@h/cTL" android:visibility="gone" android:layout_marginLeft="@dimen/iu" style="@style/su" />
+    </LinearLayout>
+    <ImageView android:id="@id/cc_" android:background="@color/lb" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009e" />
+</LinearLayout>

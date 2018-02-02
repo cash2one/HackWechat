@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" style="@style/lx">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@f/bur" android:paddingTop="@f/bvx" android:paddingRight="@f/bur" android:paddingBottom="@f/bvx" style="@style/jg">
+            <ImageView android:id="@id/wz" android:paddingBottom="@f/bvx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wh" />
+            <TextView android:textSize="@dimen/br" android:textColor="@color/m1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cMc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h5" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/lo" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cMb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@f/bvx" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/lo" />
+            <Button android:id="@h/bNE" android:visibility="gone" android:layout_marginBottom="@dimen/h5" android:text="@l/bNE" style="@style/m4" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

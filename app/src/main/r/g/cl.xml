@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/g3" android:paddingLeft="@dimen/en" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:paddingTop="15dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@h/cgg" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@drawable/z_" />
+        <LinearLayout android:orientation="vertical" android:paddingTop="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/by" android:textColor="@color/bp" android:id="@h/cho" android:text="{title}" style="@style/mf" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@q$d/isC" android:id="@h/cgx" android:paddingTop="1dp" android:text="{detail}" style="@m/eYP" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@e/bta" android:id="@h/cgR" android:paddingTop="5dp" android:text="{name}" style="@m/eYP" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@e/bta" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/chn" android:paddingTop="@dimen/hd" android:paddingRight="@dimen/en" android:text="{time}" style="@style/jv" />
+    </LinearLayout>
+    <TextView android:id="@h/czC" android:background="@e/bsl" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="65dp" />
+</LinearLayout>

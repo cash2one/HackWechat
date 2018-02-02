@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/bZR" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+    <ImageView android:id="@id/a3n" android:background="@color/bp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.tencent.mm.ui.base.MMViewPager android:id="@id/a3p" android:background="0x0" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="0dp" android:layout_below="@h/cLk" android:unselectedAlpha="1.2" />
+    <RelativeLayout android:id="@h/bZT" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b02b1" android:layout_alignParentTop="true">
+        <ViewStub android:id="@h/cnN" android:layout="@layout/yq" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" />
+        <ImageView android:id="@h/cUH" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b02b3" android:layout_height="UNKNOWN_DATA_0x7f0b02b2" android:src="@raw/media_preview_btn_close" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@h/bZU" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b02b1" android:layout_alignParentBottom="true">
+        <ViewStub android:id="@id/bpr" android:layout="@layout/yo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginBottom="@dimen/h8" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:onClick="onClick" />
+        <ViewStub android:id="@h/cpa" android:layout="@layout/yr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h8" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ViewStub android:id="@h/coZ" android:layout="@layout/yp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h5" android:layout_marginBottom="@dimen/h8" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ViewStub android:id="@id/ali" android:layout="@layout/ys" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@h/cLk" android:visibility="gone" android:layout="@layout/z0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0092" android:layout_alignParentTop="true" />
+</RelativeLayout>

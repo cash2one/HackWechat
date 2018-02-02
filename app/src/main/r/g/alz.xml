@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@a$f/uwk" android:background="@color/s2" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@a$f/usR" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@a$f/uAN" android:background="@raw/bind_done_icon" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_marginTop="70dp" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="18dp" android:textColor="@color/bp" android:id="@a$f/usS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_below="@a$f/uAN" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14sp" android:textColor="@q$d/isC" android:id="@a$f/usT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="" android:layout_below="@a$f/usS" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@a$f/uwX" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="100dp" android:layout_marginRight="32dp">
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:id="@a$f/usk" android:background="#c7c7c7" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+                    <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@a$f/uwZ" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <TextView android:textSize="12dp" android:textColor="#949494" android:id="@a$f/uxb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:drawableLeft="@raw/wxpay_mini_program_icon" android:drawablePadding="4dp" android:layout_toRightOf="@a$f/uwZ" />
+                    <TextView android:textSize="18dp" android:textColor="#353535" android:id="@a$f/uwW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:layout_toRightOf="@a$f/uwZ" android:layout_below="@a$f/uxb" />
+                    <Button android:textSize="13dp" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uwU" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70dp" android:minHeight="30dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/m4" />
+                </RelativeLayout>
+                <View android:id="@a$f/usl" android:background="#c7c7c7" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            </LinearLayout>
+            <View android:id="@a$f/uwY" android:background="@color/s2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.5" />
+        </FrameLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@a$f/uzi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp">
+            <Button android:textSize="14dp" android:id="@a$f/usP" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:minWidth="163dp" style="@style/nl" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

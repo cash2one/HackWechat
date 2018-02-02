@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@f/gUX" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" style="@style/l6">
+    <RelativeLayout android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="match_parent"
+        <RelativeLayout android:id="@id/rl" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:id="@h/cml" android:padding="1dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="14dp" android:textColor="#737373" android:id="@h/bIl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@id/rm" android:layout_toRightOf="@id/rl" android:layout_centerHorizontal="true">
+            <TextView android:id="@h/cmV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:text="{Game Name}" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" style="@style/k4" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cTz" android:background="@color/bp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xec01" android:scaleType="fitXY" />
+        <ImageView android:id="@h/cTy" android:background="@drawable/p0" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x4401" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/by" android:textColor="@color/s2" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cTB" android:background="@color/qu" android:paddingLeft="@dimen/h5" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@f/buu" android:textColor="@color/qt" android:ellipsize="end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cTA" android:paddingTop="@f/bvx" android:paddingBottom="@dimen/h8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" />
+</LinearLayout>

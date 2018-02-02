@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/f7">
+    <include android:id="@id/ab1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/i3" style="@style/fa" />
+    <TextView android:id="@h/bVk" android:visibility="gone" android:text="{user}" android:layout_toLeftOf="@id/ab1" style="@style/fg" />
+    <LinearLayout android:id="@h/bTF" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@id/ab1">
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVb" android:layout_marginRight="6dp" style="@style/fk" />
+            <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cTZ" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.mm.ui.widget.MMNeatTextView android:id="@h/bTH" android:background="@g/bBt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/ci" style="@style/fm" />
+                <TextView android:id="@h/bTl" android:background="@drawable/ba" android:padding="@dimen/bt" android:layout_marginLeft="0dp" style="@style/f8" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@a$e/mdn" android:background="@a$d/mcP" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@a$e/mcW" android:background="@drawable/gy" android:layout_width="UNKNOWN_DATA_0x3e01" android:layout_height="match_parent" android:alpha="0.75" />
+        <RelativeLayout android:background="@drawable/afn" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@a$e/mdl" android:layout_marginLeft="@a$c/mcz" style="@style/h2" />
+            <ImageView android:id="@a$e/mdm" android:layout_marginRight="@a$c/mcz" android:layout_alignParentRight="true" style="@style/h2" />
+            <ImageView android:id="@a$e/mdf" android:layout_marginLeft="@a$c/mcz" android:layout_alignParentBottom="true" style="@style/h2" />
+            <ImageView android:id="@a$e/mdg" android:layout_marginRight="@a$c/mcz" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/h2" />
+            <ImageView android:id="@a$e/mdi" android:layout_marginTop="@a$c/mcz" style="@style/h3" />
+            <ImageView android:id="@a$e/mdh" android:layout_marginBottom="@a$c/mcz" android:layout_alignParentBottom="true" style="@style/h3" />
+            <ImageView android:id="@a$e/mdk" android:layout_marginTop="@a$c/mcz" android:layout_alignParentRight="true" style="@style/h3" />
+            <ImageView android:id="@a$e/mdj" android:layout_marginBottom="@a$c/mcz" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/h3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@a$e/mcT" android:layout_width="match_parent" android:layout_height="match_parent" /> />
+</merge>

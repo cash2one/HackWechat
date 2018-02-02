@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@h/layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/bJq" android:background="@color/q5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@h/bJd" />
+        <ListView android:id="@h/bJd" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/l4" />
+        <com.tencent.mm.plugin.ipcall.ui.IPCallAddressScrollbar android:id="@h/bJn" android:layout_width="UNKNOWN_DATA_0x7f0b0034" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/bJp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="15dp" android:textColor="@color/ai" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/brr" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:text="@string/blu" android:layout_weight="0.5" />
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.5" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

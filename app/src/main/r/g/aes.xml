@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@a$c/uaK" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:background="@color/s2" android:paddingLeft="@dimen/hc" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/hc" android:paddingBottom="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/i0" android:id="@h/cvI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/iz" android:text="@l/eRJ" />
+        <TextView android:textSize="@dimen/iv" android:textColor="@e/bsN" android:id="@h/cMq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/czd" />
+        <TextView android:textSize="@dimen/iv" android:textColor="@e/bsN" android:id="@h/cMs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/czg" />
+        <TextView android:textSize="@dimen/iv" android:textColor="@e/bsN" android:id="@h/cMr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cze" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/cRR" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/hm">
+        <ProgressBar android:id="@id/je" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/x2" />
+        <TextView android:textColor="@e/bsN" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/in" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/br6" />
+    </LinearLayout>
+    <RelativeLayout android:id="@h/ctb" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+        <android.support.v7.widget.RecyclerView android:id="@h/cTI" android:background="@color/ls" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/l4" />
+        <com.tencent.mm.ui.base.RealAlphabetScrollBar android:id="@h/cTJ" android:layout_width="UNKNOWN_DATA_0x7f0b0034" android:layout_height="match_parent" android:layout_marginTop="@dimen/hz" android:layout_marginBottom="@dimen/hz" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@h/bottom_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View android:background="@e/bsN" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@color/ls" android:paddingLeft="@dimen/hc" android:paddingRight="@dimen/hc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0131"
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/cTH" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <CheckBox android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gp" android:background="@a$d/qfl" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0084" android:layout_height="UNKNOWN_DATA_0x7f0b0084" />
+                    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/iu" android:text="@string/di1" />
+                </LinearLayout>
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+                <TextView android:enabled="false" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cTG" android:text="@string/dhz" style="@style/nn" />
+                <TextView android:enabled="false" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cTF" android:layout_marginLeft="@dimen/iu" android:text="@string/dhw" style="@style/m9" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

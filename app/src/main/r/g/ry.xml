@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/hg">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/en" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/h9"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:src="@raw/app_attach_file_icon_voice" style="@style/h7" />
+                <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cho" android:layout_marginLeft="@dimen/ei" android:text="{title}" style="@style/hd" />
+            </LinearLayout>
+            <include layout="@layout/rt" />
+            <include layout="@layout/rs" />
+        </LinearLayout>
+        <include layout="@layout/rr" />
+    </LinearLayout>
+</FrameLayout>

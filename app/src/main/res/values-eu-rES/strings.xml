@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Joan orri nagusira</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Joan gora</string>
+    <string name="abc_action_menu_overflow_description">Aukera gehiago</string>
+    <string name="e">Eginda</string>
+    <string name="f">Ikusi guztiak</string>
+    <string name="g">Aukeratu aplikazio bat</string>
+    <string name="h">DESAKTIBATUTA</string>
+    <string name="i">AKTIBATUTA</string>
+    <string name="j">Bilatu…</string>
+    <string name="k">Garbitu kontsulta</string>
+    <string name="l">Bilaketa-kontsulta</string>
+    <string name="m">Bilatu</string>
+    <string name="n">Bidali kontsulta</string>
+    <string name="o">Ahots bidezko bilaketa</string>
+    <string name="p">Partekatu hauekin</string>
+    <string name="q">Tolestu</string>
+    <string name="r">999+</string>
+    <string name="s">Partekatu %s erabiltzailearekin</string>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.pluginsdk.ui.emoji.PreViewEmojiView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$e/lJv" android:background="@drawable/smiley_item_bg2" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0b0283" android:layout_height="UNKNOWN_DATA_0x7f0b0283" android:scaleType="centerInside" />

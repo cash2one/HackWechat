@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/j3" android:background="@drawable/a7p" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@f/qCf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="20dp">
+        <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/a4c" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x201" android:layout_marginLeft="60dp" android:layout_marginTop="8dp" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:textColor="#b2b2b2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/db9" />
+            <TextView android:textSize="11dp" android:textColor="@color/jp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@f/qEZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/db_" />
+        </LinearLayout>
+        <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/a4c" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x201" android:layout_marginTop="8dp" android:layout_marginRight="60dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@f/qCH" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1b01" />
+    <LinearLayout android:id="@f/qCI" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x501">
+        <ImageView android:background="@drawable/a4e" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="66dp" />
+        <ImageView android:id="@f/qCQ" android:background="@color/p4" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@f/qCK" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp">
+        <include android:layout_width="match_parent" layout="@layout/ah1" />
+        <LinearLayout android:orientation="vertical" android:id="@id/abb" android:background="@drawable/pw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz">
+            <TextView android:textSize="15dp" android:textColor="#000000" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ql" android:paddingLeft="6dp" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" android:minHeight="18dp" android:singleLine="true" />
+            <LinearLayout android:orientation="vertical" android:paddingRight="3dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@i$g/qHA" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

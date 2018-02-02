@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@id/k3" android:layout_width="UNKNOWN_DATA_0x11201" android:layout_height="wrap_content" android:minHeight="152dp" style="@style/og">
+        <RelativeLayout android:id="@h/cuu" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textColor="@color/b6" android:id="@id/k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h8" android:layout_marginTop="@dimen/h8" android:text="@string/eb0" />
+            <ImageView android:id="@id/k6" android:layout_width="UNKNOWN_DATA_0x7f0b015c" android:layout_height="UNKNOWN_DATA_0x7f0b015c" android:layout_marginLeft="@dimen/h8" android:layout_marginTop="@dimen/h5" android:src="@raw/login_app_default_avatar" android:layout_below="@id/k5" />
+            <TextView android:textSize="14sp" android:textColor="@color/b6" android:id="@id/k7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hl" android:layout_marginTop="@dimen/mg" android:layout_marginRight="@dimen/h5" android:text="@string/bry" android:maxLines="2" android:layout_toRightOf="@id/k6" />
+            <ImageView android:background="@color/b3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="@dimen/h8" android:layout_marginTop="@dimen/h5" android:layout_marginRight="@dimen/h8" android:layout_below="@id/k6" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/k8" android:background="@color/s2" android:layout_width="UNKNOWN_DATA_0x7f0b02c1" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+            <com.tencent.mm.ui.base.AuthorizeItemListView android:id="@id/k9" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/k_" android:paddingLeft="@dimen/hc" android:paddingTop="@dimen/s7" android:paddingRight="@dimen/h5" android:paddingBottom="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/hj" android:textColor="@color/b5" android:id="@id/ka" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cu" android:text="@string/bsl" style="@style/mb" />
+            <Button android:textSize="@dimen/hj" android:textColor="@color/b4" android:id="@id/kb" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cu" android:text="@string/brv" style="@style/mb" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

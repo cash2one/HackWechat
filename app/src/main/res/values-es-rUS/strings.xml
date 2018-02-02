@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Navegar a la página principal</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Navegar hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="e">Listo</string>
+    <string name="f">Ver todo</string>
+    <string name="g">Elige una aplicación.</string>
+    <string name="h">DESACTIVAR</string>
+    <string name="i">ACTIVAR</string>
+    <string name="j">Buscar…</string>
+    <string name="k">Eliminar la consulta</string>
+    <string name="l">Consulta de búsqueda</string>
+    <string name="m">Búsqueda</string>
+    <string name="n">Enviar consulta</string>
+    <string name="o">Búsqueda por voz</string>
+    <string name="p">Compartir con</string>
+    <string name="q">Contraer</string>
+    <string name="r">999+</string>
+    <string name="s">Compartir con %s</string>
+</resources>

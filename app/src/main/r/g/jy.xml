@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/fc">
+    <include layout="@layout/i1" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@h/bVk" android:visibility="gone" style="@style/fg" />
+        <com.tencent.mm.ui.widget.MMTextView android:id="@h/bTH" android:background="@g/bAR" android:paddingLeft="20dp" android:paddingRight="15dp" android:maxWidth="225dp" android:minHeight="@dimen/ci" style="@style/fm" />
+    </LinearLayout>
+</LinearLayout>

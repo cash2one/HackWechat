@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@h/ciw" style="@style/l6">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@h/ciu" android:layout_width="UNKNOWN_DATA_0x7f0b013f" android:layout_height="UNKNOWN_DATA_0x7f0b013f" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:layout_centerVertical="true">
+            <ImageView android:id="@id/j3" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:layout_centerInParent="true" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <RelativeLayout android:id="@id/b8i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iu" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <Button android:id="@h/cir" android:focusable="false" android:focusableInTouchMode="false" android:text="@string/b6y" style="@style/mb" />
+            <Button android:id="@h/ciA" android:focusable="false" android:focusableInTouchMode="false" android:text="@l/eim" style="@style/m6" />
+            <TextView android:id="@h/ciy" android:visibility="gone" android:text="@string/cz" style="@m/eYP" />
+            <TextView android:id="@h/cit" android:background="0x0" android:visibility="gone" android:text="@string/cx" style="@style/g3" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@id/b8i" android:layout_toRightOf="@h/ciu" android:layout_centerHorizontal="true">
+            <TextView android:id="@h/cix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nick}" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/k4" />
+            <TextView android:id="@h/civ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{lastmsg}" android:singleLine="true" android:layout_below="@h/cix" android:layout_alignParentLeft="true" style="@m/eYP" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@f/qBE" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3601">
+        <FrameLayout android:layout_width="UNKNOWN_DATA_0x3401" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/co" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0xc01" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingLeft="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/b2_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" />
+                <TextView android:textSize="15sp" android:textColor="@color/bp" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/c_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@f/qBJ" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@f/qBv" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+        <TextView android:textSize="15sp" android:textColor="@color/bp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@j/qKX" />
+    </RelativeLayout>
+</LinearLayout>

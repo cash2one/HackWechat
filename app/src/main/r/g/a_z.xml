@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/crc" android:background="@color/s2" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <HorizontalScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:id="@a$f/uux" android:background="@color/s2" android:layout_width="UNKNOWN_DATA_0x18001" android:layout_height="UNKNOWN_DATA_0x18001">
+            <RelativeLayout android:background="@color/s2" android:layout_width="UNKNOWN_DATA_0x18001" android:layout_height="UNKNOWN_DATA_0x18001">
+                <ImageView android:id="@id/cre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="7dp" android:src="@drawable/amg" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <ImageView android:id="@id/crf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:layout_marginRight="7dp" android:src="@drawable/amg" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                <View android:background="@color/m" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="5dp" android:layout_marginTop="8dp" android:layout_marginRight="5dp" android:layout_toLeftOf="@id/crf" android:layout_toRightOf="@id/cre" android:layout_alignParentTop="true" android:alpha="0.3" />
+                <View android:background="@color/m" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_marginTop="5dp" android:layout_below="@id/cre" android:layout_alignParentLeft="true" android:alpha="0.3" />
+                <View android:background="@color/m" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_below="@id/crf" android:layout_alignParentRight="true" android:alpha="0.3" />
+                <RelativeLayout android:id="@id/crg" android:layout_width="UNKNOWN_DATA_0xa001" android:layout_height="UNKNOWN_DATA_0xa001" android:layout_marginTop="60dp" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@a$f/uuf" android:layout_width="UNKNOWN_DATA_0xa001" android:layout_height="UNKNOWN_DATA_0xa001" />
+                </RelativeLayout>
+                <TextView android:textSize="20dp" android:textColor="@color/bp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp" android:layout_below="@id/crg" android:layout_centerHorizontal="true" />
+                <ImageView android:background="@drawable/amf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+                <TextView android:textSize="16dp" android:textColor="@color/s2" android:id="@a$f/uuh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="19dp" android:text="" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

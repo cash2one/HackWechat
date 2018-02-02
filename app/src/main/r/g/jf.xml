@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/fc">
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVb" style="@style/fk" />
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVd" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+            <RelativeLayout android:orientation="horizontal" android:id="@h/bTE" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cTZ" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+                <com.tencent.mm.pluginsdk.ui.emoji.RTChattingEmojiViewTo android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bTI" android:background="0x0" android:layout_marginLeft="@dimen/pw" android:layout_marginRight="@dimen/pw" style="@style/g_" />
+                <ProgressBar android:id="@h/bTQ" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b030a" android:layout_height="UNKNOWN_DATA_0x7f0b030a" android:indeterminateDrawable="@drawable/n9" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/j8" android:textColor="@color/s2" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bUZ" android:background="@drawable/emoji_app_msg_mask" android:padding="@dimen/ix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="@color/ef" android:layout_alignLeft="@h/bTI" android:layout_alignRight="@h/bTI" android:layout_alignBottom="@h/bTI" />
+                <ImageView android:id="@h/bVc" android:background="0x0" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b030a" android:layout_height="UNKNOWN_DATA_0x7f0b030a" android:src="@g/bBP" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/i3" />
+</LinearLayout>

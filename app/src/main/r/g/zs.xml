@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bJi" android:paddingLeft="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/as" style="@style/l5" />
+    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bJo" android:paddingLeft="@dimen/hz" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0037" style="@style/l5" />
+    <FrameLayout android:orientation="horizontal" android:background="@f/gUX" android:paddingLeft="@dimen/am" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@h/crx" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@f/bwa">
+            <FrameLayout android:id="@id/bub" android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/hz" />
+            <ImageView android:id="@id/ko" android:layout_width="UNKNOWN_DATA_0x7f0b005b" android:layout_height="UNKNOWN_DATA_0x7f0b005b" android:src="@g/bDh" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/i2" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_marginLeft="31dp" android:layout_marginTop="3dp" android:src="@f/gVe" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/buc" android:paddingTop="4dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/al" android:layout_toLeftOf="@h/crz" android:layout_toRightOf="@id/ko" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@id/apr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/aj" android:id="@h/cCu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <LinearLayout android:id="@h/cGl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                    <TextView android:textSize="@dimen/gu" android:textColor="@color/aj" android:id="@h/cGm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/gu" android:textColor="@color/aj" android:id="@h/cGn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/crz" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="75dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:id="@id/hb" android:background="#26000000" android:layout_width="UNKNOWN_DATA_0x7f0b009e" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_centerVertical="true" />
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x3801" android:layout_height="match_parent">
+                    <ImageView android:id="@h/bJj" android:background="@drawable/af" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0b005c" android:layout_height="UNKNOWN_DATA_0x7f0b005c" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/bui" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="75dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/f_" android:id="@id/buj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout android:id="@h/cFz" android:paddingTop="6dp" android:minHeight="83dp" style="@style/oi">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cFD" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3501" android:layout_height="UNKNOWN_DATA_0x3501" android:layout_marginLeft="8dp" />
+        <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cFE" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" style="@style/xu" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:minHeight="77dp" android:layout_weight="1.0">
+            <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@e/brW" android:ellipsize="end" android:id="@h/cFG" android:paddingRight="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="14dp" android:id="@h/cFF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/jz" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

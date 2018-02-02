@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Үйгө багыттоо</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Жогору</string>
+    <string name="abc_action_menu_overflow_description">Көбүрөөк мүмкүнчүлүктөр</string>
+    <string name="e">Даяр</string>
+    <string name="f">Бардыгын көрүү</string>
+    <string name="g">Колдонмо тандоо</string>
+    <string name="h">ӨЧҮК</string>
+    <string name="i">КҮЙҮК</string>
+    <string name="j">Издөө…</string>
+    <string name="k">Талаптарды тазалоо</string>
+    <string name="l">Издөө талаптары</string>
+    <string name="m">Издөө</string>
+    <string name="n">Талап жөнөтүү</string>
+    <string name="o">Үн аркылуу издөө</string>
+    <string name="p">Бөлүшүү</string>
+    <string name="q">Жыйнап коюу</string>
+    <string name="r">999+</string>
+    <string name="s">%s аркылуу бөлүшүү</string>
+</resources>

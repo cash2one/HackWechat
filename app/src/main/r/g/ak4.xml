@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@f/qCp" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_margin="3dp" android:scaleType="centerCrop" android:maxHeight="350dp" />
+        <ImageView android:id="@f/state" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_margin="3dp" android:scaleType="center" android:maxHeight="350dp" />
+    </FrameLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/dd_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp">
+        <TextView android:textSize="14dp" android:textColor="@color/p6" android:id="@f/qFN" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="14dp" android:textColor="@i$c/qyG" android:id="@f/qDj" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

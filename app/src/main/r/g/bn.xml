@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content" android:showDividers="middle"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/m6" android:layout_width="UNKNOWN_DATA_0x3701" android:layout_height="UNKNOWN_DATA_0x3701" android:layout_marginTop="20dp" android:layout_marginBottom="10dp" />
+        <TextView android:textAppearance="@style/qe" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@q$g/iwm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:maxLines="2" />
+        <TextView android:textAppearance="@style/qd" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@q$g/iwi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="23dp" />
+    </LinearLayout>
+    <TableLayout android:id="@q$g/iwq" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/az" android:stretchColumns="1" android:showDividers="beginning|middle">
+        <TableRow android:id="@q$g/iwn" android:paddingTop="@dimen/m5" android:paddingBottom="@dimen/m5" style="@style/u8">
+            <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ma" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/jg" style="@style/qf" />
+            <TextView android:textAppearance="@style/qg" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@q$g/iwo" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@q$g/iwk" style="@style/u8">
+            <TextView android:background="@drawable/ax" android:paddingTop="@dimen/m5" android:paddingBottom="@dimen/m5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/jf" style="@style/qf" />
+            <TextView android:textAppearance="@style/qg" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@q$g/iwl" android:background="@drawable/ax" android:paddingTop="@dimen/m5" android:paddingBottom="@dimen/m5" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@q$g/iwh" style="@style/u8">
+            <TextView android:ellipsize="end" android:paddingTop="@dimen/m5" android:paddingBottom="@dimen/m5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@j/iBa" style="@style/qf" />
+            <com.tencent.mm.plugin.appbrand.widget.WxaBindBizInfoView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@q$g/iwg" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

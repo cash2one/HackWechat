@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="1000" android:drawable="@drawable/x8" />
+    <item android:duration="1000" android:drawable="@drawable/x9" />
+    <item android:duration="1000" android:drawable="@drawable/x_" />
+    <item android:duration="1000" android:drawable="@drawable/xa" />
+    <item android:duration="1000" android:drawable="@drawable/xb" />
+    <item android:duration="1000" android:drawable="@drawable/xc" />
+    <item android:duration="300" android:drawable="@drawable/xd" />
+    <item android:duration="1000" android:drawable="@drawable/xe" />
+    <item android:duration="1000" android:drawable="@drawable/xf" />
+    <item android:duration="1000" android:drawable="@drawable/xl" />
+    <item android:duration="1000" android:drawable="@drawable/xk" />
+    <item android:duration="1000" android:drawable="@drawable/xj" />
+    <item android:duration="1000" android:drawable="@drawable/xi" />
+    <item android:duration="1000" android:drawable="@drawable/xh" />
+    <item android:duration="1000" android:drawable="@drawable/xg" />
+    <item android:duration="1000" android:drawable="@drawable/xg" />
+    <item android:duration="1000" android:drawable="@drawable/xh" />
+    <item android:duration="1000" android:drawable="@drawable/xi" />
+    <item android:duration="1000" android:drawable="@drawable/xj" />
+    <item android:duration="1000" android:drawable="@drawable/xk" />
+    <item android:duration="1000" android:drawable="@drawable/xl" />
+    <item android:duration="300" android:drawable="@drawable/xd" />
+    <item android:duration="1000" android:drawable="@drawable/xe" />
+    <item android:duration="1000" android:drawable="@drawable/xf" />
+    <item android:duration="1000" android:drawable="@drawable/xc" />
+    <item android:duration="1000" android:drawable="@drawable/xb" />
+    <item android:duration="1000" android:drawable="@drawable/xa" />
+    <item android:duration="1000" android:drawable="@drawable/x_" />
+    <item android:duration="1000" android:drawable="@drawable/x9" />
+    <item android:duration="1000" android:drawable="@drawable/x8" />
+</animation-list>

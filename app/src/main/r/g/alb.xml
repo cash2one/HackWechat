@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/ls" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/hq" android:paddingRight="@dimen/hz" style="@style/cv">
+        <TextView android:id="@a$f/ula" android:visibility="gone" android:text="@string/dy" style="@style/cw" />
+        <com.tencent.mm.ui.base.MaxListView android:id="@id/dox" android:background="0x0" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="0x106000d" android:divider="#00000000" android:dividerHeight="0dp" android:choiceMode="singleChoice" />
+        <include android:id="@h/bIZ" android:visibility="gone" layout="@i/dtS" />
+        <TextView android:textSize="@dimen/by" android:textColor="@color/m1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cpH" android:background="@drawable/g1" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@f/bvI" android:text="@string/dt" />
+    </LinearLayout>
+</ScrollView>

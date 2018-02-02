@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/ag7" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.MMImageView android:id="@h/bUJ" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x7f0b0076" android:scaleType="centerCrop" />
+    <com.tencent.mm.ui.MMImageView android:id="@h/bUK" android:layout_width="UNKNOWN_DATA_0x7f0b0076" android:layout_height="UNKNOWN_DATA_0x7f0b0076" android:layout_marginRight="@dimen/iu" android:scaleType="centerCrop" />
+    <com.tencent.mm.ui.MMImageView android:id="@h/bUL" android:layout_width="UNKNOWN_DATA_0x7f0b0076" android:layout_height="UNKNOWN_DATA_0x7f0b0076" android:layout_marginRight="@dimen/iu" android:scaleType="centerCrop" />
+    <com.tencent.mm.ui.MMImageView android:id="@h/bUM" android:layout_width="UNKNOWN_DATA_0x7f0b0076" android:layout_height="UNKNOWN_DATA_0x7f0b0076" android:layout_marginRight="@dimen/iu" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x7f0b0076" android:layout_height="UNKNOWN_DATA_0x7f0b0076">
+        <com.tencent.mm.ui.MMImageView android:id="@h/bUN" android:layout_width="UNKNOWN_DATA_0x7f0b0076" android:layout_height="UNKNOWN_DATA_0x7f0b0076" android:scaleType="centerCrop" />
+        <ImageView android:id="@h/bUO" android:background="@drawable/e9" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0076" android:layout_height="UNKNOWN_DATA_0x1601" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/i0" android:typeface="monospace" android:textColor="@color/s2" android:id="@h/bUI" android:paddingRight="5dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

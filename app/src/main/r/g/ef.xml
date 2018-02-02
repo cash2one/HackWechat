@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" style="@style/lx">
+        <LinearLayout style="@style/jg">
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bNy" android:layout_marginBottom="@dimen/hz" android:text="@string/yt" style="@style/jh" />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bNz" android:visibility="gone" android:layout_marginBottom="@dimen/hz" style="@style/l3" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/ws" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iu" android:layout_weight="1.0" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|number|numberSigned|numberDecimal|numberPassword|phone" style="@style/l2" />
+                <Button android:id="@id/wt" android:layout_width="UNKNOWN_DATA_0x5001" android:text="@string/y6" style="@style/m6" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <Button android:id="@h/bNC" android:visibility="gone" android:layout_marginTop="10dp" android:text="@l/dLI" style="@style/mb" />
+                <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wu" android:visibility="gone" android:text="@l/eGU" style="@style/p4" />
+            </LinearLayout>
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bNu" android:visibility="gone" style="@style/jh" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

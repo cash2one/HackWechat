@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/s2" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@a$f/utB" app:background="@color/s2" app:paddingLeft="@dimen/h5" app:paddingRight="@dimen/h5" app:layout_width="match_parent" app:layout_height="match_parent"
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/a7e" app:padding="14dp" app:visibility="gone" app:persistentDrawingCache="animation|scrolling|all" app:alwaysDrawnWithCache="true" app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <RelativeLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0xfa01" app:layout_height="UNKNOWN_DATA_0xfa01">
+                <ImageView app:id="@id/a7f" app:layout_width="UNKNOWN_DATA_0xfa01" app:layout_height="UNKNOWN_DATA_0xfa01" app:scaleType="fitCenter" app:layout_centerInParent="true" app:contentDescription="@string/e8r" />
+                <ImageView app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@raw/wallet_offline_icon" app:scaleType="fitCenter" app:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@id/a7i" app:paddingLeft="@dimen/h5" app:paddingRight="@dimen/h5" app:visibility="visible" app:persistentDrawingCache="animation|scrolling|all" app:alwaysDrawnWithCache="true" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x1ae01">
+            <ImageView app:id="@id/a7l" app:layout_width="UNKNOWN_DATA_0x7e01" app:layout_height="match_parent" app:scaleType="fitXY" app:contentDescription="@string/e84" />
+            <com.tencent.mm.ui.base.MMVerticalTextView app:id="@id/a7k" app:tag="1" app:focusable="true" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="match_parent" app:text="" app:textColor="@color/m1" app:textSize="@f/buL" app:direction="UNKNOWN_DATA_0x0" app:textBold="true" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="match_parent" app:layout_marginLeft="30dp">
+                <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="1dp" app:layout_marginBottom="5dp" app:src="@raw/offline_notification" />
+                <com.tencent.mm.ui.base.MMVerticalTextView app:id="@id/dvr" app:tag="1" app:focusable="true" app:clickable="true" app:layout_width="UNKNOWN_DATA_0xf01" app:layout_height="wrap_content" app:text="@string/c90" app:textColor="#ffc15c" app:textSize="@dimen/iy" app:direction="UNKNOWN_DATA_0x0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@a$f/utC" app:background="@color/s2" app:focusable="true" app:visibility="gone" app:clickable="true" app:layout_width="match_parent" app:layout_height="match_parent" app:alpha="0.99">
+        <com.tencent.mm.ui.base.MMVerticalTextView app:id="@a$f/urC" app:paddingLeft="0dp" app:paddingRight="0dp" app:focusable="true" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x2301" app:layout_height="UNKNOWN_DATA_0xbe01" app:text="@a$i/uTd" app:textColor="#02bb00" app:textSize="@dimen/dd" app:direction="UNKNOWN_DATA_0x0" style="@style/nl" />
+        <RelativeLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <com.tencent.mm.ui.base.MMVerticalTextView app:id="@id/dvu" app:tag="1" app:focusable="true" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1601" app:layout_height="UNKNOWN_DATA_0x14701" app:layout_marginLeft="30dp" app:layout_centerVertical="true" app:text="@string/c92" app:textColor="#666666" app:textSize="18dp" app:direction="UNKNOWN_DATA_0x0" />
+            <com.tencent.mm.ui.base.MMVerticalTextView app:id="@id/dvv" app:tag="1" app:focusable="true" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1601" app:layout_height="UNKNOWN_DATA_0x14701" app:layout_marginLeft="5dp" app:layout_toRightOf="@id/dvu" app:text="@string/c91" app:textColor="#666666" app:textSize="18dp" app:direction="UNKNOWN_DATA_0x0" />
+        </RelativeLayout>
+        <ImageView app:layout_width="UNKNOWN_DATA_0x3801" app:layout_height="UNKNOWN_DATA_0x3301" app:layout_marginLeft="30dp" app:src="@drawable/aqj" app:rotation="90.0" />
+    </LinearLayout>
+</FrameLayout>

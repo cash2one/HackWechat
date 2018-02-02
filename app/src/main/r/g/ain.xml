@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.KeyboardLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f5f5f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@a$f/uns" android:background="0x0" android:focusable="true" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:scrollingCache="false" android:transcriptMode="disabled" android:divider="@drawable/k3" android:dividerHeight="@d/ubI" android:layout_weight="1.0" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+</com.tencent.mm.ui.KeyboardLinearLayout>

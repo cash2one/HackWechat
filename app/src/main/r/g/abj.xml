@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" form:orientation="vertical" form:background="@color/ls" form:paddingLeft="@dimen/hz" form:paddingTop="@dimen/hz" form:paddingRight="@dimen/hz" form:layout_width="match_parent" form:layout_height="match_parent">
+    <com.tencent.mm.ui.account.ResizeLayout form:orientation="vertical" form:id="@h/cHL" form:layout_width="match_parent" form:layout_height="match_parent">
+        <ScrollView form:id="@id/gj" form:scrollbars="UNKNOWN_DATA_0x0" form:layout_width="match_parent" form:layout_height="wrap_content">
+            <LinearLayout form:orientation="vertical" form:layout_width="match_parent" form:layout_height="wrap_content"
+                <LinearLayout form:gravity="top|bottom|center_vertical|fill_vertical|center|fill" form:orientation="horizontal" form:id="@id/cvm" form:layout_width="match_parent" form:layout_height="wrap_content">
+                    <com.tencent.mm.ui.base.MMFormInputView form:id="@h/cHk" form:layout_width="UNKNOWN_DATA_0x1" form:layout_height="UNKNOWN_DATA_0x7f0b0163" form:layout_weight="1.0" form:form_layout="@layout/a46" form:form_title="@string/ci6" form:form_hint="@string/ci5" style="@style/k_" />
+                    <RelativeLayout form:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@h/cLJ" form:layout_width="wrap_content" form:layout_height="wrap_content" form:layout_marginLeft="10dp">
+                        <ImageView form:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@h/cLI" form:background="@drawable/nx" form:layout_width="UNKNOWN_DATA_0x4001" form:layout_height="UNKNOWN_DATA_0x4001" />
+                        <ImageView form:id="@h/cLK" form:layout_width="UNKNOWN_DATA_0x1e01" form:layout_height="UNKNOWN_DATA_0x1801" form:layout_margin="8dp" form:src="@raw/camera" form:layout_centerHorizontal="true" form:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout form:gravity="top|bottom|center_vertical|fill_vertical|center|fill" form:id="@h/bZd" form:background="@drawable/g1" form:paddingLeft="@dimen/iu" form:paddingRight="@dimen/iu" form:layout_width="match_parent" form:layout_height="UNKNOWN_DATA_0x7f0b0163">
+                    <TextView form:textSize="@dimen/i0" form:textColor="@color/bp" form:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:layout_width="UNKNOWN_DATA_0x1" form:layout_height="wrap_content" form:text="@string/chr" form:layout_weight="1.0" />
+                    <TextView form:textSize="@dimen/i0" form:textColor="@color/ry" form:id="@h/bZf" form:layout_width="wrap_content" form:layout_height="wrap_content" form:text="@l/dXI" />
+                </LinearLayout>
+                <com.tencent.mm.ui.base.MMFormInputView form:id="@h/cHr" form:focusableInTouchMode="false" form:form_layout="@layout/a45" form:form_title="@string/brz" form:form_hint="@string/c0t" style="@style/k_" />
+                <com.tencent.mm.ui.base.MMFormInputView form:id="@h/cHp" form:form_layout="@layout/a48" form:form_title="@string/chg" form:form_hint="@string/che" style="@style/k_" />
+                <Button form:id="@h/cHi" form:layout_marginTop="@dimen/h8" form:text="@l/epz" style="@style/m4" />
+                <LinearLayout form:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:orientation="vertical" form:layout_marginTop="8dp" style="@style/l0">
+                    <TextView form:textSize="@dimen/j0" form:textColor="@color/j1" form:id="@h/bJE" form:layout_width="wrap_content" form:layout_height="wrap_content" form:text="@l/esL" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout form:id="@id/cvu" form:layout_width="match_parent" form:layout_height="match_parent" />
+    </com.tencent.mm.ui.account.ResizeLayout>
+</LinearLayout>

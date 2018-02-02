@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/s2" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56dp">
+            <ImageView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/d05" android:padding="@dimen/bt" android:layout_width="UNKNOWN_DATA_0x7f0b0061" android:layout_height="UNKNOWN_DATA_0x7f0b0061" android:src="@drawable/za" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/p6" />
+            <TextView android:textColor="@color/bp" android:id="@id/d09" android:layout_width="wrap_content" android:layout_below="@id/d05" android:layout_centerHorizontal="true" style="@style/p7" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/h2" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cqn" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/h8" android:text="邀请4位好友进群" />
+        <TextView android:textSize="@dimen/h2" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cqm" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/hl" />
+        <View android:background="#d8d8d8" android:paddingLeft="@dimen/br" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginTop="@dimen/h8" android:layout_marginBottom="@dimen/h8" />
+        <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bMK" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:verticalSpacing="@f/bur" android:numColumns="UNKNOWN_DATA_0x4" />
+        <TextView android:id="@h/bIp" android:layout_marginTop="@dimen/j2" android:layout_marginBottom="@dimen/j2" android:text="@string/b8" style="@style/m4" />
+    </LinearLayout>
+</ScrollView>

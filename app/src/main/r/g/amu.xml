@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="UNKNOWN_DATA_0x5d01" android:layout_height="UNKNOWN_DATA_0x5d01" android:layout_marginTop="50dp" android:src="@raw/lqt_succ_icon" android:scaleType="fitXY" />
+    <TextView android:textSize="20dp" android:textColor="@color/bp" android:id="@a$f/uwE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="@a$i/uSY" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <TextView android:textSize="30dp" android:textColor="@color/bp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/duf" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="¥" />
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="50dp" android:textColor="@color/bp" android:id="@a$f/ueF" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="13dp" android:textColor="#888888" android:id="@a$f/utI" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" />
+    <Button android:id="@a$f/ukH" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2f01" android:layout_marginLeft="20dp" android:layout_marginTop="35dp" android:layout_marginRight="20dp" android:text="@string/mf" style="@style/m4" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <TextView android:textSize="13dp" android:textColor="#888888" android:id="@a$f/uxo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" />
+    </LinearLayout>
+</LinearLayout>

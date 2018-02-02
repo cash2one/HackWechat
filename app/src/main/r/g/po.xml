@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/j0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@h/cSA" android:background="@drawable/go" android:layout_width="UNKNOWN_DATA_0x7f0b0146" android:layout_height="UNKNOWN_DATA_0x7f0b0175" android:layout_marginLeft="@dimen/j_" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/ry" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cPv" android:background="@drawable/gq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@f/bur" android:layout_below="@h/cSA" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:id="@h/bOO" android:background="@drawable/go" android:layout_width="UNKNOWN_DATA_0x7f0b0146" android:layout_height="UNKNOWN_DATA_0x7f0b0175" android:layout_marginLeft="@dimen/j_" android:layout_below="@h/cPv" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bYJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_toRightOf="@h/cPv" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.profile.ui.BizInfoHeaderPreference android1:key="contact_info_header_bizinfo" android1:layout="@layout/lo" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android1:title="@l/dVj" android1:key="contact_info_user_desc" android1:layout="@layout/a4f" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android1:title="@l/dXg" android1:key="contact_info_verifyuser" android1:layout="@layout/a4f" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android1:title="@string/alc" android1:key="contact_info_trademark" android1:layout="@layout/a4f" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android1:title="@string/ain" android1:key="contact_info_privilege" />
+    <Preference android1:title="@string/ajz" android1:key="contact_info_service_phone" android1:layout="@layout/a4f" />
+    <com.tencent.mm.plugin.profile.ui.IconWidgetPreference android1:title="@string/czp" android1:key="contact_info_kf_worker" android1:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.profile.ui.BizBindWxaInfoPreference android1:key="contact_info_bindwxainfo" android1:layout="@layout/ll" />
+    <PreferenceSmallCategory />
+    <Preference android1:title="@string/c3t" android1:key="near_field_service" android1:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.profile.ui.BizInfoPayInfoIconPreference android1:title="@string/ajm" android1:key="contact_info_reputation" android1:layout="@i/deN" />
+    <com.tencent.mm.plugin.profile.ui.BizInfoPayInfoIconPreference android1:title="@string/ah7" android1:key="contact_info_guarantee_info" android1:layout="@i/deN" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android1:title="@string/ajt" android1:key="contact_info_scope_of_business" android1:layout="@layout/a4f" />
+    <Preference android1:title="@string/al_" android1:key="contact_info_time_expired" android1:layout="@layout/a5u" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android1:title="@l/dXi" android1:key="contact_info_verifyuser_weibo" android1:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android1:title="@string/ail" android1:key="biz_placed_to_the_top" android1:widgetLayout="@layout/a4n" android1:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android1:persistent="false" android1:title="@string/al8" android1:key="contact_info_subscribe_bizinfo" android1:layout="@layout/a4f" />
+    <CheckBoxPreference android1:persistent="false" android1:title="@l/dXb" android1:key="contact_info_stick_biz" android1:layout="@layout/a4f" />
+    <Preference android1:title="@string/al9" android1:key="contact_info_template_recv" android1:layout="@layout/a4f" />
+    <CheckBoxPreference android1:persistent="false" android1:title="@string/cn9" android1:key="contact_is_mute" android1:layout="@layout/a4f" />
+    <CheckBoxPreference android1:persistent="false" android1:title="@string/ahz" android1:key="contact_info_locate" android1:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <PreferenceSmallCategory android1:key="contact_info_category2" />
+    <Preference android1:title="@l/ebL" android1:key="contact_info_biz_disable" android1:layout="@layout/a4g" />
+    <PreferenceSmallCategory />
+    <Preference android1:title="@l/dUt" android1:key="contact_info_biz_add" android1:layout="@layout/z4" />
+    <Preference android1:title="@string/aft" android1:key="contact_info_biz_go_chatting" android1:layout="@layout/z4" />
+    <Preference android1:title="@l/ebN" android1:key="contact_info_biz_enable" android1:layout="@layout/z4" />
+    <PreferenceSmallCategory />
+    <Preference android1:title="@l/dUR" android1:key="contact_info_expose_btn" android1:layout="@layout/ap7" />
+    <PreferenceCategory />
+</PreferenceScreen>

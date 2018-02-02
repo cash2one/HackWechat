@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" style="@style/gv"
+    <LinearLayout android:orientation="vertical" android:id="@id/ad8" android:background="@g/bBm" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/fp">
+        <TextView android:textSize="@dimen/gu" android:id="@h/bVj" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="4dp" android:paddingBottom="4dp" style="@style/fd" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="4dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_weight="1.0">
+            <ImageView android:id="@h/bTu" android:background="@drawable/z_" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" />
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/bp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bVl" android:maxWidth="100dp" style="@style/fd" />
+                    <TextView android:textSize="@dimen/iy" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bUD" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    <TextView android:textSize="@dimen/iy" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bTH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bUc" android:background="@g/bBj" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@h/bSC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:layout_marginRight="3dp" android:src="@drawable/ym" android:layout_toLeftOf="@h/bSD" />
+            <TextView android:textSize="@dimen/iy" android:textColor="@a$c/uaJ" android:id="@h/bSD" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="3dp" android:layout_marginRight="1dp" android:text="@l/ekf" android:layout_toLeftOf="@h/bUd" style="@style/fd" />
+            <ImageView android:id="@h/bUd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:src="@raw/mm_submenu_normal" />
+            <View android:id="@id/af0" android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0x401" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

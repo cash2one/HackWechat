@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/i9">
+    <ImageView android:src="@drawable/a0e" style="@style/hz" />
+    <TextView android:text="@string/b_2" style="@style/if" />
+    <LinearLayout android:id="@h/cjM" android:layout_marginTop="@dimen/ew" style="@style/ic">
+        <RelativeLayout android:id="@h/cjL" style="@style/i_">
+            <TextView android:id="@h/cjN" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" style="@style/ib" />
+            <CheckBox android:id="@h/cjK" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:checked="false" android:text="@string/b_g" android:layout_alignParentRight="true" style="@style/me" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@h/cjH" style="@style/ic"
+        <LinearLayout android:background="0x0" style="@style/i8">
+            <TextView android:id="@h/cjI" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ia" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@h/cjO" android:visibility="gone" android:layout_marginTop="@dimen/ew" style="@style/id">
+        <TextView android:id="@h/cjJ" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" style="@style/ib" />
+        <TextView android:id="@id/b_9" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/ba6" android:layout_alignParentRight="true" style="@style/ie" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_marginTop="@dimen/eu" style="@style/l0">
+        <Button android:id="@h/bXa" android:text="@l/ejN" style="@style/ik" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@h/cjP" android:visibility="gone" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginBottom="0dp" android:text="查看更多三星服务" android:layout_alignParentBottom="true" style="@style/ig" />
+    </RelativeLayout>
+</LinearLayout>

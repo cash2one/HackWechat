@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/k5" android:paddingLeft="@dimen/sg" android:paddingTop="@dimen/hl" android:paddingRight="@dimen/sg" android:paddingBottom="@dimen/hl" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:ellipsize="end" android:id="@a$f/uot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/uaT" android:ellipsize="end" android:id="@a$f/uos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:ellipsize="end" android:id="@a$f/uoq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="16dp" android:singleLine="true" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/uaT" android:ellipsize="end" android:id="@a$f/uor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

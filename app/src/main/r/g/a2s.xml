@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@a$f/usn" android:background="@drawable/kl" android:padding="@dimen/iu" android:visibility="visible" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_margin="0dp" style="@style/o4">
+    <ImageView android:id="@a$f/usy" android:background="@a$h/uGA" android:layout_width="UNKNOWN_DATA_0x1aa66621" android:layout_height="UNKNOWN_DATA_0x1aa66621" android:src="@a$h/uGC" />
+    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/i0" android:textColor="@a$c/ube" android:ellipsize="end" android:id="@a$f/usp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/ubd" android:ellipsize="end" android:id="@a$f/uso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:maxLines="1" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/gu" android:textColor="@color/s2" android:id="@a$f/usj" android:background="@drawable/cw" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4501" android:layout_height="UNKNOWN_DATA_0x10a66621" android:layout_marginLeft="10dp" android:text="@string/bxd" />
+</LinearLayout>

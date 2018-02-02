@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:orientation="vertical" wallet:id="@a$f/uyz" wallet:background="@color/ls" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <ScrollView wallet:id="@id/atq" wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x1" wallet:fillViewport="true" wallet:layout_weight="1.0">
+        <LinearLayout wallet:orientation="vertical" wallet:id="@id/atr" wallet:paddingTop="0dp" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" style="@style/t2">
+            <TextView wallet:id="@a$f/uyk" wallet:text="@a$i/uQc" style="@style/te" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/uyy" wallet:titleText="@string/dse" wallet:contentHint="@string/dvr" style="@style/ft" />
+            <Button wallet:id="@id/ak_" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_marginLeft="@dimen/hc" wallet:layout_marginTop="30dp" wallet:layout_marginRight="@dimen/hc" wallet:text="@l/dFQ" style="@style/tq" />
+        </LinearLayout>
+    </ScrollView>
+    <include wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" layout="@layout/aj_" />
+</LinearLayout>

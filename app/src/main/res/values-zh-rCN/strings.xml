@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">转到主屏幕</string>
+    <string name="b">%1$s：%2$s</string>
+    <string name="c">%1$s - %2$s：%3$s</string>
+    <string name="d">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="e">完成</string>
+    <string name="f">查看全部</string>
+    <string name="g">选择应用</string>
+    <string name="h">关闭</string>
+    <string name="i">开启</string>
+    <string name="j">搜索…</string>
+    <string name="k">清除查询</string>
+    <string name="l">搜索查询</string>
+    <string name="m">搜索</string>
+    <string name="n">提交查询</string>
+    <string name="o">语音搜索</string>
+    <string name="p">分享方式</string>
+    <string name="q">收起</string>
+    <string name="r">999+</string>
+    <string name="s">通过%s分享</string>
+    <string name="eea">添加到微信收藏</string>
+    <string name="eeb">微信</string>
+    <string name="eec">发送到朋友圈</string>
+    <string name="eed">发送给朋友</string>
+    <string name="eee">微信</string>
+</resources>

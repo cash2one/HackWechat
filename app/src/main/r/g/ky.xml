@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" wallet:id="@id/al5" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:fillViewport="true">
+    <HorizontalScrollView wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:fillViewport="true">
+        <LinearLayout wallet:orientation="vertical" wallet:id="@a$f/uiW" wallet:background="@color/qm" wallet:layout_width="UNKNOWN_DATA_0x19e01" wallet:layout_height="wrap_content" wallet:minWidth="414dp"
+            <LinearLayout wallet:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="vertical" wallet:background="@drawable/fy" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:minHeight="465dp">
+                <ImageView wallet:id="@a$f/uiK" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginTop="42dp" wallet:layout_marginBottom="23dp" wallet:src="@drawable/ael" wallet:scaleType="centerInside" />
+                <LinearLayout wallet:orientation="vertical" wallet:background="@color/s2" wallet:layout_width="UNKNOWN_DATA_0xec01" wallet:layout_height="wrap_content" wallet:minHeight="236dp"
+                    <LinearLayout wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="vertical" wallet:id="@a$f/uiF" wallet:visibility="visible" wallet:layout_width="UNKNOWN_DATA_0xec01" wallet:layout_height="wrap_content" wallet:layout_marginTop="9dp">
+                        <RelativeLayout wallet:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="horizontal" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+                            <com.tencent.mm.wallet_core.ui.WalletTextView wallet:textSize="24dp" wallet:textColor="@color/m1" wallet:id="@a$f/uiE" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:text="" wallet:layout_centerInParent="true" wallet:walletTypeFace="0" />
+                            <com.tencent.mm.wallet_core.ui.WalletTextView wallet:textSize="24dp" wallet:textColor="@color/m1" wallet:id="@a$f/uiC" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:text="¥" wallet:layout_toLeftOf="@a$f/uiE" wallet:walletTypeFace="0" />
+                        </RelativeLayout>
+                        <TextView wallet:textSize="13dp" wallet:textColor="@color/ly" wallet:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/uiD" wallet:visibility="visible" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:text="" />
+                    </LinearLayout>
+                    <RelativeLayout wallet:layout_width="UNKNOWN_DATA_0xec01" wallet:layout_height="UNKNOWN_DATA_0xec01">
+                        <ImageView wallet:id="@a$f/uiG" wallet:layout_width="UNKNOWN_DATA_0xec01" wallet:layout_height="UNKNOWN_DATA_0xec01" wallet:scaleType="fitXY" wallet:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <TextView wallet:textSize="28dp" wallet:textColor="@color/s2" wallet:id="@a$f/uiI" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginTop="21dp" wallet:text="" />
+                <TextView wallet:textSize="21dp" wallet:textColor="@color/s2" wallet:id="@a$f/uiJ" wallet:visibility="gone" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginTop="6dp" wallet:layout_marginBottom="25dp" wallet:text="" wallet:includeFontPadding="false" />
+            </LinearLayout>
+            <RelativeLayout wallet:background="@color/s2" wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x6701">
+                <ImageView wallet:id="@a$f/uiB" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginTop="22dp" wallet:layout_marginBottom="28dp" wallet:src="@drawable/aej" wallet:scaleType="centerInside" wallet:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

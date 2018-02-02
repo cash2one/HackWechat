@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/o_"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <com.tencent.mm.ui.base.MMPullDownView android:id="@h/cvb" android:background="@color/e5" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@h/cva" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" style="@style/l4" />
+        </com.tencent.mm.ui.base.MMPullDownView>
+        <ScrollView android:id="@h/cuZ" android:visibility="gone" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x7f0b0127" android:layout_height="UNKNOWN_DATA_0x7f0b0127" android:layout_marginTop="@dimen/gy" android:src="@raw/mass_send_icon" />
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_marginLeft="@f/bvP" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@f/bvP" android:text="@string/bzc" android:lineSpacingExtra="4dp" style="@style/jh" />
+                <Button android:id="@h/cvr" android:layout_marginLeft="@f/bvP" android:layout_marginTop="@f/bvx" android:layout_marginRight="@f/bvP" android:text="@string/bz7" style="@style/m4" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cvq" android:background="@drawable/aby" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@h/cvp" android:layout_margin="@dimen/iu" android:text="@string/bz7" style="@style/m6" />
+    </LinearLayout>
+</LinearLayout>

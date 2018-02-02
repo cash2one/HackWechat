@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/hd" android:paddingRight="@dimen/hd" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIs" android:padding="@dimen/iu" android:layout_width="UNKNOWN_DATA_0x7f0b0061" android:layout_height="UNKNOWN_DATA_0x7f0b0061" android:src="@drawable/za" />
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bi" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/i0" android:textColor="@d/gUv" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bIz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hd" android:layout_marginBottom="20dp" android:maxLines="1" />
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/caf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@h/cag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bt" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/gu" android:id="@h/cah" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/eNl" android:layout_toRightOf="@h/cag" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

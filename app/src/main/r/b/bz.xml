@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/e23" android:key="wallet_realname_verify" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@a$i/uUk" android:key="wallet_modify_password" android:layout="@layout/a4f" />
+    <Preference android:title="@string/e1v" android:key="wallet_forget_password" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:title="@string/e1u" android:key="wallet_fingerprint_switch" />
+    <PreferenceSmallCategory />
+    <PreferenceSmallCategory />
+    <IconPreference android:title="@string/e1s" android:key="wallet_open_auto_pay" android:layout="@layout/a4f" />
+    <Preference android:title="@a$i/uTX" android:key="wallet_delay_transfer_date" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@a$i/uTY" android:key="wallet_digitalcert" android:layout="@layout/a4f" />
+    <Preference android:title="@string/e29" android:key="wallet_password_setting_un_reg" android:layout="@layout/a4f" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.favorite.ui.base.FavSearchActionView xmlns:android="http://schemas.android.com/apk/res-auto" flowlayout:gravity="top|bottom|center_vertical|fill_vertical|center|fill" flowlayout:orientation="horizontal" flowlayout:layout_width="match_parent" flowlayout:layout_height="match_parent">
+    <LinearLayout flowlayout:orientation="horizontal" flowlayout:id="@id/hp" flowlayout:background="@drawable/a9" flowlayout:clickable="true" flowlayout:layout_width="wrap_content" flowlayout:layout_height="match_parent" flowlayout:layout_marginRight="@dimen/iu">
+        <ImageView flowlayout:id="@h/bIa" flowlayout:background="0x0" flowlayout:paddingLeft="@dimen/iu" flowlayout:paddingRight="@dimen/iu" flowlayout:layout_width="wrap_content" flowlayout:layout_height="match_parent" flowlayout:src="@drawable/a7" flowlayout:contentDescription="@string/en" />
+        <ImageView flowlayout:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" flowlayout:id="@h/bIc" flowlayout:background="@e/brh" flowlayout:layout_width="UNKNOWN_DATA_0x7f0b009e" flowlayout:layout_height="UNKNOWN_DATA_0x7f0b0128" />
+    </LinearLayout>
+    <LinearLayout flowlayout:gravity="top|bottom|center_vertical|fill_vertical|center|fill" flowlayout:orientation="horizontal" flowlayout:background="@drawable/ah4" flowlayout:paddingLeft="6dp" flowlayout:paddingRight="0dp" flowlayout:layout_width="UNKNOWN_DATA_0x1" flowlayout:layout_height="wrap_content" flowlayout:layout_marginTop="4dp" flowlayout:layout_marginRight="@dimen/iu" flowlayout:layout_marginBottom="4dp" flowlayout:layout_weight="1.0">
+        <ImageView flowlayout:background="0x0" flowlayout:layout_width="wrap_content" flowlayout:layout_height="wrap_content" flowlayout:src="@raw/actionbar_search_icon" />
+        <ScrollView flowlayout:layout_width="UNKNOWN_DATA_0x1" flowlayout:layout_height="wrap_content" flowlayout:layout_weight="1.0" flowlayout:overScrollMode="never">
+            <com.tencent.mm.plugin.favorite.ui.base.FavTagPanel flowlayout:id="@h/chj" flowlayout:layout_width="match_parent" flowlayout:layout_height="wrap_content" flowlayout:horizontalSpacing="@f/bur" flowlayout:verticalSpacing="@f/bur" />
+        </ScrollView>
+        <ImageButton flowlayout:id="@h/cJt" flowlayout:background="0x0" flowlayout:layout_width="wrap_content" flowlayout:layout_height="wrap_content" flowlayout:layout_marginLeft="@dimen/iu" flowlayout:src="@f/gUW" flowlayout:contentDescription="@string/ad8" />
+    </LinearLayout>
+</com.tencent.mm.plugin.favorite.ui.base.FavSearchActionView>

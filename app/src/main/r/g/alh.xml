@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:orientation="vertical" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <ScrollView wallet:id="@a$f/uwp" wallet:scrollbars="UNKNOWN_DATA_0x0" wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x1" wallet:fillViewport="true" wallet:layout_weight="1.0" wallet:overScrollMode="never">
+        <RelativeLayout wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+            <LinearLayout wallet:orientation="vertical" wallet:paddingLeft="15dp" wallet:paddingTop="20dp" wallet:paddingRight="15dp" wallet:layout_width="match_parent" wallet:layout_height="match_parent" wallet:layout_alignParentTop="true" style="@style/t2"
+                <LinearLayout wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="vertical" wallet:background="@drawable/s4" wallet:paddingTop="22dp" wallet:paddingBottom="22dp" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:minHeight="@dimen/cz">
+                    <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/ueK" wallet:background="0x0" wallet:paddingLeft="30dp" wallet:minHeight="0dp" wallet:layoutRes="@layout/ami" wallet:titleText="@a$i/uPv" wallet:tipsTvVisibility="0" style="@style/ft" />
+                </LinearLayout>
+                <LinearLayout wallet:orientation="vertical" wallet:background="@drawable/s5" wallet:paddingLeft="30dp" wallet:paddingRight="30dp" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+                    <TextView wallet:textSize="@dimen/gu" wallet:textColor="@color/bp" wallet:ellipsize="end" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginTop="18dp" wallet:text="@string/dr2" wallet:singleLine="true" wallet:includeFontPadding="false" />
+                    <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/urG" wallet:paddingLeft="0dp" wallet:layout_marginTop="18dp" wallet:walletTypeFace="0" wallet:layoutRes="@layout/amj" wallet:titleText="" style="@style/ts" />
+                    <TextView wallet:background="#e2e2e2" wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x101" wallet:layout_marginTop="@dimen/iu" />
+                    <Button wallet:id="@id/ak_" wallet:layout_width="match_parent" wallet:layout_marginLeft="0dp" wallet:layout_marginTop="30dp" wallet:layout_marginRight="0dp" wallet:layout_marginBottom="40dp" wallet:text="@l/dFQ" style="@style/tq" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <include wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:layout_alignParentBottom="true" layout="@layout/aj_" />
+</LinearLayout>

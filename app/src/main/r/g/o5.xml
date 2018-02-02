@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0274" style="@style/kd">
+    <RelativeLayout android:id="@h/cdC" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0274">
+        <ImageView android:id="@h/cdQ" android:paddingRight="@dimen/qa" android:layout_width="UNKNOWN_DATA_0x7f0b0274" android:layout_height="UNKNOWN_DATA_0x7f0b0274" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cdR" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b0274" android:layout_toLeftOf="@h/cdS" android:layout_toRightOf="@h/cdQ" android:layout_alignParentTop="true" style="@style/k4" />
+        <ImageView android:id="@h/cdS" android:paddingLeft="@f/bvx" android:paddingRight="@dimen/hz" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b0274" android:src="@raw/emotionstore_emotionalign_icon" android:maxHeight="@f/bxb" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

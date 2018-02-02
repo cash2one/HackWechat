@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@h/cro" android:paddingLeft="@dimen/c2" android:paddingRight="@dimen/c2" style="@style/l6">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@h/cKy" android:layout_width="UNKNOWN_DATA_0x7f0b013f" android:layout_height="wrap_content">
+            <ImageView android:id="@id/j3" android:layout_width="UNKNOWN_DATA_0x7f0b013d" android:layout_height="UNKNOWN_DATA_0x7f0b013d" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/ahr" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="wrap_content" android:src="@drawable/a6i" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cKA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:text="{nick}" android:singleLine="true" style="@style/k4" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/nl" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cKz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:singleLine="true" style="@style/k4" />
+        </LinearLayout>
+        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="3.0" />
+        <ImageButton android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bPg" android:background="0x0" android:focusableInTouchMode="false" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@raw/checkbox_unselected" />
+    </LinearLayout>
+</merge>

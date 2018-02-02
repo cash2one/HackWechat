@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:id="@h/coj" android:paddingLeft="@dimen/c2" android:paddingTop="@f/bur" android:paddingRight="@f/bur" android:paddingBottom="@f/bur" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cx">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bXn" android:layout_width="UNKNOWN_DATA_0x7f0b0061" android:layout_height="UNKNOWN_DATA_0x7f0b0061" android:layout_marginRight="@dimen/h8" android:src="@drawable/z_" android:scaleType="centerCrop" android:contentDescription="@l/bLI" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iz">
+                <TextView android:textSize="@dimen/i0" android:ellipsize="end" android:id="@h/bXK" android:layout_width="wrap_content" android:singleLine="true" style="@style/jx" />
+                <ImageView android:id="@h/bXV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:src="@k/dyN" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+                <ImageView android:id="@h/bYh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" />
+                <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXW" android:background="0x0" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="0x0" android:src="@k/dxQ" android:lines="0" />
+                <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXX" android:background="0x0" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:button="0x0" android:src="@k/dxR" android:lines="0" />
+                <CheckBox android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXZ" android:background="0x0" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ix" android:button="0x0" android:lines="0" android:drawableTop="@drawable/qa" android:contentDescription="@string/cbl" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iz">
+                <TextView android:id="@h/bXl" android:visibility="gone" android:text="@string/aff" style="@style/k1" />
+                <TextView android:textSize="@dimen/iy" android:id="@h/bYb" android:text="@l/dFe" style="@style/jz" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/iy" android:ellipsize="end" android:id="@h/bXL" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@l/dVL" android:layout_weight="1.0" style="@style/jz" />
+                <Button android:id="@h/bXQ" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:minWidth="92dp" android:minHeight="24dp" android:text="@string/ag1" style="@style/mb" />
+                <Button android:id="@h/bXY" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="@dimen/iu" android:minWidth="92dp" android:minHeight="24dp" android:text="@string/ai_" style="@style/mb" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iz">
+                <TextView android:textSize="@dimen/iy" android:id="@h/bXq" android:visibility="gone" android:text="@l/dUF" style="@style/jz" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXu" android:visibility="gone" android:text="@l/dEF" style="@style/m6" />
+    </LinearLayout>
+    <TextView android:background="@drawable/it" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <View android:id="@h/cOF" android:background="@color/oe" android:paddingTop="@f/bvP" android:clickable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b015b" android:maxHeight="@f/bvP" android:minHeight="@f/bvP" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/it" android:showDividers="middle" android:dividerPadding="@dimen/hz">
+        <TextView android:id="@h/cLH" android:background="@f/gUX" android:paddingLeft="@dimen/c2" android:paddingTop="@dimen/hz" android:paddingRight="@dimen/hz" android:paddingBottom="@dimen/hz" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/alw" style="@style/lo" />
+        <com.tencent.mm.pluginsdk.ui.ProfileMobilePhoneView android:id="@h/cwL" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.tencent.mm.pluginsdk.ui.ProfileDescribeView android:id="@h/caQ" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.tencent.mm.pluginsdk.ui.ProfileLabelView android:id="@h/csg" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.tencent.mm.pluginsdk.ui.preference.FMessageListView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@h/bXv" android:background="#f9f9f9" android:paddingLeft="@dimen/hc" android:paddingTop="@dimen/h5" android:paddingBottom="@f/bur" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/rq" android:id="@h/bXw" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.tencent.mm.pluginsdk.ui.preference.FMessageListView>
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bXy" android:background="@color/s2" android:padding="@dimen/iu" android:visibility="gone" android:minHeight="@dimen/it" android:text="@string/agz" android:singleLine="false" style="@style/jh" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <com.tencent.mm.plugin.game.widget.CircleImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cIB" app:layout_width="UNKNOWN_DATA_0x1401" app:layout_height="UNKNOWN_DATA_0x1401" app:border_width="1dp" app:border_color="@color/s2" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="45dp"
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/g1" android:paddingLeft="7dp" android:paddingRight="7dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0131">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/kq" android:paddingRight="5dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="80dp" android:text="@a$i/uYh" android:singleLine="true" style="@style/td" />
+        <TextView android:textColor="#999999" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uwG" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/td" />
+        <ImageView android:id="@a$f/ukU" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:src="@a$e/udh" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

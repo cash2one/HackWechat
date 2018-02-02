@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/i3" android:paddingLeft="@dimen/sg" android:paddingTop="@dimen/hl" android:paddingRight="@dimen/sg" android:paddingBottom="@dimen/hl" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@a$f/upw" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="8dp" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:ellipsize="end" android:id="@a$f/upz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/uaT" android:ellipsize="end" android:id="@a$f/upv" android:paddingTop="6dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/rc" android:ellipsize="end" android:id="@a$f/upB" android:paddingTop="6dp" android:paddingRight="15dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bvs" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/uaT" android:ellipsize="end" android:id="@a$f/upA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:id="@a$f/upu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="17dp" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <ImageView android:id="@a$f/upx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a$e/ucK" />
+            <TextView android:textSize="@dimen/gu" android:textColor="#ffaa3b" android:id="@a$f/upy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3201">
+    <TextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/t_" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bJZ" android:paddingLeft="5dp" android:paddingRight="5dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3201" android:text="alias" android:singleLine="true" style="@style/k4" />
+</LinearLayout>

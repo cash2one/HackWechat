@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@g/gWG" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" />
+        <ImageView android:id="@g/gWH" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" android:layout_marginLeft="@dimen/iu" />
+        <ImageView android:id="@g/gWI" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" android:layout_marginLeft="@dimen/iu" />
+        <ImageView android:id="@g/gWJ" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" android:layout_marginLeft="@dimen/iu" />
+        <ImageView android:id="@g/gWK" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" android:layout_marginLeft="@dimen/iu" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@g/gWL" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" android:layout_marginTop="@dimen/hd" />
+        <ImageView android:id="@g/gWM" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="@dimen/hd" />
+        <ImageView android:id="@g/gWN" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="@dimen/hd" />
+        <ImageView android:id="@g/gWO" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0302" android:layout_height="UNKNOWN_DATA_0x7f0b0302" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="@dimen/hd" />
+    </LinearLayout>
+</LinearLayout>

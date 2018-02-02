@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:id="@h/ckE" android:background="@color/s2" android:padding="@dimen/c2" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/bcc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/hs" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/oe" style="@style/o_"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingTop="80dp" android:paddingBottom="@f/bvx" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="20dp" android:textColor="#aaaaaa" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/b8t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b77" />
+        <TextView android:textSize="@dimen/gu" android:textColor="#aaaaaa" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ciM" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/hl" android:paddingRight="@dimen/hz" android:paddingBottom="@f/bvM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b75" />
+        <ListView android:id="@h/ciL" android:background="@color/qm" android:focusable="true" android:transcriptMode="disabled" android:overScrollMode="never" style="@style/l4" />
+    </LinearLayout>
+</LinearLayout>

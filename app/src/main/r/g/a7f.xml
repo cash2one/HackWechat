@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.music.ui.MusicItemLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@h/cyi" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@h/bJN" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@h/bJM" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="1dp" android:scaleType="centerCrop" />
+        <View android:id="@h/bJO" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <View android:id="@h/bJP" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="@color/s2" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cyj" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{music_name_tv}" android:textIsSelectable="true" />
+    <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cys" android:paddingLeft="40dp" android:paddingRight="40dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="{music_name_tv}" />
+    <com.tencent.mm.plugin.music.ui.LyricView android:id="@h/cuz" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1a01" android:layout_marginTop="23dp" />
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7801" />
+</com.tencent.mm.plugin.music.ui.MusicItemLayout>

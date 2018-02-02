@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Visa startsidan</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="e">Klart</string>
+    <string name="f">Visa alla</string>
+    <string name="g">Välj en app</string>
+    <string name="h">AV</string>
+    <string name="i">PÅ</string>
+    <string name="j">Sök …</string>
+    <string name="k">Ta bort frågan</string>
+    <string name="l">Sökfråga</string>
+    <string name="m">Sök</string>
+    <string name="n">Skicka fråga</string>
+    <string name="o">Röstsökning</string>
+    <string name="p">Dela med</string>
+    <string name="q">Komprimera</string>
+    <string name="r">&gt;999</string>
+    <string name="s">Dela med %s</string>
+</resources>

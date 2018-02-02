@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@h/ckV" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@h/ckW" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10001" android:scaleType="centerCrop" />
+                <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:padding="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@h/cml" android:layout_width="UNKNOWN_DATA_0x7f0b0126" android:layout_height="UNKNOWN_DATA_0x7f0b0126" />
+                    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@f/bur" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/by" android:textColor="@color/s2" android:ellipsize="end" android:id="@h/cmV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@h/cmp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iu" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <com.tencent.mm.plugin.game.ui.GameDetailAutoScrollView android:orientation="vertical" android:id="@h/clR" android:background="@color/s2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@h/clS" android:background="@color/s2" android:padding="@dimen/hz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:orientation="vertical" android:id="@h/clB" android:padding="@dimen/hz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <View android:background="@color/hs" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" />
+                <TextView android:textSize="@dimen/i0" android:textColor="@e/bsB" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/clD" android:background="@drawable/i4" android:padding="@dimen/hz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:drawableRight="@raw/game_more_icon" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@h/cld" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@h/clm" style="@style/kw" />
+                <LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    <LinearLayout android:orientation="vertical" android:id="@h/cle" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <ImageView android:id="@h/clf" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" android:src="@color/hs" />
+                    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/clg" android:background="@drawable/i4" android:padding="@dimen/hz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:drawableRight="@raw/game_more_icon">
+                        <TextView android:textSize="@dimen/i0" android:textColor="@e/bsB" android:id="@h/cli" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:id="@h/clh" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@raw/game_more_icon" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@h/ckZ" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@h/clb" style="@style/kw" />
+                <LinearLayout android:orientation="vertical" android:background="@color/s2" android:padding="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.tencent.mm.ui.base.MMSmoothHorizontalScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@f/bur" android:overScrollMode="never">
+                        <com.tencent.mm.plugin.game.ui.GameMediaList android:orientation="horizontal" android:id="@h/clA" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </com.tencent.mm.ui.base.MMSmoothHorizontalScrollView>
+                    <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:id="@h/cla" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" />
+                    <TextView android:textSize="@dimen/i0" android:textColor="@e/bsB" android:id="@h/clc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/elT" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@h/cln" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@h/clr" style="@style/kw" />
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@f/gUX" android:padding="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/clq" android:padding="2dp" android:layout_width="UNKNOWN_DATA_0x7f0b0142" android:layout_height="UNKNOWN_DATA_0x7f0b0142" android:layout_marginRight="4dp" android:scaleType="fitXY" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:ellipsize="end" android:id="@h/clo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:ellipsize="end" android:id="@h/clp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/game_more_icon" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@h/cls" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@h/clz" style="@style/kw" />
+                <LinearLayout android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    <LinearLayout android:orientation="vertical" android:id="@h/clt" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/i0" android:textColor="@e/bsB" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/clu" android:background="@drawable/i4" android:padding="@dimen/hz" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:drawableRight="@raw/game_more_icon" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="#dfdfdd" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <FrameLayout android:orientation="vertical" android:background="@color/s2" android:padding="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@h/ckA" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="48dp" android:text="@l/emu" style="@style/m4" />
+            <com.tencent.mm.plugin.game.widget.TextProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cmZ" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="50" android:minHeight="48dp" style="@style/io" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

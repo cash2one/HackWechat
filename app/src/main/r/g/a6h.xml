@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:configChanges="keyboardHidden|orientation" app:id="@h/cFh" app:background="#eeeef3" app:layout_width="match_parent" app:layout_height="match_parent" app:windowSoftInputMode="stateHidden|stateAlwaysHidden" style="@style/o_">
+    <FrameLayout app:orientation="vertical" app:background="#ffffff" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1">
+        <LinearLayout app:orientation="vertical" app:background="#eeeef3" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="14dp" app:textColor="#888888" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cFl" app:paddingLeft="24dp" app:paddingTop="8dp" app:focusable="false" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginRight="@dimen/bt" app:minWidth="50dp" app:text="@l/eqh" app:singleLine="true" app:layout_centerVertical="true" />
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:paddingLeft="16dp" app:paddingTop="60dp" app:paddingBottom="16dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <com.tencent.mm.plugin.address.ui.InvoiceQrcodeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cFj" app:layout_height="wrap_content" app:minHeight="36dp" app:invoice_tipmsg="@l/cqJ" app:invoice_singleLine="false" style="@style/mf" />
+            <com.tencent.mm.plugin.address.ui.InvoiceQrcodeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cFf" app:layout_height="wrap_content" app:minHeight="36dp" app:invoice_tipmsg="@l/cqJ" app:invoice_singleLine="false" style="@style/mf" />
+            <com.tencent.mm.plugin.address.ui.InvoiceQrcodeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cFi" app:layout_height="wrap_content" app:minHeight="36dp" app:invoice_tipmsg="@l/cqI" app:invoice_singleLine="false" style="@style/mf" />
+            <com.tencent.mm.plugin.address.ui.InvoiceQrcodeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cFe" app:layout_height="wrap_content" app:minHeight="36dp" app:invoice_tipmsg="@l/cqv" app:invoice_singleLine="false" style="@style/mf" />
+            <com.tencent.mm.plugin.address.ui.InvoiceQrcodeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cFg" app:layout_height="wrap_content" app:minHeight="36dp" app:invoice_tipmsg="@l/cqA" style="@style/mf" />
+            <com.tencent.mm.plugin.address.ui.InvoiceQrcodeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cFc" app:layout_height="wrap_content" app:minHeight="36dp" app:invoice_tipmsg="@l/cqs" app:invoice_singleLine="false" style="@style/mf" />
+            <com.tencent.mm.plugin.address.ui.InvoiceQrcodeTextView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cFd" app:minHeight="36dp" app:invoice_tipmsg="@l/cqt" app:invoice_singleLine="false" style="@style/mf" />
+            <View app:id="@h/cqE" app:background="#e5e5e5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="12dp" />
+            <ImageView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cqD" app:layout_width="UNKNOWN_DATA_0xb401" app:layout_height="UNKNOWN_DATA_0xb401" app:layout_marginTop="15dp" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="14dp" app:textColor="#4d000000" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cFa" app:visibility="visible" app:text="@string/blc" app:layout_centerVertical="true" style="@style/mf" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

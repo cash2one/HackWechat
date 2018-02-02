@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@a$f/uyG" android:background="#f4f4f4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2201">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:paddingLeft="20dp" android:paddingTop="@dimen/iz" android:paddingBottom="@dimen/iz" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dv5" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/uyB" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b009f" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" android:src="@color/ot" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="13dp" android:paddingRight="20dp" android:paddingBottom="11dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/r6" android:id="@a$f/uyF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@a$f/uyE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/gu" android:textColor="#ff891e" android:id="@a$f/uyD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:includeFontPadding="false" />
+        </LinearLayout>
+        <CheckBox android:id="@a$f/uyC" android:background="@a$d/qfl" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" />
+    </LinearLayout>
+</LinearLayout>

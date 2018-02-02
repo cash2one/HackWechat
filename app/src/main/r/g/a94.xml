@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@a$f/uyz" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ScrollView app:id="@id/atq" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:fillViewport="true" app:layout_weight="1.0">
+        <LinearLayout app:orientation="vertical" app:id="@id/atr" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/t2">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView app:id="@a$f/uhu" app:minHeight="45dp" app:titleText="@string/dxc" app:contentHint="@a$i/uSi" app:encryptType="50" style="@style/t0" />
+            <TextView app:id="@a$f/uyv" app:visibility="invisible" app:text="@a$i/uQg" style="@style/th" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView app:id="@a$f/uja" app:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" app:titleText="@string/dsl" app:contentHint="@string/dsk" app:encryptType="30" style="@style/tb" />
+            <TextView app:id="@a$f/uym" app:visibility="invisible" app:text="@a$i/uQg" style="@style/th" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView app:id="@a$f/ujb" app:titleText="@string/dss" app:contentHint="@string/dsn" app:encryptType="0" style="@style/tc" />
+            <TextView app:textColor="@color/j1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@a$f/uwz" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/h5" app:text="@a$i/uVj" />
+            <Button app:enabled="false" app:id="@id/ak_" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/h5" app:layout_marginBottom="38dp" app:text="@l/dFQ" style="@style/tq" />
+            <TextView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@a$f/uzT" app:paddingTop="5dp" app:layout_height="match_parent" app:layout_margin="0dp" style="@style/ty" />
+        </LinearLayout>
+    </ScrollView>
+    <include app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" layout="@layout/aj_" />
+</LinearLayout>

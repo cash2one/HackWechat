@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.game.ui.GameRankView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/cna" android:background="@color/oe" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@h/cnb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:ellipsize="end" android:id="@id/bjt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bex" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:id="@h/cnd" android:focusable="false" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5" android:listSelector="#00000000" android:transcriptMode="disabled" android:divider="0x0" android:dividerHeight="0dp" android:overScrollMode="never" />
+</com.tencent.mm.plugin.game.ui.GameRankView>

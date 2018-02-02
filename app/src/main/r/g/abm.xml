@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView style="@style/lx">
+        <LinearLayout style="@style/jg">
+            <TextView android:id="@h/cHq" android:padding="0dp" android:text="@string/chi" android:layout_weight="1.0" style="@style/l3" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/bIu" android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz" android:minHeight="@dimen/it">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:id="@h/bIA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h5" android:text="@l/eNP" />
+                <TextView android:textSize="@dimen/by" android:textColor="@color/j1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cuh" android:paddingRight="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:id="@h/cCn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h5" android:text="@string/chg" />
+                <EditText android:id="@h/cHu" android:minHeight="@dimen/h0" android:hint="@string/che" style="@style/l1" />
+            </LinearLayout>
+            <View style="@style/mc" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz">
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:id="@h/bWX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h5" android:text="@string/chd" />
+                <EditText android:id="@h/cHt" android:minHeight="@dimen/h0" android:hint="@string/chf" style="@style/l1" />
+            </LinearLayout>
+            <View style="@style/mc" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

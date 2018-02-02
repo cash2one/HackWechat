@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <TextView android:id="@h/cem" android:visibility="gone" android:text="@l/eHm" style="@style/jw" />
+        <ListView android:id="@h/cII" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="0px" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

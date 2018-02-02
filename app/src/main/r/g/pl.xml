@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="#eeeeee" android:paddingTop="@f/bvx" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@h/cuw" android:layout_width="UNKNOWN_DATA_0x7f0b0127" android:layout_height="UNKNOWN_DATA_0x7f0b0127" android:src="@drawable/abs" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/i0" android:id="@h/ceJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@f/bvx" android:text="@string/avj" android:layout_below="@h/cuw" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@h/ceK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="" android:layout_below="@h/ceJ" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cJl" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@id/ur" android:background="@color/fo" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" android:dividerHeight="1px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cIO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@f/bvx" android:maxLines="2" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" custom:background="@color/oe" custom:layout_width="match_parent" custom:layout_height="match_parent">
+    <FrameLayout custom:layout_width="match_parent" custom:layout_height="match_parent" custom:layout_weight="1.0">
+        <ListView custom:id="@id/iq" custom:layout_width="match_parent" custom:layout_height="match_parent" style="@style/l4" />
+        <RelativeLayout custom:layout_width="wrap_content" custom:layout_height="match_parent">
+            <com.tencent.mm.plugin.ipcall.ui.IPCallCountryCodeScrollbar custom:id="@h/bJn" custom:layout_width="UNKNOWN_DATA_0x1901" custom:layout_height="match_parent" custom:layout_marginBottom="0dp" custom:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <LinearLayout custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:orientation="vertical" custom:id="@h/bJp" custom:visibility="gone" custom:layout_width="match_parent" custom:layout_height="match_parent">
+        <TextView custom:textSize="15dp" custom:textColor="@color/ai" custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/brr" custom:layout_width="match_parent" custom:layout_height="UNKNOWN_DATA_0x1" custom:text="@string/blu" custom:layout_weight="0.5" />
+        <View custom:layout_width="match_parent" custom:layout_height="UNKNOWN_DATA_0x1" custom:layout_weight="0.5" />
+    </LinearLayout>
+</RelativeLayout>

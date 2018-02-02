@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/hz" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+    <TextView android:textSize="@dimen/iy" android:textColor="#888888" android:id="@id/bag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{more}" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/o_">
+    <LinearLayout android:orientation="vertical" android:id="@h/csl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@h/csk" android:background="@color/ls" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/l4" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@h/csf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingBottom="@f/bvx" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.4">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8" android:text="@string/bpp" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8" android:text="@string/bpo" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.6">
+            <Button android:id="@h/csm" android:text="@string/bpm" style="@style/m4" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

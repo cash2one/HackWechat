@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/fz" android:paddingLeft="20dp" android:paddingTop="15dp" android:paddingRight="20dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp"
+    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@a$f/uiS" android:layout_width="UNKNOWN_DATA_0x1501" android:layout_height="UNKNOWN_DATA_0x1501" android:src="@a$h/uGu" android:scaleType="centerInside" />
+            <TextView android:textSize="14dp" android:textColor="@color/m1" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/ads" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="12dp" android:textColor="@color/b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/adr" />
+    </LinearLayout>
+    <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@a$f/uiT" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0170" android:layout_height="UNKNOWN_DATA_0x7f0b016d" />
+</LinearLayout>

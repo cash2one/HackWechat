@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/ls" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/b1r" android:layout_width="UNKNOWN_DATA_0x5d01" android:layout_height="UNKNOWN_DATA_0x5d01" android:layout_marginTop="45dp" android:src="@a$d/mcC" />
+        <TextView android:textSize="20dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$e/mcU" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:lineSpacingMultiplier="1.25" style="@style/mf" />
+        <Button android:enabled="false" android:id="@a$e/mdx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="32dp" android:layout_marginRight="15dp" android:text="@string/ayi" style="@style/m4" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="80dp" android:layout_marginBottom="@dimen/h5">
+            <TextView android:textSize="@dimen/j0" android:textColor="#999999" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$e/mde" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mf" />
+            <TextView android:textSize="@dimen/j0" android:textColor="@color/jp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$e/mdd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mf" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Ուղղվել տուն</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Ուղղվել վերև</string>
+    <string name="abc_action_menu_overflow_description">Այլ ընտրանքներ</string>
+    <string name="e">Կատարված է</string>
+    <string name="f">Տեսնել բոլորը</string>
+    <string name="g">Ընտրել ծրագիր</string>
+    <string name="h">ԱՆՋԱՏՎԱԾ</string>
+    <string name="i">ՄԻԱՑՎԱԾ</string>
+    <string name="j">Որոնում...</string>
+    <string name="k">Մաքրել հարցումը</string>
+    <string name="l">Որոնման հարցում</string>
+    <string name="m">Որոնել</string>
+    <string name="n">Ուղարկել հարցումը</string>
+    <string name="o">Ձայնային որոնում</string>
+    <string name="p">Տարածել</string>
+    <string name="q">Թաքցնել</string>
+    <string name="r">999+</string>
+    <string name="s">Տարածել ըստ %s</string>
+</resources>

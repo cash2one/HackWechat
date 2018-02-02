@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <NormalIconPreference android1:title="@l/eht" android1:icon="@k/dyA" android1:key="find_friends_by_mobile" />
+    <NormalIconPreference android1:title="@string/b54" android1:icon="@drawable/a00" android1:key="find_friends_by_google_account" />
+    <PreferenceCategory />
+</PreferenceScreen>

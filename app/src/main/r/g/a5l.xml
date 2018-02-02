@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/qc" android:layout_height="UNKNOWN_DATA_0x7f0b0163" android:minHeight="@dimen/it" style="@style/l6">
+    <TextView android:textColor="@color/m1" android:id="@id/cl" android:layout_width="UNKNOWN_DATA_0x1" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/iu" android:layout_weight="1.0" style="@style/jx" />
+    <RadioButton android:textSize="0dp" android:id="@id/gr" android:background="@drawable/o3" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iu" android:button="0x0" android:text="" android:drawablePadding="0dp" />
+    <CheckBox android:id="@id/cbc" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" />
+</LinearLayout>

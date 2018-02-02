@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@q$g/ivR" android:background="@color/oz" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@f/qDZ" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@f/qEa" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="share to a friend" />
+    </LinearLayout>
+</ScrollView>

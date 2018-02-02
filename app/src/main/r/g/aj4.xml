@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@h/cSG" android:background="#ff1d1e1d" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/a8i" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2b01">
+        <Button android:id="@h/cpM" android:background="@drawable/qo" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x2701" android:layout_height="UNKNOWN_DATA_0x2701" android:contentDescription="@string/dfx" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#bfbfbf" android:id="@id/kq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#222222" style="@style/yb" />
+        </LinearLayout>
+        <Button android:id="@h/cTP" android:background="@drawable/qp" android:layout_width="UNKNOWN_DATA_0x2701" android:layout_height="UNKNOWN_DATA_0x2701" android:contentDescription="@string/dfy" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7201">
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/a7z" android:paddingLeft="3dp" android:paddingTop="6dp" android:paddingRight="3dp" android:paddingBottom="6dp" android:layout_width="UNKNOWN_DATA_0x12201" android:layout_height="UNKNOWN_DATA_0x6701" android:layout_marginTop="5dp">
+            <com.tencent.mm.plugin.talkroom.ui.TalkRoomAvatarsFrame android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bLJ" android:layout_width="UNKNOWN_DATA_0x12201" android:layout_height="UNKNOWN_DATA_0x3a01" android:layout_marginTop="6dp" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1b01">
+                <ImageView android:id="@id/dhp" android:layout_width="UNKNOWN_DATA_0xf01" android:layout_height="UNKNOWN_DATA_0xf01" android:layout_marginLeft="10dp" android:src="@drawable/a8h" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="0x0" />
+                <TextView android:textSize="13sp" android:id="@h/bZa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:singleLine="true" android:layout_toRightOf="@id/dhp" android:layout_centerVertical="true" style="@style/yb" />
+                <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="@e/btU" android:id="@h/cvV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/eQI" android:singleLine="true" android:shadowColor="#222222" android:layout_centerInParent="true" style="@style/yb" />
+                <Chronometer android:textSize="13sp" android:textStyle="bold" android:textColor="#79ffc5" android:id="@id/cjh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/a80" android:layout_width="UNKNOWN_DATA_0x14001" android:layout_height="UNKNOWN_DATA_0x7201" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3a01">
+        <com.tencent.mm.plugin.talkroom.ui.TalkRoomVolumeMeter android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cYv" android:layout_width="UNKNOWN_DATA_0x14001" android:layout_height="UNKNOWN_DATA_0x3a01" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0"
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0xf501" android:layout_height="UNKNOWN_DATA_0xfc01">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/csJ" android:layout_width="UNKNOWN_DATA_0xe01" android:layout_height="UNKNOWN_DATA_0xe01" android:src="@g/bGE" android:scaleType="fitXY" android:contentDescription="0x0" />
+        </FrameLayout>
+        <ImageButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cvU" android:background="0x0" android:layout_width="UNKNOWN_DATA_0xf501" android:layout_height="UNKNOWN_DATA_0xfc01" android:scaleType="fitXY" android:contentDescription="@string/dg1" />
+    </FrameLayout>
+</LinearLayout>

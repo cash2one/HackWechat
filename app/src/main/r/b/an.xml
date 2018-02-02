@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference android:summary="@string/e9" android:title="@string/e8" android:key="allow_by_identity" android:layout="@layout/a4f" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cob" android:key="room_transfer_room_ower" android:layout="@layout/a4f" />
+</PreferenceScreen>

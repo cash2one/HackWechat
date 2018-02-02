@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.game.ui.GameRankFooter xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@h/cyy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" />
+        <RelativeLayout android:background="@drawable/a3e" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+            <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#909090" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cFm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="30dp" android:text="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@h/cUh" android:layout_width="UNKNOWN_DATA_0x1f01" android:layout_height="UNKNOWN_DATA_0x1f01" android:layout_marginLeft="7dp" android:layout_toRightOf="@h/cFm" android:layout_centerVertical="true" />
+            <TextView android:textSize="14dp" android:textColor="#454545" android:id="@h/cUj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:maxWidth="120dp" android:singleLine="true" android:layout_toRightOf="@h/cUh" android:layout_centerVertical="true" />
+            <TextView android:textSize="14dp" android:textColor="#454545" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cUn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="#454545" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ctn" android:background="@g/bDX" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:text="@string/bey" />
+</com.tencent.mm.plugin.game.ui.GameRankFooter>

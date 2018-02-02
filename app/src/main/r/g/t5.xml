@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16dp" android:textColor="@color/cd" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$d/teg" android:background="@drawable/qw" android:padding="16dp" android:text="@string/en" style="@style/m2" />
+    <View android:id="@id/b81" android:background="@color/qm" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x101" android:layout_centerInParent="true" />
+    <ImageView android:id="@h/cib" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c2" android:src="@drawable/ag_" android:layout_above="@id/b81" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$d/teh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@f/bur" android:layout_marginTop="18dp" android:layout_marginRight="@f/bur" android:text="@a$g/tfb" android:layout_below="@id/b81" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/iy" android:textColor="@color/so" android:id="@a$d/tek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="@string/dy9" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

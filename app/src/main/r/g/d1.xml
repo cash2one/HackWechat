@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@e/brV" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+        <com.tencent.mm.ui.MMImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ccT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/ccK" android:paddingLeft="30dp" android:paddingRight="30dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@h/ccJ" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="?unknown_attr_ref: 1010078" />
+            <ImageView android:id="@h/ccO" android:background="@drawable/n4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uc" />
+            <ImageView android:id="@h/ccM" android:background="@drawable/zk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-8dp" />
+        </LinearLayout>
+        <TextView android:textColor="@color/s2" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bLn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bLp" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0xdc01" android:text="@string/bvy" style="@style/m4" />
+        <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bLm" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xdc01" android:text="@l/etP" style="@style/m4" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120dp">
+        <TextView android:textSize="@dimen/gu" android:textColor="#777777" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bLo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@l/etQ" />
+        <TextView android:textSize="@dimen/gu" android:textColor="#4b8ee1" android:id="@h/bLq" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

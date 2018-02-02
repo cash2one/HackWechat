@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference android:key="contact_info_header_helper" android:layout="@layout/a9e" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/ah6" android:key="contact_info_go_to_sync" android:layout="@layout/a4f" />
+    <CheckBoxPreference android:title="@string/ajj" android:key="contact_info_remind_me_syncing" android:layout="@layout/a4f" />
+    <Preference android:title="@string/ajk" android:key="contact_info_remind_me_syncing_tip" android:layout="@layout/a5u" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@l/eMw" android:key="contact_info_qqsync_install" android:layout="@layout/z4" />
+    <Preference android:title="@string/d1t" android:key="contact_info_qqsync_uninstall" android:layout="@layout/a12" />
+    <PreferenceCategory />
+</PreferenceScreen>

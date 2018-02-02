@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="80dp">
+    <ImageView android:id="@a$f/ued" android:layout_width="UNKNOWN_DATA_0x7f0b0193" android:layout_height="UNKNOWN_DATA_0x7f0b0193" android:src="@a$h/uGj" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/fj" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="2dp" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/k6" android:textColor="@color/bp" android:ellipsize="end" android:id="@a$f/uee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/k5" android:textColor="@a$c/uaE" android:ellipsize="end" android:id="@a$f/ueh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/k5" android:textColor="@a$c/uaE" android:ellipsize="end" android:id="@a$f/uef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp">
+        <TextView android:textSize="@dimen/k3" android:textColor="@color/bp" android:id="@a$f/uec" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/k5" android:textColor="@a$c/uaE" android:id="@a$f/ueg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

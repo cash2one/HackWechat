@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/g1" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2f01">
+        <ImageView android:id="@h/chH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@g/bES" />
+        <LinearLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/bp" android:id="@h/chN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textColor="@a$c/uaJ" android:id="@h/chO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@h/chP" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/mm_submenu_normal" />
+    </LinearLayout>
+</LinearLayout>

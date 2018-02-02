@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/fb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.ui.bizchat.BizChatSearchListView android:id="@h/bNR" android:background="#f7ffffff" android:focusable="false" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:transcriptMode="disabled" style="@style/l4" />
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fz" android:background="@color/ls" android:paddingTop="@dimen/ha" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@l/ebZ" />
+    </FrameLayout>
+</LinearLayout>

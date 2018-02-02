@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/f7">
+    <include android:id="@id/ab1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/fa" layout="@layout/i3" />
+    <TextView android:id="@h/bVk" android:visibility="gone" android:text="{user}" android:layout_toLeftOf="@id/ab1" style="@style/fg" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bTs" android:paddingLeft="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_toLeftOf="@id/ab1" android:layout_below="@h/bVk">
+        <ImageView android:id="@h/bVb" android:layout_marginRight="6dp" style="@style/fk" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ad8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240dp">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bTo" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon" android:adjustViewBounds="true" android:maxWidth="240dp" android:minWidth="100dp" android:minHeight="100dp" />
+                <ImageView android:id="@h/bTK" android:background="@drawable/e8" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/bTf" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+                    <TextView android:textColor="#ffffff" android:id="@h/bTe" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+            <TextView android:ellipsize="end" android:id="@h/bTl" android:background="@drawable/ba" android:padding="@dimen/bt" android:layout_marginLeft="0dp" android:singleLine="true" style="@style/f8" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

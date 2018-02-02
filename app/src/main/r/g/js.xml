@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/fc">
+    <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x101" app:layout_weight="1.0" />
+    <LinearLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content">
+        <TextView app:id="@h/bVk" app:visibility="gone" style="@style/fg" />
+        <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="5dp"
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageView app:id="@h/bVd" app:paddingRight="@dimen/iu" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@raw/chatting_status_tick" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="match_parent" app:layout_marginRight="@dimen/hl">
+                <ImageView app:id="@h/bVe" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/n4" />
+                <ImageView app:id="@h/bTM" app:background="@g/bGv" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+                <com.tencent.mm.ui.widget.MMPinProgressBtn app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bTQ" app:layout_width="UNKNOWN_DATA_0x1601" app:layout_height="UNKNOWN_DATA_0x1601" app:innerSize="22dp" />
+            </LinearLayout>
+            <FrameLayout app:id="@id/ad8" app:layout_width="match_parent" app:layout_height="match_parent">
+                <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bTI" app:layout_width="match_parent" app:layout_height="match_parent" />
+                <ImageView app:id="@h/bTK" app:background="@drawable/e8" app:layout_width="UNKNOWN_DATA_0x7f0b0073" app:layout_height="UNKNOWN_DATA_0x7f0b0238" />
+                <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@h/bVm" app:background="@drawable/adz" app:paddingLeft="5dp" app:paddingRight="10dp" app:paddingBottom="@dimen/bt" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textSize="@dimen/ch" app:textColor="@color/s2" app:id="@h/bUZ" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0" />
+                    <TextView app:textSize="@dimen/ch" app:textColor="@color/s2" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bUu" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0" />
+                </LinearLayout>
+                <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bVc" app:background="0x0" app:layout_width="UNKNOWN_DATA_0x7f0b0078" app:layout_height="UNKNOWN_DATA_0x7f0b0078" />
+                <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@h/cUb" app:background="@drawable/e8" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <ProgressBar app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bVn" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/x4" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView app:id="@h/bTu" app:focusable="false" app:visibility="gone" style="@style/fb" />
+</LinearLayout>

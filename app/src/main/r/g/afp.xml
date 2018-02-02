@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@h/cOr" android:padding="@f/bya" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.sight.decode.ui.SightPlayAutoSizeImageView android:id="@h/cOv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <ImageView android:id="@h/cOw" android:background="@g/bGg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cOu" android:background="@drawable/ao1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8dp" android:text="@l/ePF" android:layout_alignBottom="@h/cOw" android:layout_centerHorizontal="true" />
+        <View android:id="@h/cMA" android:background="@color/or" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@h/cOw" android:layout_alignTop="@h/cOw" android:layout_alignRight="@h/cOw" android:layout_alignBottom="@h/cOw" />
+    </RelativeLayout>
+    <ImageView android:id="@h/cOo" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0142" android:layout_height="UNKNOWN_DATA_0x7f0b0142" android:src="@raw/sight_box_delete" />
+</FrameLayout>

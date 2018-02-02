@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/b6e" android:background="@color/el" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/b6f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <com.tencent.mm.ui.MMImageView android:id="@id/ayj" android:layout_width="UNKNOWN_DATA_0x7f0b0127" android:layout_height="UNKNOWN_DATA_0x7f0b0127" android:layout_marginTop="@dimen/gy" android:src="@drawable/zw" android:scaleType="centerCrop" android:layout_centerHorizontal="true" android:contentDescription="@l/dDN" />
+    <TextView android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ahz" android:layout_width="match_parent" android:layout_marginLeft="@dimen/bt" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@dimen/bt" android:text="{name}" android:maxLines="2" android:layout_below="@id/ayj" android:layout_centerHorizontal="true" style="@style/mf" />
+    <ImageView android:id="@h/cgG" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b0123" android:layout_height="UNKNOWN_DATA_0x7f0b0123" android:layout_marginTop="@dimen/gy" android:src="@g/bGv" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cgH" android:visibility="gone" android:layout_width="match_parent" android:layout_marginLeft="@dimen/bt" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@dimen/bt" android:text="{name}" android:maxLines="2" android:layout_below="@h/cgG" android:layout_centerHorizontal="true" style="@style/mf" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/ccK" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/ahz">
+        <TextView android:id="@h/ccL" android:layout_width="wrap_content" android:layout_marginTop="@dimen/hd" style="@style/jh" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@f/bvx">
+            <ProgressBar android:id="@h/ccJ" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="?unknown_attr_ref: 1010078" />
+            <ImageView android:id="@h/ccO" android:background="@drawable/n4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uc" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@h/cDp" android:layout_width="match_parent" android:layout_marginTop="@f/bvx" android:text="@l/efI" android:layout_below="@id/ahz" android:layout_centerHorizontal="true" style="@style/m4" />
+    <Button android:id="@id/b6k" android:layout_width="match_parent" android:layout_marginTop="@f/bur" android:text="@string/b2_" android:layout_below="@h/cDp" android:layout_centerHorizontal="true" style="@style/m4" />
+    <TextView android:id="@id/b2a" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginTop="@f/bur" android:text="@string/b28" android:layout_below="@id/b6k" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/jh" />
+    <Button android:id="@id/age" android:layout_width="match_parent" android:layout_marginTop="@f/bvx" android:text="@l/efH" android:layout_below="@id/ahz" android:layout_centerHorizontal="true" style="@style/m4" />
+    <include layout="@layout/aft" />
+</RelativeLayout>

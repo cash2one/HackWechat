@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:padding="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/by" android:textColor="@color/j1" android:id="@h/cni" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@f/gUX" android:padding="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/i2" android:id="@h/cnh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hd" />
+        <TextView android:textSize="@dimen/j0" android:textColor="@color/i1" android:ellipsize="end" android:id="@h/cnf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:background="@f/gUX" android:paddingLeft="@dimen/hz" android:paddingRight="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:background="@drawable/v6" android:paddingTop="@dimen/hz" android:paddingBottom="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:id="@h/cng" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

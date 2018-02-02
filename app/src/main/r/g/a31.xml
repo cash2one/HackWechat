@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@e/bsZ" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+    <ListView android:id="0x102000a" android:paddingBottom="15dp" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:divider="#00000000" android:dividerHeight="0px" />
+</LinearLayout>

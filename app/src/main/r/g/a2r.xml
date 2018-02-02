@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@a$f/usn" android:background="@drawable/ajn" android:padding="@dimen/iu" android:layout_height="UNKNOWN_DATA_0x1" android:layout_margin="0dp" android:minHeight="100dp" android:layout_weight="1.0" style="@style/o4">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@a$f/usy" android:background="@a$h/uGA" android:layout_width="UNKNOWN_DATA_0x1aa66621" android:layout_height="UNKNOWN_DATA_0x1aa66621" android:layout_marginTop="23.6dp" android:src="@a$h/uGC" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginTop="23.6dp" android:layout_marginBottom="23.6dp" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/i0" android:textColor="@a$c/ube" android:id="@a$f/usp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/ubd" android:ellipsize="end" android:id="@a$f/uso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

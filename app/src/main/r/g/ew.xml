@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.bottle.ui.ThrowBottleUI xmlns:android="http://schemas.android.com/apk/res/android" style="@style/wo">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/bOK" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bNX" android:background="@anim/c5" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120dp" />
+        <ImageView android:id="@h/bOy" android:background="@g/byJ" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0">
+            <com.tencent.mm.ui.widget.MMEditText android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bOL" android:layout_marginLeft="20dp" android:layout_marginTop="50dp" android:layout_marginRight="20dp" android:layout_weight="0.3" style="@style/wq" />
+            <View android:id="@h/bOH" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.7" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/yj" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bOx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a8r" />
+        <com.tencent.mm.plugin.bottle.ui.ThrowBottleFooter android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/bOM" android:background="@color/a4" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/k5">
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageButton android:id="@h/bNW" android:background="0x0" android:paddingLeft="8dp" android:paddingTop="3dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fc" android:minWidth="0dp" android:contentDescription="@string/a1p" style="@style/m2" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/yn" android:paddingTop="4dp" android:paddingBottom="4dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <Button android:textSize="@dimen/i0" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bOI" android:background="@g/bFg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2a01" android:text="@l/dMY" android:shadowColor="#000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:layout_weight="1.0" android:soundEffectsEnabled="true" />
+            </LinearLayout>
+        </com.tencent.mm.plugin.bottle.ui.ThrowBottleFooter>
+    </LinearLayout>
+</com.tencent.mm.plugin.bottle.ui.ThrowBottleUI>

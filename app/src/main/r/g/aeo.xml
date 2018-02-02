@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/ls" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/d5h" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0092">
+            <TextView android:textSize="16dp" android:textColor="@color/bu" android:id="@h/cPJ" android:background="@drawable/qw" android:layout_height="match_parent" android:text="@string/en" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/m2" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cPN" android:background="@raw/wechat_gray_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@h/cPP" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa001">
+            <TextView android:id="@id/d5l" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_marginTop="@f/bvM" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/jr" />
+            <TextView android:textSize="@dimen/gu" android:ellipsize="end" android:id="@h/cPK" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hl" android:text="@string/d3h" android:maxLines="2" android:layout_above="@id/d5l" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="27dp" android:textColor="@color/bp" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cPO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@f/bvM" android:layout_marginRight="@f/bvM" android:text="@l/eNp" android:maxLines="2" android:layout_above="@h/cPK" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <com.tencent.mm.plugin.setting.ui.widget.SwitchAccountGridView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cPM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@f/bvM" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="16dp" android:textColor="@color/bu" android:id="@h/cPL" android:background="@drawable/qw" android:layout_marginBottom="@dimen/hz" android:text="@l/eNn" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/m2" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

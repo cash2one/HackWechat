@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7f0b0286" android:layout_height="UNKNOWN_DATA_0x7f0b0286">
+                <com.tencent.mm.plugin.gif.MMAnimateView android:id="@h/cdB" android:layout_width="UNKNOWN_DATA_0x7f0b0286" android:layout_height="UNKNOWN_DATA_0x7f0b0286" android:layout_centerInParent="true" />
+                <ProgressBar android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ctw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@h/cdI" android:layout_width="wrap_content" android:layout_marginTop="15dp" android:minWidth="200dp" android:text="@string/cln" android:maxLines="1" style="@style/nl" />
+                <Button android:id="@h/cdm" android:layout_width="wrap_content" android:layout_marginTop="25dp" android:minWidth="200dp" android:text="@l/dCB" android:maxLines="1" style="@style/no" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/oe" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="20dp" />
+    <RelativeLayout android:id="@h/bottom_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginLeft="20dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/i0" android:textColor="@e/brz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ar0" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/i0" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cdL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:maxWidth="150dp" android:text="{emoji_from_title_tv}" android:lines="1" />
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cdK" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

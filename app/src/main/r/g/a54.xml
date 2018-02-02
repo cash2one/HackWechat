@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" flowlayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:paddingTop="@dimen/bt" flowlayout:paddingBottom="@dimen/bt" flowlayout:layout_width="wrap_content" flowlayout:layout_height="wrap_content" flowlayout:layout_weight="1.0">
+    <TextView flowlayout:id="@id/ga" flowlayout:layout_width="UNKNOWN_DATA_0x7f0b00ce" flowlayout:layout_height="wrap_content" flowlayout:layout_marginRight="@dimen/hd" flowlayout:singleLine="true" style="@style/jx" />
+    <com.tencent.mm.ui.base.MMSingelLinePanel flowlayout:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" flowlayout:id="@id/fx" flowlayout:layout_width="wrap_content" flowlayout:layout_height="wrap_content" flowlayout:layout_weight="1.0" flowlayout:horizontalSpacing="@dimen/bt" flowlayout:verticalSpacing="@dimen/bt" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@f/qCS" android:background="@drawable/pw" android:padding="@dimen/bt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="42dp">
+        <com.tencent.mm.plugin.sns.ui.TagImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@f/qCp" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="UNKNOWN_DATA_0x2a01" android:scaleType="centerCrop" android:maxHeight="350dp" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@f/state" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="UNKNOWN_DATA_0x2a01" android:scaleType="center" android:maxHeight="350dp" />
+    </FrameLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/iu">
+        <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/gu" android:textColor="@color/m1" android:ellipsize="end" android:id="@f/qFN" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{{abccd}}" android:singleLine="false" />
+        <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/gu" android:textColor="@i$c/qyG" android:id="@f/qDj" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{{line2}}" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

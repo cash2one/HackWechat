@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/ax" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b01db">
+    <ImageView android:id="@id/g_" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="20dp" android:layout_marginRight="15dp" android:layout_centerVertical="true" />
+    <ImageView android:id="@q$g/iwx" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1301" android:layout_height="UNKNOWN_DATA_0x1301" android:layout_marginRight="20dp" android:src="@drawable/ab7" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/kp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@q$g/iwx" android:layout_toRightOf="@id/g_">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@q$g/iwf" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/qj" />
+                <TextView android:id="@q$g/iws" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" style="@style/qk" />
+            </LinearLayout>
+            <TextView android:id="@q$g/iwB" android:background="@drawable/b0" android:padding="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" style="@style/ql" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="11dp" android:id="@q$g/ivE" android:background="@drawable/b0" android:padding="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/ql" />
+    <View android:id="@id/hb" android:background="#19000000" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x59999a31" android:layout_alignLeft="@id/kp" android:layout_alignParentBottom="true" android:layout_alignStart="@id/kp" />
+</RelativeLayout>

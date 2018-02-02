@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/ls" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@a$f/uwl" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/hq" android:paddingRight="@dimen/hz" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/cv">
+            <com.tencent.mm.ui.base.MaxListView android:id="@h/cMu" android:background="0x0" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="0x106000d" android:divider="#00000000" android:dividerHeight="0dp" android:choiceMode="singleChoice" />
+            <include android:id="@id/brh" android:visibility="gone" layout="@i/dtS" />
+            <TextView android:textSize="@dimen/dc" android:textColor="@e/bta" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cpI" android:background="@drawable/g1" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@f/bvI" android:text="@l/eKS" />
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textColor="@color/ly" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18dp" android:text="@string/bl7" android:layout_below="@a$f/uwl" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

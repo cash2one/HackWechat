@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/ctn" android:background="@g/bDH" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4b01">
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/aw6" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4b01" android:text="@string/as8" android:layout_centerInParent="true" />
+</RelativeLayout>

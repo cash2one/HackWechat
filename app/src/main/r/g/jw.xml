@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_below="@h/bVf" style="@style/f7">
+    <FrameLayout android:paddingLeft="14dp" android:paddingRight="14dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/ad8" android:background="@drawable/rk" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16dp" android:textColor="@e/bub" android:id="@h/bTb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+                <TextView android:textSize="46dp" android:textColor="@e/bub" android:id="@h/bTp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="16dp" android:textColor="@e/bub" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bTc" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:maxLines="2" android:layout_toRightOf="@h/bTp" android:layout_alignBottom="@h/bTp" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="#00ffffff" android:paddingTop="8dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@h/bUt" android:background="@g/bHl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:contentDescription="@l/dGk" />
+                <Button android:id="@h/bUs" android:background="@drawable/rj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:contentDescription="@string/l4" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bVg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9i" />
+    </FrameLayout>
+</LinearLayout>

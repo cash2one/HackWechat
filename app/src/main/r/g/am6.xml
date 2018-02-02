@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/o_">
+    <TextView wallet:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/ula" wallet:layout_marginLeft="@dimen/h5" wallet:layout_marginTop="@dimen/h8" wallet:layout_marginRight="@dimen/h5" wallet:layout_marginBottom="@dimen/h5" wallet:text="@string/e1i" style="@style/tn" />
+    <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/ukS" wallet:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" wallet:titleText="@string/dt9" wallet:contentHint="@string/dt6" style="@style/tl" />
+    <TextView wallet:id="@a$f/uyt" wallet:visibility="visible" wallet:text="@a$i/uQq" style="@style/th" />
+    <Button wallet:id="@a$f/uld" wallet:layout_marginLeft="@dimen/h5" wallet:layout_marginTop="@dimen/c2" wallet:layout_marginRight="@dimen/h5" wallet:text="@string/e1p" style="@style/m4" />
+    <include layout="@layout/hc" />
+</LinearLayout>

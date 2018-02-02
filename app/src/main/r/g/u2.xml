@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/i3" android:background="@drawable/cp" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:paddingTop="18dp" android:paddingRight="20dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ayj" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@raw/app_attach_file_icon_webpage" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/kq" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13sp" android:textColor="#cccccc" android:ellipsize="end" android:id="@h/cPc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="13sp" android:textColor="#cccccc" android:ellipsize="end" android:id="@h/cRK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/hb" android:background="#e1e1e1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+</LinearLayout>

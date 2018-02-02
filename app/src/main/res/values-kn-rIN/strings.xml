@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ಮುಖಪುಟವನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+    <string name="abc_action_menu_overflow_description">ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು</string>
+    <string name="e">ಮುಗಿದಿದೆ</string>
+    <string name="f">ಎಲ್ಲವನ್ನೂ ನೋಡಿ</string>
+    <string name="g">ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="h">ಆಫ್</string>
+    <string name="i">ಆನ್</string>
+    <string name="j">ಹುಡುಕಿ…</string>
+    <string name="k">ಪ್ರಶ್ನೆಯನ್ನು ತೆರವುಗೊಳಿಸು</string>
+    <string name="l">ಪ್ರಶ್ನೆಯನ್ನು ಹುಡುಕಿ</string>
+    <string name="m">ಹುಡುಕು</string>
+    <string name="n">ಪ್ರಶ್ನೆಯನ್ನು ಸಲ್ಲಿಸು</string>
+    <string name="o">ಧ್ವನಿ ಹುಡುಕಾಟ</string>
+    <string name="p">ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="q">ಸಂಕುಚಿಸು</string>
+    <string name="r">999+</string>
+    <string name="s">%s ಜೊತೆಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+</resources>

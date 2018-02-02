@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@a$e/udf" />
+    <item android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:left="16dp" android:bottom="16dp">
+        <shape android:shape="oval" android:useLevel="false" android:innerRadius="5dp">
+            <solid android:color="#ff3e3e" />
+            <size android:height="8dp" android:width="8dp" />
+        </shape>
+    </item>
+</layer-list>

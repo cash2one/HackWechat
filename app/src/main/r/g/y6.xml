@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/kc">
+    <ImageView android:id="@h/cnv" android:background="@raw/default_avatar" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0"
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@h/cnz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{PanChangpeng}" style="@style/jx" />
+            <TextView android:id="@h/cnw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{changpeng.pan@gmail.com}" style="@style/k0" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cnA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/q8" android:minWidth="60dp">
+        <TextView android:textSize="14dp" android:textColor="@color/jn" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cnB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60dp" android:minHeight="30dp" android:text="@l/ekh" />
+        <ProgressBar android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cny" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+    </FrameLayout>
+</LinearLayout>

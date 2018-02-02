@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/s2" app:paddingLeft="@dimen/h5" app:paddingRight="@dimen/h5" app:layout_width="match_parent" app:layout_height="match_parent"
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@h/cqC" app:padding="14dp" app:visibility="gone" app:persistentDrawingCache="animation|scrolling|all" app:alwaysDrawnWithCache="true" app:layout_width="wrap_content" app:layout_height="wrap_content">
+        <ImageView app:id="@h/cqB" app:layout_width="UNKNOWN_DATA_0xfa01" app:layout_height="UNKNOWN_DATA_0xfa01" app:scaleType="fitCenter" />
+    </LinearLayout>
+</LinearLayout>

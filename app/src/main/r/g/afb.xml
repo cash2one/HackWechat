@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/b6e" android:background="@color/qm" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@h/cOq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <TextView android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/b2a" android:padding="@dimen/h5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@f/bvx" android:text="@string/d7v" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/b6f" android:background="@color/ef" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@id/d8m" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b030a" android:layout_height="UNKNOWN_DATA_0x7f0b030a" android:layout_centerInParent="true" />
+    <ImageView android:id="@h/cVG" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/aa4" android:scaleType="center" android:layout_centerInParent="true" />
+    <include layout="@layout/aft" />
+</RelativeLayout>

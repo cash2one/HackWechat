@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/kf" android:padding="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@a$f/udb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="43dp" android:src="@a$e/udc" android:scaleType="fitCenter" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/c2b" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <Button android:textSize="@dimen/sm" android:textColor="#3b3b3b" android:id="@a$f/unS" android:background="@drawable/k7" android:layout_width="UNKNOWN_DATA_0x7f0b02cf" android:layout_height="UNKNOWN_DATA_0x7f0b02cd" android:text="@a$i/uKh" />
+        <Button android:textSize="@dimen/sm" android:textColor="#3b3b3b" android:id="@a$f/unU" android:background="@drawable/k8" android:layout_width="UNKNOWN_DATA_0x7f0b02cf" android:layout_height="UNKNOWN_DATA_0x7f0b02cd" android:layout_marginTop="30dp" android:text="@a$i/uKu" />
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:src="@drawable/aix" android:scaleType="fitCenter" android:layout_below="@id/c2b" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/unT" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="39dp" android:layout_above="@id/c2b" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/unV" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true" />
+    <LinearLayout android:id="@a$f/unR" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5a01" android:layout_alignParentBottom="true" />
+</RelativeLayout>

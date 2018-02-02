@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f0eff4" android:paddingTop="@dimen/h5" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="@dimen/hz" android:layout_marginRight="@dimen/c2" android:layout_marginBottom="@dimen/hz">
+        <Button android:id="@b/kgY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edn" style="@style/m8" />
+        <Button android:id="@id/d4x" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:text="@string/edw" style="@style/m5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@b/kgF" android:paddingBottom="@dimen/bt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz" style="@style/kd"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/it">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" android:text="@string/edx" android:layout_weight="1.0" />
+            <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@b/kgE" android:layout_width="UNKNOWN_DATA_0x7f0b0170" android:layout_height="UNKNOWN_DATA_0x7f0b016d" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ee1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@b/kgJ" android:paddingBottom="@dimen/bt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz" style="@style/kd"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/it">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" android:text="@string/egw" android:layout_weight="1.0" />
+            <Button android:id="@b/kgI" android:background="@color/qm" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b016d" style="@style/m_" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ee1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@b/kgD" android:paddingBottom="@dimen/bt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hz" style="@style/kd"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/it">
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/m1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" android:text="@string/egv" android:layout_weight="1.0" />
+            <Button android:id="@b/kgC" android:background="@color/qm" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b016d" style="@style/m_" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ee1" />
+    </LinearLayout>
+    <Button android:id="@b/kgs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="@f/bvx" android:layout_marginRight="@dimen/c2" android:layout_marginBottom="@dimen/hz" android:text="@string/edg" style="@style/m7" />
+</LinearLayout>

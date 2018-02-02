@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbars="UNKNOWN_DATA_0x0" style="@style/o_">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" style="@style/jg">
+            <ImageView android:id="@h/cKs" android:paddingBottom="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@k/duN" />
+            <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cKt" android:text="@l/eGG" style="@style/jh" />
+        </LinearLayout>
+        <TextView android:id="@h/cRU" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5" style="@style/m4" />
+        <LinearLayout android:layout_width="match_parent" android:layout_marginTop="3dp" android:layout_marginRight="5dp" style="@style/jf">
+            <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wu" android:paddingTop="10dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_marginLeft="10dp" android:text="@l/eGU" style="@style/p4" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

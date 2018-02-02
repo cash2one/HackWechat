@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">မူလနေရာကို သွားရန်</string>
+    <string name="b">%1$s၊ %2$s</string>
+    <string name="c">%1$s ၊ %2$s ၊ %3$s</string>
+    <string name="d">အပေါ်သို့သွားရန်</string>
+    <string name="abc_action_menu_overflow_description">ပိုမိုရွေးချယ်စရာများ</string>
+    <string name="e">ပြီးဆုံးပါပြီ</string>
+    <string name="f">အားလုံးကို ကြည့်ရန်</string>
+    <string name="g">အပလီကေးရှင်း တစ်ခုခုကို ရွေးချယ်ပါ</string>
+    <string name="h">ပိတ်</string>
+    <string name="i">ဖွင့်</string>
+    <string name="j">ရှာဖွေပါ...</string>
+    <string name="k">ရှာစရာ အချက်အလက်များ ရှင်းလင်းရန်</string>
+    <string name="l">ရှာစရာ အချက်အလက်နေရာ</string>
+    <string name="m">ရှာဖွေရန်</string>
+    <string name="n">ရှာဖွေစရာ အချက်အလက်ကို အတည်ပြုရန်</string>
+    <string name="o">အသံဖြင့် ရှာဖွေခြင်း</string>
+    <string name="p">မျှဝေဖို့ ရွေးပါ</string>
+    <string name="q">ခေါက်ရန်</string>
+    <string name="r">၉၉၉+</string>
+    <string name="s">%s ကို မျှဝေပါရန်</string>
+</resources>

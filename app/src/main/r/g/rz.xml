@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/hg">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/en" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/h9"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@h/cGT" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@h/cgX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ei">
+                        <ImageView android:id="@h/cgV" style="@style/h8" />
+                        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cgK" android:background="@drawable/ha" android:layout_width="UNKNOWN_DATA_0x7f0b00c6" android:layout_height="UNKNOWN_DATA_0x2d01" />
+                        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cgO" android:src="@drawable/m2" android:contentDescription="@l/dDN" style="@style/he" />
+                        <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cgL" android:paddingRight="3dp" android:paddingBottom="3dp" android:text="{11:32}" style="@style/hb" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@h/cgY" android:text="{title}" style="@style/hd" />
+                        <TextView android:id="@h/cgW" android:layout_marginTop="@dimen/er" android:text="{desc}" android:maxLines="3" style="@style/ha" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@h/cWo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:src="@raw/app_attach_file_icon_sound" style="@style/h7" />
+                    <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cht" android:layout_marginLeft="@dimen/ei" android:text="{title}" style="@style/hd" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@h/bWH" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@h/cgt" style="@style/h7" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ei">
+                        <TextView android:id="@h/cgn" android:text="{title}" style="@style/hd" />
+                        <TextView android:id="@h/cgm" android:layout_marginTop="@dimen/er" android:text="{desc}" style="@style/ha" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <include layout="@layout/rt" />
+            <include layout="@layout/rs" />
+        </LinearLayout>
+        <include layout="@layout/rr" />
+    </LinearLayout>
+</FrameLayout>

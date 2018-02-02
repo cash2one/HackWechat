@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/f7"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/ad8" android:background="@g/bBt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.widget.MMTextView android:id="@h/ctZ" android:layout_marginLeft="5dp" android:maxWidth="180dp" style="@style/fm" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ad5" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginLeft="5dp" android:src="@raw/location_share_icon" />
+    </LinearLayout>
+    <include layout="@layout/i3" />
+</LinearLayout>

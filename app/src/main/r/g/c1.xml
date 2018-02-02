@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x7f0b01e2" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/g_" android:layout_width="UNKNOWN_DATA_0x3701" android:layout_height="UNKNOWN_DATA_0x3701" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13dp" android:textColor="@color/bp" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cj" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/g_" android:layout_centerHorizontal="true" />
+        <TextView android:id="@q$g/iwB" android:background="@drawable/b5" android:padding="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/g_" android:layout_alignBottom="@id/g_" style="@style/ql" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@q$g/ivj" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginTop="5dp" android:layout_marginRight="13dp" android:src="@raw/app_brand_star_delete" />
+</FrameLayout>

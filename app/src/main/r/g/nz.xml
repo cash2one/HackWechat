@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@h/crq" android:background="@drawable/emoji_item_category_bg" android:paddingTop="20dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" style="@style/k4" />
+    <FrameLayout android:id="@h/crD" android:background="@f/gUX" android:duplicateParentState="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@h/crr" android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz">
+            <ImageView android:id="@h/cry" android:paddingRight="@dimen/qa" android:layout_width="UNKNOWN_DATA_0x7f0b0273" android:layout_height="UNKNOWN_DATA_0x7f0b0273" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="vertical" android:id="@h/crs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@h/crH" android:layout_toRightOf="@h/cry" android:layout_centerVertical="true">
+                <TextView android:textColor="@color/bp" android:id="@h/crF" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/k4" />
+                <TextView android:ellipsize="end" android:id="@h/crA" android:paddingTop="@dimen/bt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@m/eYP" />
+                <TextView android:id="@h/crt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@m/eYP" />
+            </LinearLayout>
+            <FrameLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/crH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/iq" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/crJ" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:minWidth="@dimen/iq" android:minHeight="@dimen/ir">
+                    <TextView android:textSize="@dimen/ip" android:textColor="@color/jn" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/crO" android:paddingLeft="@dimen/hd" android:paddingRight="@dimen/hd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:shadowRadius="1.2" />
+                </LinearLayout>
+                <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/crP" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ProgressBar android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cDr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/crI" android:layout_width="UNKNOWN_DATA_0x7f0b0160" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/crv" android:layout_width="UNKNOWN_DATA_0x7f0b0160" android:layout_height="wrap_content" android:max="100" android:progress="0" style="@style/ju" />
+                </LinearLayout>
+            </FrameLayout>
+        </RelativeLayout>
+        <ImageView android:id="@h/crS" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:src="@g/bBY" />
+    </FrameLayout>
+</LinearLayout>

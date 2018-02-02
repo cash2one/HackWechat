@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/i3" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/aby" android:paddingLeft="6dp" android:paddingTop="6dp" android:paddingRight="6dp" android:paddingBottom="6dp" style="@style/k5"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/ah4" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/bp" android:id="@a$f/upH" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_marginBottom="@dimen/i1" android:maxHeight="@dimen/cj" android:minHeight="@q$e/isE" android:singleLine="false" android:layout_weight="1.0" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" style="@style/js" />
+            <ImageButton android:id="@a$f/upJ" android:background="0x0" android:padding="@dimen/iu" android:layout_width="UNKNOWN_DATA_0x7f0b007e" android:layout_height="UNKNOWN_DATA_0x7f0b007e" android:layout_marginLeft="@dimen/bt" android:layout_marginBottom="@dimen/i1" android:src="@drawable/fa" android:contentDescription="@string/a7t" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp">
+            <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bVE" android:visibility="gone" style="@style/fr" />
+            <Button android:textColor="@e/brz" android:id="@a$f/upK" android:background="@drawable/jx" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b007e" android:minWidth="@dimen/cn" android:text="@string/bte" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

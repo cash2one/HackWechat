@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#fff6f6f8" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fy" android:background="#f7ffffff" android:paddingTop="@dimen/ha" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ListView android:id="@h/cKa" android:background="#f7ffffff" android:focusable="false" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:transcriptMode="disabled" style="@style/l4" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@h/cJM" android:paddingTop="20dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+        <TextView android:textSize="14dp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/br6" />
+    </LinearLayout>
+</FrameLayout>

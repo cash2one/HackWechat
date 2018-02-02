@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/i0" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bSA" android:background="@drawable/zj" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/axe" android:shadowColor="@color/bp" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</merge>

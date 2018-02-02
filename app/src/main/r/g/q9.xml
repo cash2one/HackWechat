@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/b08" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b00ae">
+    <View android:id="@h/cfp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="horizontal" android:baselineAligned="false" android:weightSum="1.0" style="@style/gh">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@h/cfo" android:layout_marginLeft="@dimen/e1" style="@style/gn" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_marginRight="@dimen/e2" style="@style/go"
+            <RelativeLayout android:paddingLeft="@dimen/e1" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3701" android:layout_toLeftOf="@id/b0a" android:layout_centerVertical="true">
+                <View android:id="@id/b0b" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_alignParentBottom="true" />
+                <com.tencent.mm.ui.base.NoMeasuredTextView android:id="@h/cfq" android:singleLine="true" android:layout_toLeftOf="@h/cfr" android:layout_alignLeft="@id/b0b" android:layout_centerInParent="true" style="@style/gp" />
+                <TextView android:id="@h/cfr" android:layout_marginLeft="50dp" android:minWidth="100dp" android:layout_alignRight="@id/b0b" android:layout_centerInParent="true" android:layout_centerVertical="true" style="@style/gt" />
+            </RelativeLayout>
+            <ImageView android:id="@id/b0a" android:layout_marginLeft="0dp" android:src="@raw/device_profile_ui_jiantou" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/gg" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/b0e" android:background="@color/fq" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_alignParentBottom="true" />
+</RelativeLayout>

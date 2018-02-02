@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@a$c/ubb" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <RelativeLayout android:id="@a$f/urY" style="@style/nz">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@a$f/urZ" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:src="@raw/mall_index_offline_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/o0" />
+        <TextView android:id="@a$f/usb" android:text="@string/dww" android:layout_below="@a$f/urZ" style="@style/o1" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/uaZ" android:ellipsize="end" android:id="@a$f/ukb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@a$f/usb" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@a$f/ueJ" style="@style/nz">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@a$f/ueS" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:src="@raw/mall_index_balance_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/o0" />
+        <TextView android:id="@a$f/ueV" android:text="@string/dwm" android:layout_below="@a$f/ueS" style="@style/o1" />
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="@dimen/gu" android:textColor="@a$c/uaZ" android:ellipsize="end" android:id="@a$f/ueR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:singleLine="true" android:layout_below="@a$f/ueV" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@a$f/ueT" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x901" android:layout_height="UNKNOWN_DATA_0x901" android:layout_marginLeft="-7dp" android:src="@f/gVe" android:layout_toRightOf="@a$f/ueS" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@a$f/ulV" android:visibility="gone" style="@style/nz">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@a$f/ump" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:src="@raw/mall_index_lqt_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/o0" />
+        <TextView android:id="@a$f/umB" android:text="@string/dwv" android:layout_below="@a$f/ump" style="@style/o1" />
+        <ImageView android:id="@a$f/umr" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x901" android:layout_height="UNKNOWN_DATA_0x901" android:layout_marginLeft="-7dp" android:src="@f/gVe" android:layout_toRightOf="@a$f/ump" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@a$f/ufc" style="@style/nz">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@a$f/uft" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:src="@raw/mall_index_bankcard_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/o0" />
+        <TextView android:id="@a$f/ufw" android:text="@string/dwn" android:layout_below="@a$f/uft" style="@style/o1" />
+        <ImageView android:id="@a$f/ues" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_marginLeft="-6dp" android:layout_marginTop="1dp" android:layout_marginRight="1dp" android:src="@f/gVe" android:layout_toRightOf="@a$f/uft" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@a$c/uaZ" android:ellipsize="end" android:id="@a$f/ukc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@a$f/ufw" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

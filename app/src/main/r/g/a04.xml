@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" mm:orientation="vertical" mm:background="@color/ls" mm:layout_width="match_parent" mm:layout_height="wrap_content">
+    <TextView mm:textSize="@dimen/j0" mm:textColor="#888888" mm:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" mm:id="@id/bvw" mm:layout_width="match_parent" mm:layout_height="wrap_content" mm:layout_marginTop="@dimen/hl" mm:text="@l/esi" />
+    <com.tencent.mm.plugin.ipcall.ui.IPCallShareViewPager mm:id="@id/bvx" mm:scrollbars="UNKNOWN_DATA_0x0" mm:fadingEdge="UNKNOWN_DATA_0x0" mm:fadingEdgeLength="0dp" mm:layout_width="match_parent" mm:layout_height="wrap_content" mm:listSelector="@drawable/ajv" mm:fadeScrollbars="false" />
+    <com.tencent.mm.ui.base.MMDotView mm:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" mm:orientation="horizontal" mm:id="@id/bvy" mm:paddingTop="@dimen/hl" mm:paddingBottom="@dimen/hl" mm:visibility="invisible" mm:layout_width="match_parent" mm:layout_height="wrap_content" mm:dot_count="1" />
+</LinearLayout>

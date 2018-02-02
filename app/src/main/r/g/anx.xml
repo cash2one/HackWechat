@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:orientation="vertical" wallet:layout_width="match_parent" wallet:layout_height="match_parent" style="@style/o_">
+    <TextView wallet:id="@a$f/uAg" wallet:layout_marginLeft="@dimen/h5" wallet:layout_marginTop="@dimen/h8" wallet:layout_marginRight="@dimen/h5" wallet:layout_marginBottom="@dimen/h5" wallet:text="@a$i/uAg" style="@style/tn" />
+    <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView wallet:id="@a$f/ukY" wallet:format="1" style="@style/ng" />
+    <TextView wallet:id="@a$f/ufM" wallet:layout_marginLeft="@dimen/h5" wallet:layout_marginRight="@dimen/h5" wallet:text="@string/e71" style="@style/tn" />
+    <TextView wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wallet:id="@a$f/ukX" wallet:visibility="gone" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:layout_marginLeft="@dimen/h5" wallet:layout_marginTop="20dp" wallet:layout_marginRight="@dimen/h5" wallet:text="@a$i/uWM" wallet:drawableLeft="@drawable/a46" wallet:drawablePadding="5dp" />
+    <TextView wallet:id="@a$f/ukZ" wallet:visibility="gone" wallet:layout_width="match_parent" wallet:layout_marginLeft="@dimen/h5" wallet:layout_marginTop="20dp" wallet:layout_marginRight="@dimen/h5" wallet:text="@string/mf" style="@style/n9" />
+    <include layout="@layout/hc" />
+</LinearLayout>

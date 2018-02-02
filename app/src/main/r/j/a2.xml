@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@r$dimen/abc_control_inset_material" android:insetRight="@r$dimen/abc_control_inset_material" android:insetTop="@r$dimen/abc_control_inset_material" android:insetBottom="@r$dimen/abc_control_inset_material">
+    <selector>
+        <item android:state_checked="false" android:state_pressed="false">
+            <layer-list>
+                <item android:drawable="@drawable/v3" />
+                <item android:drawable="@drawable/uz" />
+            </layer-list> />
+        <item>
+            <layer-list>
+                <item android:drawable="@drawable/v2" />
+                <item android:drawable="@drawable/uz" />
+            </layer-list> />
+    </selector>
+</inset>

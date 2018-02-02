@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/it">
+    <RelativeLayout android:background="@drawable/iw" android:paddingTop="@dimen/iu" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" android:minHeight="@dimen/it">
+        <TextView android:textColor="@color/qq" android:id="0x1020016" android:paddingLeft="@dimen/hl" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxEms="6" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/jx" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iz" android:layout_alignParentRight="true">
+            <ImageView android:id="@h/cRf" android:visibility="gone" android:scaleType="centerCrop" style="@style/q5" />
+            <ImageView android:id="@h/cRg" android:visibility="gone" android:scaleType="centerCrop" style="@style/q5" />
+            <ImageView android:id="@h/cRh" android:visibility="gone" android:scaleType="centerCrop" style="@style/q5" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/r_" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="@dimen/hz" android:layout_marginRight="@dimen/hz" />
+</LinearLayout>

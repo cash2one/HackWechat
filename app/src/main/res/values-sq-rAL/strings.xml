@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Orientohu për në shtëpi</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Ngjitu lart</string>
+    <string name="abc_action_menu_overflow_description">Opsione të tjera</string>
+    <string name="e">U krye!</string>
+    <string name="f">Shikoji të gjitha</string>
+    <string name="g">Zgjidh një aplikacion</string>
+    <string name="h">JOAKTIV</string>
+    <string name="i">AKTIV</string>
+    <string name="j">Kërko...</string>
+    <string name="k">Pastro pyetjen</string>
+    <string name="l">Kërko pyetjen</string>
+    <string name="m">Kërko</string>
+    <string name="n">Dërgo pyetjen</string>
+    <string name="o">Kërkim me zë</string>
+    <string name="p">Shpërnda publikisht me</string>
+    <string name="q">Shpalos</string>
+    <string name="r">999+</string>
+    <string name="s">Shpërnda publikisht me %s</string>
+</resources>

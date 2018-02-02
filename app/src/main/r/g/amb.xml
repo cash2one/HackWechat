@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="vertical" wallet:background="@drawable/tr" wallet:layout_width="match_parent" wallet:layout_height="match_parent">
+    <ScrollView wallet:background="@color/f6" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+        <LinearLayout wallet:orientation="vertical" wallet:background="@drawable/aql" wallet:layout_width="match_parent" wallet:layout_height="wrap_content"
+            <LinearLayout wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="vertical" wallet:id="@id/dt7" wallet:paddingLeft="@dimen/hz" wallet:paddingRight="@dimen/hz" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+                <TextView wallet:textSize="22dp" wallet:textColor="@color/ry" wallet:id="@a$f/uyR" wallet:paddingLeft="@dimen/iu" wallet:paddingTop="@dimen/hz" wallet:paddingBottom="@dimen/hz" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:text="" />
+                <ImageView wallet:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x7f0b009e" wallet:src="@color/ot" />
+            </LinearLayout>
+            <com.tencent.mm.ui.base.MaxListView wallet:id="@a$f/uyT" wallet:background="0x0" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:divider="0x0" />
+            <LinearLayout wallet:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:orientation="vertical" wallet:id="@a$f/uyS" wallet:background="@drawable/g1" wallet:paddingLeft="@dimen/hz" wallet:paddingRight="@dimen/hz" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+                <ImageView wallet:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wallet:layout_width="match_parent" wallet:layout_height="UNKNOWN_DATA_0x7f0b009e" wallet:src="@color/ot" />
+                <TextView wallet:textSize="20dp" wallet:textColor="@color/ry" wallet:id="@a$f/uyR" wallet:paddingTop="@dimen/hz" wallet:paddingBottom="@dimen/hz" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:text="@string/mf" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

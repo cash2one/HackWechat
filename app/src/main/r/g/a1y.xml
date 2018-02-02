@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.ListViewInScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@a$f/upL" android:background="0x0" android:focusable="true" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/qc" android:transcriptMode="disabled" android:cacheColorHint="0x106000d" android:divider="@color/ot" android:dividerHeight="@d/ubI" android:layout_weight="1.0" android:headerDividersEnabled="true" style="@style/o_" />

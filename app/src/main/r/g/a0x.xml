@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ctV" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0xa501">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ctM" android:background="@drawable/ajv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:src="@g/bDr" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$e/qfu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ctF" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="65dp">
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ctU" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginBottom="5dp" style="@style/xu" />
+            <TextView android:textSize="13dp" android:textColor="@color/s2" android:id="@id/bxr" android:background="@drawable/ahv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300dp" android:minWidth="40dp" android:text="" android:maxLines="3" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:minHeight="120dp" style="@style/oj">
+    <ImageView android:id="@h/cFA" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7801" android:scaleType="centerCrop" />
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cFB" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xu" />
+    <TextView android:textSize="@dimen/by" android:textColor="@color/s2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cFG" android:background="#a0000000" android:paddingLeft="5dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001" android:singleLine="true" />
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.view.SmileySubGrid xmlns:android="http://schemas.android.com/apk/res/android" android:id="@a$e/lJt" android:fadingEdgeLength="0dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x12c01" android:listSelector="@drawable/ajv" android:cacheColorHint="#00000000" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:fastScrollAlwaysVisible="false" />

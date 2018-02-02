@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/a22" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.base.MMGridPaper android:orientation="horizontal" android:id="@h/cbY" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:listSelector="@drawable/ajv" android:layout_centerInParent="true" />
+</RelativeLayout>

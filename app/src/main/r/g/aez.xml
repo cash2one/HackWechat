@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/g1" android:paddingLeft="@dimen/hz" android:paddingTop="@dimen/iu" android:paddingRight="@dimen/hz" android:paddingBottom="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.MMImageView android:id="@h/cMQ" android:background="@raw/default_avatar" android:layout_width="UNKNOWN_DATA_0x7f0b0062" android:layout_height="UNKNOWN_DATA_0x7f0b0062" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iu" android:layout_marginRight="@dimen/iu" android:layout_marginBottom="@dimen/iz">
+        <TextView android:id="@h/cMS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i1" android:maxLines="2" android:singleLine="false" style="@style/jx" />
+        <TextView android:id="@h/cMP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i1" android:singleLine="true" style="@style/jz" />
+        <TextView android:id="@h/cMR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iz" android:singleLine="true" style="@style/jz" />
+    </LinearLayout>
+</LinearLayout>

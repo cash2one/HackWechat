@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <LinearLayout wallet:gravity="top|bottom|center_vertical|fill_vertical|center|fill" wallet:orientation="horizontal" wallet:id="@a$f/urF" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+        <com.tencent.mm.wallet_core.ui.WalletTextView wallet:textSize="50dp" wallet:textColor="@color/bp" wallet:id="@a$f/uAj" wallet:layout_width="wrap_content" wallet:layout_height="wrap_content" wallet:text="¥" wallet:walletTypeFace="0" />
+        <TextView wallet:id="@a$f/uzU" style="@style/t9" />
+        <com.tenpay.android.wechat.TenpaySecureEditText wallet:textSize="50dp" wallet:id="@a$f/uyz" wallet:layout_width="match_parent" wallet:layout_height="wrap_content" wallet:text="" wallet:textCursorDrawable="@drawable/o1" />
+    </LinearLayout>
+</merge>

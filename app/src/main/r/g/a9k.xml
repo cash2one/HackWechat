@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="#00ffffff" android:paddingLeft="10dp" android:paddingTop="70dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.base.HorizontalListView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cPG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cacheColorHint="#00000000" />
+</LinearLayout>

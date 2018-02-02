@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b02de" android:baselineAligned="true">
+    <RelativeLayout android:id="@a$f/ulh" android:layout_width="UNKNOWN_DATA_0x7f0b02e1" android:layout_height="UNKNOWN_DATA_0x7f0b02de">
+        <ImageView android:id="@a$f/uwO" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@a$e/udi" />
+        <com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyAutoScrollItem android:scrollbarStyle="insideOverlay" android:id="@a$f/ueA" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:layout_marginBottom="3dp" android:src="@drawable/ak9" />
+    <RelativeLayout android:id="@a$f/uli" android:layout_width="UNKNOWN_DATA_0x7f0b02e1" android:layout_height="UNKNOWN_DATA_0x7f0b02de" android:layout_marginLeft="@dimen/bt">
+        <ImageView android:id="@a$f/uwP" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@a$e/udi" />
+        <com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyAutoScrollItem android:scrollbarStyle="insideOverlay" android:id="@a$f/ueB" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@a$f/ulj" android:layout_width="UNKNOWN_DATA_0x7f0b02e1" android:layout_height="UNKNOWN_DATA_0x7f0b02de" android:layout_marginLeft="@dimen/bt">
+        <ImageView android:id="@a$f/uwQ" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@a$e/udi" />
+        <com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyAutoScrollItem android:scrollbarStyle="insideOverlay" android:id="@a$f/ueC" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+</LinearLayout>

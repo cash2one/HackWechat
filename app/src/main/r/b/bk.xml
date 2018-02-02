@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android1:title="@string/czq" android1:key="settings_landscape_mode" android1:defaultValue="false" />
+    <CheckBoxPreference android1:title="@string/d15" android1:key="settings_nfc_switch" android1:defaultValue="false" />
+    <Preference android1:title="@l/eNa" android1:key="settings_silence_update_mode" android1:layout="@layout/a4f" />
+    <Preference android1:title="@string/czr" android1:key="settings_language" android1:layout="@layout/a4f" />
+    <Preference android1:title="@l/eNs" android1:key="settings_text_size" android1:layout="@layout/a4f" />
+    <Preference android1:title="@l/eMl" android1:key="settings_take_photo" android1:layout="@layout/a4f" />
+    <Preference android1:title="@l/eLJ" android1:key="settings_manage_findmoreui" android1:layout="@layout/a4f" />
+    <IconPreference android1:title="@l/eMs" android1:key="settings_plugins" />
+    <Preference android1:title="@l/eNw" android1:key="settings_traffic_statistic" android1:layout="@layout/a4f" />
+    <Preference android1:title="@string/d0y" android1:key="settngs_clean" android1:layout="@layout/a4f" />
+    <PreferenceCategory />
+</PreferenceScreen>

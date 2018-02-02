@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@h/cuu" android:layout_width="UNKNOWN_DATA_0x7f0b0262" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:textColor="@color/b6" android:id="@id/k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h8" android:layout_marginTop="@dimen/h8" android:text="@string/eb0" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/ri" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:layout_below="@id/k5">
+            <ImageView android:id="@id/k6" android:layout_width="UNKNOWN_DATA_0x7f0b015c" android:layout_height="UNKNOWN_DATA_0x7f0b015c" android:layout_marginLeft="@dimen/h8" android:src="@raw/login_app_default_avatar" />
+            <TextView android:textSize="14sp" android:textColor="@color/b6" android:id="@id/k7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hl" android:layout_marginRight="@dimen/h5" android:text="@string/bry" android:maxLines="2" />
+        </LinearLayout>
+        <ImageView android:background="@color/b3" android:layout_width="UNKNOWN_DATA_0x7f0b02c1" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="@dimen/h8" android:layout_marginTop="@dimen/h5" android:layout_below="@id/ri" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/k8" android:background="@color/s2" android:layout_width="UNKNOWN_DATA_0x7f0b02c1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="@dimen/h8" android:layout_marginTop="4dp" android:layout_weight="1.0">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.base.AuthorizeItemListView android:id="@id/k9" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="0x0" android:cacheColorHint="#00000000" android:divider="0x0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x7f0b0262" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:layout_marginBottom="17dp">
+        <Button android:textSize="@dimen/hj" android:textColor="@color/b5" android:id="@id/ka" android:background="@drawable/ak" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/s5" android:text="@string/bsl" />
+        <Button android:textSize="@dimen/hj" android:textColor="@color/b4" android:id="@id/kb" android:background="@drawable/ak" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/s6" android:text="@string/brv" />
+    </LinearLayout>
+</LinearLayout>

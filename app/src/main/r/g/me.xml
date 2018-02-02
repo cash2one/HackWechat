@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/iu" android:paddingRight="@dimen/iu" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:id="@h/bYz" android:background="@drawable/v7" android:paddingTop="@dimen/h5" android:paddingBottom="@dimen/ix" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/bYA" android:background="@drawable/g1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0163"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@h/bYB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="111" android:singleLine="true" style="@style/k4" />
+        </LinearLayout>
+        <TextView android:id="@h/bYE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:text="signature" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/g3" />
+    </LinearLayout>
+</LinearLayout>

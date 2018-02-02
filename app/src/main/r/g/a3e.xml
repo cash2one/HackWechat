@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/jl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/c9q" android:padding="10dp" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" />
+    <TextView android:textSize="18dp" android:textColor="@color/bp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bag" android:layout_width="match_parent" android:layout_height="match_parent" android:text="GOOGLE地图" />
+</LinearLayout>

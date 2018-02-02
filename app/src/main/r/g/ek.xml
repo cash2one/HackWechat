@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/o_">
+    <LinearLayout form:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" form:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:orientation="vertical" form:background="@color/ls" form:paddingLeft="@dimen/hz" form:paddingTop="@dimen/h5" form:paddingRight="@dimen/hz" form:clickable="false" form:layout_width="match_parent" form:layout_height="wrap_content">
+        <ImageView form:id="@h/bNJ" form:layout_width="UNKNOWN_DATA_0x7f0b0238" form:layout_height="UNKNOWN_DATA_0x7f0b0238" form:layout_marginTop="@f/bvx" />
+        <TextView form:textSize="@dimen/i0" form:textColor="@color/bp" form:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" form:id="@h/bNL" form:layout_width="match_parent" form:layout_height="wrap_content" form:layout_marginTop="@dimen/h5" form:text="@string/dkw" />
+        <Button form:id="@h/bNM" form:visibility="visible" form:layout_marginTop="@dimen/h8" form:layout_marginBottom="@dimen/iu" form:text="@string/dkx" style="@style/m4" />
+        <Button form:id="@h/bNK" form:visibility="visible" form:layout_marginTop="@dimen/h8" form:layout_marginBottom="@dimen/iu" form:text="@string/a01" style="@style/m4" />
+    </LinearLayout>
+</RelativeLayout>

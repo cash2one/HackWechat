@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:background="@drawable/mv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:layout_alignParentTop="true"
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+            <Button android:id="@h/bOY" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="54dp" android:text="@l/erL" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/nm" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_toLeftOf="@h/bOY" android:layout_toRightOf="@h/bOY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_toStartOf="@h/bOY"
+                <LinearLayout android:id="@id/bvo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                    <TextView android:textSize="36dp" android:textColor="#000000" android:id="@h/cSW" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="18dp" android:textColor="#000000" android:id="@h/cSV" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="12dp" android:textColor="#b2b2b2" android:id="@h/cST" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12dp" android:textColor="#1aad19" android:id="@h/cSU" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1401" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

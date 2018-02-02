@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/i0" android:textColor="@color/cz" android:id="@id/aji" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cu" android:minHeight="48dp" android:text="@a$i/uIc" android:layout_alignParentLeft="true" />
+        <Button android:textSize="@dimen/i0" android:textColor="@color/ie" android:id="@id/aqp" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cu" android:minHeight="48dp" android:text="@string/a25" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.tencent.mm.ui.widget.picker.CustomDatePicker android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/aqq" android:paddingLeft="0dp" android:paddingRight="0dp" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0xfa01" android:layout_height="UNKNOWN_DATA_0xc801" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" />
+</LinearLayout>

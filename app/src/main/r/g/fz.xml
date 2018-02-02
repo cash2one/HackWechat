@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/bQM" android:background="@color/dh" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="false">
+    <LinearLayout android:orientation="vertical" android:id="@id/a3s" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@h/bSo" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/csd" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1601" android:layout_height="UNKNOWN_DATA_0x1601" android:layout_marginRight="14dp" />
+                <TextView android:textSize="24dp" android:textColor="#333333" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cTu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:includeFontPadding="false" />
+            </LinearLayout>
+            <android.support.v7.widget.CardView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x8c01" app:layout_height="UNKNOWN_DATA_0x5401" app:layout_marginTop="20dp" app:cardCornerRadius="4dp" app:cardElevation="4dp" app:cardPreventCornerOverlap="false">
+                <RelativeLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <ImageView app:id="@h/csb" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+                    <ImageView app:id="@h/csc" app:layout_width="UNKNOWN_DATA_0x2301" app:layout_height="UNKNOWN_DATA_0x2301" app:layout_marginTop="5dp" app:layout_marginRight="5dp" app:layout_alignRight="@h/csb" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <TextView app:textSize="15dp" app:textColor="#cc333333" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cTt" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_marginTop="15dp" app:layout_marginRight="20dp" app:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout app:orientation="horizontal" app:id="@h/bSn" app:focusable="true" app:focusableInTouchMode="true" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <FrameLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                <RelativeLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bMO" app:background="@drawable/acl" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_marginTop="8dp" />
+                <RelativeLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bMQ" app:background="@drawable/acm" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="10dp" app:layout_marginRight="20dp" />
+                <FrameLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <LinearLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <android.support.v7.widget.CardView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/a42" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x8c01" app:layout_height="UNKNOWN_DATA_0x5401" app:layout_marginTop="30dp" app:cardCornerRadius="4dp" app:cardElevation="4dp" app:cardPreventCornerOverlap="false">
+                            <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+                                <ImageView app:id="@h/crV" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="fitXY" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+                                <ImageView app:id="@h/crW" app:layout_width="UNKNOWN_DATA_0x2301" app:layout_height="UNKNOWN_DATA_0x2301" app:layout_marginTop="5dp" app:layout_marginRight="5dp" app:layout_alignRight="@h/crV" />
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                        <TextView app:textSize="15dp" app:textColor="#333333" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cTf" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_marginTop="30dp" app:layout_marginRight="20dp" app:includeFontPadding="false" app:alpha="0.8" />
+                        <LinearLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/a46" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_marginTop="8dp" app:layout_marginRight="20dp">
+                            <ImageView app:id="@h/csa" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x1401" app:layout_height="UNKNOWN_DATA_0x1401" app:layout_marginRight="10dp" />
+                            <TextView app:textSize="24dp" app:textColor="#333333" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cTs" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="3" app:includeFontPadding="false" />
+                        </LinearLayout>
+                        <LinearLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_marginTop="10dp" app:layout_marginRight="20dp">
+                            <TextView app:textSize="24dp" app:textColor="#2c9f67" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cTw" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginRight="2dp" app:includeFontPadding="false" />
+                            <TextView app:textSize="14dp" app:textColor="#2c9f67" app:id="@h/cTx" app:layout_width="match_parent" app:layout_height="wrap_content" app:includeFontPadding="false" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cnI" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="10dp">
+                            <ImageView app:id="@h/crY" app:layout_width="UNKNOWN_DATA_0x1101" app:layout_height="UNKNOWN_DATA_0x1101" app:layout_marginRight="6dp" />
+                            <TextView app:textSize="15dp" app:textColor="#555555" app:id="@h/cTl" app:layout_width="wrap_content" app:layout_height="wrap_content" app:includeFontPadding="false" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <View app:id="@h/bRn" app:background="@drawable/dl" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" app:layout_marginLeft="20dp" app:layout_marginTop="30dp" app:layout_marginRight="20dp" app:layerType="software" />
+        <LinearLayout app:orientation="vertical" app:id="@h/bRm" app:layout_width="match_parent" app:layout_height="wrap_content" />
+        <ListView app:id="@h/bRo" app:visibility="gone" app:clickable="false" app:layout_width="match_parent" app:layout_height="match_parent" app:transcriptMode="disabled" />
+        <TextView app:textSize="15dp" app:textColor="#4ea582" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cTv" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_marginTop="15dp" app:text="@string/a4m" app:includeFontPadding="false" />
+        <RelativeLayout app:id="@h/bQB" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="60dp">
+            <LinearLayout app:orientation="vertical" app:id="@h/bQC" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <View app:background="@drawable/dl" app:visibility="visible" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" app:layout_marginLeft="20dp" app:layout_marginRight="20dp" app:layerType="software" />
+                <LinearLayout app:orientation="horizontal" app:id="@h/cnH" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="30dp">
+                    <ImageView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/crX" app:layout_width="UNKNOWN_DATA_0x2201" app:layout_height="UNKNOWN_DATA_0x2201" app:layout_marginLeft="20dp" app:layout_marginRight="13dp" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="20dp" app:layout_weight="1.0">
+                        <TextView app:textSize="15dp" app:textColor="#000000" app:ellipsize="end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cTk" app:layout_width="wrap_content" app:layout_height="wrap_content" app:singleLine="true" app:includeFontPadding="false" />
+                        <TextView app:textSize="15dp" app:textColor="#555555" app:ellipsize="end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@h/cTj" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="4dp" app:includeFontPadding="false" app:lineSpacingExtra="10dp" />
+                        <RelativeLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/bQZ" app:background="@drawable/aco" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" app:layout_marginTop="20dp" app:layout_marginBottom="20dp" app:rotation="5.0">
+                            <android.support.v7.widget.CardView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" app:rotationX="5.0" app:cardCornerRadius="2dp" app:cardElevation="0px" app:cardUseCompatPadding="true" app:cardPreventCornerOverlap="false">
+                                <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cTm" app:background="@drawable/acn" app:layout_width="UNKNOWN_DATA_0x4401" app:layout_height="UNKNOWN_DATA_0x4401" app:scaleType="centerCrop" app:layout_centerInParent="true" />
+                            </android.support.v7.widget.CardView>
+                            <RelativeLayout app:id="@h/cpG" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+                                <ImageView app:background="@raw/card_video_play" app:layout_width="UNKNOWN_DATA_0x3c01" app:layout_height="UNKNOWN_DATA_0x3c01" app:scaleType="centerCrop" app:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <ProgressBar app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@h/cpp" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" style="@style/x2" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout app:orientation="vertical" app:id="@h/bQA" app:background="@color/df" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="60dp">
+            <View app:id="@id/a4r" app:background="@drawable/dl" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" app:layerType="software" />
+            <TextView app:textSize="12dp" app:textColor="#888888" app:ellipsize="end" app:id="@h/cSX" app:background="@color/df" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_marginTop="30dp" app:layout_marginBottom="14dp" app:singleLine="true" app:includeFontPadding="false" app:layout_below="@id/a4r" />
+            <ListView app:id="@h/bIo" app:visibility="gone" app:clickable="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:transcriptMode="disabled" app:layout_below="@h/cSX" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wallet:orientation="vertical" wallet:layout_width="match_parent" wallet:layout_height="wrap_content">
+    <TextView wallet:text="@string/e11" style="@style/te" />
+    <com.tencent.mm.wallet_core.ui.formview.WalletFormView wallet:id="@a$f/ufK" wallet:layoutRes="@layout/alj" wallet:infoIvVisibility="8" wallet:titleTvVisibility="8" wallet:contentText="@a$i/uSj" style="@style/ft" />
+    <TextView wallet:text="@string/e10" style="@style/te" />
+</LinearLayout>

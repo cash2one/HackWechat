@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.ListViewInScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ou" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:listSelector="@drawable/ak" android:cacheColorHint="0x0" android:dividerHeight="@d/ubI" android:minWidth="@dimen/hn" android:layout_weight="1.0" />

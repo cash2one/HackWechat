@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/ci1" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@h/cdf" layout="@layout/a8e" />
+    <android.support.v7.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@h/cZF" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@h/cdf" android:layout_alignParentTop="true" android:windowSoftInputMode="adjustResize|adjustNothing" />
+    <RelativeLayout android:orientation="horizontal" android:id="@h/cZw" android:background="#00000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true"
+        <RelativeLayout android:orientation="horizontal" android:background="#86222222" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_alignParentTop="true" /> /> />

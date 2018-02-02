@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" style="@style/lx">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@f/buM" android:paddingTop="@f/bvx" android:paddingRight="@f/buM" android:paddingBottom="@f/bvx" style="@style/jg">
+            <ImageView android:id="@h/cMa" android:paddingBottom="@f/bvx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@k/dza" />
+            <TextView android:textSize="@dimen/br" android:textColor="@color/m1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cLY" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h5" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/lo" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cLX" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@f/bvx" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/lo" />
+            <Button android:id="@h/cLW" android:layout_marginBottom="@dimen/h5" style="@style/m4" />
+            <Button android:id="@h/cLZ" android:layout_marginBottom="@dimen/j0" style="@style/m_" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

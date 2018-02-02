@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@h/cpa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <Button android:textSize="@dimen/i0" android:textColor="@color/j8" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bZV" android:background="@drawable/j1" android:paddingBottom="0.5dp" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0b02b0" android:layout_height="UNKNOWN_DATA_0x7f0b02af" android:minHeight="@dimen/rs" android:text="@string/ams" android:layout_centerInParent="true" android:onClick="onClick" />
+    <Button android:textSize="@dimen/i0" android:textColor="@color/j8" android:id="@h/bZW" android:background="@drawable/j1" android:paddingRight="8dp" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b02b0" android:layout_height="UNKNOWN_DATA_0x7f0b02af" android:drawableRight="@raw/image_gallery_load_hd_cancel_icon" android:layout_centerInParent="true" android:onClick="onClick" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bZX" android:background="@drawable/j1" android:layout_width="UNKNOWN_DATA_0x7f0b02b0" android:layout_height="UNKNOWN_DATA_0x7f0b02af" android:layout_centerInParent="true">
+        <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:src="@raw/image_gallery_image_download_done_icon" />
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/j8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amu" />
+    </LinearLayout>
+</RelativeLayout>

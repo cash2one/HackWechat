@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/e17" android:background="@drawable/aby" android:paddingLeft="9dp" android:paddingTop="10dp" android:paddingRight="9dp" android:paddingBottom="9dp" style="@style/k5">
+        <TextView android:textSize="@dimen/i0" android:textColor="#6f7378" android:id="@id/dag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hz" android:text="@string/adc" />
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@h/cpR" android:background="@drawable/gl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h5" android:layout_weight="1.0">
+            <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/i0" android:textColor="@color/bp" android:id="@id/ht" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:maxLines="1" android:layout_weight="1.0" android:textCursorDrawable="@drawable/sr" style="@style/js" />
+            <TextView android:textSize="@dimen/gu" android:textColor="#6f7378" android:id="@h/cpK" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageButton android:id="@h/cDk" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/st" />
+        <ImageButton android:id="@h/cAh" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:src="@drawable/ss" />
+    </LinearLayout>
+</LinearLayout>

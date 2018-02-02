@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/ls" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/rh" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o_">
+        <ImageView android:id="@h/cWD" android:background="@raw/success_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/dlt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@h/cWD" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@f/buu" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cWE" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@f/bvx" android:text="{title}" />
+            <TextView android:textSize="@dimen/i0" android:textColor="@color/bp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cWG" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="{title_tip}" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_below="@id/dlt">
+            <Button android:textSize="@dimen/by" android:id="@id/b23" android:padding="@dimen/bt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h5" android:layout_marginRight="@dimen/h5" android:text="@string/mf" style="@style/m4" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

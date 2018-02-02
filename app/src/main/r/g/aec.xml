@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/o_">
+    <ScrollView style="@style/lx">
+        <LinearLayout style="@style/jg"
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:orientation="vertical" android:paddingBottom="80dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cBD" android:layout_width="UNKNOWN_DATA_0x7f0b0126" android:layout_height="UNKNOWN_DATA_0x7f0b0126" android:src="@raw/success_icon" />
+                    <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@dimen/h5" android:paddingRight="@dimen/h5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" android:text="@string/c1p" />
+                    <TextView android:textSize="@dimen/h_" android:textColor="@color/m1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/bJZ" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h5" />
+                </LinearLayout>
+                <Button android:id="@h/cLN" android:visibility="gone" android:layout_marginBottom="@dimen/hz" android:text="@string/c1o" style="@style/m4" />
+                <TextView android:textSize="@dimen/i0" android:textColor="@color/j1" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ql" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

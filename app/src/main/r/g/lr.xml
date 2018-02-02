@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" profile:orientation="vertical" profile:background="@color/oe" profile:paddingTop="@dimen/h8" profile:layout_width="match_parent" profile:layout_height="match_parent" profile:divider="@drawable/it" profile:showDividers="middle">
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView profile:id="@h/csX" profile:layout_width="match_parent" profile:layout_height="wrap_content" profile:title="@l/eoj" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView profile:id="@h/cZr" profile:layout_width="match_parent" profile:layout_height="wrap_content" profile:title="@string/ake" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView profile:id="@h/cnM" profile:layout_width="match_parent" profile:layout_height="wrap_content" profile:title="@string/ak9" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView profile:id="@h/cEm" profile:layout_width="match_parent" profile:layout_height="wrap_content" profile:title="@string/akc" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView profile:id="@h/bWI" profile:visibility="gone" profile:layout_width="match_parent" profile:layout_height="wrap_content" profile:layout_marginBottom="10dp" profile:title="@l/dUK" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView profile:id="@h/cOx" profile:layout_width="match_parent" profile:layout_height="wrap_content" profile:title="@l/dWw" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView profile:id="@h/ckc" profile:layout_width="match_parent" profile:layout_height="wrap_content" profile:title="@l/dWZ" />
+</LinearLayout>

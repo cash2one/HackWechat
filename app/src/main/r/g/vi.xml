@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.game.ui.GameCommonRecommendView android:orientation="vertical" android:id="@h/ckK" android:background="@color/s2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/bdn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0136" style="@style/ir" />
+        <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/hs" />
+        <RelativeLayout android:id="@h/cGP" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_marginLeft="@dimen/fn" android:layout_marginRight="@dimen/fn">
+            <ImageView android:id="@h/cGQ" android:layout_width="UNKNOWN_DATA_0xac01" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+            <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/h9" android:id="@h/cGS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:singleLine="true" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="17sp" android:textColor="@color/h9" android:ellipsize="end" android:id="@h/cGR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginRight="85dp" android:singleLine="true" android:layout_toRightOf="@h/cGS" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@h/cGN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="85dp" android:layout_below="@h/cGS" android:layout_alignParentLeft="true">
+                <FrameLayout android:id="@h/cGO" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hl" />
+                <TextView android:textSize="14sp" android:textColor="@e/bsy" android:ellipsize="end" android:id="@h/cGM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/hs" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001">
+            <RelativeLayout android:id="@h/cGF" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:id="@h/cGC" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:scaleType="fitXY" />
+                <ImageView android:id="@h/cGE" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="@dimen/fu" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:id="@id/bdy" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x100" android:layout_centerVertical="true" />
+                <TextView android:textSize="14sp" android:textColor="@color/hx" android:id="@h/cGG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fu" android:singleLine="true" android:layout_toLeftOf="@h/cGE" android:layout_above="@id/bdy" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="12sp" android:textColor="@e/bsy" android:id="@h/cGD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fu" android:singleLine="true" android:layout_toLeftOf="@h/cGE" android:layout_below="@id/bdy" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/be1" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" android:src="@color/hs" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:id="@h/cGK" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:id="@h/cGH" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:scaleType="fitXY" />
+                <ImageView android:id="@h/cGJ" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="@dimen/fu" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:id="@id/be5" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x100" android:layout_centerVertical="true" />
+                <TextView android:textSize="14sp" android:textColor="@color/hx" android:id="@h/cGL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fu" android:singleLine="true" android:layout_toLeftOf="@h/cGJ" android:layout_above="@id/be5" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="12sp" android:textColor="@e/bsy" android:id="@h/cGI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fu" android:singleLine="true" android:layout_toLeftOf="@h/cGJ" android:layout_below="@id/be5" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/hs" />
+    </com.tencent.mm.plugin.game.ui.GameCommonRecommendView>
+</LinearLayout>

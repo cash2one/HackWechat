@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/ti" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+        <ImageView android:id="@id/ah7" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0xc01" android:layout_marginTop="15dp" android:src="@drawable/ah0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/dtj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:src="@drawable/ah1" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15dp" android:textColor="#484848" android:id="@a$f/euB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:text="" android:layout_below="@id/dtj" android:layout_centerHorizontal="true" />
+        <View android:id="@id/dtl" android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="5dp" android:layout_marginTop="24dp" android:layout_marginRight="5dp" android:layout_below="@a$f/euB" />
+        <LinearLayout android:orientation="vertical" android:id="@a$f/upO" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:layout_marginTop="20dp" android:layout_marginRight="47dp" android:layout_below="@id/dtl" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/dtr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_below="@a$f/upO">
+            <CheckBox android:id="@id/gp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" style="@style/jm" />
+            <TextView android:textSize="13dp" android:textColor="#b2b2b2" android:id="@a$f/uhL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <Button android:textSize="17dp" android:id="@a$f/uxp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2c01" android:layout_marginLeft="5dp" android:layout_marginTop="12dp" android:layout_marginRight="5dp" android:text="@string/dwk" android:layout_below="@id/dtr" android:layout_centerHorizontal="true" style="@style/m4" />
+        <TextView android:textSize="14dp" android:textColor="#b2b2b2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/upM" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="11dp" android:text="" android:layout_below="@a$f/uxp" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

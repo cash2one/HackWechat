@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@color/s2" />
+            <item android:drawable="@drawable/v6" android:left="@f/bxQ" android:right="@f/bxQ" />
+        </layer-list> />
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@a$c/uaK" />
+            <item android:drawable="@drawable/v6" android:left="@f/bxQ" android:right="@f/bxQ" />
+        </layer-list> />
+</selector>

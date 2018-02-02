@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:layout_marginBottom="7dp">
+    <LinearLayout android:orientation="vertical" android:id="@id/br6" android:background="0x0" android:paddingTop="@dimen/fj" android:paddingBottom="@dimen/fj" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/kk">
+        <RelativeLayout android:id="@id/rl" android:duplicateParentState="true" android:layout_width="UNKNOWN_DATA_0x7f0b00de" android:layout_height="UNKNOWN_DATA_0x7f0b00de">
+            <ImageView android:id="@h/cml" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@g/byX" android:scaleType="fitXY" />
+            <ImageView android:background="@drawable/ic" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/rm" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cmV" android:layout_marginTop="@dimen/fb" style="@style/kl" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/cnj" android:layout_marginTop="@dimen/fb" style="@style/kg" />
+                <ImageView android:id="@id/br8" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0b016a" android:layout_height="UNKNOWN_DATA_0x7f0b016a" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

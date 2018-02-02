@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@h/bWc" android:background="@color/s2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" style="@style/l4" />
+    <LinearLayout android:id="@h/ceu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <TextView android:textColor="#aaaaaa" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@h/ceq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@l/dTA" />
+    </LinearLayout>
+    <View android:background="#dfdfdf" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <RelativeLayout android:background="#fcfcfc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView android:textColor="#aaaaaa" android:id="@h/caN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <Button android:textSize="@dimen/gu" android:id="@id/ai6" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="12dp" android:minWidth="60dp" android:text="@l/caK" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/m7" />
+        <CheckBox android:id="@h/bKd" android:background="@a$d/qfl" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0084" android:layout_height="UNKNOWN_DATA_0x7f0b0084" android:layout_marginLeft="12dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="#aaaaaa" android:id="@h/bKc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/e7" android:layout_toRightOf="@h/bKd" android:layout_centerVertical="true" />
+        <View android:id="@h/bKe" android:layout_width="UNKNOWN_DATA_0x4801" android:layout_height="match_parent" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@a$f/ulR" android:background="#efeff4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" />
+    <TextView android:textSize="@dimen/gu" android:textColor="#716f76" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@a$f/upR" android:paddingLeft="15dp" android:paddingBottom="7dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="39dp" />
+    <View android:id="@id/hb" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@a$f/upS" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@a$f/ury" android:background="@drawable/kh" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2701">
+        <TextView android:textColor="@color/jp" android:id="@a$f/urz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@a$i/uLc" />
+        <ImageView android:id="@a$f/urx" android:layout_width="UNKNOWN_DATA_0x901" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginLeft="9dp" android:src="@a$h/uGI" android:scaleType="fitXY" />
+        <View android:id="@a$f/urK" android:background="@f/gVe" android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_marginLeft="5dp" />
+    </LinearLayout>
+</LinearLayout>

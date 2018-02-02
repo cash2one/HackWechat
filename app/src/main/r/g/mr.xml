@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@r$id/view_root" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@r$id/textView2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="  " />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <CheckBox android:id="@r$id/checked_show_version" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@r$id/check_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" show version on top" android:layout_weight="1.0" />
+            <Button android:id="@r$id/button_close_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@r$id/config_memu_lite" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:id="@r$id/button_change_to_xweb" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="一键XWeb" android:layout_weight="1.0" />
+            <Button android:id="@r$id/button_change_to_x5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="一键X5" />
+            <Button android:id="@r$id/button_change_to_sys" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="一键系统" />
+            <Button android:id="@r$id/button_change_to_auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="一键还原自动" />
+            <Button android:id="@r$id/button_advanced" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="显示高级设置" />
+        </LinearLayout>
+        &gt;
+        <LinearLayout android:orientation="vertical" android:id="@r$id/config_memu" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:orientation="vertical" android:background="@r$drawable/debugitembackground" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@r$id/textView" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=" webview core select:" />
+                <Spinner android:entries="@r$array/webviewuimodules" android:id="@r$id/selector_webviewmodule" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <RadioGroup android:orientation="horizontal" android:id="@r$id/web_select" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <RadioButton android:id="@r$id/WV_AUTO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="auto" />
+                    <RadioButton android:id="@r$id/WV_XWALK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xwalk" />
+                    <RadioButton android:id="@r$id/WV_SYS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sys" />
+                    <RadioButton android:id="@r$id/WV_X5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X5" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@r$drawable/debugitembackground" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="3dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="v8 engine select:" />
+                <RadioGroup android:id="@r$id/v8_select" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <RadioButton android:id="@r$id/v8_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="auto" android:layout_weight="1.0" />
+                    <RadioButton android:id="@r$id/v8_nativescript" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="nativescript" android:layout_weight="1.0" />
+                    <RadioButton android:id="@r$id/v8_sys" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="webviewbased" android:layout_weight="1.0" />
+                    <RadioButton android:id="@r$id/v8_x5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x5" android:layout_weight="1.0" />
+                    <RadioButton android:id="@r$id/v8_mmv8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mmv8" android:layout_weight="1.0" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@r$drawable/debugitembackground" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="3dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="set grayvalue:" />
+                <EditText android:id="@r$id/txtin_grayvalue" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <Button android:id="@r$id/button_kill" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="kill all process" android:layout_weight="1.0" />
+            <Button android:id="@r$id/btn_debug" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="打开远程调试模式" />
+            <Button android:id="@r$id/button_clear" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="清理旧版xwalk" />
+            <Button android:id="@r$id/button_config" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="使用测试config" />
+            <Button android:id="@r$id/button_update" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="检测更新" />
+            <Button android:id="@r$id/button_loadLocalApk" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="加载本地XWalk apk" />
+            <Button android:id="@r$id/button_refreshLog" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="刷新日志" />
+        </LinearLayout>
+        <TextView android:id="@r$id/txtVersion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="show current version" />
+    </LinearLayout>
+</ScrollView>
